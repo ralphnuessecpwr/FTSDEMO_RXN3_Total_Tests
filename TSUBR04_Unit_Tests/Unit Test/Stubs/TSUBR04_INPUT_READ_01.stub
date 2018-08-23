@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/TSUBR04_INPUT_READ_01.stub" target="INPUT" token="10000">
+  <stub:description>Created: 23.08.2018 09:00:38</stub:description>
+  <stub:stubdata id="0" name="INPUT">
+    <stub:interface>../Interfaces/TSUBR04_INPUT_INPUT_REC.interface#Unit%20Test/Interfaces/TSUBR04_INPUT_INPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TSUBR04_INPUT_INPUT-REC.listructure#Unit%20Test/Structures/TSUBR04_INPUT_INPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC" id="arg0.INPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">D9C5C1C4E8404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC.INPUT_REC" id="output0.arg0.INPUT_REC.INPUT_REC" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="INPUT">
+    <stub:interface>../Interfaces/TSUBR04_INPUT_INPUT_REC.interface#Unit%20Test/Interfaces/TSUBR04_INPUT_INPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TSUBR04_INPUT_INPUT-REC.listructure#Unit%20Test/Structures/TSUBR04_INPUT_INPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC" id="arg0.INPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040D7D9D6C6C9D3C540D4E2C7C9C44040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC.INPUT_REC" id="output1.arg0.INPUT_REC.INPUT_REC" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="INPUT">
+    <stub:interface>../Interfaces/TSUBR04_INPUT_INPUT_REC.interface#Unit%20Test/Interfaces/TSUBR04_INPUT_INPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TSUBR04_INPUT_INPUT-REC.listructure#Unit%20Test/Structures/TSUBR04_INPUT_INPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC" id="arg0.INPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">D9C5C1C4E8404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC.INPUT_REC" id="output2.arg0.INPUT_REC.INPUT_REC" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="INPUT">
+    <stub:interface>../Interfaces/TSUBR04_INPUT_INPUT_REC.interface#Unit%20Test/Interfaces/TSUBR04_INPUT_INPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TSUBR04_INPUT_INPUT-REC.listructure#Unit%20Test/Structures/TSUBR04_INPUT_INPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC" id="arg0.INPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C9E2D7E2E3C1D9E34040C3D4C44D6CE3D9C5E7E7F0F45D40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC.INPUT_REC" id="output3.arg0.INPUT_REC.INPUT_REC" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="INPUT">
+    <stub:interface>../Interfaces/TSUBR04_INPUT_INPUT_REC.interface#Unit%20Test/Interfaces/TSUBR04_INPUT_INPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TSUBR04_INPUT_INPUT-REC.listructure#Unit%20Test/Structures/TSUBR04_INPUT_INPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC" id="arg0.INPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4CD2C5C5D76EC8C4C4D9E7D4F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TSUBR04_INPUT_INPUT-REC.listructure#INPUT_REC.INPUT_REC" id="output4.arg0.INPUT_REC.INPUT_REC" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>
