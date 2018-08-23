@@ -8,7 +8,7 @@
       <properties:property name="displayLength" type="number">4</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
     </properties:properties>
-    <listructure:number id="COMM_TOTAL.COMM_TOTAL" length="7" name="COMM_TOTAL">
+    <listructure:number id="COMM_TOTAL" length="7" name="COMM_TOTAL">
       <properties:properties>
         <properties:property name="picture" type="string">9(5)V99</properties:property>
         <properties:property name="usage" type="string">computational-3</properties:property>
