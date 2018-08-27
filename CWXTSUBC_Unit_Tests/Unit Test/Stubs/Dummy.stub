@@ -3,7 +3,7 @@
 <!--Topaz for Total Test 19.1.2.v20180712-0806_18 23.08.2018 12:30:04-->
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" encoding="IBM-1047" id="Unit%20Test/Stubs/Dummy.stub" stubtype="Program" target="DUMMY" token="10000">
   <stub:description>Created: 23.08.2018 12:30:04</stub:description>
-  <stub:stubdata id="0" name="DUMMY">
+  <stub:stubdata id="0">
     <stub:interface>../Interfaces/CWXTSUBC.interface#Unit%20Test/Interfaces/CWXTSUBC.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
