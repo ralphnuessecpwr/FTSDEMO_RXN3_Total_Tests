@@ -444,7 +444,7 @@
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
           <properties:properties>
-            <properties:property name="value" type="string">F0F0F1F0F0F0F0F1</properties:property>
+            <properties:property name="value" type="string">F0F1F0F0F0F1F0F0</properties:property>
             <properties:property name="expectedValue" type="string">F0F7F5F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
