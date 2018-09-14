@@ -2,7 +2,7 @@
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -77,7 +77,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase2" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase2" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -164,7 +164,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase3" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase3" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -251,7 +251,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase4" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase4" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -338,7 +338,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase5" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase5" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -425,7 +425,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase6" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase6" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -512,7 +512,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase7" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase7" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -599,7 +599,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase8" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase8" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -686,7 +686,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase9" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase9" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -773,7 +773,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase10" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase10" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -860,7 +860,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase11" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase11" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -947,7 +947,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase12" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase12" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -1034,7 +1034,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase13" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase13" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -1121,7 +1121,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase14" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase14" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
