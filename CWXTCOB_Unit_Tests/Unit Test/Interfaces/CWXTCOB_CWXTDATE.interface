@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTDATE_TODAYS-DATE.listructure#TODAYS_DATE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -45,22 +45,22 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

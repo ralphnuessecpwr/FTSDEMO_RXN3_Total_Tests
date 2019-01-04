@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_EMPFILE_READ_01.stub" target="EMPFILE" token="20000">
   <stub:description>Created: 23.08.2018 07:54:31</stub:description>
-  <stub:stubdata id="0" name="EMPFILE">
+  <stub:stubdata id="0">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -31,7 +31,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output0.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="1" name="EMPFILE">
+  <stub:stubdata id="1">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -61,7 +61,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output1.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="2" name="EMPFILE">
+  <stub:stubdata id="2">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -91,7 +91,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output2.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="3" name="EMPFILE">
+  <stub:stubdata id="3">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -121,7 +121,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output3.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="4" name="EMPFILE">
+  <stub:stubdata id="4">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -151,7 +151,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output4.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="5" name="EMPFILE">
+  <stub:stubdata id="5">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -181,7 +181,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output5.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="6" name="EMPFILE">
+  <stub:stubdata id="6">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -211,7 +211,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output6.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="7" name="EMPFILE">
+  <stub:stubdata id="7">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -241,7 +241,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output7.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="8" name="EMPFILE">
+  <stub:stubdata id="8">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -271,7 +271,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output8.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="9" name="EMPFILE">
+  <stub:stubdata id="9">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -301,7 +301,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output9.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="10" name="EMPFILE">
+  <stub:stubdata id="10">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -331,7 +331,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output10.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="11" name="EMPFILE">
+  <stub:stubdata id="11">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -361,7 +361,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output11.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="12" name="EMPFILE">
+  <stub:stubdata id="12">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -391,7 +391,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output12.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="13" name="EMPFILE">
+  <stub:stubdata id="13">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -421,7 +421,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output13.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="14" name="EMPFILE">
+  <stub:stubdata id="14">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -451,7 +451,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output14.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="15" name="EMPFILE">
+  <stub:stubdata id="15">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -481,7 +481,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output15.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="16" name="EMPFILE">
+  <stub:stubdata id="16">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -511,7 +511,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output16.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="17" name="EMPFILE">
+  <stub:stubdata id="17">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
@@ -541,7 +541,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output17.arg0.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
     </stub:output>
   </stub:stubdata>
-  <stub:stubdata id="18" name="EMPFILE">
+  <stub:stubdata id="18">
     <stub:interface>../Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">

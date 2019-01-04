@@ -8,7 +8,7 @@
       <properties:property name="displayLength" type="number">8</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
     </properties:properties>
-    <listructure:number id="CALC_SALES.CALC_SALES" initial="0" length="8" name="CALC_SALES">
+    <listructure:number id="CALC_SALES" initial="0" length="8" name="CALC_SALES">
       <properties:properties>
         <properties:property name="picture" type="string">9(6)V99</properties:property>
         <properties:property name="value">0</properties:property>

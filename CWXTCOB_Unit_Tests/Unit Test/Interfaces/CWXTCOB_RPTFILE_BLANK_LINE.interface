@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

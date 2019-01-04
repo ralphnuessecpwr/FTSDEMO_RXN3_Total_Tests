@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
