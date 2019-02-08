@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>8fe91cda-0053-41b3-8dc0-6efc34ed0e36</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>0</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="0">0</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>1</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="2">2</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>10</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="20">20</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>51</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="204">204</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>80</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="320">320</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <import>
+              <customer>
+                <age>50</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="200" verifiedFalse="DataItem: /export/risc. Actual value is different from expected. Actual value: 0.0 Expected: 200.0">0</risc>
+            </export>
+          </Data>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="XARISCAL" type="COBOL">
+          <INOUT>
+            <import>
+              <customer>
+                <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </customer>
+            </import>
+            <export>
+              <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </export>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime callinterface="NONE" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" />
+      <ExtensionData />
+      <ExtensionData componentName="xariscal" componentId="5b60a917787be73b59238db7">
+        <Parameter key="sourcelibrary">
+          <Value>SYS2.CW.XATESTER.SXATSAMP</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>SYS2.CW.XATESTER.SXATLOAD</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="xariscal" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xariscal" path="XARISCAL_Basic.xaunit">
+        <Test>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>0</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="0" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>1</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="2" />
+              </export>
+            </Data>
+          </Component>
+          <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>10</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="20" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>51</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="204" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>80</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="320" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <import>
+                <customer>
+                  <age>50</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="200" />
+              </export>
+            </Data>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="XARISCAL" type="COBOL">
+            <INOUT>
+              <import>
+                <customer>
+                  <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                </customer>
+              </import>
+              <export>
+                <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </export>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190208-10-52-45</Started>
+  <Ended>20190208-10-53-40</Ended>
+</XaUnitResult>

@@ -1,0 +1,53 @@
+08:52:45.709 COMMENT   Engine           Test Scenario execution started
+08:52:45.709 INFO      Engine           Using context settings:
+  Engine Version       : 4.0.0
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+08:52:45.709 INFO      Engine           Setting variables from context and context data extensions
+08:52:45.709 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+08:52:45.709 INFO      Engine             id: environmentType    value: CICS
+08:52:45.709 INFO      Engine             id: userId             value: HDDRXM0
+08:52:45.709 COMMENT   Log              Cleanup
+08:52:45.709 INFO      Variable         Interpreting Variable id:rident
+08:52:45.709 LOG       Variable         Resolved data:
+10
+08:52:45.709 INFO      SQLUpdate        Interpreting SQL Updating statement
+08:52:45.709 INFO      SQLUpdate        Using database from Environment:DBCCCWCC
+08:52:45.709 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+delete from ADKKXC0.XAEMPLOYEE where RIDENT=10;
+08:52:45.709 LOG       SQLUpdate        Establishing connection to database DBCCCWCC
+08:52:52.710 LOG       SQLUpdate        Executing the SQL: delete from ADKKXC0.XAEMPLOYEE where RIDENT=10;
+08:52:53.101 LOG       SQLUpdate        Number of updated rows 1
+08:52:53.101 COMMENT   Log              Create employee
+08:52:53.101 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+08:52:53.101 INFO      Component        Component will be executed in CICS and top level element definitions are:
+08:52:53.101 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
+08:52:53.101 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
+08:52:53.179 LOG       CWCC CICS        Component Runtime Settings:
+08:52:53.179 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
+08:52:53.179 LOG       CWCC CICS          Additional load libraries :
+08:52:53.179 LOG       CWCC CICS          Listing libraries         :
+08:52:53.179 LOG       CWCC CICS          SysDebug libraries        :
+08:52:53.179 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+08:52:53.179 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
+08:52:53.179 LOG       CWCC CICS          APPLID                    :HCCAC013
+08:52:53.179 LOG       CWCC CICS          Channel                   :
+08:52:53.179 LOG       CWCC CICS          Call interface            :CALL
+08:52:53.179 LOG       CWCC CICS          Debugger type             :NONE
+08:52:53.179 LOG       CWCC CICS          Component type            :COBOL
+08:52:53.195 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
+08:52:57.113 LOG       CWCC CICS        Uploading input data for module XADB2TST
+08:53:01.113 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>00fbfa69-d770-486a-9bb2-3a7b3a9baab9</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+08:53:01.277 ERROR     Engine           Unable to execute the module:XADB2TST at the host. Unable to execute at server. HCI connect request was unsuccessful. Reasons: Unable to execute server request. Reason: An unknown request was received. Unknown/unrecognizable data stream received.
+08:53:01.277 ERROR     Engine           An error occured. Now stopping the execution.
+08:53:01.277 COMMENT   Engine           Test Scenario execution ended

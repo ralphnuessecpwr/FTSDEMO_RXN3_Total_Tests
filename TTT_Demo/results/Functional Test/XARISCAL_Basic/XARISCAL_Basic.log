@@ -1,0 +1,166 @@
+10:52:45.905 COMMENT   Engine           Test Scenario execution started
+10:52:45.905 INFO      Engine           Using context settings:
+  Engine Version       : 4.0.0
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+10:52:45.905 INFO      Engine           Setting variables from context and context data extensions
+10:52:45.905 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+10:52:45.905 INFO      Engine             id: environmentType    value: BATCH
+10:52:45.905 INFO      Engine             id: userId             value: HDDRXM0
+10:52:45.905 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:52:45.910 LOG       CWCC Batch       Component Runtime Settings:
+10:52:45.910 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:52:45.910 LOG       CWCC Batch         Additional load libraries :
+10:52:45.910 LOG       CWCC Batch         Listing libraries         :
+10:52:45.910 LOG       CWCC Batch         SysDebug libraries        :
+10:52:45.910 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:52:45.910 LOG       CWCC Batch         DB2 plan                  :
+10:52:45.910 LOG       CWCC Batch         Call interface            :NONE
+10:52:45.910 LOG       CWCC Batch         Debugger type             :NONE
+10:52:45.910 LOG       CWCC Batch         Component type            :COBOL
+10:52:45.910 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:52:47.686 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:52:48.377 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>0e061236-11c0-4484-bc4a-d4c63e88f405</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:52:48.823 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697240</jobid></xatz_response></XATZRESP>
+10:52:48.823 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697240
+10:52:48.823 INFO      CWCC Batch       Job has been started at host with JobId:J0697240
+10:52:48.823 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:52:52.925 INFO      CWCC Batch       Component completed with program exit: +0
+10:52:53.526 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697240
+10:52:53.526 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:52:55.067 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:52:55.076 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:52:55.076 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:52:55.076 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:52:55.077 LOG       CWCC Batch       Component Runtime Settings:
+10:52:55.077 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:52:55.077 LOG       CWCC Batch         Additional load libraries :
+10:52:55.077 LOG       CWCC Batch         Listing libraries         :
+10:52:55.077 LOG       CWCC Batch         SysDebug libraries        :
+10:52:55.077 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:52:55.077 LOG       CWCC Batch         DB2 plan                  :
+10:52:55.077 LOG       CWCC Batch         Call interface            :NONE
+10:52:55.077 LOG       CWCC Batch         Debugger type             :NONE
+10:52:55.077 LOG       CWCC Batch         Component type            :COBOL
+10:52:55.077 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:52:56.781 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:52:57.475 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>58ab22d1-0618-4d0e-85e2-9d7dc55436cf</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:52:57.927 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697241</jobid></xatz_response></XATZRESP>
+10:52:57.927 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697241
+10:52:57.927 INFO      CWCC Batch       Job has been started at host with JobId:J0697241
+10:52:57.927 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:53:02.080 INFO      CWCC Batch       Component completed with program exit: +0
+10:53:02.666 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697241
+10:53:02.666 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:53:04.206 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:53:04.217 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:53:04.217 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:53:04.217 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:53:04.218 LOG       CWCC Batch       Component Runtime Settings:
+10:53:04.218 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:53:04.218 LOG       CWCC Batch         Additional load libraries :
+10:53:04.218 LOG       CWCC Batch         Listing libraries         :
+10:53:04.218 LOG       CWCC Batch         SysDebug libraries        :
+10:53:04.218 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:53:04.218 LOG       CWCC Batch         DB2 plan                  :
+10:53:04.218 LOG       CWCC Batch         Call interface            :NONE
+10:53:04.218 LOG       CWCC Batch         Debugger type             :NONE
+10:53:04.218 LOG       CWCC Batch         Component type            :COBOL
+10:53:04.218 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:53:05.928 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:53:06.621 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>342253b1-1e24-492e-88e6-fb86480ffbe6</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:53:07.146 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697242</jobid></xatz_response></XATZRESP>
+10:53:07.146 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697242
+10:53:07.147 INFO      CWCC Batch       Job has been started at host with JobId:J0697242
+10:53:07.147 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:53:11.268 INFO      CWCC Batch       Component completed with program exit: +0
+10:53:11.815 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697242
+10:53:11.815 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:53:13.354 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:53:13.366 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:53:13.366 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:53:13.366 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:53:13.367 LOG       CWCC Batch       Component Runtime Settings:
+10:53:13.367 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:53:13.367 LOG       CWCC Batch         Additional load libraries :
+10:53:13.367 LOG       CWCC Batch         Listing libraries         :
+10:53:13.367 LOG       CWCC Batch         SysDebug libraries        :
+10:53:13.367 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:53:13.367 LOG       CWCC Batch         DB2 plan                  :
+10:53:13.367 LOG       CWCC Batch         Call interface            :NONE
+10:53:13.367 LOG       CWCC Batch         Debugger type             :NONE
+10:53:13.367 LOG       CWCC Batch         Component type            :COBOL
+10:53:13.367 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:53:15.100 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:53:15.790 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>770c6101-44bf-41ca-8c43-d90ead595c5b</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:53:16.230 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697243</jobid></xatz_response></XATZRESP>
+10:53:16.230 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697243
+10:53:16.230 INFO      CWCC Batch       Job has been started at host with JobId:J0697243
+10:53:16.230 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:53:20.348 INFO      CWCC Batch       Component completed with program exit: +0
+10:53:20.899 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697243
+10:53:20.899 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:53:22.438 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:53:22.448 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:53:22.448 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:53:22.449 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:53:22.450 LOG       CWCC Batch       Component Runtime Settings:
+10:53:22.450 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:53:22.450 LOG       CWCC Batch         Additional load libraries :
+10:53:22.450 LOG       CWCC Batch         Listing libraries         :
+10:53:22.450 LOG       CWCC Batch         SysDebug libraries        :
+10:53:22.450 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:53:22.450 LOG       CWCC Batch         DB2 plan                  :
+10:53:22.450 LOG       CWCC Batch         Call interface            :NONE
+10:53:22.450 LOG       CWCC Batch         Debugger type             :NONE
+10:53:22.450 LOG       CWCC Batch         Component type            :COBOL
+10:53:22.451 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:53:24.177 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:53:24.866 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>40b87cf2-f1de-441d-a4b6-f22efb503f5a</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:53:25.309 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697244</jobid></xatz_response></XATZRESP>
+10:53:25.309 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697244
+10:53:25.309 INFO      CWCC Batch       Job has been started at host with JobId:J0697244
+10:53:25.309 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:53:29.423 INFO      CWCC Batch       Component completed with program exit: +0
+10:53:29.975 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697244
+10:53:29.975 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:53:31.513 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:53:31.521 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:53:31.522 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:53:31.522 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+10:53:31.522 LOG       CWCC Batch       Component Runtime Settings:
+10:53:31.522 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:53:31.522 LOG       CWCC Batch         Additional load libraries :
+10:53:31.522 LOG       CWCC Batch         Listing libraries         :
+10:53:31.522 LOG       CWCC Batch         SysDebug libraries        :
+10:53:31.522 LOG       CWCC Batch         DB2 Subsystem ID          :
+10:53:31.522 LOG       CWCC Batch         DB2 plan                  :
+10:53:31.522 LOG       CWCC Batch         Call interface            :NONE
+10:53:31.523 LOG       CWCC Batch         Debugger type             :NONE
+10:53:31.523 LOG       CWCC Batch         Component type            :COBOL
+10:53:31.523 INFO      CWCC Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+10:53:33.310 LOG       CWCC Batch       Uploading input data for module XARISCAL
+10:53:34.001 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>042e6038-97ea-438a-9640-d0c3aa3573f5</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+10:53:34.432 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697245</jobid></xatz_response></XATZRESP>
+10:53:34.432 LOG       CWCC Batch       Response received from Host. Message: JobId:J0697245
+10:53:34.432 INFO      CWCC Batch       Job has been started at host with JobId:J0697245
+10:53:34.432 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:53:38.582 INFO      CWCC Batch       Component completed with program exit: +0
+10:53:39.133 LOG       CWCC Batch       Setting execution variable 'jobid' to J0697245
+10:53:39.133 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:53:40.671 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:53:40.686 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:53:40.686 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+10:53:40.686 VERIFY    ExpectedData     VerificationResult : DataItem: /export/risc. Actual value is different from expected. Actual value: 0.0 Expected: 200.0. Actual value:0. Expected value:200
+10:53:40.686 VERIFY    Engine           Component name:XARISCAL contains data that where not verified correctly
+10:53:40.686 COMMENT   Engine           Test Scenario execution ended
