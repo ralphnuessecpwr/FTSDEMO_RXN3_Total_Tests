@@ -4,9 +4,10 @@
 We use test data dynamically from the table that the module operates at</Description>
   <Test>
     <SQLSelect id="sql" description="Select a couple of employess from table" maxRows="2">
-      <Statement>select RIDENT, FIRSTNAME from ADKKXC0.XAEMPLOYEE</Statement>
+      <Statement>select RIDENT, FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE</Statement>
       <Output name="RIDENT" />
       <Output name="FIRSTNAME" />
+      <Output name="LASTNAME" />
     </SQLSelect>
     <IterateData id="loop" referencedId="sql" dataPath="">
       <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
@@ -26,7 +27,7 @@ We use test data dynamically from the table that the module operates at</Descrip
             <xadb2tst-exp-table>
               <xadb2tst-exp-id />
               <xadb2tst-exp-firstname expected="=loop.Row.FIRSTNAME" />
-              <xadb2tst-exp-lastname />
+              <xadb2tst-exp-lastname expected="=loop.Row.LASTNAME" />
               <xadb2tst-exp-cprnr />
               <xadb2tst-exp-tstmp />
               <xadb2tst-exp-statuscode />

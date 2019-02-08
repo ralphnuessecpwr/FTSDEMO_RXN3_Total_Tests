@@ -84,12 +84,16 @@
         </xadb2tst-export>
       </Data>
       <SQLSelect id="xadb2tstSql" maxRows="5">
-        <Statement>select FIRSTNAME from ADKKXC0.XAEMPLOYEE where RIDENT=123</Statement>
+        <Statement>select FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE where RIDENT=123</Statement>
         <Output name="FIRSTNAME" />
+        <Output name="LASTNAME" />
       </SQLSelect>
     </Component>
     <Verify name="Verify" haltExecution="false">
       <Statement><![CDATA[xadb2tstSql.Row.FIRSTNAME == 'Steen']]></Statement>
+    </Verify>
+    <Verify name="Verify" haltExecution="false">
+      <Statement><![CDATA[xadb2tstSql.Row.LASTNAME == 'Nuesse']]></Statement>
     </Verify>
   </Test>
   <MetaData>
