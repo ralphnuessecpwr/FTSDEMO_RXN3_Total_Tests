@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWDEMCB2_CWCDSUBA_01.stub" stubtype="Program" target="CWCDSUBA" token="110000">
+  <stub:description>Created: 13.02.2019 09:20:32</stub:description>
+  <stub:stubdata id="0" name="CWCDSUBA">
+    <stub:interface>../Interfaces/CWDEMCB2_CWCDSUBA.interface#Unit%20Test/Interfaces/CWDEMCB2_CWCDSUBA.interface</stub:interface>
+    <stub:output listructure="../Structures/CWDEMCB2_CWCDSUBA_EMP-RECORD-LIST.listructure#Unit%20Test/Structures/CWDEMCB2_CWCDSUBA_EMP-RECORD-LIST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCB2_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST" id="arg0.EMP_RECORD_LIST">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F5F0F0F4F0F0F5F0F0F0F0F2F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure#Unit%20Test/Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA" id="arg1.CWCDWRKA">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000039B1957000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000C040F00F0F0F0F5F0F0F4F0F0F5F0F0F0F0F2F0F0F0F0F0000000000000000000000000000000000000000000000000000000000000000000000000F1F6F1F3F9F5F2F039B1BF383AF1F288000000089480000039B1BFE0000000000000000039B1A3F0000000000000000000000000E2E8E2D6E4E3404039B1A37800000001810000003AF1D7400000000000000000000000003AF1D74039B1BEF8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>
