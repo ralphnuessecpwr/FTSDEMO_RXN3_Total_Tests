@@ -1,0 +1,35 @@
+19:14:44.141 COMMENT   Engine           Test Scenario execution started
+19:14:44.141 INFO      Engine           Using context settings:
+  Engine Version       : 4.0.0
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+19:14:44.141 INFO      Engine           Setting variables from context and context data extensions
+19:14:44.141 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+19:14:44.141 INFO      Engine             id: environmentType    value: CICS
+19:14:44.141 INFO      Engine             id: userId             value: HDDRXM0
+19:14:44.141 INFO      SQLSelect        Interpreting SQLSelect id:Select statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE NATIONALIDNBR = '12345678901234567890' AND DATEOFBIRTH = '1970-02-01'
+19:14:44.141 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+19:14:44.141 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+19:14:49.047 LOG       SQLSelect        Preparing the SQL statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE NATIONALIDNBR = '12345678901234567890' AND DATEOFBIRTH = '1970-02-01'
+19:14:49.047 LOG       SQLSelect        Setting max rows to: 20
+19:14:49.047 LOG       SQLSelect        Setting up the SQL statement with parameters
+19:14:49.047 LOG       SQLSelect        Executing the SQL statement
+19:14:49.547 LOG       SQLSelect        Handling the SQL result
+19:14:49.547 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:2
+19:14:49.547 INFO      Verify           Interpreting Verify component name:Verify
+19:14:49.547 INFO      Verify           Using verify expression:Select.Row[0].FIRSTNAME == 'Ralph'
+19:14:49.578 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Select.Row[0].FIRSTNAME == 'Ralph'
+19:14:49.594 LOG       Verify           Expression returned:
+true
+19:14:49.594 COMMENT   Engine           Test Scenario execution ended

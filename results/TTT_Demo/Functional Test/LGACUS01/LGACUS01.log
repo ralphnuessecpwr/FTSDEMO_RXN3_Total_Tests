@@ -1,0 +1,157 @@
+20:04:29.773 COMMENT   Engine           Test Scenario execution started
+20:04:29.773 INFO      Engine           Using context settings:
+  Engine Version       : 4.0.0
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+20:04:29.773 INFO      Engine           Setting variables from context and context data extensions
+20:04:29.773 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+20:04:29.773 INFO      Engine             id: environmentType    value: CICS
+20:04:29.773 INFO      Engine             id: userId             value: HDDRXM0
+20:04:29.773 INFO      Component        Interpreting Component: LGACUS01 program:LGACUS01
+20:04:29.773 INFO      Component        Component will be executed in CICS and top level element definitions are:
+20:04:29.773 INFO      Component          Element: LGCMAREA_Header Area type:DEFAULT
+20:04:29.773 LOG       CWCC CICS        Component Runtime Settings:
+20:04:29.773 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
+20:04:29.773 LOG       CWCC CICS          Additional load libraries :
+20:04:29.773 LOG       CWCC CICS          Listing libraries         :
+20:04:29.773 LOG       CWCC CICS          SysDebug libraries        :
+20:04:29.773 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+20:04:29.773 LOG       CWCC CICS          DB2 plan                  :GENAONE
+20:04:29.773 LOG       CWCC CICS          APPLID                    :HCCAC013
+20:04:29.773 LOG       CWCC CICS          Channel                   :
+20:04:29.773 LOG       CWCC CICS          Call interface            :CICSLINK
+20:04:29.773 LOG       CWCC CICS          Debugger type             :NONE
+20:04:29.773 LOG       CWCC CICS          Component type            :COBOL
+20:04:29.773 INFO      CWCC CICS        Sending Module execution request to Host for module:LGACUS01 rollback:false
+20:04:31.808 LOG       CWCC CICS        Uploading input data for module LGACUS01
+20:04:35.642 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>33bfec42-d981-467b-8669-751a12cbc32e</jobdirectory><amode24>false</amode24><members><membername>LGACUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+20:04:36.189 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0698780</jobid></xatz_response></XATZRESP>
+20:04:36.189 LOG       CWCC CICS        Response received from Host. Message: JobId:J0698780
+20:04:36.189 INFO      CWCC CICS        Job has been started at host with JobId:J0698780
+20:04:36.189 INFO      CWCC CICS        Waiting for Execution Result from Host
+20:04:39.648 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0698780</jobid></xatz_request></XATZREQ>
+20:04:39.851 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+20:04:39.851 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
+20:04:43.686 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0698780</jobid></xatz_request></XATZREQ>
+20:04:43.874 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+20:04:43.874 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
+20:04:47.703 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0698780</jobid></xatz_request></XATZREQ>
+20:04:47.891 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+20:04:47.891 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
+20:04:51.735 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0698780</jobid></xatz_request></XATZREQ>
+20:04:51.922 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+20:04:51.922 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
+20:04:56.102 INFO      CWCC CICS        Component completed with program exit: +0
+20:04:56.680 LOG       CWCC CICS        Setting execution variable 'jobid' to J0698780
+20:04:56.680 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+20:04:58.774 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+20:04:58.805 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+20:04:58.805 INFO      Component        Finished interpreting Component: LGACUS01 program:LGACUS01
+20:04:58.805 INFO      SQLSelect        Interpreting SQLSelect id:SQLSelect statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE NATIONALIDNBR = '12345678901234567890' AND DATEOFBIRTH = '1970-02-01'
+20:04:58.805 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+20:04:58.805 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+20:05:00.232 LOG       SQLSelect        Preparing the SQL statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE NATIONALIDNBR = '12345678901234567890' AND DATEOFBIRTH = '1970-02-01'
+20:05:00.232 LOG       SQLSelect        Setting max rows to: 1
+20:05:00.232 LOG       SQLSelect        Setting up the SQL statement with parameters
+20:05:00.232 LOG       SQLSelect        Executing the SQL statement
+20:05:00.389 LOG       SQLSelect        Handling the SQL result
+20:05:00.389 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+20:05:00.389 INFO      Verify           Interpreting Verify component name:Verify_First_Name
+20:05:00.389 INFO      Verify           Using verify expression:SQLSelect.Row.FIRSTNAME == 'Ralph'
+20:05:00.451 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.FIRSTNAME == 'Ralph'
+20:05:00.467 LOG       Verify           Expression returned:
+true
+20:05:00.467 INFO      Verify           Interpreting Verify component name:Verify_Last_Name
+20:05:00.467 INFO      Verify           Using verify expression:SQLSelect.Row.LASTNAME == 'Nuesse'
+20:05:00.482 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.LASTNAME == 'Nuesse'
+20:05:00.482 LOG       Verify           Expression returned:
+true
+20:05:00.482 INFO      Verify           Interpreting Verify component name:Verify_dob
+20:05:00.482 INFO      Verify           Using verify expression:SQLSelect.Row.DATEOFBIRTH == '1970-02-01'
+20:05:00.514 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.DATEOFBIRTH == '1970-02-01'
+20:05:00.514 LOG       Verify           Expression returned:
+true
+20:05:00.514 INFO      Verify           Interpreting Verify component name:Verify_Post_Code
+20:05:00.514 INFO      Verify           Using verify expression:SQLSelect.Row.POSTCODE == '12345'
+20:05:00.545 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.POSTCODE == '12345'
+20:05:00.545 LOG       Verify           Expression returned:
+true
+20:05:00.545 INFO      Verify           Interpreting Verify component name:Verify_Phone_Home
+20:05:00.545 INFO      Verify           Using verify expression:SQLSelect.Row.PHONEHOME == '0000012345'
+20:05:00.560 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.PHONEHOME == '0000012345'
+20:05:00.560 LOG       Verify           Expression returned:
+true
+20:05:00.560 INFO      Verify           Interpreting Verify component name:Verify_Phone_Mobile
+20:05:00.560 INFO      Verify           Using verify expression:SQLSelect.Row.PHONEMOBILE == '0000012345'
+20:05:00.592 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.PHONEMOBILE == '0000012345'
+20:05:00.592 LOG       Verify           Expression returned:
+true
+20:05:00.592 INFO      Verify           Interpreting Verify component name:Verify_Email
+20:05:00.592 INFO      Verify           Using verify expression:SQLSelect.Row.EMAILADDRESS == 'RN@ACME.COM'
+20:05:00.607 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.EMAILADDRESS == 'RN@ACME.COM'
+20:05:00.623 LOG       Verify           Expression returned:
+true
+20:05:00.623 INFO      Verify           Interpreting Verify component name:Verify_Nat_Id
+20:05:00.623 INFO      Verify           Using verify expression:SQLSelect.Row.NATIONALIDNBR == '12345678901234567890'
+20:05:00.639 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.NATIONALIDNBR == '12345678901234567890'
+20:05:00.654 LOG       Verify           Expression returned:
+true
+20:05:00.654 INFO      Verify           Interpreting Verify component name:Verify_NIN_Type
+20:05:00.654 INFO      Verify           Using verify expression:SQLSelect.Row.NINTYPE == 'SS'
+20:05:00.685 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.NINTYPE == 'SS'
+20:05:00.685 LOG       Verify           Expression returned:
+true
+20:05:00.685 INFO      Verify           Interpreting Verify component name:Verify_Street
+20:05:00.685 INFO      Verify           Using verify expression:SQLSelect.Row.STREETADDRESS == 'MY STREET 1'
+20:05:00.717 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.STREETADDRESS == 'MY STREET 1'
+20:05:00.717 LOG       Verify           Expression returned:
+true
+20:05:00.717 INFO      Verify           Interpreting Verify component name:Verify_City
+20:05:00.717 INFO      Verify           Using verify expression:SQLSelect.Row.CITY == 'CITY'
+20:05:00.732 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.CITY == 'CITY'
+20:05:00.732 LOG       Verify           Expression returned:
+true
+20:05:00.732 INFO      Verify           Interpreting Verify component name:Verify_State
+20:05:00.732 INFO      Verify           Using verify expression:SQLSelect.Row.STATE == 'ST'
+20:05:00.748 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.STATE == 'ST'
+20:05:00.764 LOG       Verify           Expression returned:
+true
+20:05:00.764 INFO      Verify           Interpreting Verify component name:Verify_Country_Code
+20:05:00.764 INFO      Verify           Using verify expression:SQLSelect.Row.COUNTRYCODE == ''
+20:05:00.779 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.COUNTRYCODE == ''
+20:05:00.779 LOG       Verify           Expression returned:
+true
+20:05:00.779 INFO      Verify           Interpreting Verify component name:Verify_Territory
+20:05:00.779 INFO      Verify           Using verify expression:SQLSelect.Row.SALESTERRITORY == 'EMEA'
+20:05:00.795 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.SALESTERRITORY == 'EMEA'
+20:05:00.795 LOG       Verify           Expression returned:
+true
+20:05:00.795 INFO      SQLSelect        Interpreting SQLSelect id:TestSQL statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = ${lgacus01.ca-customer-num}
+20:05:00.795 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+20:05:00.795 ERROR     Engine           SQL contains variable that cannot be substituted
+20:05:00.795 ERROR     Engine           An error occured. Now stopping the execution.
+20:05:00.795 COMMENT   Engine           Test Scenario execution ended
