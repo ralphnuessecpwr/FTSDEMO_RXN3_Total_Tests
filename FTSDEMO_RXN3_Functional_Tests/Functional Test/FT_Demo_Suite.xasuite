@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Folder: /FTSDEMO_RXN3_Functional_Tests/FTSDEMO_RXN3_Functional_Tests/Functional Test for Environment: CWCC CICS" environmentId="5b5f2a71787be73b59238d7b" haltAtFailure="false">
+  <Description>Generated test suite for environment: CWCC CICS for folder: /FTSDEMO_RXN3_Functional_Tests/FTSDEMO_RXN3_Functional_Tests/Functional Test</Description>
+  <XaUnits>
+    <Path>LGACUS01.xactx</Path>
+    <Path>LGICUS01.xactx</Path>
+    <Path>LGICUS01_Alternate.xactx</Path>
+    <Path>XADB2TST_CREATE.xactx</Path>
+    <Path>XADB2TST_DELETE.xactx</Path>
+    <Path>XADB2TST_INTEGRATION.xactx</Path>
+    <Path>XADB2TST_READ.xactx</Path>
+    <Path>XADB2TST_UPDATE.xactx</Path>
+  </XaUnits>
+</XaSuite>

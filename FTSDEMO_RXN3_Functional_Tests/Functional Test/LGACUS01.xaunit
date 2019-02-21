@@ -92,23 +92,6 @@
     <Verify name="Verify_Territory" haltExecution="false">
       <Statement><![CDATA[SQLSelect.Row.SALESTERRITORY == 'EMEA']]></Statement>
     </Verify>
-    <SQLSelect id="TestSQL" maxRows="20">
-      <Statement>SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = ${lgacus01.ca-customer-num}</Statement>
-      <Output name="FIRSTNAME" />
-      <Output name="LASTNAME" />
-      <Output name="DATEOFBIRTH" />
-      <Output name="POSTCODE" />
-      <Output name="PHONEHOME" />
-      <Output name="PHONEMOBILE" />
-      <Output name="EMAILADDRESS" />
-      <Output name="NATIONALIDNBR" />
-      <Output name="NINTYPE" />
-      <Output name="STREETADDRESS" />
-      <Output name="CITY" />
-      <Output name="STATE" />
-      <Output name="COUNTRYCODE" />
-      <Output name="SALESTERRITORY" />
-    </SQLSelect>
   </Test>
   <MetaData>
     <Component name="LGACUS01" type="COBOL">

@@ -45,7 +45,7 @@
       </Component>
     </IterateData>
     <SQLUpdate name="Delete">
-      <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 1000168]]></Statement>
+      <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 999]]></Statement>
     </SQLUpdate>
     <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="true">
       <Data>
