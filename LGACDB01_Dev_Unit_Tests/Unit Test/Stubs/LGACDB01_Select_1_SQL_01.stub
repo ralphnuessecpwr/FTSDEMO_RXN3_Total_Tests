@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGACDB01_Select_1_SQL_01.stub" nextCalltoken="10003" stubtype="SQL" target="Select" token="10000">
+  <stub:description>Created: 21.02.2019 08:01:31</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/LGACDB01_Select_1_LastCustNum.interface#Unit%20Test/Interfaces/LGACDB01_Select_1_LastCustNum.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#Unit%20Test/Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum" id="arg0.LastCustNum">
+            <properties:properties>
+              <properties:property name="value" type="string">00000014</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum.LastCustNum" id="output1.arg0.LastCustNum.LastCustNum" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****Exec SQL SELECT COUNT(*) INTO :LastCustNum
+      *****     FROM CUSTOMER
+      *****END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E4C474143444230311AAC15A405D6BB580001400BE14000000000400BE2E804B800E70000014E0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101F00004400B58D0400BE2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="10002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****Exec SQL SELECT COUNT(*) INTO :LastCustNum
+      *****     FROM CUSTOMER
+      *****END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00400400001E4C474143444230311AAC15A405D6BB580001400BE14000000000400BE2E804B800E70000014E0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101F00004400B58D0400BE2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="10001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:13:45-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER1.ENT1CNOA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER2.ENT1FNAA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER3.ENT1LNAA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER4.ENT1DOBA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNML">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER5.ENT1HNMA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER6.ENT1HNOA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER7.ENT1HPCA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER8.ENT1OPTA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER9.ERRFLDA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

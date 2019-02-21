@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:13:44-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
+  <listructure:struct id="SSMAPC1I" name="SSMAPC1I">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">162</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">162</properties:property>
+    </properties:properties>
+    <listructure:string id="SSMAPC1I.FILLER0" length="12" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(12)</properties:property>
+        <properties:property name="displayLength" type="number">12</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(12)</properties:property>
+        <properties:property name="storageLength" type="number">12</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1CNOL" length="4" name="ENT1CNOL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1CNOF" length="1" name="ENT1CNOF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER1" name="FILLER1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1CNOF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER1.ENT1CNOA" length="1" name="ENT1CNOA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1CNOI" length="10" name="ENT1CNOI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1FNAL" length="4" name="ENT1FNAL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1FNAF" length="1" name="ENT1FNAF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER2" name="FILLER2">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1FNAF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER2.ENT1FNAA" length="1" name="ENT1FNAA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1FNAI" length="10" name="ENT1FNAI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1LNAL" length="4" name="ENT1LNAL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1LNAF" length="1" name="ENT1LNAF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER3" name="FILLER3">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1LNAF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER3.ENT1LNAA" length="1" name="ENT1LNAA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1LNAI" length="20" name="ENT1LNAI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(20)</properties:property>
+        <properties:property name="displayLength" type="number">20</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(20)</properties:property>
+        <properties:property name="storageLength" type="number">20</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1DOBL" length="4" name="ENT1DOBL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1DOBF" length="1" name="ENT1DOBF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER4" name="FILLER4">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1DOBF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER4.ENT1DOBA" length="1" name="ENT1DOBA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1DOBI" length="10" name="ENT1DOBI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1HNML" length="4" name="ENT1HNML">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1HNMF" length="1" name="ENT1HNMF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER5" name="FILLER5">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1HNMF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER5.ENT1HNMA" length="1" name="ENT1HNMA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1HNMI" length="20" name="ENT1HNMI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(20)</properties:property>
+        <properties:property name="displayLength" type="number">20</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(20)</properties:property>
+        <properties:property name="storageLength" type="number">20</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1HNOL" length="4" name="ENT1HNOL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1HNOF" length="1" name="ENT1HNOF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER6" name="FILLER6">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1HNOF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER6.ENT1HNOA" length="1" name="ENT1HNOA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1HNOI" length="4" name="ENT1HNOI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(4)</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(4)</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1HPCL" length="4" name="ENT1HPCL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1HPCF" length="1" name="ENT1HPCF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER7" name="FILLER7">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1HPCF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER7.ENT1HPCA" length="1" name="ENT1HPCA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1HPCI" length="8" name="ENT1HPCI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ENT1OPTL" length="4" name="ENT1OPTL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ENT1OPTF" length="1" name="ENT1OPTF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER8" name="FILLER8">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ENT1OPTF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER8.ENT1OPTA" length="1" name="ENT1OPTA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ENT1OPTI" length="1" name="ENT1OPTI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(1)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="SSMAPC1I.ERRFLDL" length="4" name="ERRFLDL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="SSMAPC1I.ERRFLDF" length="1" name="ERRFLDF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="SSMAPC1I.FILLER9" name="FILLER9">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="redefines" type="string">ERRFLDF</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+      <listructure:string id="SSMAPC1I.FILLER9.ERRFLDA" length="1" name="ERRFLDA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="SSMAPC1I.ERRFLDI" length="40" name="ERRFLDI">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(40)</properties:property>
+        <properties:property name="displayLength" type="number">40</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(40)</properties:property>
+        <properties:property name="storageLength" type="number">40</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>
