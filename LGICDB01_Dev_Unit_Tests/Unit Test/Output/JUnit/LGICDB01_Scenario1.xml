@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.2.v20190211-1724_163?>
-<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 22, 2019 9:13:17 AM-->
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 22, 2019 9:19:07 AM-->
 <testsuites>
   <testsuite errors="0" failures="63" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" tests="98">
     <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
