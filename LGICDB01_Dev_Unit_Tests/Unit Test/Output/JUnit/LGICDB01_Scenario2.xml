@@ -1,95 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 21.02.2019 15:43:34-->
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 22, 2019 9:29:24 AM-->
 <testsuites>
-  <testsuite errors="0" failures="1" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" tests="76">
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00002: Check for eibdate"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00003: Check for eibtrnid"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00004: Check for eibtaskn"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00005: Check for eibtrmid"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00006: Check for dfheigdi"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00007: Check for eibcposn"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00008: Check for eibcalen"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00009: Check for eibaid"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00010: Check for eibfn"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00011: Check for eibrcode"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00012: Check for eibds"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00013: Check for eibreqid"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00014: Check for eibrsrce"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00015: Check for eibsync"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00016: Check for eibfree"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00017: Check for eibrecv"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00018: Check for eibfil01"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00019: Check for eibatt"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00020: Check for eibeoc"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00021: Check for eibfmh"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00022: Check for eibcompl"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00023: Check for eibsig"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00024: Check for eibconf"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00025: Check for eiberr"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00026: Check for eiberrcd"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00027: Check for eibsynrb"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00028: Check for eibnodat"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00029: Check for eibresp"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00030: Check for eibresp2"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00031: Check for eibrldbk"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00032: Check for CA_REQUEST_ID"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00033: Check for CA_RETURN_CODE">
-      <failure>Check for CA_RETURN_CODE failed
+  <testsuite errors="0" failures="63" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" tests="98">
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00002: Check for eibdate"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00003: Check for eibtrnid"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00004: Check for eibtaskn"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00005: Check for eibtrmid"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00006: Check for dfheigdi"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00007: Check for eibcposn"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00008: Check for eibcalen"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00009: Check for eibaid"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00010: Check for eibfn"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00011: Check for eibrcode"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00012: Check for eibds"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00013: Check for eibreqid"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00014: Check for eibrsrce"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00015: Check for eibsync"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00016: Check for eibfree"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00017: Check for eibrecv"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00018: Check for eibfil01"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00019: Check for eibatt"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00020: Check for eibeoc"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00021: Check for eibfmh"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00022: Check for eibcompl"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00023: Check for eibsig"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00024: Check for eibconf"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00025: Check for eiberr"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00026: Check for eiberrcd"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00027: Check for eibsynrb"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00028: Check for eibnodat"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00029: Check for eibresp"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00030: Check for eibresp2"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00031: Check for eibrldbk"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00032: Check for CA_REQUEST_ID"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00033: Check for CA_RETURN_CODE"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00034: Check for CA_CUSTOMER_NUM"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00035: Check for CA_REQUEST_SPECIFIC"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00036: Check for CA_FIRST_NAME">
+      <failure>Error encountered parsing field CA_FIRST_NAME
 
-Actual Value:    1
+Actual Value:    null
 
-Expected Value:  2</failure>
+Expected Value:  null</failure>
     </testcase>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00034: Check for CA_CUSTOMER_NUM"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00035: Check for CA_REQUEST_SPECIFIC"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00036: Check for CA_FIRST_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00037: Check for CA_LAST_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00038: Check for CA_DOB"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00039: Check for CA_HOUSE_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00040: Check for CA_HOUSE_NUM"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00041: Check for CA_POSTCODE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00042: Check for CA_POLICY_DATA"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00043: Check for CA_ISSUE_DATE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00044: Check for CA_EXPIRY_DATE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00045: Check for CA_LASTCHANGED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00046: Check for CA_BROKERSREF"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00047: Check for CA_POLICY_SPECIFIC"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00048: Check for CA_E_WITH_PROFITS"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00049: Check for CA_E_EQUITIES"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00050: Check for CA_E_MANAGED_FUND"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00051: Check for CA_E_FUND_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00052: Check for CA_E_LIFE_ASSURED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00053: Check for CA_E_PADDING_DATA"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00054: Check for CA_H_PROPERTY_TYPE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00055: Check for CA_H_HOUSE_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00056: Check for CA_H_HOUSE_NUMBER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00057: Check for CA_H_POSTCODE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00058: Check for CA_H_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00059: Check for CA_M_MAKE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00060: Check for CA_M_MODEL"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00061: Check for CA_M_REGNUMBER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00062: Check for CA_M_COLOUR"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00063: Check for CA_M_MANUFACTURED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00064: Check for CA_M_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00065: Check for CA_B_Address"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00066: Check for CA_B_Postcode"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00067: Check for CA_B_Latitude"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00068: Check for CA_B_Longitude"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00069: Check for CA_B_Customer"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00070: Check for CA_B_PropType"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00071: Check for CA_B_RejectReason"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00072: Check for CA_B_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00073: Check for CA_C_Date"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00074: Check for CA_C_Cause"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00075: Check for CA_C_Observations"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00076: Check for CA_C_FILLER"/>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00037: Check for CA_LAST_NAME">
+      <failure>Error encountered parsing field CA_LAST_NAME
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00038: Check for CA_DOB">
+      <failure>Error encountered parsing field CA_DOB
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00039: Check for CA_HOUSE_NAME">
+      <failure>Error encountered parsing field CA_HOUSE_NAME
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00040: Check for CA_HOUSE_NUM">
+      <failure>Error encountered parsing field CA_HOUSE_NUM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00041: Check for CA_POSTCODE">
+      <failure>Error encountered parsing field CA_POSTCODE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00042: Check for CA_NUM_POLICIES">
+      <failure>Error encountered parsing field CA_NUM_POLICIES
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00043: Check for CA_POLICY_DATA">
+      <failure>Error encountered parsing field CA_POLICY_DATA
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00044: Check for CA_POLICY_NUM">
+      <failure>Error encountered parsing field CA_POLICY_NUM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00045: Check for CA_ISSUE_DATE">
+      <failure>Error encountered parsing field CA_ISSUE_DATE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00046: Check for CA_EXPIRY_DATE">
+      <failure>Error encountered parsing field CA_EXPIRY_DATE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00047: Check for CA_LASTCHANGED">
+      <failure>Error encountered parsing field CA_LASTCHANGED
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00048: Check for CA_BROKERID">
+      <failure>Error encountered parsing field CA_BROKERID
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00049: Check for CA_BROKERSREF">
+      <failure>Error encountered parsing field CA_BROKERSREF
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00050: Check for CA_PAYMENT">
+      <failure>Error encountered parsing field CA_PAYMENT
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00051: Check for CA_POLICY_SPECIFIC">
+      <failure>Error encountered parsing field CA_POLICY_SPECIFIC
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00052: Check for CA_E_WITH_PROFITS">
+      <failure>Error encountered parsing field CA_E_WITH_PROFITS
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00053: Check for CA_E_EQUITIES">
+      <failure>Error encountered parsing field CA_E_EQUITIES
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00054: Check for CA_E_MANAGED_FUND">
+      <failure>Error encountered parsing field CA_E_MANAGED_FUND
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00055: Check for CA_E_FUND_NAME">
+      <failure>Error encountered parsing field CA_E_FUND_NAME
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00056: Check for CA_E_TERM">
+      <failure>Error encountered parsing field CA_E_TERM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00057: Check for CA_E_SUM_ASSURED">
+      <failure>Error encountered parsing field CA_E_SUM_ASSURED
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00058: Check for CA_E_LIFE_ASSURED">
+      <failure>Error encountered parsing field CA_E_LIFE_ASSURED
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00059: Check for CA_E_PADDING_DATA">
+      <failure>Error encountered parsing field CA_E_PADDING_DATA
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00060: Check for CA_H_PROPERTY_TYPE">
+      <failure>Error encountered parsing field CA_H_PROPERTY_TYPE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00061: Check for CA_H_BEDROOMS">
+      <failure>Error encountered parsing field CA_H_BEDROOMS
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00062: Check for CA_H_VALUE">
+      <failure>Error encountered parsing field CA_H_VALUE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00063: Check for CA_H_HOUSE_NAME">
+      <failure>Error encountered parsing field CA_H_HOUSE_NAME
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00064: Check for CA_H_HOUSE_NUMBER">
+      <failure>Error encountered parsing field CA_H_HOUSE_NUMBER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00065: Check for CA_H_POSTCODE">
+      <failure>Error encountered parsing field CA_H_POSTCODE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00066: Check for CA_H_FILLER">
+      <failure>Error encountered parsing field CA_H_FILLER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00067: Check for CA_M_MAKE">
+      <failure>Error encountered parsing field CA_M_MAKE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00068: Check for CA_M_MODEL">
+      <failure>Error encountered parsing field CA_M_MODEL
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00069: Check for CA_M_VALUE">
+      <failure>Error encountered parsing field CA_M_VALUE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00070: Check for CA_M_REGNUMBER">
+      <failure>Error encountered parsing field CA_M_REGNUMBER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00071: Check for CA_M_COLOUR">
+      <failure>Error encountered parsing field CA_M_COLOUR
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00072: Check for CA_M_CC">
+      <failure>Error encountered parsing field CA_M_CC
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00073: Check for CA_M_MANUFACTURED">
+      <failure>Error encountered parsing field CA_M_MANUFACTURED
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00074: Check for CA_M_FILLER">
+      <failure>Error encountered parsing field CA_M_FILLER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00075: Check for CA_B_Address">
+      <failure>Error encountered parsing field CA_B_Address
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00076: Check for CA_B_Postcode">
+      <failure>Error encountered parsing field CA_B_Postcode
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00077: Check for CA_B_Latitude">
+      <failure>Error encountered parsing field CA_B_Latitude
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00078: Check for CA_B_Longitude">
+      <failure>Error encountered parsing field CA_B_Longitude
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00079: Check for CA_B_Customer">
+      <failure>Error encountered parsing field CA_B_Customer
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00080: Check for CA_B_PropType">
+      <failure>Error encountered parsing field CA_B_PropType
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00081: Check for CA_B_FirePeril">
+      <failure>Error encountered parsing field CA_B_FirePeril
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00082: Check for CA_B_FirePremium">
+      <failure>Error encountered parsing field CA_B_FirePremium
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00083: Check for CA_B_CrimePeril">
+      <failure>Error encountered parsing field CA_B_CrimePeril
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00084: Check for CA_B_CrimePremium">
+      <failure>Error encountered parsing field CA_B_CrimePremium
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00085: Check for CA_B_FloodPeril">
+      <failure>Error encountered parsing field CA_B_FloodPeril
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00086: Check for CA_B_FloodPremium">
+      <failure>Error encountered parsing field CA_B_FloodPremium
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00087: Check for CA_B_WeatherPeril">
+      <failure>Error encountered parsing field CA_B_WeatherPeril
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00088: Check for CA_B_WeatherPremium">
+      <failure>Error encountered parsing field CA_B_WeatherPremium
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00089: Check for CA_B_Status">
+      <failure>Error encountered parsing field CA_B_Status
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00090: Check for CA_B_RejectReason">
+      <failure>Error encountered parsing field CA_B_RejectReason
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00091: Check for CA_B_FILLER">
+      <failure>Error encountered parsing field CA_B_FILLER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00092: Check for CA_C_Num">
+      <failure>Error encountered parsing field CA_C_Num
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00093: Check for CA_C_Date">
+      <failure>Error encountered parsing field CA_C_Date
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00094: Check for CA_C_Paid">
+      <failure>Error encountered parsing field CA_C_Paid
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00095: Check for CA_C_Value">
+      <failure>Error encountered parsing field CA_C_Value
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00096: Check for CA_C_Cause">
+      <failure>Error encountered parsing field CA_C_Cause
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00097: Check for CA_C_Observations">
+      <failure>Error encountered parsing field CA_C_Observations
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00098: Check for CA_C_FILLER">
+      <failure>Error encountered parsing field CA_C_FILLER
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
   </testsuite>
-  <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" tests="0">
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" name="Select"/>
+  <testsuite errors="0" failures="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" tests="0">
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" name="Select"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_EXEC_CICS_RETURN2_01.00001: EXEC CICS RETURN assertion" tests="0">
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_EXEC_CICS_RETURN2_01.00001: EXEC CICS RETURN assertion" name="EXEC CICS RETURN"/>
+  <testsuite errors="0" failures="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_EXEC_CICS_RETURN2_01.00001: EXEC CICS RETURN assertion" tests="0">
+    <testcase classname="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_EXEC_CICS_RETURN2_01.00001: EXEC CICS RETURN assertion" name="EXEC CICS RETURN"/>
   </testsuite>
 </testsuites>
