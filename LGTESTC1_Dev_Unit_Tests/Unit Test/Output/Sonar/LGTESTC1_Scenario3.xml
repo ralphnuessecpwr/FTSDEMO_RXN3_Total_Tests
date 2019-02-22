@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 21.02.2019 15:43:34-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Scenarios\LGTESTC1_Scenario3.testscenario">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00001: Check for eibtime"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00002: Check for eibdate"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00003: Check for eibtrnid"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00004: Check for eibtaskn"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00005: Check for eibtrmid"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00006: Check for dfheigdi"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00007: Check for eibcposn"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00008: Check for eibcalen"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00009: Check for eibaid"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00010: Check for eibfn"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00011: Check for eibrcode"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00012: Check for eibds"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00013: Check for eibreqid"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00014: Check for eibrsrce"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00015: Check for eibsync"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00016: Check for eibfree"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00017: Check for eibrecv"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00018: Check for eibfil01"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00019: Check for eibatt"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00020: Check for eibeoc"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00021: Check for eibfmh"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00022: Check for eibcompl"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00023: Check for eibsig"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00024: Check for eibconf"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00025: Check for eiberr"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00026: Check for eiberrcd"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00027: Check for eibsynrb"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00028: Check for eibnodat"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00029: Check for eibresp"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00030: Check for eibresp2"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00031: Check for eibrldbk"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.00032: Check for dfhcommarea"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Stubs\LGTESTC1_HANDLE_03.stub">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.Stub: 'LGTESTC1_HANDLE_03'.00001: 'EXEC CICS HANDLE' assertion.EXEC CICS HANDLE"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Stubs\LGTESTC1_BMS_SEND_RECEIVE_03.stub">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00001: EXEC CICS RECEIVE assertion.00001: dfhc0070"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00001: EXEC CICS RECEIVE assertion.00002: dfhc0071"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00001: dfhc0070"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00002: FILLER0"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00003: FILLER1"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00004: ENT1CNOO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00005: FILLER2"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00006: ENT1FNAO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00007: FILLER3"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00008: ENT1LNAO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00009: FILLER4"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00010: ENT1DOBO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00011: FILLER5"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00012: ENT1HNMO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00013: FILLER6"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00014: ENT1HNOO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00015: FILLER7"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00016: ENT1HPCO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00017: FILLER8"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00018: ENT1OPTO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00019: FILLER9"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00020: ERRFLDO"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_03.00002: EXEC CICS SEND assertion.00021: dfhc0071"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Stubs\LGTESTC1_SEND_RECEIVE_03.stub">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.Stub: 'LGTESTC1_SEND_RECEIVE_03'.00004: 'EXEC CICS HANDLE' assertion.EXEC CICS HANDLE"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Stubs\LGTESTC1_EXEC_CICS_RETURN3_01.stub">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00001: dfhc0040"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00002: CA_REQUEST_ID"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00003: CA_RETURN_CODE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00004: CA_CUSTOMER_NUM"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00005: CA_REQUEST_SPECIFIC"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00006: CA_FIRST_NAME"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00007: CA_LAST_NAME"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00008: CA_DOB"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00009: CA_HOUSE_NAME"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00010: CA_HOUSE_NUM"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00011: CA_POSTCODE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00012: CA_POLICY_DATA"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00013: CA_ISSUE_DATE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00014: CA_EXPIRY_DATE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00015: CA_LASTCHANGED"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00016: CA_BROKERSREF"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00017: CA_POLICY_SPECIFIC"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00018: CA_E_WITH_PROFITS"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00019: CA_E_EQUITIES"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00020: CA_E_MANAGED_FUND"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00021: CA_E_FUND_NAME"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00022: CA_E_LIFE_ASSURED"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00023: CA_E_PADDING_DATA"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00024: CA_H_PROPERTY_TYPE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00025: CA_H_HOUSE_NAME"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00026: CA_H_HOUSE_NUMBER"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00027: CA_H_POSTCODE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00028: CA_H_FILLER"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00029: CA_M_MAKE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00030: CA_M_MODEL"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00031: CA_M_REGNUMBER"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00032: CA_M_COLOUR"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00033: CA_M_MANUFACTURED"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00034: CA_M_FILLER"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00035: CA_B_Address"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00036: CA_B_Postcode"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00037: CA_B_Latitude"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00038: CA_B_Longitude"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00039: CA_B_Customer"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00040: CA_B_PropType"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00041: CA_B_RejectReason"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00042: CA_B_FILLER"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00043: CA_C_Date"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00044: CA_C_Cause"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00045: CA_C_Observations"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00046: SQL_TEMP"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00047: DSN_TEMP"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00048: DSNNROWS"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00049: DSNNTYPE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00050: DSNNLEN"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00051: SQL_NULL"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00052: SQL_INIT_FLAG"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00053: SQL_FILE_READ"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00054: SQL_FILE_CREATE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00055: SQL_FILE_OVERWRITE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00056: SQL_FILE_APPEND"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN3_01.00001: EXEC CICS RETURN assertion.00057: dfhb0020">
+      <failure message="dfhb0020 failed">dfhb0020 failed
+
+Actual Value:    2522
+
+Expected Value:  2500</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGTESTC1_Dev_Unit_Tests\Unit Test\Stubs\LGTESTC1_SUBP_LGICUS01_03.stub">
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00001: dfhc0080"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00002: CA_REQUEST_ID"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00003: CA_CUSTOMER_NUM"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00004: SQL_TEMP"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00005: DSN_TEMP"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00006: DSNNROWS"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00007: DSNNTYPE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00008: DSNNLEN"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00009: SQL_NULL"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00010: SQL_INIT_FLAG"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00011: SQL_FILE_READ"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00012: SQL_FILE_CREATE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00013: SQL_FILE_OVERWRITE"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00014: SQL_FILE_APPEND"/>
+    <testCase duration="0" name="LGTESTC1_Dev_Unit_Tests.LGTESTC1_Scenario3.00001: LGTESTC1Case1.LGTESTC1_SUBP_LGICUS01_03.00001: EXEC CICS LINK assertion.00015: dfhb0020"/>
+  </file>
+</testExecutions>
