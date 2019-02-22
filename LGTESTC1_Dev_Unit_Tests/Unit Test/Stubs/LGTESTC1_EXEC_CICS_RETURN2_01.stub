@@ -448,8 +448,7 @@
         <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#input0.arg3.dfhb0020.dfhb0020">
-        <checkconditions:expression>BigDecimalCreator.make('2500').compareTo(result.arg3.dfhb0020.dfhb0020) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">2500</checkconditions:expectation>
+        <checkconditions:expectation assert="noassert" type="number">2500</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:inputDataCheckconditions>
     <stub:statement type="EXEC CICS RETURN">

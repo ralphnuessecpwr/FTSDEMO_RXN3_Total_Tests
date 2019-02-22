@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-02-21 09:53.11��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-02-22 04:01.38��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGTESTC1
  STTR014I Processing test scenario LGTESTC1
@@ -47,7 +47,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019052, Length = 40
+  IDRU: Creation Date = 2019053, Length = 40
    data = c3e7d3c7e3c5e2e3c3f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
    program = LGTESTC1, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
  ---closeW---entry
@@ -58,8 +58,8 @@
  module: LGTESTC1, csect: LGTESTC1, entry: LGTESTC1
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A02028
- ---TARGCALL---entry newTARGET: 38A02028
+ ---TARGET---exit newTARGET: 38A01028
+ ---TARGCALL---entry newTARGET: 38A01028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -97,14 +97,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A020E8
- ---addTargetArg---workingArea: 38A02088
+ AV ptr: 38A010E8
+ ---addTargetArg---workingArea: 38A01088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A02088
+ ---T addTargetArg---workingArea: 38A01088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A02088
+ ---TARGARG--- workingArea: 38A01088
  ---TARGARG---entry
  length: 1
  ---T addTargetArg---entry
@@ -114,7 +114,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A020E8
+ AV ptr: 38A010E8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -127,14 +127,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A020E8
- ---addTargetArg---workingArea: 38A02138
+ AV ptr: 38A010E8
+ ---addTargetArg---workingArea: 38A01138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A02138
+ ---T addTargetArg---workingArea: 38A01138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A02138
+ ---TARGARG--- workingArea: 38A01138
  ---BNDHOOK---entry
  --->>>modName = LGTESTC1, pgmName = LGTESTC1, vName = DFHEI1   , offset = 00000000
  ---openW_includeName---entry
@@ -174,14 +174,14 @@
  RETURN TRANSID('SSC1') COMMAREA(COMM-AREA)
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 389B92FA  stubToken: 0000C350
- stubType:       signature: 389C331A  signatureLength: 0000002A
+ release: 389B82FA  stubToken: 0000C350
+ stubType:       signature: 389C231A  signatureLength: 0000002A
  ---EXCICScxx---entry
- release: 389B92FA  token: 0000C350
- signature: 389C331A  length: 0000002A
- commandTable: 376F59B8
+ release: 389B82FA  token: 0000C350
+ signature: 389C231A  length: 0000002A
+ commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38AF0028
+ ---EXCICS---exit newEXCICS: 38AEF028
  ---TTEXRE---entry
  |Input EXEC (106 bytes):
        *EXEC CICS RETURN
@@ -219,9 +219,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @38AF0190
+ avData @38AEF190
  *parmData: X'0E08E000'
- avData[0] @38AF01A8
+ avData[0] @38AEF1A8
  *avData: X'0E08E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -247,9 +247,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38AF0200
+ avData @38AEF200
  *parmData: X'0E08E000'
- avData[0] @38AF0218
+ avData[0] @38AEF218
  *avData: X'0E08E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -275,9 +275,9 @@
  arg: 1
  ---setData---entry
  cL: 4
- avData @38AF0270
+ avData @38AEF270
  *parmData: X'E2E2C3F1'
- avData[0] @38AF0288
+ avData[0] @38AEF288
  *avData: X'E2E2C3F1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -306,9 +306,9 @@
  arg: 1
  ---setData---entry
  cL: 4
- avData @38AF01E0
+ avData @38AEF1E0
  *parmData: X'E2E2C3F1'
- avData[0] @38AF02D0
+ avData[0] @38AEF2D0
  *avData: X'E2E2C3F1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -338,9 +338,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38AF0250
+ avData @38AEF250
  *parmData: X'40404040'
- avData[0] @38AF0318
+ avData[0] @38AEF318
  *avData: X'40404040'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -373,9 +373,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38AF0298
+ avData @38AEF298
  *parmData: X'40404040'
- avData[0] @38AF8268
+ avData[0] @38AF7268
  *avData: X'40404040'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -409,9 +409,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38AF02B0
+ avData @38AEF2B0
  *parmData: X'09C44040'
- avData[0] @38AF02E0
+ avData[0] @38AEF2E0
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -448,9 +448,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38AF02F0
+ avData @38AEF2F0
  *parmData: X'09C44040'
- avData[0] @38AF0308
+ avData[0] @38AEF308
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -483,14 +483,14 @@
  ---~ciArgVal---exit
  ---CICSARGA---exit
  ---EXCICS---entry
- release: 389B92FA  stubToken: 00002710
- stubType: RMSM  signature: 389C33DA  signatureLength: 00000004
+ release: 389B82FA  stubToken: 00002710
+ stubType: RMSM  signature: 389C23DA  signatureLength: 00000004
  ---EXCICScxx---entry
- release: 389B92FA  token: 00002710
- signature: 389C33DA  length: 00000004
- commandTable: 376F59B8
+ release: 389B82FA  token: 00002710
+ signature: 389C23DA  length: 00000004
+ commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B00288
+ ---EXCICS---exit newEXCICS: 38AFF288
  ---TTEXRE---entry
  |Input EXEC (122 bytes):
        *EXEC CICS SEND MAP ('SSMAPC1')
@@ -537,9 +537,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 23
- avData @38AF8218
+ avData @38AF7218
  *parmData: X'1804F000'
- avData[0] @38B00180
+ avData[0] @38AFF180
  *avData: X'1804F000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -567,9 +567,9 @@
  arg: 0
  ---setData---entry
  cL: 23
- avData @38B001A0
+ avData @38AFF1A0
  *parmData: X'1804F000'
- avData[0] @38B003D0
+ avData[0] @38AFF3D0
  *avData: X'1804F000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -596,9 +596,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B00428
+ avData @38AFF428
  *parmData: X'E2E2D4C1'
- avData[0] @38B00440
+ avData[0] @38AFF440
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -629,9 +629,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B003B0
+ avData @38AFF3B0
  *parmData: X'E2E2D4C1'
- avData[0] @38B00488
+ avData[0] @38AFF488
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -662,9 +662,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B00408
+ avData @38AFF408
  *parmData: X'00000000'
- avData[0] @38B004D0
+ avData[0] @38AFF4D0
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -699,9 +699,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B00450
+ avData @38AFF450
  *parmData: X'00000000'
- avData[0] @38B005D0
+ avData[0] @38AFF5D0
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -736,9 +736,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B00468
+ avData @38AFF468
  *parmData: X'00A20000'
- avData[0] @38B00498
+ avData[0] @38AFF498
  *avData: X'00A20000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -777,9 +777,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B004A8
+ avData @38AFF4A8
  *parmData: X'00A20000'
- avData[0] @38B004C0
+ avData[0] @38AFF4C0
  *avData: X'00A20000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -818,9 +818,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B00580
+ avData @38AFF580
  *parmData: X'E2E2D4C1'
- avData[0] @38B00598
+ avData[0] @38AFF598
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -863,9 +863,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B005A8
+ avData @38AFF5A8
  *parmData: X'E2E2D4C1'
- avData[0] @38B005C0
+ avData[0] @38AFF5C0
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -980,9 +980,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 23
- avData @38AF8230
+ avData @38AF7230
  *parmData: X'1802D000'
- avData[0] @38B002E0
+ avData[0] @38AFF2E0
  *avData: X'1802D000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1010,9 +1010,9 @@
  arg: 0
  ---setData---entry
  cL: 23
- avData @38B00338
+ avData @38AFF338
  *parmData: X'1802D000'
- avData[0] @38B00350
+ avData[0] @38AFF350
  *avData: X'1802D000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1039,9 +1039,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B003F0
+ avData @38AFF3F0
  *parmData: X'E2E2D4C1'
- avData[0] @38B00680
+ avData[0] @38AFF680
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1072,9 +1072,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B00318
+ avData @38AFF318
  *parmData: X'E2E2D4C1'
- avData[0] @38B006C8
+ avData[0] @38AFF6C8
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1105,9 +1105,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B00388
+ avData @38AFF388
  *parmData: X'00000000'
- avData[0] @38B00748
+ avData[0] @38AFF748
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1142,9 +1142,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B00690
+ avData @38AFF690
  *parmData: X'00000000'
- avData[0] @38B00B20
+ avData[0] @38AFFB20
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1179,9 +1179,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B006A8
+ avData @38AFF6A8
  *parmData: X'00000000'
- avData[0] @38B003A0
+ avData[0] @38AFF3A0
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1220,9 +1220,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B006D8
+ avData @38AFF6D8
  *parmData: X'00000000'
- avData[0] @38B006F0
+ avData[0] @38AFF6F0
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1261,9 +1261,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B00700
+ avData @38AFF700
  *parmData: X'E2E2D4C1'
- avData[0] @38B007F8
+ avData[0] @38AFF7F8
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1306,9 +1306,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B00808
+ avData @38AFF808
  *parmData: X'E2E2D4C1'
- avData[0] @38B00820
+ avData[0] @38AFF820
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1468,9 +1468,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 23
- avData @38B00300
+ avData @38AFF300
  *parmData: X'1804F000'
- avData[0] @38B00718
+ avData[0] @38AFF718
  *avData: X'1804F000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1498,9 +1498,9 @@
  arg: 0
  ---setData---entry
  cL: 23
- avData @38B00850
+ avData @38AFF850
  *parmData: X'1804F000'
- avData[0] @38B00868
+ avData[0] @38AFF868
  *avData: X'1804F000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1527,9 +1527,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B008C0
+ avData @38AFF8C0
  *parmData: X'E2E2D4C1'
- avData[0] @38B00738
+ avData[0] @38AFF738
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1560,9 +1560,9 @@
  arg: 1
  ---setData---entry
  cL: 7
- avData @38B00830
+ avData @38AFF830
  *parmData: X'E2E2D4C1'
- avData[0] @38B00910
+ avData[0] @38AFF910
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1593,9 +1593,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B008A0
+ avData @38AFF8A0
  *parmData: X'00000000'
- avData[0] @38B00958
+ avData[0] @38AFF958
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1630,9 +1630,9 @@
  arg: 2
  ---setData---entry
  cL: 162
- avData @38B008D8
+ avData @38AFF8D8
  *parmData: X'00000000'
- avData[0] @38B01180
+ avData[0] @38B00180
  *avData: X'00000000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1667,9 +1667,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B008F0
+ avData @38AFF8F0
  *parmData: X'00A20000'
- avData[0] @38B00920
+ avData[0] @38AFF920
  *avData: X'00A20000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1708,9 +1708,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B00930
+ avData @38AFF930
  *parmData: X'00A20000'
- avData[0] @38B00948
+ avData[0] @38AFF948
  *avData: X'00A20000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1749,9 +1749,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B00A08
+ avData @38AFFA08
  *parmData: X'E2E2D4C1'
- avData[0] @38B00A20
+ avData[0] @38AFFA20
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1794,9 +1794,9 @@
  arg: 4
  ---setData---entry
  cL: 7
- avData @38B00BD0
+ avData @38AFFBD0
  *parmData: X'E2E2D4C1'
- avData[0] @38B00BE8
+ avData[0] @38AFFBE8
  *avData: X'E2E2D4C1'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1834,14 +1834,14 @@
  ---g00 addArgAfter---exit
  ---CICSARGA---exit
  ---EXCICS---entry
- release: 389B92FA  stubToken: 00007530
- stubType: HAND  signature: 389C34DE  signatureLength: 00000004
+ release: 389B82FA  stubToken: 00007530
+ stubType: HAND  signature: 389C24DE  signatureLength: 00000004
  ---EXCICScxx---entry
- release: 389B92FA  token: 00007530
- signature: 389C34DE  length: 00000004
- commandTable: 376F59B8
+ release: 389B82FA  token: 00007530
+ signature: 389C24DE  length: 00000004
+ commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B00BF8
+ ---EXCICS---exit newEXCICS: 38AFFBF8
  ---TTEXRE---entry
  |Input EXEC (93 bytes):
        *EXEC CICS HANDLE CONDITION
@@ -1887,9 +1887,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 30
- avData @38B00C50
+ avData @38AFFC50
  *parmData: X'02048000'
- avData[0] @38B00D30
+ avData[0] @38AFFD30
  *avData: X'02048000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1917,9 +1917,9 @@
  arg: 0
  ---setData---entry
  cL: 30
- avData @38B01398
+ avData @38B00398
  *parmData: X'02048000'
- avData[0] @38B013B0
+ avData[0] @38B003B0
  *avData: X'02048000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -1941,14 +1941,14 @@
  ---g00 addArgAfter---exit
  ---CICSARGA---exit
  ---EXCICS---entry
- release: 389B92FA  stubToken: 00004E20
- stubType: RESE  signature: 389C356D  signatureLength: 00000004
+ release: 389B82FA  stubToken: 00004E20
+ stubType: RESE  signature: 389C256D  signatureLength: 00000004
  ---EXCICScxx---entry
- release: 389B92FA  token: 00004E20
- signature: 389C356D  length: 00000004
- commandTable: 376F59B8
+ release: 389B82FA  token: 00004E20
+ signature: 389C256D  length: 00000004
+ commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B01410
+ ---EXCICS---exit newEXCICS: 38B00410
  ---TTEXRE---entry
  |Input EXEC (98 bytes):
        *EXEC CICS HANDLE AID
@@ -1994,9 +1994,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 30
- avData @38B01468
+ avData @38B00468
  *parmData: X'0206C000'
- avData[0] @38B01598
+ avData[0] @38B00598
  *avData: X'0206C000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2024,9 +2024,9 @@
  arg: 0
  ---setData---entry
  cL: 30
- avData @38B015E0
+ avData @38B005E0
  *parmData: X'0206C000'
- avData[0] @38B015F8
+ avData[0] @38B005F8
  *avData: X'0206C000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2048,14 +2048,14 @@
  ---g00 addArgAfter---exit
  ---CICSARGA---exit
  ---EXCICS---entry
- release: 389B92FA  stubToken: 00009C40
- stubType: SUBP  signature: 389C3601  signatureLength: 00000008
+ release: 389B82FA  stubToken: 00009C40
+ stubType: SUBP  signature: 389C2601  signatureLength: 00000008
  ---EXCICScxx---entry
- release: 389B92FA  token: 00009C40
- signature: 389C3601  length: 00000008
- commandTable: 376F59B8
+ release: 389B82FA  token: 00009C40
+ signature: 389C2601  length: 00000008
+ commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B01658
+ ---EXCICS---exit newEXCICS: 38B00658
  ---TTEXRE---entry
  |Input EXEC (126 bytes):
        *EXEC CICS LINK PROGRAM('LGICUS01')
@@ -2102,9 +2102,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 17
- avData @38B016B0
+ avData @38B006B0
  *parmData: X'0E02E000'
- avData[0] @38B017E0
+ avData[0] @38B007E0
  *avData: X'0E02E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2132,9 +2132,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38B01820
+ avData @38B00820
  *parmData: X'0E02E000'
- avData[0] @38B01838
+ avData[0] @38B00838
  *avData: X'0E02E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2161,9 +2161,9 @@
  arg: 1
  ---setData---entry
  cL: 8
- avData @38B01890
+ avData @38B00890
  *parmData: X'D3C7C9C3'
- avData[0] @38B00D78
+ avData[0] @38AFFD78
  *avData: X'D3C7C9C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2194,9 +2194,9 @@
  arg: 1
  ---setData---entry
  cL: 8
- avData @38B01800
+ avData @38B00800
  *parmData: X'D3C7C9C3'
- avData[0] @38B018E0
+ avData[0] @38B008E0
  *avData: X'D3C7C9C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2227,9 +2227,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38B01870
+ avData @38B00870
  *parmData: X'F0F1C9C3'
- avData[0] @38B01928
+ avData[0] @38B00928
  *avData: X'F0F1C9C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2264,9 +2264,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38B018A8
+ avData @38B008A8
  *parmData: X'F0F1C9C3'
- avData[0] @38B09878
+ avData[0] @38B08878
  *avData: X'F0F1C9C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2301,9 +2301,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B018C0
+ avData @38B008C0
  *parmData: X'09C4C9C3'
- avData[0] @38B018F0
+ avData[0] @38B008F0
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2342,9 +2342,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B01900
+ avData @38B00900
  *parmData: X'09C4C9C3'
- avData[0] @38B01918
+ avData[0] @38B00918
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2399,11 +2399,11 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 5
- parm 0: X'388D44F2'
- parm 1: X'38B1A750'
- parm 2: X'38B11A38'
- parm 3: X'38B19FD8'
- parm 4: X'B8B1A758'
+ parm 0: X'388D34F2'
+ parm 1: X'38B19750'
+ parm 2: X'38B10A38'
+ parm 3: X'38B18FD8'
+ parm 4: X'B8B19758'
  ---compareData---entry
  cL: 2
  L: 2
@@ -2431,9 +2431,9 @@
  sz: 5
  ---setData---entry
  cL: 23
- avData @38B09828
+ avData @38B08828
  *parmData: X'1804F000'
- avData[0] @38B09840
+ avData[0] @38B08840
  *avData: X'1804F000'
  ---setData---exit
  lL: 23
@@ -2453,9 +2453,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B11798
+ avData @38B10798
  *parmData: X'E2E2D4C1'
- avData[0] @38B117B0
+ avData[0] @38B107B0
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -2479,9 +2479,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 162
- avData @38B11778
+ avData @38B10778
  *parmData: X'00000000'
- avData[0] @38B1A888
+ avData[0] @38B19888
  *avData: X'00000000'
  ---setData---exit
  lL: 162
@@ -2509,9 +2509,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B1A850
+ avData @38B19850
  *parmData: X'00A20000'
- avData[0] @38B1A868
+ avData[0] @38B19868
  *avData: X'00A20000'
  ---setData---exit
  lL: 2
@@ -2543,9 +2543,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B1A938
+ avData @38B19938
  *parmData: X'E2E2D4C1'
- avData[0] @38B1A878
+ avData[0] @38B19878
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -2614,7 +2614,7 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 1
- parm 0: X'B88D449B'
+ parm 0: X'B88D349B'
  ---validateAVs---exit: 0
  ---GRP incrCallCount---entry
  curGRPCall: 0
@@ -2636,9 +2636,9 @@
  sz: 1
  ---setData---entry
  cL: 30
- avData @38B1A950
+ avData @38B19950
  *parmData: X'0206C000'
- avData[0] @38B1A968
+ avData[0] @38B19968
  *avData: X'0206C000'
  ---setData---exit
  lL: 30
@@ -2687,7 +2687,7 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 1
- parm 0: X'B88D44B9'
+ parm 0: X'B88D34B9'
  ---validateAVs---exit: 0
  ---GRP incrCallCount---entry
  curGRPCall: 0
@@ -2709,9 +2709,9 @@
  sz: 1
  ---setData---entry
  cL: 30
- avData @38B1A9C8
+ avData @38B199C8
  *parmData: X'02048000'
- avData[0] @38B1AA88
+ avData[0] @38B19A88
  *avData: X'02048000'
  ---setData---exit
  lL: 30
@@ -2760,11 +2760,11 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 5
- parm 0: X'388D4509'
- parm 1: X'38B1A750'
- parm 2: X'38B11A38'
- parm 3: X'3885E198'
- parm 4: X'B8B1A758'
+ parm 0: X'388D3509'
+ parm 1: X'38B19750'
+ parm 2: X'38B10A38'
+ parm 3: X'3885D198'
+ parm 4: X'B8B19758'
  ---validateAVs---exit: 0
  ---GRP incrCallCount---entry
  curGRPCall: 1
@@ -2786,9 +2786,9 @@
  sz: 5
  ---setData---entry
  cL: 23
- avData @38B1AAE8
+ avData @38B19AE8
  *parmData: X'1802D000'
- avData[0] @38B1AB00
+ avData[0] @38B19B00
  *avData: X'1802D000'
  ---setData---exit
  lL: 23
@@ -2808,9 +2808,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B1AB58
+ avData @38B19B58
  *parmData: X'E2E2D4C1'
- avData[0] @38B1A9E0
+ avData[0] @38B199E0
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -2834,9 +2834,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 162
- avData @38B1AB38
+ avData @38B19B38
  *parmData: X'00000000'
- avData[0] @38B1ABA8
+ avData[0] @38B19BA8
  *avData: X'00000000'
  ---setData---exit
  lL: 162
@@ -2864,9 +2864,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B1AB70
+ avData @38B19B70
  *parmData: X'00000000'
- avData[0] @38B1AB88
+ avData[0] @38B19B88
  *avData: X'00000000'
  ---setData---exit
  lL: 2
@@ -2898,9 +2898,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B1AC58
+ avData @38B19C58
  *parmData: X'E2E2D4C1'
- avData[0] @38B1AB98
+ avData[0] @38B19B98
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -2946,10 +2946,10 @@
  value
  data-area
  cL: 162, avL: 162
- avData @38B00690
- avData[0] @38B00B20
- avData@ 38B00B20
- parmlist@ 38B11A38
+ avData @38AFF690
+ avData[0] @38AFFB20
+ avData@ 38AFFB20
+ parmlist@ 38B10A38
  value
  value
  ---copyAVsAfter---exit
@@ -2975,10 +2975,10 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 4
- parm 0: X'388D460F'
- parm 1: X'38B1A090'
- parm 2: X'38B11F50'
- parm 3: X'B8B19FD8'
+ parm 0: X'388D360F'
+ parm 1: X'38B19090'
+ parm 2: X'38B10F50'
+ parm 3: X'B8B18FD8'
  ---compareData---entry
  cL: 2
  L: 2
@@ -3006,9 +3006,9 @@
  sz: 4
  ---setData---entry
  cL: 17
- avData @38B1AC70
+ avData @38B19C70
  *parmData: X'0E02E000'
- avData[0] @38B1AC88
+ avData[0] @38B19C88
  *avData: X'0E02E000'
  ---setData---exit
  lL: 17
@@ -3028,9 +3028,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 8
- avData @38B1ACE0
+ avData @38B19CE0
  *parmData: X'D3C7C9C3'
- avData[0] @38B1ACF8
+ avData[0] @38B19CF8
  *avData: X'D3C7C9C3'
  ---setData---exit
  lL: 8
@@ -3054,9 +3054,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 32500
- avData @38B1ACC0
+ avData @38B19CC0
  *parmData: X'F0F1C9C3'
- avData[0] @38B1ADE0
+ avData[0] @38B19DE0
  *avData: X'F0F1C9C3'
  ---setData---exit
  lL: 32500
@@ -3084,9 +3084,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B1ADA8
+ avData @38B19DA8
  *parmData: X'09C40000'
- avData[0] @38B1ADC0
+ avData[0] @38B19DC0
  *avData: X'09C40000'
  ---setData---exit
  lL: 2
@@ -3128,10 +3128,10 @@
  value
  data-area
  cL: 32500, avL: 32500
- avData @38B018A8
- avData[0] @38B09878
- avData@ 38B09878
- parmlist@ 38B11F50
+ avData @38B008A8
+ avData[0] @38B08878
+ avData@ 38B08878
+ parmlist@ 38B10F50
  value
  ---copyAVsAfter---exit
  ---GRP copyAVsAfter---exit
@@ -3156,11 +3156,11 @@
  ---compareData---exit: 0
  ---validateAVs---entry
  AVsBefore: 5
- parm 0: X'388D4593'
- parm 1: X'38B1A750'
- parm 2: X'38B11A38'
- parm 3: X'38B19FD8'
- parm 4: X'B8B1A758'
+ parm 0: X'388D3593'
+ parm 1: X'38B19750'
+ parm 2: X'38B10A38'
+ parm 3: X'38B18FD8'
+ parm 4: X'B8B19758'
  ---compareData---entry
  cL: 2
  L: 2
@@ -3188,9 +3188,9 @@
  sz: 5
  ---setData---entry
  cL: 23
- avData @38B22CE0
+ avData @38B21CE0
  *parmData: X'1804F000'
- avData[0] @38B22CF8
+ avData[0] @38B21CF8
  *avData: X'1804F000'
  ---setData---exit
  lL: 23
@@ -3210,9 +3210,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B22DB8
+ avData @38B21DB8
  *parmData: X'E2E2D4C1'
- avData[0] @38B1ADD0
+ avData[0] @38B19DD0
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -3236,9 +3236,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 162
- avData @38B22D98
+ avData @38B21D98
  *parmData: X'00000000'
- avData[0] @38B22E08
+ avData[0] @38B21E08
  *avData: X'00000000'
  ---setData---exit
  lL: 162
@@ -3266,9 +3266,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B22DD0
+ avData @38B21DD0
  *parmData: X'00A20000'
- avData[0] @38B22DE8
+ avData[0] @38B21DE8
  *avData: X'00A20000'
  ---setData---exit
  lL: 2
@@ -3300,9 +3300,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 7
- avData @38B22EB8
+ avData @38B21EB8
  *parmData: X'E2E2D4C1'
- avData[0] @38B22DF8
+ avData[0] @38B21DF8
  *avData: X'E2E2D4C1'
  ---setData---exit
  lL: 7
@@ -3366,18 +3366,18 @@
  ---s00 doCall---entry
  ---validateAVs---entry
  AVsBefore: 4
- parm 0: X'388D4653'
- parm 1: X'38B1A008'
- parm 2: X'38B11F50'
- parm 3: X'B8B19FD8'
+ parm 0: X'388D3653'
+ parm 1: X'38B19008'
+ parm 2: X'38B10F50'
+ parm 3: X'B8B18FD8'
  ---validateAVs---exit: 0
  ---storeAVsBeforeLive---entry
  sz: 4
  ---setData---entry
  cL: 17
- avData @38B22ED0
+ avData @38B21ED0
  *parmData: X'0E08E000'
- avData[0] @38B22EE8
+ avData[0] @38B21EE8
  *avData: X'0E08E000'
  ---setData---exit
  lL: 17
@@ -3397,9 +3397,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 4
- avData @38B22F40
+ avData @38B21F40
  *parmData: X'E2E2C3F1'
- avData[0] @38B22F58
+ avData[0] @38B21F58
  *avData: X'E2E2C3F1'
  ---setData---exit
  lL: 4
@@ -3423,9 +3423,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 32500
- avData @38B22F20
+ avData @38B21F20
  *parmData: X'40404040'
- avData[0] @38ABB028
+ avData[0] @38ABA028
  *avData: X'40404040'
  ---setData---exit
  lL: 32500
@@ -3453,9 +3453,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B23008
+ avData @38B22008
  *parmData: X'09DA0000'
- avData[0] @38B23020
+ avData[0] @38B22020
  *avData: X'09DA0000'
  ---setData---exit
  lL: 2
@@ -3506,7 +3506,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 17
- avData @: 38B1AC70
+ avData @: 38B19C70
  *avData: X'0E02E000'
  bL: 17
  *bvData: X'0E02E000'
@@ -3522,7 +3522,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 8
- avData @: 38B1ACE0
+ avData @: 38B19CE0
  *avData: X'D3C7C9C3'
  bL: 8
  *bvData: X'D3C7C9C3'
@@ -3538,7 +3538,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 32500
- avData @: 38B1ACC0
+ avData @: 38B19CC0
  *avData: X'F0F1C9C3'
  bL: 32500
  *bvData: X'F0F1C9C3'
@@ -3554,7 +3554,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 2
- avData @: 38B1ADA8
+ avData @: 38B19DA8
  *avData: X'09C40000'
  bL: 2
  *bvData: X'09C40000'
@@ -3570,7 +3570,7 @@
  token: 00004E21
  ---buildAvRec---entry
  cL: 30
- avData @: 38B1A950
+ avData @: 38B19950
  *avData: X'0206C000'
  bL: 30
  *bvData: X'0206C000'
@@ -3586,7 +3586,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 30
- avData @: 38B1A9C8
+ avData @: 38B199C8
  *avData: X'02048000'
  bL: 30
  *bvData: X'02048000'
@@ -3602,7 +3602,7 @@
  token: 00002711
  ---buildAvRec---entry
  cL: 23
- avData @: 38B09828
+ avData @: 38B08828
  *avData: X'1804F000'
  bL: 23
  *bvData: X'1804F000'
@@ -3618,7 +3618,7 @@
  token: 00002711
  ---buildAvRec---entry
  cL: 7
- avData @: 38B11798
+ avData @: 38B10798
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3634,7 +3634,7 @@
  token: 00002711
  ---buildAvRec---entry
  cL: 162
- avData @: 38B11778
+ avData @: 38B10778
  *avData: X'00000000'
  bL: 162
  *bvData: X'00000000'
@@ -3650,7 +3650,7 @@
  token: 00002711
  ---buildAvRec---entry
  cL: 2
- avData @: 38B1A850
+ avData @: 38B19850
  *avData: X'00A20000'
  bL: 2
  *bvData: X'00A20000'
@@ -3666,7 +3666,7 @@
  token: 00002711
  ---buildAvRec---entry
  cL: 7
- avData @: 38B1A938
+ avData @: 38B19938
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3682,7 +3682,7 @@
  token: 00002712
  ---buildAvRec---entry
  cL: 23
- avData @: 38B1AAE8
+ avData @: 38B19AE8
  *avData: X'1802D000'
  bL: 23
  *bvData: X'1802D000'
@@ -3698,7 +3698,7 @@
  token: 00002712
  ---buildAvRec---entry
  cL: 7
- avData @: 38B1AB58
+ avData @: 38B19B58
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3714,7 +3714,7 @@
  token: 00002712
  ---buildAvRec---entry
  cL: 162
- avData @: 38B1AB38
+ avData @: 38B19B38
  *avData: X'00000000'
  bL: 162
  *bvData: X'00000000'
@@ -3730,7 +3730,7 @@
  token: 00002712
  ---buildAvRec---entry
  cL: 2
- avData @: 38B1AB70
+ avData @: 38B19B70
  *avData: X'00000000'
  bL: 2
  *bvData: X'00000000'
@@ -3746,7 +3746,7 @@
  token: 00002712
  ---buildAvRec---entry
  cL: 7
- avData @: 38B1AC58
+ avData @: 38B19C58
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3762,7 +3762,7 @@
  token: 00002713
  ---buildAvRec---entry
  cL: 23
- avData @: 38B22CE0
+ avData @: 38B21CE0
  *avData: X'1804F000'
  bL: 23
  *bvData: X'1804F000'
@@ -3778,7 +3778,7 @@
  token: 00002713
  ---buildAvRec---entry
  cL: 7
- avData @: 38B22DB8
+ avData @: 38B21DB8
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3794,7 +3794,7 @@
  token: 00002713
  ---buildAvRec---entry
  cL: 162
- avData @: 38B22D98
+ avData @: 38B21D98
  *avData: X'00000000'
  bL: 162
  *bvData: X'00000000'
@@ -3810,7 +3810,7 @@
  token: 00002713
  ---buildAvRec---entry
  cL: 2
- avData @: 38B22DD0
+ avData @: 38B21DD0
  *avData: X'00A20000'
  bL: 2
  *bvData: X'00A20000'
@@ -3826,7 +3826,7 @@
  token: 00002713
  ---buildAvRec---entry
  cL: 7
- avData @: 38B22EB8
+ avData @: 38B21EB8
  *avData: X'E2E2D4C1'
  bL: 7
  *bvData: X'E2E2D4C1'
@@ -3841,7 +3841,7 @@
  token: 0000C351
  ---buildAvRec---entry
  cL: 17
- avData @: 38B22ED0
+ avData @: 38B21ED0
  *avData: X'0E08E000'
  bL: 17
  *bvData: X'0E08E000'
@@ -3855,7 +3855,7 @@
  token: 0000C351
  ---buildAvRec---entry
  cL: 4
- avData @: 38B22F40
+ avData @: 38B21F40
  *avData: X'E2E2C3F1'
  bL: 4
  *bvData: X'E2E2C3F1'
@@ -3869,7 +3869,7 @@
  token: 0000C351
  ---buildAvRec---entry
  cL: 32500
- avData @: 38B22F20
+ avData @: 38B21F20
  *avData: X'40404040'
  bL: 32500
  *bvData: X'40404040'
@@ -3883,7 +3883,7 @@
  token: 0000C351
  ---buildAvRec---entry
  cL: 2
- avData @: 38B23008
+ avData @: 38B22008
  *avData: X'09DA0000'
  bL: 2
  *bvData: X'09DA0000'
