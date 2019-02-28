@@ -5,10 +5,5 @@
     <Path>LGACUS01.xactx</Path>
     <Path>LGICUS01.xactx</Path>
     <Path>LGICUS01_Alternate.xactx</Path>
-    <Path>XADB2TST_CREATE.xactx</Path>
-    <Path>XADB2TST_DELETE.xactx</Path>
-    <Path>XADB2TST_INTEGRATION.xactx</Path>
-    <Path>XADB2TST_READ.xactx</Path>
-    <Path>XADB2TST_UPDATE.xactx</Path>
   </XaUnits>
 </XaSuite>

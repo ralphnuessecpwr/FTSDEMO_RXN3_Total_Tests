@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>5c360f81-b5b1-446e-a701-dd75dd2efbbd</ExecutionId>
+  <ExecutionId>e183ffc4-7ed8-4215-ac07-9c650542f4bc</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
@@ -10,7 +10,7 @@
             <LGCMAREA_Header>
               <ca-request-id />
               <ca-return-code expected="0">0</ca-return-code>
-              <ca-customer-num>1000236</ca-customer-num>
+              <ca-customer-num>1000242</ca-customer-num>
               <ca-customer-request>
                 <ca-first-name>Ralph</ca-first-name>
                 <ca-last-name>Nuesse</ca-last-name>
@@ -313,6 +313,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190221-08-52-38</Started>
-  <Ended>20190221-08-53-27</Ended>
+  <Started>20190228-11-53-17</Started>
+  <Ended>20190228-11-53-31</Ended>
 </XaUnitResult>

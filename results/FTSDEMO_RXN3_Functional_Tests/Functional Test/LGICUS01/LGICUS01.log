@@ -1,5 +1,5 @@
-08:59:29.614 COMMENT   Engine           Test Scenario execution started
-08:59:29.614 INFO      Engine           Using context settings:
+11:53:53.085 COMMENT   Engine           Test Scenario execution started
+11:53:53.085 INFO      Engine           Using context settings:
   Engine Version       : 4.0.0
   Environment id                : 5b5f2a71787be73b59238d7b
   Environment type              : Cics
@@ -13,12 +13,12 @@
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
-08:59:29.614 INFO      Engine           Setting variables from context and context data extensions
-08:59:29.614 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
-08:59:29.614 INFO      Engine             id: environmentType    value: CICS
-08:59:29.614 INFO      Engine             id: userId             value: HDDRXM0
-08:59:29.614 INFO      Variable         Interpreting Variable id:data dataFile:LGICUS01_data.xls
-08:59:29.629 LOG       Variable         Resolved data items from file LGICUS01_data.xls
+11:53:53.085 INFO      Engine           Setting variables from context and context data extensions
+11:53:53.085 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+11:53:53.085 INFO      Engine             id: environmentType    value: CICS
+11:53:53.085 INFO      Engine             id: userId             value: HDDRXM0
+11:53:53.085 INFO      Variable         Interpreting Variable id:data dataFile:LGICUS01_data.xls
+11:53:53.100 LOG       Variable         Resolved data items from file LGICUS01_data.xls
 <testcase>
   <ca-customer-num_input>1</ca-customer-num_input>
   <ca-first-name_expected>Andrew</ca-first-name_expected>
@@ -55,9 +55,9 @@
   <ca-state_expected></ca-state_expected>
   <ca-return-code_expected>1</ca-return-code_expected>
 </testcase>
-08:59:29.629 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 4. Variable loopIndex contains iteration number
-08:59:29.629 INFO      IterateData      Iteration number 0 started.
-08:59:29.629 LOG       IterateData      Iteration Data:
+11:53:53.100 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 4. Variable loopIndex contains iteration number
+11:53:53.100 INFO      IterateData      Iteration number 0 started.
+11:53:53.100 LOG       IterateData      Iteration Data:
 <testcase xmlns="http://www.xact.dk/xatester/v/1">
   <ca-customer-num_input>1</ca-customer-num_input>
   <ca-first-name_expected>Andrew</ca-first-name_expected>
@@ -67,63 +67,36 @@
   <ca-state_expected></ca-state_expected>
   <ca-return-code_expected>0</ca-return-code_expected>
 </testcase>
-08:59:29.629 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
-08:59:29.629 INFO      Component        Component will be executed in CICS and top level element definitions are:
-08:59:29.629 INFO      Component          Element: dfhcommarea Area type:DEFAULT
-08:59:29.629 LOG       CWCC CICS        Component Runtime Settings:
-08:59:29.629 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
-08:59:29.629 LOG       CWCC CICS          Additional load libraries :
-08:59:29.629 LOG       CWCC CICS          Listing libraries         :
-08:59:29.629 LOG       CWCC CICS          SysDebug libraries        :
-08:59:29.629 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-08:59:29.629 LOG       CWCC CICS          DB2 plan                  :GENAONE
-08:59:29.629 LOG       CWCC CICS          APPLID                    :HCCAC013
-08:59:29.629 LOG       CWCC CICS          Channel                   :
-08:59:29.629 LOG       CWCC CICS          Call interface            :CICSLINK
-08:59:29.629 LOG       CWCC CICS          Debugger type             :NONE
-08:59:29.629 LOG       CWCC CICS          Component type            :COBOL
-08:59:29.629 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
-08:59:31.418 LOG       CWCC CICS        Uploading input data for module LGICUS01
-08:59:35.137 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>becd2458-6ec5-41df-9807-932d49016804</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-08:59:35.575 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0702918</jobid></xatz_response></XATZRESP>
-08:59:35.575 LOG       CWCC CICS        Response received from Host. Message: JobId:J0702918
-08:59:35.575 INFO      CWCC CICS        Job has been started at host with JobId:J0702918
-08:59:35.575 INFO      CWCC CICS        Waiting for Execution Result from Host
-08:59:38.997 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:39.184 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:39.184 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-08:59:42.986 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:43.173 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:43.173 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-08:59:46.999 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:47.186 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:47.186 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-08:59:50.983 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:51.183 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:51.183 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-08:59:54.967 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:55.158 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:55.158 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-08:59:58.955 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-08:59:59.143 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-08:59:59.143 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:03.318 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-09:00:03.539 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:03.539 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:07.330 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-09:00:07.528 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:07.528 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:11.315 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702918</jobid></xatz_request></XATZREQ>
-09:00:11.520 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:11.520 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:15.942 INFO      CWCC CICS        Component completed with program exit: +0
-09:00:16.582 LOG       CWCC CICS        Setting execution variable 'jobid' to J0702918
-09:00:16.582 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-09:00:18.286 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-09:00:18.317 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-09:00:18.317 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
-09:00:18.317 INFO      IterateData      Iteration number 1 started.
-09:00:18.317 LOG       IterateData      Iteration Data:
+11:53:53.100 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+11:53:53.100 INFO      Component        Component will be executed in CICS and top level element definitions are:
+11:53:53.100 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+11:53:53.100 LOG       CWCC CICS        Component Runtime Settings:
+11:53:53.100 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
+11:53:53.100 LOG       CWCC CICS          Additional load libraries :
+11:53:53.100 LOG       CWCC CICS          Listing libraries         :
+11:53:53.100 LOG       CWCC CICS          SysDebug libraries        :
+11:53:53.100 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+11:53:53.100 LOG       CWCC CICS          DB2 plan                  :GENAONE
+11:53:53.100 LOG       CWCC CICS          APPLID                    :HCCAC013
+11:53:53.100 LOG       CWCC CICS          Channel                   :
+11:53:53.100 LOG       CWCC CICS          Call interface            :CICSLINK
+11:53:53.100 LOG       CWCC CICS          Debugger type             :NONE
+11:53:53.100 LOG       CWCC CICS          Component type            :COBOL
+11:53:53.100 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+11:53:54.877 LOG       CWCC CICS        Uploading input data for module LGICUS01
+11:53:58.517 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>ed0c15ba-222e-429c-92a5-867342840c2c</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+11:53:58.767 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0706718</jobid></xatz_response></XATZRESP>
+11:53:58.783 LOG       CWCC CICS        Response received from Host. Message: JobId:J0706718
+11:53:58.783 INFO      CWCC CICS        Job has been started at host with JobId:J0706718
+11:53:58.783 INFO      CWCC CICS        Waiting for Execution Result from Host
+11:54:02.893 INFO      CWCC CICS        Component completed with program exit: +0
+11:54:03.451 LOG       CWCC CICS        Setting execution variable 'jobid' to J0706718
+11:54:03.451 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+11:54:05.139 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:54:05.155 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:54:05.155 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+11:54:05.155 INFO      IterateData      Iteration number 1 started.
+11:54:05.155 LOG       IterateData      Iteration Data:
 <testcase xmlns="http://www.xact.dk/xatester/v/1">
   <ca-customer-num_input>2</ca-customer-num_input>
   <ca-first-name_expected>Scott</ca-first-name_expected>
@@ -133,63 +106,36 @@
   <ca-state_expected>MI</ca-state_expected>
   <ca-return-code_expected>0</ca-return-code_expected>
 </testcase>
-09:00:18.317 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
-09:00:18.317 INFO      Component        Component will be executed in CICS and top level element definitions are:
-09:00:18.317 INFO      Component          Element: dfhcommarea Area type:DEFAULT
-09:00:18.317 LOG       CWCC CICS        Component Runtime Settings:
-09:00:18.332 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
-09:00:18.332 LOG       CWCC CICS          Additional load libraries :
-09:00:18.332 LOG       CWCC CICS          Listing libraries         :
-09:00:18.332 LOG       CWCC CICS          SysDebug libraries        :
-09:00:18.332 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-09:00:18.332 LOG       CWCC CICS          DB2 plan                  :GENAONE
-09:00:18.332 LOG       CWCC CICS          APPLID                    :HCCAC013
-09:00:18.332 LOG       CWCC CICS          Channel                   :
-09:00:18.332 LOG       CWCC CICS          Call interface            :CICSLINK
-09:00:18.332 LOG       CWCC CICS          Debugger type             :NONE
-09:00:18.332 LOG       CWCC CICS          Component type            :COBOL
-09:00:18.332 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
-09:00:20.114 LOG       CWCC CICS        Uploading input data for module LGICUS01
-09:00:23.864 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>8c9901b1-5bc7-45ea-9e7a-4cd44ab69abd</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-09:00:24.286 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0702921</jobid></xatz_response></XATZRESP>
-09:00:24.286 LOG       CWCC CICS        Response received from Host. Message: JobId:J0702921
-09:00:24.286 INFO      CWCC CICS        Job has been started at host with JobId:J0702921
-09:00:24.286 INFO      CWCC CICS        Waiting for Execution Result from Host
-09:00:27.739 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:27.942 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:27.942 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:31.767 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:31.970 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:31.970 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:35.940 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:36.127 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:36.143 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:39.996 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:40.183 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:40.199 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:43.980 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:44.168 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:44.168 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:47.988 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:48.176 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:48.176 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:51.961 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:52.151 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:52.151 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:55.963 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:00:56.151 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:00:56.151 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:00:59.920 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702921</jobid></xatz_request></XATZREQ>
-09:01:00.108 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:00.108 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:04.274 INFO      CWCC CICS        Component completed with program exit: +0
-09:01:04.837 LOG       CWCC CICS        Setting execution variable 'jobid' to J0702921
-09:01:04.837 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-09:01:06.540 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-09:01:06.555 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-09:01:06.555 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
-09:01:06.571 INFO      IterateData      Iteration number 2 started.
-09:01:06.571 LOG       IterateData      Iteration Data:
+11:54:05.155 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+11:54:05.155 INFO      Component        Component will be executed in CICS and top level element definitions are:
+11:54:05.155 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+11:54:05.186 LOG       CWCC CICS        Component Runtime Settings:
+11:54:05.201 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
+11:54:05.201 LOG       CWCC CICS          Additional load libraries :
+11:54:05.201 LOG       CWCC CICS          Listing libraries         :
+11:54:05.201 LOG       CWCC CICS          SysDebug libraries        :
+11:54:05.201 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+11:54:05.201 LOG       CWCC CICS          DB2 plan                  :GENAONE
+11:54:05.201 LOG       CWCC CICS          APPLID                    :HCCAC013
+11:54:05.201 LOG       CWCC CICS          Channel                   :
+11:54:05.201 LOG       CWCC CICS          Call interface            :CICSLINK
+11:54:05.201 LOG       CWCC CICS          Debugger type             :NONE
+11:54:05.201 LOG       CWCC CICS          Component type            :COBOL
+11:54:05.201 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+11:54:06.962 LOG       CWCC CICS        Uploading input data for module LGICUS01
+11:54:10.682 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>028e66da-f618-404e-bb96-c2c2c9b73e0b</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+11:54:10.949 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0706719</jobid></xatz_response></XATZRESP>
+11:54:10.949 LOG       CWCC CICS        Response received from Host. Message: JobId:J0706719
+11:54:10.949 INFO      CWCC CICS        Job has been started at host with JobId:J0706719
+11:54:10.949 INFO      CWCC CICS        Waiting for Execution Result from Host
+11:54:15.090 INFO      CWCC CICS        Component completed with program exit: +0
+11:54:15.652 LOG       CWCC CICS        Setting execution variable 'jobid' to J0706719
+11:54:15.652 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+11:54:17.324 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:54:17.340 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:54:17.340 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+11:54:17.340 INFO      IterateData      Iteration number 2 started.
+11:54:17.355 LOG       IterateData      Iteration Data:
 <testcase xmlns="http://www.xact.dk/xatester/v/1">
   <ca-customer-num_input>5</ca-customer-num_input>
   <ca-first-name_expected>Graham</ca-first-name_expected>
@@ -199,63 +145,36 @@
   <ca-state_expected></ca-state_expected>
   <ca-return-code_expected>0</ca-return-code_expected>
 </testcase>
-09:01:06.571 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
-09:01:06.571 INFO      Component        Component will be executed in CICS and top level element definitions are:
-09:01:06.571 INFO      Component          Element: dfhcommarea Area type:DEFAULT
-09:01:06.571 LOG       CWCC CICS        Component Runtime Settings:
-09:01:06.571 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
-09:01:06.571 LOG       CWCC CICS          Additional load libraries :
-09:01:06.571 LOG       CWCC CICS          Listing libraries         :
-09:01:06.571 LOG       CWCC CICS          SysDebug libraries        :
-09:01:06.571 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-09:01:06.571 LOG       CWCC CICS          DB2 plan                  :GENAONE
-09:01:06.571 LOG       CWCC CICS          APPLID                    :HCCAC013
-09:01:06.571 LOG       CWCC CICS          Channel                   :
-09:01:06.571 LOG       CWCC CICS          Call interface            :CICSLINK
-09:01:06.571 LOG       CWCC CICS          Debugger type             :NONE
-09:01:06.571 LOG       CWCC CICS          Component type            :COBOL
-09:01:06.571 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
-09:01:08.368 LOG       CWCC CICS        Uploading input data for module LGICUS01
-09:01:12.086 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>1b903ed4-5f1e-4765-b735-7d3900917fff</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-09:01:12.524 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0702922</jobid></xatz_response></XATZRESP>
-09:01:12.524 LOG       CWCC CICS        Response received from Host. Message: JobId:J0702922
-09:01:12.524 INFO      CWCC CICS        Job has been started at host with JobId:J0702922
-09:01:12.524 INFO      CWCC CICS        Waiting for Execution Result from Host
-09:01:15.946 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:16.136 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:16.136 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:19.937 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:20.124 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:20.124 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:23.927 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:24.114 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:24.114 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:27.869 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:28.064 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:28.064 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:31.866 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:32.053 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:32.053 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:35.833 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:36.021 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:36.021 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:39.802 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:39.990 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:39.990 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:43.771 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:43.959 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:43.959 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:47.755 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702922</jobid></xatz_request></XATZREQ>
-09:01:47.946 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:01:47.946 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:01:52.086 INFO      CWCC CICS        Component completed with program exit: +0
-09:01:52.665 LOG       CWCC CICS        Setting execution variable 'jobid' to J0702922
-09:01:52.665 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-09:01:54.368 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-09:01:54.383 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-09:01:54.383 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
-09:01:54.383 INFO      IterateData      Iteration number 3 started.
-09:01:54.383 LOG       IterateData      Iteration Data:
+11:54:17.355 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+11:54:17.355 INFO      Component        Component will be executed in CICS and top level element definitions are:
+11:54:17.355 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+11:54:17.355 LOG       CWCC CICS        Component Runtime Settings:
+11:54:17.355 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
+11:54:17.355 LOG       CWCC CICS          Additional load libraries :
+11:54:17.355 LOG       CWCC CICS          Listing libraries         :
+11:54:17.355 LOG       CWCC CICS          SysDebug libraries        :
+11:54:17.355 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+11:54:17.355 LOG       CWCC CICS          DB2 plan                  :GENAONE
+11:54:17.355 LOG       CWCC CICS          APPLID                    :HCCAC013
+11:54:17.355 LOG       CWCC CICS          Channel                   :
+11:54:17.355 LOG       CWCC CICS          Call interface            :CICSLINK
+11:54:17.355 LOG       CWCC CICS          Debugger type             :NONE
+11:54:17.355 LOG       CWCC CICS          Component type            :COBOL
+11:54:17.355 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+11:54:19.105 LOG       CWCC CICS        Uploading input data for module LGICUS01
+11:54:22.840 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>d244302c-339a-4cef-b3f5-c181e33c704b</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+11:54:23.090 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0706720</jobid></xatz_response></XATZRESP>
+11:54:23.090 LOG       CWCC CICS        Response received from Host. Message: JobId:J0706720
+11:54:23.090 INFO      CWCC CICS        Job has been started at host with JobId:J0706720
+11:54:23.090 INFO      CWCC CICS        Waiting for Execution Result from Host
+11:54:27.231 INFO      CWCC CICS        Component completed with program exit: +0
+11:54:27.793 LOG       CWCC CICS        Setting execution variable 'jobid' to J0706720
+11:54:27.793 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+11:54:29.481 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:54:29.496 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:54:29.496 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+11:54:29.496 INFO      IterateData      Iteration number 3 started.
+11:54:29.496 LOG       IterateData      Iteration Data:
 <testcase xmlns="http://www.xact.dk/xatester/v/1">
   <ca-customer-num_input>111</ca-customer-num_input>
   <ca-first-name_expected></ca-first-name_expected>
@@ -265,60 +184,33 @@
   <ca-state_expected></ca-state_expected>
   <ca-return-code_expected>1</ca-return-code_expected>
 </testcase>
-09:01:54.383 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
-09:01:54.399 INFO      Component        Component will be executed in CICS and top level element definitions are:
-09:01:54.399 INFO      Component          Element: dfhcommarea Area type:DEFAULT
-09:01:54.399 LOG       CWCC CICS        Component Runtime Settings:
-09:01:54.399 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
-09:01:54.399 LOG       CWCC CICS          Additional load libraries :
-09:01:54.399 LOG       CWCC CICS          Listing libraries         :
-09:01:54.399 LOG       CWCC CICS          SysDebug libraries        :
-09:01:54.399 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-09:01:54.399 LOG       CWCC CICS          DB2 plan                  :GENAONE
-09:01:54.399 LOG       CWCC CICS          APPLID                    :HCCAC013
-09:01:54.399 LOG       CWCC CICS          Channel                   :
-09:01:54.399 LOG       CWCC CICS          Call interface            :CICSLINK
-09:01:54.399 LOG       CWCC CICS          Debugger type             :NONE
-09:01:54.399 LOG       CWCC CICS          Component type            :COBOL
-09:01:54.399 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
-09:01:56.180 LOG       CWCC CICS        Uploading input data for module LGICUS01
-09:01:59.930 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>8afe3d65-9688-4185-bb74-6ae4a934228c</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-09:02:00.374 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0702923</jobid></xatz_response></XATZRESP>
-09:02:00.374 LOG       CWCC CICS        Response received from Host. Message: JobId:J0702923
-09:02:00.390 INFO      CWCC CICS        Job has been started at host with JobId:J0702923
-09:02:00.390 INFO      CWCC CICS        Waiting for Execution Result from Host
-09:02:03.816 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:04.003 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:04.003 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:07.822 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:08.010 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:08.010 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:11.792 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:11.979 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:11.979 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:15.820 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:16.008 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:16.008 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:19.774 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:19.970 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:19.970 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:23.751 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:23.939 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:23.939 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:27.714 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:27.902 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:27.902 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:31.721 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:31.893 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:31.908 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:35.699 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0702923</jobid></xatz_request></XATZREQ>
-09:02:35.886 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-09:02:35.886 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-09:02:40.043 INFO      CWCC CICS        Component completed with program exit: +0
-09:02:40.605 LOG       CWCC CICS        Setting execution variable 'jobid' to J0702923
-09:02:40.605 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-09:02:42.308 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-09:02:42.339 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-09:02:42.339 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
-09:02:42.339 INFO      IterateData      IterateData completed
-09:02:42.339 COMMENT   Engine           Test Scenario execution ended
+11:54:29.496 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+11:54:29.496 INFO      Component        Component will be executed in CICS and top level element definitions are:
+11:54:29.496 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+11:54:29.496 LOG       CWCC CICS        Component Runtime Settings:
+11:54:29.496 LOG       CWCC CICS          Load library              :GENAPP.ISPW.PROD.LOAD
+11:54:29.496 LOG       CWCC CICS          Additional load libraries :
+11:54:29.496 LOG       CWCC CICS          Listing libraries         :
+11:54:29.496 LOG       CWCC CICS          SysDebug libraries        :
+11:54:29.496 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+11:54:29.496 LOG       CWCC CICS          DB2 plan                  :GENAONE
+11:54:29.496 LOG       CWCC CICS          APPLID                    :HCCAC013
+11:54:29.496 LOG       CWCC CICS          Channel                   :
+11:54:29.496 LOG       CWCC CICS          Call interface            :CICSLINK
+11:54:29.496 LOG       CWCC CICS          Debugger type             :NONE
+11:54:29.496 LOG       CWCC CICS          Component type            :COBOL
+11:54:29.512 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+11:54:31.247 LOG       CWCC CICS        Uploading input data for module LGICUS01
+11:54:34.935 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>412b6657-a921-4547-ab0b-c3926855a862</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+11:54:35.200 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0706721</jobid></xatz_response></XATZRESP>
+11:54:35.200 LOG       CWCC CICS        Response received from Host. Message: JobId:J0706721
+11:54:35.200 INFO      CWCC CICS        Job has been started at host with JobId:J0706721
+11:54:35.200 INFO      CWCC CICS        Waiting for Execution Result from Host
+11:54:39.340 INFO      CWCC CICS        Component completed with program exit: +0
+11:54:39.918 LOG       CWCC CICS        Setting execution variable 'jobid' to J0706721
+11:54:39.918 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+11:54:41.606 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:54:41.637 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:54:41.637 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+11:54:41.637 INFO      IterateData      IterateData completed
+11:54:41.637 COMMENT   Engine           Test Scenario execution ended
