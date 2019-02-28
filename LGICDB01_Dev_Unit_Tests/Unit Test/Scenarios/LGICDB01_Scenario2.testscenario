@@ -2,7 +2,9 @@
 <?totaltestVersion 19.3.1.v20181214-1343_790?>
 <!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:48:06-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/LGICDB01_Scenario2.testscenario">
-  <testscenario:description>Search for non existing customer</testscenario:description>
+  <testscenario:description>Search for non existing customer&#xD;
+Important fields:&#xD;
+CA-RETURN-CODE</testscenario:description>
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="LGICDB01" encoding="1047" entrypoint="LGICDB01" id="Unit%20Test/Scenarios/LGICDB01_Scenario2.testscenario%23LGICDB01Case1" target="LGICDB01">
       <testcase:description></testcase:description>
@@ -256,8 +258,8 @@
           <checkconditions:expectation assert="=" type="string">01ICUS</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for CA_RETURN_CODE failed" name="Check for CA_RETURN_CODE" refData="#input.arg1.DFHCOMMAREA.CA_RETURN_CODE">
-          <checkconditions:expression>BigDecimalCreator.make('2').compareTo(output.arg1.DFHCOMMAREA.CA_RETURN_CODE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('1').compareTo(output.arg1.DFHCOMMAREA.CA_RETURN_CODE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for CA_CUSTOMER_NUM failed" name="Check for CA_CUSTOMER_NUM" refData="#input.arg1.DFHCOMMAREA.CA_CUSTOMER_NUM">
           <checkconditions:expression>BigDecimalCreator.make('1111000001').compareTo(output.arg1.DFHCOMMAREA.CA_CUSTOMER_NUM) eq 0</checkconditions:expression>

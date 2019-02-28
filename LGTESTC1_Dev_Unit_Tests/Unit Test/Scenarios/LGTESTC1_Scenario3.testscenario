@@ -2,7 +2,9 @@
 <?totaltestVersion 19.3.1.v20181214-1343_790?>
 <!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:15:29-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/LGTESTC1_Scenario3.testscenario">
-  <testscenario:description>Search for non existing customer</testscenario:description>
+  <testscenario:description>Search for non existing customer&#xD;
+Important fields:&#xD;
+SEND stub - EMPERRFLDO</testscenario:description>
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="LGTESTC1" encoding="1047" entrypoint="LGTESTC1" id="Unit%20Test/Scenarios/LGTESTC1_Scenario3.testscenario%23LGTESTC1Case1" target="LGTESTC1">
       <testcase:description></testcase:description>
