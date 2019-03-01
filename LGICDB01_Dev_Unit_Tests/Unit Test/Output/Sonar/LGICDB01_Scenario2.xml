@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.2.v20190211-1724_163?>
-<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 28, 2019 6:43:36 AM-->
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Mar 1, 2019 2:25:37 AM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\LGICDB01_Dev_Unit_Tests\Unit Test\Scenarios\LGICDB01_Scenario2.testscenario">
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00001: Check for eibtime"/>
@@ -35,7 +35,13 @@
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00030: Check for eibresp2"/>
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00031: Check for eibrldbk"/>
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00032: Check for CA_REQUEST_ID"/>
-    <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00033: Check for CA_RETURN_CODE"/>
+    <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00033: Check for CA_RETURN_CODE">
+      <failure message="Check for CA_RETURN_CODE failed">Check for CA_RETURN_CODE failed
+
+Actual Value:    2
+
+Expected Value:  = 1</failure>
+    </testCase>
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00034: Check for CA_CUSTOMER_NUM"/>
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00035: Check for CA_REQUEST_SPECIFIC"/>
     <testCase duration="0" name="LGICDB01_Dev_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00036: Check for CA_FIRST_NAME">
