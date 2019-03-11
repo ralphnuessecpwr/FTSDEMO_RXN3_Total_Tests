@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-02-28 06:14.18��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-05 07:11.01��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGACDB01
  STTR014I Processing test scenario LGACDB01
@@ -216,14 +216,14 @@
  OUSE-NUM, :CA-POSTCODE )
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3891476C  stmt: 389A3010  stmtLength: 000000E0  crsrName: 00000000  crsrLength: 00000000
+ release: 38918B44  stmt: 38996010  stmtLength: 000000E0  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3891476C  stmt: 389A3010  stmtLength: 000000E0
+ release: 38918B44  stmt: 38996010  stmtLength: 000000E0
  token: 00004E20
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 38B29028
+ ---DB2SQL---exit  Sel newStatement: 38B19028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -373,14 +373,14 @@
  SELECT COUNT(*) INTO :LastCustNum FROM CUSTOMER
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3891476C  stmt: 389A335F  stmtLength: 0000002F  crsrName: 00000000  crsrLength: 00000000
+ release: 38918B44  stmt: 3899635F  stmtLength: 0000002F  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3891476C  stmt: 389A335F  stmtLength: 0000002F
+ release: 38918B44  stmt: 3899635F  stmtLength: 0000002F
  token: 00002710
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 38B29828
+ ---DB2SQL---exit  Sel newStatement: 38B19828
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -430,14 +430,14 @@
  RETURN
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 389852FA  stubToken: 00009C40
- stubType:       signature: 3898F31A  signatureLength: 00000006
+ release: 389782FA  stubToken: 00009C40
+ stubType:       signature: 3898231A  signatureLength: 00000006
  ---EXCICScxx---entry
- release: 389852FA  token: 00009C40
- signature: 3898F31A  length: 00000006
+ release: 389782FA  token: 00009C40
+ signature: 3898231A  length: 00000006
  commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B29CA0
+ ---EXCICS---exit newEXCICS: 38B19CA0
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -472,9 +472,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @38B29350
+ avData @38B19350
  *parmData: X'0E080000'
- avData[0] @38B29E08
+ avData[0] @38B19E08
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -500,9 +500,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38B29E48
+ avData @38B19E48
  *parmData: X'0E080000'
- avData[0] @38B2A248
+ avData[0] @38B1A248
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -523,14 +523,14 @@
  ---~ciArgVal---exit
  ---CICSARGA---exit
  ---EXCICS---entry
- release: 389852FA  stubToken: 00007530
- stubType: SUBP  signature: 3898F392  signatureLength: 00000008
+ release: 389782FA  stubToken: 00007530
+ stubType: SUBP  signature: 38982392  signatureLength: 00000008
  ---EXCICScxx---entry
- release: 389852FA  token: 00007530
- signature: 3898F392  length: 00000008
+ release: 389782FA  token: 00007530
+ signature: 38982392  length: 00000008
  commandTable: 376E30D8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38B2A2A0
+ ---EXCICS---exit newEXCICS: 38B1A2A0
  ---TTEXRE---entry
  |Input EXEC (117 bytes):
        *EXEC CICS LINK Program(LGACVS01)
@@ -577,9 +577,9 @@
  ---resolveCICSee---exit
  ---setData---entry
  cL: 17
- avData @38B2A2F8
+ avData @38B1A2F8
  *parmData: X'0E02E000'
- avData[0] @38B2A428
+ avData[0] @38B1A428
  *avData: X'0E02E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -607,9 +607,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38B2A468
+ avData @38B1A468
  *parmData: X'0E02E000'
- avData[0] @38B2A480
+ avData[0] @38B1A480
  *avData: X'0E02E000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -636,9 +636,9 @@
  arg: 1
  ---setData---entry
  cL: 8
- avData @38B2A4D8
+ avData @38B1A4D8
  *parmData: X'D3C7C1C3'
- avData[0] @38B2A4F0
+ avData[0] @38B1A4F0
  *avData: X'D3C7C1C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -669,9 +669,9 @@
  arg: 1
  ---setData---entry
  cL: 8
- avData @38B2A448
+ avData @38B1A448
  *parmData: X'D3C7C1C3'
- avData[0] @38B2A538
+ avData[0] @38B1A538
  *avData: X'D3C7C1C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -702,9 +702,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38B2A4B8
+ avData @38B1A4B8
  *parmData: X'F0F1C1C3'
- avData[0] @38B2A580
+ avData[0] @38B1A580
  *avData: X'F0F1C1C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -739,9 +739,9 @@
  arg: 2
  ---setData---entry
  cL: 32500
- avData @38B2A500
+ avData @38B1A500
  *parmData: X'F0F1C1C3'
- avData[0] @38B324D0
+ avData[0] @38B224D0
  *avData: X'F0F1C1C3'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -776,9 +776,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B2A518
+ avData @38B1A518
  *parmData: X'09C4C1C3'
- avData[0] @38B2A548
+ avData[0] @38B1A548
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -817,9 +817,9 @@
  arg: 3
  ---setData---entry
  cL: 2
- avData @38B2A558
+ avData @38B1A558
  *parmData: X'09C4C1C3'
- avData[0] @38B2A570
+ avData[0] @38B1A570
  *avData: X'09C40000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -868,8 +868,8 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 951333432, sqlN: 1, HVsOut size: 1
- iA in DA: 951333320
+ sqlDAout: 951267896, sqlN: 1, HVsOut size: 1
+ iA in DA: 951267784
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
@@ -902,8 +902,8 @@
  statementlength: 224
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 951333560, sqlN: 7, HVsIn size: 7
-   sqlDAin size:0010 addr:38B432B8
+ sqlDAin: 951268024, sqlN: 7, HVsIn size: 7
+   sqlDAin size:0010 addr:38B332B8
  ---setData---entry
  dataType: 496
  rowsAffected: 0 mLength: 4
@@ -994,9 +994,9 @@
  ---validateAVs---entry
  AVsBefore: 4
  parm 0: X'388D32E7'
- parm 1: X'38B3A6D8'
+ parm 1: X'38B2A6D8'
  parm 2: X'38A38138'
- parm 3: X'B8B43498'
+ parm 3: X'B8B33498'
  ---compareData---entry
  cL: 2
  L: 2
@@ -1024,9 +1024,9 @@
  sz: 4
  ---setData---entry
  cL: 17
- avData @38B32480
+ avData @38B22480
  *parmData: X'0E02E000'
- avData[0] @38B3A3D0
+ avData[0] @38B2A3D0
  *avData: X'0E02E000'
  ---setData---exit
  lL: 17
@@ -1046,9 +1046,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 8
- avData @38B43D48
+ avData @38B33D48
  *parmData: X'D3C7C1C3'
- avData[0] @38B3A3F0
+ avData[0] @38B2A3F0
  *avData: X'D3C7C1C3'
  ---setData---exit
  lL: 8
@@ -1072,9 +1072,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 32500
- avData @38B43D98
+ avData @38B33D98
  *parmData: X'F0F1C1C3'
- avData[0] @38B44810
+ avData[0] @38B34810
  *avData: X'F0F1C1C3'
  ---setData---exit
  lL: 32500
@@ -1102,9 +1102,9 @@
  ---~ciArgVal---exit
  ---setData---entry
  cL: 2
- avData @38B43DB0
+ avData @38B33DB0
  *parmData: X'09C40000'
- avData[0] @38B43DC8
+ avData[0] @38B33DC8
  *avData: X'09C40000'
  ---setData---exit
  lL: 2
@@ -1146,9 +1146,9 @@
  value
  data-area
  cL: 32500, avL: 32500
- avData @38B2A500
- avData[0] @38B324D0
- avData@ 38B324D0
+ avData @38B1A500
+ avData[0] @38B224D0
+ avData@ 38B224D0
  parmlist@ 38A38138
  value
  ---copyAVsAfter---exit
@@ -1171,9 +1171,9 @@
  sz: 1
  ---setData---entry
  cL: 17
- avData @38B43DD8
+ avData @38B33DD8
  *parmData: X'0E080000'
- avData[0] @38B43E08
+ avData[0] @38B33E08
  *avData: X'0E080000'
  ---setData---exit
  lL: 17
@@ -1279,7 +1279,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 17
- avData @: 38B32480
+ avData @: 38B22480
  *avData: X'0E02E000'
  bL: 17
  *bvData: X'0E02E000'
@@ -1295,7 +1295,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 8
- avData @: 38B43D48
+ avData @: 38B33D48
  *avData: X'D3C7C1C3'
  bL: 8
  *bvData: X'D3C7C1C3'
@@ -1311,7 +1311,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 32500
- avData @: 38B43D98
+ avData @: 38B33D98
  *avData: X'F0F1C1C3'
  bL: 32500
  *bvData: X'F0F1C1C3'
@@ -1327,7 +1327,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 2
- avData @: 38B43DB0
+ avData @: 38B33DB0
  *avData: X'09C40000'
  bL: 2
  *bvData: X'09C40000'
@@ -1342,7 +1342,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 17
- avData @: 38B43DD8
+ avData @: 38B33DD8
  *avData: X'0E080000'
  bL: 17
  *bvData: X'0E080000'
