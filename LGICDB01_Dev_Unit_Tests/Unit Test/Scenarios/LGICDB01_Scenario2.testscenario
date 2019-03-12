@@ -258,8 +258,8 @@ CA-RETURN-CODE</testscenario:description>
           <checkconditions:expectation assert="=" type="string">01ICUS</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for CA_RETURN_CODE failed" name="Check for CA_RETURN_CODE" refData="#input.arg1.DFHCOMMAREA.CA_RETURN_CODE">
-          <checkconditions:expression>BigDecimalCreator.make('1').compareTo(output.arg1.DFHCOMMAREA.CA_RETURN_CODE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('2').compareTo(output.arg1.DFHCOMMAREA.CA_RETURN_CODE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for CA_CUSTOMER_NUM failed" name="Check for CA_CUSTOMER_NUM" refData="#input.arg1.DFHCOMMAREA.CA_CUSTOMER_NUM">
           <checkconditions:expression>BigDecimalCreator.make('1111000001').compareTo(output.arg1.DFHCOMMAREA.CA_CUSTOMER_NUM) eq 0</checkconditions:expression>

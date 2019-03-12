@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 12.03.2019 08:48:13-->
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 12.03.2019 11:22:11-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" tests="76">
+  <testsuite errors="0" failures="1" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" tests="76">
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00002: Check for eibdate"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00003: Check for eibtrnid"/>
@@ -35,7 +35,13 @@
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00030: Check for eibresp2"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00031: Check for eibrldbk"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00032: Check for CA_REQUEST_ID"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00033: Check for CA_RETURN_CODE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00033: Check for CA_RETURN_CODE">
+      <failure>Check for CA_RETURN_CODE failed
+
+Actual Value:    1
+
+Expected Value:  2</failure>
+    </testcase>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00034: Check for CA_CUSTOMER_NUM"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00035: Check for CA_REQUEST_SPECIFIC"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00036: Check for CA_FIRST_NAME"/>

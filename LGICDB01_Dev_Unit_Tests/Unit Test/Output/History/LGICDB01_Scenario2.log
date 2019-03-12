@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-03-12 03:48.41��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-12 06:24.07��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGICDB01
  STTR014I Processing test scenario LGICDB01
@@ -47,7 +47,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019070, Length = 40
+  IDRU: Creation Date = 2019071, Length = 40
    data = c3e7d3c7c9c3c4c2f0f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
    program = LGICDB01, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
  ---closeW---entry
