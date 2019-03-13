@@ -2,11 +2,11 @@
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -29,8 +29,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -63,25 +63,25 @@
           <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase2" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase2" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -96,7 +96,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
             <properties:property name="value" type="string">F0F0</properties:property>
-            <properties:property name="expectedValue" type="string">F3F6</properties:property>
+            <properties:property name="expectedValue" type="string">F3F7</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -104,8 +104,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -134,20 +134,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('36').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('0').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('81').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -164,11 +164,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase3" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase3" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -182,8 +182,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F3F6</properties:property>
-            <properties:property name="expectedValue" type="string">F2F5</properties:property>
+            <properties:property name="value" type="string">F3F7</properties:property>
+            <properties:property name="expectedValue" type="string">F2F6</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -191,8 +191,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -221,20 +221,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('25').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">25</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('37').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">37</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('92').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -251,11 +251,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase4" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase4" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -269,94 +269,7 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F2F5</properties:property>
-            <properties:property name="expectedValue" type="string">F2F4</properties:property>
-          </properties:properties>
-        </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
-      </testcase:input>
-      <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
-          <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
-          </properties:properties>
-        </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_MM" id="input.arg2.RUN_DATE.RUN_MM" offset="2"/>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_DD" id="input.arg2.RUN_DATE.RUN_DD" offset="4"/>
-      </testcase:input>
-      <testcase:input listructure="../Structures/CWXTCOB_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_HIRE-DATE.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
-          <properties:properties>
-            <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
-            <properties:property name="expectedValue" type="string">F9F4F0F5F0F1</properties:property>
-          </properties:properties>
-        </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_YY" id="input.arg3.HIRE_DATE.HIRE_YY" offset="0"/>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_MM" id="input.arg3.HIRE_DATE.HIRE_MM" offset="2"/>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_DD" id="input.arg3.HIRE_DATE.HIRE_DD" offset="4"/>
-      </testcase:input>
-      <testcase:output listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure"/>
-      <testcase:output listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure"/>
-      <testcase:output listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure"/>
-      <testcase:output listructure="../Structures/CWXTCOB_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_HIRE-DATE.listructure"/>
-      <testcase:checkconditions>
-        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
-        <checkconditions:simpleCheckcondition message="Check for EOM_SW failed" name="Check for EOM_SW" refData="#input.arg0.EOM_SW.EOM_SW">
-          <checkconditions:expression>'N' eq output.arg0.EOM_SW.EOM_SW</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('24').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">24</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
-          <checkconditions:expression>BigDecimalCreator.make('94').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">94</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for HIRE_MM failed" name="Check for HIRE_MM" refData="#input.arg3.HIRE_DATE.HIRE_MM">
-          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg3.HIRE_DATE.HIRE_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-        <checkconditions:simpleCheckcondition message="Check for HIRE_DD failed" name="Check for HIRE_DD" refData="#input.arg3.HIRE_DATE.HIRE_DD">
-          <checkconditions:expression>BigDecimalCreator.make('1').compareTo(output.arg3.HIRE_DATE.HIRE_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
-        </checkconditions:simpleCheckcondition>
-      </testcase:checkconditions>
-      <testcase:stubs/>
-    </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase5" target="CWXTDATE">
-      <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
-      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
-      <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
-          <properties:properties>
-            <properties:property name="value" type="string">D5</properties:property>
-            <properties:property name="expectedValue" type="string">D5</properties:property>
-          </properties:properties>
-        </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
-      </testcase:input>
-      <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
-          <properties:properties>
-            <properties:property name="value" type="string">F2F4</properties:property>
+            <properties:property name="value" type="string">F2F6</properties:property>
             <properties:property name="expectedValue" type="string">F2F9</properties:property>
           </properties:properties>
         </testcase:data>
@@ -365,8 +278,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -395,20 +308,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('29').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">29</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('26').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">26</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('89').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -425,11 +338,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase6" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase5" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -452,8 +365,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -482,20 +395,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('35').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">35</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('29').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">29</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('83').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -512,11 +425,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase7" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase6" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -539,8 +452,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -569,20 +482,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('31').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('35').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">35</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('87').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -599,11 +512,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase8" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase7" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -618,7 +531,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
             <properties:property name="value" type="string">F3F1</properties:property>
-            <properties:property name="expectedValue" type="string">F3F6</properties:property>
+            <properties:property name="expectedValue" type="string">F3F7</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -626,8 +539,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -656,20 +569,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('36').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('31').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('81').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -686,11 +599,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase9" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase8" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -704,8 +617,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F3F6</properties:property>
-            <properties:property name="expectedValue" type="string">F3F5</properties:property>
+            <properties:property name="value" type="string">F3F7</properties:property>
+            <properties:property name="expectedValue" type="string">F3F6</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -713,8 +626,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -743,20 +656,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('35').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">35</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('37').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">37</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('82').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -773,11 +686,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase10" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase9" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -791,7 +704,7 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F3F5</properties:property>
+            <properties:property name="value" type="string">F3F6</properties:property>
             <properties:property name="expectedValue" type="string">F2F5</properties:property>
           </properties:properties>
         </testcase:data>
@@ -800,8 +713,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -830,20 +743,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('25').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">25</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('36').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('93').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -860,11 +773,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase11" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase10" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -879,7 +792,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
             <properties:property name="value" type="string">F2F5</properties:property>
-            <properties:property name="expectedValue" type="string">F2F6</properties:property>
+            <properties:property name="expectedValue" type="string">F2F7</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -887,8 +800,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -917,20 +830,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('26').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">26</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('25').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">25</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('91').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -947,11 +860,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase12" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase11" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -965,8 +878,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F2F6</properties:property>
-            <properties:property name="expectedValue" type="string">F3F0</properties:property>
+            <properties:property name="value" type="string">F2F7</properties:property>
+            <properties:property name="expectedValue" type="string">F3F1</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -974,8 +887,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -1004,20 +917,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('30').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('27').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">27</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('88').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -1034,11 +947,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase13" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase12" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -1052,8 +965,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F3F0</properties:property>
-            <properties:property name="expectedValue" type="string">F3F2</properties:property>
+            <properties:property name="value" type="string">F3F1</properties:property>
+            <properties:property name="expectedValue" type="string">F3F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -1061,8 +974,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -1091,20 +1004,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('32').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">32</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('31').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('86').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -1121,11 +1034,11 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase14" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase13" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN3.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1534980463000</testcase:targetCaptureCompileTime>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
@@ -1139,8 +1052,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
-            <properties:property name="value" type="string">F3F2</properties:property>
-            <properties:property name="expectedValue" type="string">F3F5</properties:property>
+            <properties:property name="value" type="string">F3F3</properties:property>
+            <properties:property name="expectedValue" type="string">F3F6</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -1148,8 +1061,8 @@
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
           <properties:properties>
-            <properties:property name="value" type="string">F1F8F0F8F2F3</properties:property>
-            <properties:property name="expectedValue" type="string">F1F8F0F8F2F3</properties:property>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
@@ -1178,20 +1091,20 @@
           <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
-          <checkconditions:expression>BigDecimalCreator.make('35').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">35</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('33').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">33</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
-          <checkconditions:expression>BigDecimalCreator.make('18').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">18</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
-          <checkconditions:expression>BigDecimalCreator.make('8').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
-          <checkconditions:expression>BigDecimalCreator.make('23').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">23</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
           <checkconditions:expression>BigDecimalCreator.make('82').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
@@ -1204,6 +1117,93 @@
         <checkconditions:simpleCheckcondition message="Check for HIRE_DD failed" name="Check for HIRE_DD" refData="#input.arg3.HIRE_DATE.HIRE_DD">
           <checkconditions:expression>BigDecimalCreator.make('30').compareTo(output.arg3.HIRE_DATE.HIRE_DD) eq 0</checkconditions:expression>
           <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase14" target="CWXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio></testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F6</properties:property>
+            <properties:property name="expectedValue" type="string">F2F4</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F1F9F0F3F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F1F9F0F3F1F3</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_YY" id="input.arg2.RUN_DATE.RUN_YY" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_MM" id="input.arg2.RUN_DATE.RUN_MM" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE.RUN_DD" id="input.arg2.RUN_DATE.RUN_DD" offset="4"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTCOB_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+            <properties:property name="expectedValue" type="string">F9F4F0F5F0F1</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_YY" id="input.arg3.HIRE_DATE.HIRE_YY" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_MM" id="input.arg3.HIRE_DATE.HIRE_MM" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_DD" id="input.arg3.HIRE_DATE.HIRE_DD" offset="4"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_HIRE-DATE.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for EOM_SW failed" name="Check for EOM_SW" refData="#input.arg0.EOM_SW.EOM_SW">
+          <checkconditions:expression>'N' eq output.arg0.EOM_SW.EOM_SW</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for YRS_OF_SERVICE failed" name="Check for YRS_OF_SERVICE" refData="#input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+          <checkconditions:expression>BigDecimalCreator.make('36').compareTo(output.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for RUN_YY failed" name="Check for RUN_YY" refData="#input.arg2.RUN_DATE.RUN_YY">
+          <checkconditions:expression>BigDecimalCreator.make('19').compareTo(output.arg2.RUN_DATE.RUN_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for RUN_MM failed" name="Check for RUN_MM" refData="#input.arg2.RUN_DATE.RUN_MM">
+          <checkconditions:expression>BigDecimalCreator.make('3').compareTo(output.arg2.RUN_DATE.RUN_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for RUN_DD failed" name="Check for RUN_DD" refData="#input.arg2.RUN_DATE.RUN_DD">
+          <checkconditions:expression>BigDecimalCreator.make('13').compareTo(output.arg2.RUN_DATE.RUN_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
+          <checkconditions:expression>BigDecimalCreator.make('94').compareTo(output.arg3.HIRE_DATE.HIRE_YY) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">94</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for HIRE_MM failed" name="Check for HIRE_MM" refData="#input.arg3.HIRE_DATE.HIRE_MM">
+          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg3.HIRE_DATE.HIRE_MM) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for HIRE_DD failed" name="Check for HIRE_DD" refData="#input.arg3.HIRE_DATE.HIRE_DD">
+          <checkconditions:expression>BigDecimalCreator.make('1').compareTo(output.arg3.HIRE_DATE.HIRE_DD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>

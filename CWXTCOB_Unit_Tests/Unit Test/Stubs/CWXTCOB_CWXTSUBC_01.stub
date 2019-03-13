@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub" stubtype="Program" target="CWXTSUBC" token="30000">
-  <stub:description>Created: 23.08.2018 07:54:36</stub:description>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub" stubtype="Program" target="CWXTSUBC" token="20000">
+  <stub:description>Created: 13.03.2019 12:41:38</stub:description>
   <stub:stubdata id="0" name="CWXTSUBC">
     <stub:interface>../Interfaces/CWXTCOB_CWXTSUBC.interface#Unit%20Test/Interfaces/CWXTCOB_CWXTSUBC.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_EMP-TYPE.listructure">
@@ -41,7 +41,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output1.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -49,7 +49,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0560000F</properties:property>
+          <properties:property name="value" type="string">0100000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output1.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -68,7 +68,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output2.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -76,7 +76,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0100000F</properties:property>
+          <properties:property name="value" type="string">0600000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output2.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -95,7 +95,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output3.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -103,7 +103,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="value" type="string">0333300F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output3.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -122,7 +122,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output4.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -130,7 +130,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0333300F</properties:property>
+          <properties:property name="value" type="string">0600000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output4.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -149,7 +149,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output5.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -157,7 +157,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="value" type="string">0112000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output5.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -176,7 +176,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output6.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -184,7 +184,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0112000F</properties:property>
+          <properties:property name="value" type="string">0600000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output6.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
@@ -203,7 +203,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
         <properties:properties>
-          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output7.arg1.CALC_SALES.CALC_SALES" offset="0"/>
@@ -211,7 +211,7 @@
     <stub:output listructure="../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
         <properties:properties>
-          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="value" type="string">0560000F</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWXTCOB_CWXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output7.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>

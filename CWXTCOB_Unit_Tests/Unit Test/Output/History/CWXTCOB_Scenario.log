@@ -1,17 +1,14 @@
 
 ***************** Output from TTTRUNNR *****************
 
- CEE3740I The following messages pertain to the system default run-time options.
- CEE3768I The system default for the run-time option DEBUG could not be overridden.
- CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-01-09 04:47.09��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-13 07:46.18��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_
  STTR014I Processing test scenario CWXTCOB_
  STTR028I Processing test case CWXTCOBC
- STTR006I Executing target CWXTCOB
+ STTR006I Executing target CWXTCOB#
  STTR008I All targets successfully executed
 
 ***************** Output from TTOUT *****************
@@ -28,12 +25,34 @@
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDTARGT---exit
-  2019-01-09 04:47:09  STTR245W SLPRTCOD SLPRTCOD: I\N---TARGET---entry
- module: CWXTCOB , csect: CWXTCOB , entry:
+ ---BNDTARGT---entry
+ --->>>modName = CWXTCOB , epName = CWXTCOB#
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE error: rc = 0, rs = <0X83000705>.
+ ---IDRDDIO---entry
+ --->>>modName = CWXTCOB , csectName = CWXTCOB
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2019072, Length = 40
+   data = c3e7c3e6e7e3c3d6c24009394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
+   program = CWXTCOB , ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---TARGET---entry
+ module: CWXTCOB , csect: CWXTCOB , entry: CWXTCOB#
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 389F0028
- ---TARGCALL---entry newTARGET: 389F0028
+ ---TARGET---exit newTARGET: 3882C028
+ ---TARGCALL---entry newTARGET: 3882C028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -71,14 +90,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389F0098
- ---addTargetArg---workingArea: 389F0088
+ AV ptr: 3882C098
+ ---addTargetArg---workingArea: 3882C088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389F0088
+ ---T addTargetArg---workingArea: 3882C088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389F0088
+ ---TARGARG--- workingArea: 3882C088
  ---BNDHOOK---entry
  --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = CWXTSUBC , offset = 00000000
  ---openW_includeName---entry
@@ -86,8 +105,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 64, rs = <0X83000800>.
- --->>>element not found
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 00002428
+ --->>>element_offset: 00002428
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -99,7 +119,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 389B3028
+ ---SUBPGM---exit  newSubPgm: 38958028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -679,8 +699,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 64, rs = <0X83000800>.
- --->>>element not found
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 00002424
+ --->>>element_offset: 00002424
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -692,7 +713,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 38965028
+ ---SUBPGM---exit  newSubPgm: 3890A028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -1968,9 +1989,9 @@
  ---addInArg---exit
  ---SUBIN---exit
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: -1
  ---nextSubCallTemp---exit: 0
@@ -2002,14 +2023,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 0
  ---nextSubCallTemp---exit: 1
@@ -2041,14 +2062,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: -1
  ---nextSubCallTemp---exit: 0
@@ -2074,14 +2095,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 3
+ Live size: 3, AVsOut size: 3
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 1
  ---nextSubCallTemp---exit: 2
@@ -2113,14 +2134,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 0
  ---nextSubCallTemp---exit: 1
@@ -2146,14 +2167,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 3
+ Live size: 3, AVsOut size: 3
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 2
  ---nextSubCallTemp---exit: 3
@@ -2185,14 +2206,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 1
  ---nextSubCallTemp---exit: 2
@@ -2218,14 +2239,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 3
+ Live size: 3, AVsOut size: 3
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 3
  ---nextSubCallTemp---exit: 4
@@ -2257,47 +2278,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
- ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 2
- ---nextSubCallTemp---exit: 3
- ---storeAVsInLive---entry
- Live size: 3, AVsIn size: 3
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 8
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 4
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- AVsOut size: 3
- ---copyAVsOut---exit
- ---doCall---exit: 0
- ---DOSBCALL---exit: 0
- ---DOSBCALL---entry
- parmlist: X'3885D210'
- ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 4
  ---nextSubCallTemp---exit: 5
@@ -2329,14 +2317,47 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 2
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsInLive---entry
+ Live size: 3, AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 3, AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3861D188'
+ ---doCall---entry
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 5
  ---nextSubCallTemp---exit: 6
@@ -2368,14 +2389,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 3
  ---nextSubCallTemp---exit: 4
@@ -2401,14 +2422,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 3
+ Live size: 3, AVsOut size: 3
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 6
  ---nextSubCallTemp---exit: 7
@@ -2440,47 +2461,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
- ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 4
- ---nextSubCallTemp---exit: 5
- ---storeAVsInLive---entry
- Live size: 3, AVsIn size: 3
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 8
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 4
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- AVsOut size: 3
- ---copyAVsOut---exit
- ---doCall---exit: 0
- ---DOSBCALL---exit: 0
- ---DOSBCALL---entry
- parmlist: X'3885D210'
- ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 7
  ---nextSubCallTemp---exit: 8
@@ -2512,14 +2500,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 8
  ---nextSubCallTemp---exit: 9
@@ -2551,14 +2539,47 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 4
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsInLive---entry
+ Live size: 3, AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 3, AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3861D188'
+ ---doCall---entry
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 9
  ---nextSubCallTemp---exit: 10
@@ -2590,47 +2611,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
- ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 5
- ---nextSubCallTemp---exit: 6
- ---storeAVsInLive---entry
- Live size: 3, AVsIn size: 3
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 8
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 4
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- AVsOut size: 3
- ---copyAVsOut---exit
- ---doCall---exit: 0
- ---DOSBCALL---exit: 0
- ---DOSBCALL---entry
- parmlist: X'3885D210'
- ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 10
  ---nextSubCallTemp---exit: 11
@@ -2662,14 +2650,47 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 5
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsInLive---entry
+ Live size: 3, AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 3, AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3861D188'
+ ---doCall---entry
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 11
  ---nextSubCallTemp---exit: 12
@@ -2701,14 +2722,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 6
  ---nextSubCallTemp---exit: 7
@@ -2734,14 +2755,14 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 3
+ Live size: 3, AVsOut size: 3
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---doCall---entry
- parmlist: X'3885D210'
+ parmlist: X'3861D188'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 12
  ---nextSubCallTemp---exit: 13
@@ -2773,7 +2794,7 @@
  ---addAvInLive---exit
  ---storeAVsInLive---exit
  ---copyAVsOut---entry
- AVsOut size: 4
+ Live size: 4, AVsOut size: 4
  ---copyAVsOut---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
