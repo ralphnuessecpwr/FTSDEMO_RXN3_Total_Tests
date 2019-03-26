@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 22.03.2019 08:13:16-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\CWDEMCB2_Unit_Tests\Unit Test\Scenarios\CWDEMCB2_Scenario2.testscenario"/>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\CWDEMCB2_Unit_Tests\Unit Test\Stubs\CWDEMCB2_EXEC_CICS_RETURN2_01.stub"/>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\CWDEMCB2_Unit_Tests\Unit Test\Stubs\CWDEMCB2_SEND_RECEIVE_02.stub">
+    <testCase duration="0" name="CWDEMCB2_Unit_Tests.CWDEMCB2_Scenario2.00001: CWDEMCB2Case1.Stub: 'CWDEMCB2_SEND_RECEIVE_02'.00001: 'EXEC CICS HANDLE' assertion.EXEC CICS HANDLE"/>
+    <testCase duration="0" name="CWDEMCB2_Unit_Tests.CWDEMCB2_Scenario2.00001: CWDEMCB2Case1.Stub: 'CWDEMCB2_SEND_RECEIVE_02'.00002: 'EXEC CICS RECEIVE' assertion.EXEC CICS RECEIVE"/>
+    <testCase duration="0" name="CWDEMCB2_Unit_Tests.CWDEMCB2_Scenario2.00001: CWDEMCB2Case1.Stub: 'CWDEMCB2_SEND_RECEIVE_02'.00003: 'EXEC CICS SEND' assertion.EXEC CICS SEND"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\CWDEMCB2_Unit_Tests\Unit Test\Stubs\CWDEMCB2_EXEC_CICS_ASSIGN2_01.stub">
+    <testCase duration="0" name="CWDEMCB2_Unit_Tests.CWDEMCB2_Scenario2.00001: CWDEMCB2Case1.Stub: 'CWDEMCB2_EXEC_CICS_ASSIGN2_01'.00004: 'EXEC CICS ASSIGN' assertion.EXEC CICS ASSIGN"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\CWDEMCB2_Unit_Tests\Unit Test\Stubs\CWDEMCB2_HANDLE_01.stub">
+    <testCase duration="0" name="CWDEMCB2_Unit_Tests.CWDEMCB2_Scenario2.00001: CWDEMCB2Case1.Stub: 'CWDEMCB2_HANDLE_01'.00005: 'EXEC CICS HANDLE' assertion.EXEC CICS HANDLE"/>
+  </file>
+</testExecutions>
