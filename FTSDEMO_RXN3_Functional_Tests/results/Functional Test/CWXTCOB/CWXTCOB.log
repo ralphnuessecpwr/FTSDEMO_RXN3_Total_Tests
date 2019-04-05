@@ -1,6 +1,6 @@
-13:16:27.120 COMMENT   Engine           Test Scenario execution started
-13:16:27.120 INFO      Engine           Using context settings:
-  Engine Version       : 4.0.0
+18:15:26.254 COMMENT   Engine           Test Scenario execution started
+18:15:26.254 INFO      Engine           Using context settings:
+  Engine Version       : 19.4.1
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
@@ -13,64 +13,53 @@
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
-13:16:27.120 INFO      Engine           Setting variables from context and context data extensions
-13:16:27.120 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-13:16:27.120 INFO      Engine             id: environmentType    value: BATCH
-13:16:27.120 INFO      Engine             id: userId             value: HDDRXM0
-13:16:27.120 INFO      Variable         Interpreting Variable id:infile
-13:16:27.120 LOG       Variable         Resolved data:
+18:15:26.254 INFO      Engine           Setting variables from context and context data extensions
+18:15:26.254 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+18:15:26.254 INFO      Engine             id: environmentType    value: BATCH
+18:15:26.254 INFO      Engine             id: userId             value: HDDRXM0
+18:15:26.254 INFO      Variable         Interpreting Variable id:input_file
+18:15:26.254 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTDATA
-13:16:27.120 INFO      Variable         Interpreting Variable id:outfile
-13:16:27.120 LOG       Variable         Resolved data:
+18:15:26.254 INFO      Variable         Interpreting Variable id:output_file
+18:15:26.254 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTRPT
-13:16:27.120 INFO      Variable         Interpreting Variable id:expected
-13:16:27.120 LOG       Variable         Resolved data:
+18:15:26.254 INFO      Variable         Interpreting Variable id:expected_file
+18:15:26.254 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTRPT.EXPECT
-13:16:27.120 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
-13:16:27.120 INFO      Component        Using setup JCL for execution
-13:16:27.120 INFO      Component          Variable substitution found in setup JCL, now substituted
-13:16:27.120 INFO      Component          JCL for setup:
-//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
-//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
-//SYSUDUMP DD  SYSOUT=*
-//SYSOUT   DD  SYSOUT=*
-13:16:27.120 LOG       CWCC Batch       Final JCL setup for the component:
-//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
-//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
-//SYSUDUMP DD  SYSOUT=*
-//SYSOUT   DD  SYSOUT=*
+18:15:26.254 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+18:15:26.254 INFO      Component        Using setup JCL for execution
+18:15:26.254 INFO      Component          Variable substitution found in setup JCL, now substituted
+18:15:26.254 INFO      Component          JCL for setup:
+//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
+18:15:26.254 LOG       CWCC Batch       Final JCL setup for the component:
+//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
 //EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
 
-13:16:27.120 LOG       CWCC Batch       Component Runtime Settings:
-13:16:27.120 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
-13:16:27.120 LOG       CWCC Batch         Additional load libraries :
-13:16:27.120 LOG       CWCC Batch         Listing libraries         :
-13:16:27.120 LOG       CWCC Batch         SysDebug libraries        :
-13:16:27.120 LOG       CWCC Batch         DB2 Subsystem ID          :
-13:16:27.120 LOG       CWCC Batch         DB2 plan                  :
-13:16:27.120 LOG       CWCC Batch         Call interface            :NONE
-13:16:27.120 LOG       CWCC Batch         Debugger type             :NONE
-13:16:27.120 LOG       CWCC Batch         Component type            :COBOL
-13:16:27.120 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
-13:16:28.543 LOG       CWCC Batch       Uploading input data for module CWXTCOB
-13:16:29.246 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>3f1e49cb-ca00-4794-b60a-9d2e12501d38</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref><ref>//SYSUDUMP DD  SYSOUT=*</ref><ref>//SYSOUT   DD  SYSOUT=*</ref><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
-13:16:29.652 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0698035</jobid></xatz_response></XATZRESP>
-13:16:29.652 LOG       CWCC Batch       Response received from Host. Message: JobId:J0698035
-13:16:29.652 INFO      CWCC Batch       Job has been started at host with JobId:J0698035
-13:16:29.652 INFO      CWCC Batch       Waiting for Execution Result from Host
-13:16:33.772 INFO      CWCC Batch       Component completed with program exit: +0
-13:16:34.350 LOG       CWCC Batch       Setting execution variable 'jobid' to J0698035
-13:16:34.350 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
-13:16:35.897 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-13:16:35.913 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-13:16:35.913 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
-13:16:35.913 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: ${outfile}
-13:16:35.913 INFO      VerifyRemoteFile   Variable substitution found in actual dataset name
-13:16:35.913 INFO      VerifyRemoteFile   Actual dataset name is now:HDDRXM0.DEMO.CWXTRPT
-13:16:35.913 INFO      VerifyRemoteFile   Variable substitution found in expected dataset name
-13:16:35.913 INFO      VerifyRemoteFile   Expected dataset name is now:HDDRXM0.DEMO.CWXTRPT.EXPECT
-13:16:35.913 INFO      CWCC Batch       Sending Job execution request to Host 
-13:16:37.335 ERROR     Engine           Unable to execute the job definition at the host
-13:16:37.335 ERROR     Engine           An error occured. Now stopping the execution.
-13:16:37.335 COMMENT   Engine           Test Scenario execution ended
+18:15:26.254 LOG       CWCC Batch       Component Runtime Settings:
+18:15:26.254 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
+18:15:26.254 LOG       CWCC Batch         Additional load libraries :
+18:15:26.254 LOG       CWCC Batch         Listing libraries         :
+18:15:26.254 LOG       CWCC Batch         SysDebug libraries        :
+18:15:26.254 LOG       CWCC Batch         DB2 Subsystem ID          :
+18:15:26.254 LOG       CWCC Batch         DB2 plan                  :
+18:15:26.254 LOG       CWCC Batch         Call interface            :NONE
+18:15:26.254 LOG       CWCC Batch         Debugger type             :NONE
+18:15:26.254 LOG       CWCC Batch         Component type            :COBOL
+18:15:26.254 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+18:15:26.681 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/8a1528f3d400461a8651d486d0aa6d40
+18:15:26.918 LOG       CWCC Batch       Uploading input data for module CWXTCOB
+18:15:27.816 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>8a1528f3d400461a8651d486d0aa6d40</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
+18:15:28.050 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0720766</jobid></xatz_response></XATZRESP>
+18:15:28.050 LOG       HCIClient        Response received from Host. Message: JobId:J0720766
+18:15:28.050 INFO      HCIClient        Job has been started at host with JobId:J0720766
+18:15:28.050 INFO      CWCC Batch       Waiting for Execution Result from Host
+18:15:31.287 INFO      CWCC Batch       Component completed with program exit: +0
+18:15:31.413 LOG       CWCC Batch       Setting execution variable 'jobid' to J0720766
+18:15:31.413 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+18:15:31.578 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+18:15:31.609 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+18:15:31.609 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
+18:15:31.609 COMMENT   Engine           Test Scenario execution ended

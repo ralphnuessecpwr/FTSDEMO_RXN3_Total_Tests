@@ -1,0 +1,34 @@
+18:12:42.259 COMMENT   Engine           Test Scenario execution started
+18:12:42.259 INFO      Engine           Using context settings:
+  Engine Version       : 19.4.1
+  Environment id                : simulator
+  Environment type              : Batch
+  Operating system              : UNIX
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.152
+  Server port                   : 8888
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : 
+  Codepage                      : 
+  Host user Id                  : XATUSER
+18:12:42.259 INFO      Engine           Setting variables from context and context data extensions
+18:12:42.259 INFO      Engine             id: environmentId      value: simulator
+18:12:42.259 INFO      Engine             id: environmentType    value: BATCH
+18:12:42.259 INFO      Engine             id: userId             value: XATUSER
+18:12:42.259 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+18:12:42.259 LOG       Simulator        Component Runtime Settings:
+18:12:42.259 LOG       Simulator          Load library              :XATESTER.SIMU.LOAD
+18:12:42.259 LOG       Simulator          Additional load libraries :
+18:12:42.259 LOG       Simulator          Listing libraries         :
+18:12:42.259 LOG       Simulator          SysDebug libraries        :
+18:12:42.259 LOG       Simulator          DB2 Subsystem ID          :DB2ID
+18:12:42.259 LOG       Simulator          DB2 plan                  :DBAG
+18:12:42.259 LOG       Simulator          Call interface            :NONE
+18:12:42.259 LOG       Simulator          Debugger type             :NONE
+18:12:42.259 LOG       Simulator          Component type            :COBOL
+18:12:42.259 INFO      Simulator        Sending Module execution request to Host for module:XARISCAL rollback:false
+18:13:03.291 ERROR     Engine           Unable to execute the module:XARISCAL at the host. Connection to host was lost. Connection timed out: connect
+18:13:03.291 ERROR     Engine           An error occured. Now stopping the execution.
+18:13:03.291 COMMENT   Engine           Test Scenario execution ended

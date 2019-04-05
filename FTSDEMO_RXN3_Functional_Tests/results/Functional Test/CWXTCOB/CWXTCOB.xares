@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaUnitResult resultType="FAILURE" containsSimulation="false">
-  <ExecutionId>b11f0fcb-7c3b-477c-9b6b-18bad706035c</ExecutionId>
-  <Message>An error occured and the execution has been stopped. Unable to execute the job definition at the host</Message>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>0beae8fa-e11b-4253-9075-d075c860964e</ExecutionId>
+  <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Test>
-        <Variable id="infile">HDDRXM0.DEMO.CWXTDATA</Variable>
-        <Variable id="outfile">HDDRXM0.DEMO.CWXTRPT</Variable>
-        <Variable id="expected">HDDRXM0.DEMO.CWXTRPT.EXPECT</Variable>
-        <Component label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+        <Variable id="input_file">HDDRXM0.DEMO.CWXTDATA</Variable>
+        <Variable id="output_file">HDDRXM0.DEMO.CWXTRPT</Variable>
+        <Variable id="expected_file">HDDRXM0.DEMO.CWXTRPT.EXPECT</Variable>
+        <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" programExit="0" rollback="false">
           <Data>
             <parminfo>
               <parm-lth>5</parm-lth>
@@ -16,10 +16,8 @@
             </parminfo>
           </Data>
           <Setup>
-            <Content><![CDATA[//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
-//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
-//SYSUDUMP DD  SYSOUT=*
-//SYSOUT   DD  SYSOUT=*]]></Content>
+            <Content><![CDATA[//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT]]></Content>
           </Setup>
         </Component>
       </Test>
@@ -59,10 +57,10 @@
       </References>
       <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" path="CWXTCOB.xaunit">
         <Test>
-          <Variable id="infile">HDDRXM0.DEMO.CWXTDATA</Variable>
-          <Variable id="outfile">HDDRXM0.DEMO.CWXTRPT</Variable>
-          <Variable id="expected">HDDRXM0.DEMO.CWXTRPT.EXPECT</Variable>
-          <Component label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
+          <Variable id="input_file">HDDRXM0.DEMO.CWXTDATA</Variable>
+          <Variable id="output_file">HDDRXM0.DEMO.CWXTRPT</Variable>
+          <Variable id="expected_file">HDDRXM0.DEMO.CWXTRPT.EXPECT</Variable>
+          <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
             <Data>
               <parminfo>
                 <parm-lth>5</parm-lth>
@@ -70,13 +68,10 @@
               </parminfo>
             </Data>
             <Setup>
-              <Content><![CDATA[//EMPFILE  DD  DISP=SHR,DSN=${infile}
-//RPTFILE  DD  DISP=SHR,DSN=${outfile}
-//SYSUDUMP DD  SYSOUT=*
-//SYSOUT   DD  SYSOUT=*]]></Content>
+              <Content><![CDATA[//EMPFILE DD DISP=SHR,DSN=${input_file}
+//RPTFILE DD DISP=SHR,DSN=${output_file}]]></Content>
             </Setup>
           </Component>
-          <VerifyRemoteFile name="Verify remote file" mode="COMPARE" haltExecution="false" actualPath="${outfile}" expectedPath="${expected}" />
         </Test>
         <MetaData>
           <Component name="CWXTCOB" type="COBOL">
@@ -92,6 +87,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190211-13-16-27</Started>
-  <Ended>20190211-13-16-37</Ended>
+  <Started>20190403-18-15-26</Started>
+  <Ended>20190403-18-15-31</Ended>
 </XaUnitResult>
