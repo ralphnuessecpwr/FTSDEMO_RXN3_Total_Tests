@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>94b9beb5-6643-4c8c-8017-23673513ca61</ExecutionId>
+  <ExecutionId>f7c4fa4a-7e23-4839-be91-fdfbfeb04eaf</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
@@ -524,6 +524,6 @@ We use test data dynamically from the table that the module operates at</Descrip
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190208-15-17-16</Started>
-  <Ended>20190208-15-18-22</Ended>
+  <Started>20190405-18-11-06</Started>
+  <Ended>20190405-18-11-32</Ended>
 </XaUnitResult>

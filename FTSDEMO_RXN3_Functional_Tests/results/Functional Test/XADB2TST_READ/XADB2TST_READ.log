@@ -1,6 +1,6 @@
-15:17:16.896 COMMENT   Engine           Test Scenario execution started
-15:17:16.896 INFO      Engine           Using context settings:
-  Engine Version       : 4.0.0
+18:11:06.233 COMMENT   Engine           Test Scenario execution started
+18:11:06.233 INFO      Engine           Using context settings:
+  Engine Version       : 19.4.1
   Environment id                : 5b5f2a71787be73b59238d7b
   Environment type              : Cics
   Operating system              : ZOS
@@ -13,141 +13,123 @@
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
-15:17:16.896 INFO      Engine           Setting variables from context and context data extensions
-15:17:16.896 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
-15:17:16.896 INFO      Engine             id: environmentType    value: CICS
-15:17:16.896 INFO      Engine             id: userId             value: HDDRXM0
-15:17:16.896 INFO      SQLSelect        Interpreting SQLSelect id:sql statement: select RIDENT, FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE
-15:17:16.896 INFO      SQLSelect        Using database from Environment:DBCCCWCC
-15:17:16.896 LOG       SQLSelect        Establishing connection to database DBCCCWCC
-15:17:17.459 LOG       SQLSelect        Preparing the SQL statement: select RIDENT, FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE
-15:17:17.505 LOG       SQLSelect        Setting max rows to: 2
-15:17:17.505 LOG       SQLSelect        Setting up the SQL statement with parameters
-15:17:17.505 LOG       SQLSelect        Executing the SQL statement
-15:17:17.677 LOG       SQLSelect        Handling the SQL result
-15:17:17.677 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:2
-15:17:17.677 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 2. Variable loopIndex contains iteration number
-15:17:17.677 INFO      IterateData      Iteration number 0 started.
-15:17:17.677 LOG       IterateData      Iteration Data:
+18:11:06.233 INFO      Engine           Setting variables from context and context data extensions
+18:11:06.233 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+18:11:06.233 INFO      Engine             id: environmentType    value: CICS
+18:11:06.233 INFO      Engine             id: userId             value: HDDRXM0
+18:11:06.233 INFO      SQLSelect        Interpreting SQLSelect id:sql statement: select RIDENT, FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE
+18:11:06.233 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+18:11:06.233 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+18:11:08.874 LOG       SQLSelect        Preparing the SQL statement: select RIDENT, FIRSTNAME, LASTNAME from ADKKXC0.XAEMPLOYEE
+18:11:08.905 LOG       SQLSelect        Setting max rows to: 2
+18:11:08.905 LOG       SQLSelect        Setting up the SQL statement with parameters
+18:11:08.905 LOG       SQLSelect        Executing the SQL statement
+18:11:09.171 LOG       SQLSelect        Handling the SQL result
+18:11:09.171 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:2
+18:11:09.171 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 2. Variable loopIndex contains iteration number
+18:11:09.171 INFO      IterateData      Iteration number 0 started.
+18:11:09.171 LOG       IterateData      Iteration Data:
 <Row xmlns="http://www.xact.dk/xatester/v/1">
   <RIDENT>800010001</RIDENT>
   <FIRSTNAME>Jens</FIRSTNAME>
   <LASTNAME>Jensen</LASTNAME>
 </Row>
-15:17:17.677 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
-15:17:17.677 INFO      Component        Component will be executed in CICS and top level element definitions are:
-15:17:17.677 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
-15:17:17.677 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
-15:17:17.677 LOG       CWCC CICS        Component Runtime Settings:
-15:17:17.677 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
-15:17:17.677 LOG       CWCC CICS          Additional load libraries :
-15:17:17.677 LOG       CWCC CICS          Listing libraries         :
-15:17:17.677 LOG       CWCC CICS          SysDebug libraries        :
-15:17:17.677 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-15:17:17.677 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
-15:17:17.677 LOG       CWCC CICS          APPLID                    :HCCAC013
-15:17:17.677 LOG       CWCC CICS          Channel                   :
-15:17:17.677 LOG       CWCC CICS          Call interface            :CALL
-15:17:17.677 LOG       CWCC CICS          Debugger type             :NONE
-15:17:17.677 LOG       CWCC CICS          Component type            :COBOL
-15:17:17.677 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
-15:17:19.130 LOG       CWCC CICS        Uploading input data for module XADB2TST
-15:17:23.100 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>7f996bae-c8d0-4e94-b1c2-dd2344e78cce</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-15:17:23.537 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697459</jobid></xatz_response></XATZRESP>
-15:17:23.537 LOG       CWCC CICS        Response received from Host. Message: JobId:J0697459
-15:17:23.537 INFO      CWCC CICS        Job has been started at host with JobId:J0697459
-15:17:23.537 INFO      CWCC CICS        Waiting for Execution Result from Host
-15:17:26.944 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697459</jobid></xatz_request></XATZREQ>
-15:17:27.131 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:17:27.131 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:17:30.933 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697459</jobid></xatz_request></XATZREQ>
-15:17:31.214 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:17:31.214 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:17:35.022 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697459</jobid></xatz_request></XATZREQ>
-15:17:35.194 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:17:35.194 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:17:39.350 INFO      CWCC CICS        Component completed with program exit: +0
-15:17:40.064 LOG       CWCC CICS        Setting execution variable 'jobid' to J0697459
-15:17:40.064 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-15:17:41.768 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-15:17:41.799 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-15:17:41.799 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
-15:17:41.799 INFO      IterateData      Iteration number 1 started.
-15:17:41.799 LOG       IterateData      Iteration Data:
+18:11:09.171 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+18:11:09.171 INFO      Component        Component will be executed in CICS and top level element definitions are:
+18:11:09.171 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
+18:11:09.171 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
+18:11:09.171 LOG       CWCC CICS        Component Runtime Settings:
+18:11:09.171 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
+18:11:09.171 LOG       CWCC CICS          Additional load libraries :
+18:11:09.171 LOG       CWCC CICS          Listing libraries         :
+18:11:09.171 LOG       CWCC CICS          SysDebug libraries        :
+18:11:09.171 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+18:11:09.171 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
+18:11:09.171 LOG       CWCC CICS          APPLID                    :HCCAC013
+18:11:09.171 LOG       CWCC CICS          Channel                   :
+18:11:09.171 LOG       CWCC CICS          Call interface            :CALL
+18:11:09.171 LOG       CWCC CICS          Debugger type             :NONE
+18:11:09.171 LOG       CWCC CICS          Component type            :COBOL
+18:11:09.171 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
+18:11:09.553 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/0e6b58798ab24d17863d5078179086a8
+18:11:09.889 LOG       CWCC CICS        Uploading input data for module XADB2TST
+18:11:11.447 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>0e6b58798ab24d17863d5078179086a8</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+18:11:11.775 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0722556</jobid></xatz_response></XATZRESP>
+18:11:11.775 LOG       HCIClient        Response received from Host. Message: JobId:J0722556
+18:11:11.775 INFO      HCIClient        Job has been started at host with JobId:J0722556
+18:11:11.775 INFO      CWCC CICS        Waiting for Execution Result from Host
+18:11:15.105 INFO      CWCC CICS        Component completed with program exit: +0
+18:11:15.325 LOG       CWCC CICS        Setting execution variable 'jobid' to J0722556
+18:11:15.325 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+18:11:15.497 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+18:11:15.544 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+18:11:15.544 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+18:11:15.544 INFO      IterateData      Iteration number 1 started.
+18:11:15.544 LOG       IterateData      Iteration Data:
 <Row xmlns="http://www.xact.dk/xatester/v/1">
   <RIDENT>800010002</RIDENT>
   <FIRSTNAME>Hans</FIRSTNAME>
   <LASTNAME>Hansen</LASTNAME>
 </Row>
-15:17:41.799 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
-15:17:41.799 INFO      Component        Component will be executed in CICS and top level element definitions are:
-15:17:41.799 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
-15:17:41.799 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
-15:17:41.799 LOG       CWCC CICS        Component Runtime Settings:
-15:17:41.799 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
-15:17:41.799 LOG       CWCC CICS          Additional load libraries :
-15:17:41.799 LOG       CWCC CICS          Listing libraries         :
-15:17:41.799 LOG       CWCC CICS          SysDebug libraries        :
-15:17:41.799 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-15:17:41.799 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
-15:17:41.799 LOG       CWCC CICS          APPLID                    :HCCAC013
-15:17:41.799 LOG       CWCC CICS          Channel                   :
-15:17:41.799 LOG       CWCC CICS          Call interface            :CALL
-15:17:41.799 LOG       CWCC CICS          Debugger type             :NONE
-15:17:41.799 LOG       CWCC CICS          Component type            :COBOL
-15:17:41.799 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
-15:17:43.555 LOG       CWCC CICS        Uploading input data for module XADB2TST
-15:17:47.524 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>55f5264e-e413-49a1-9c02-9255d63f8549</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-15:17:47.961 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697462</jobid></xatz_response></XATZRESP>
-15:17:47.961 LOG       CWCC CICS        Response received from Host. Message: JobId:J0697462
-15:17:47.961 INFO      CWCC CICS        Job has been started at host with JobId:J0697462
-15:17:47.961 INFO      CWCC CICS        Waiting for Execution Result from Host
-15:17:51.368 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697462</jobid></xatz_request></XATZREQ>
-15:17:51.555 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:17:51.555 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:17:55.520 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697462</jobid></xatz_request></XATZREQ>
-15:17:55.692 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:17:55.692 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:17:59.848 INFO      CWCC CICS        Component completed with program exit: +0
-15:18:00.801 LOG       CWCC CICS        Setting execution variable 'jobid' to J0697462
-15:18:00.801 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
-15:18:02.489 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-15:18:02.520 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-15:18:02.520 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
-15:18:02.520 INFO      IterateData      IterateData completed
-15:18:02.520 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
-15:18:02.520 INFO      Component        Component will be executed in CICS and top level element definitions are:
-15:18:02.520 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
-15:18:02.520 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
-15:18:02.520 LOG       CWCC CICS        Component Runtime Settings:
-15:18:02.520 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
-15:18:02.520 LOG       CWCC CICS          Additional load libraries :
-15:18:02.520 LOG       CWCC CICS          Listing libraries         :
-15:18:02.520 LOG       CWCC CICS          SysDebug libraries        :
-15:18:02.520 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
-15:18:02.520 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
-15:18:02.520 LOG       CWCC CICS          APPLID                    :HCCAC013
-15:18:02.520 LOG       CWCC CICS          Channel                   :
-15:18:02.520 LOG       CWCC CICS          Call interface            :CALL
-15:18:02.520 LOG       CWCC CICS          Debugger type             :NONE
-15:18:02.520 LOG       CWCC CICS          Component type            :COBOL
-15:18:02.520 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
-15:18:04.275 LOG       CWCC CICS        Uploading input data for module XADB2TST
-15:18:08.213 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>df9f2703-4b23-40d9-95a9-34b43d670e40</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
-15:18:08.776 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0697464</jobid></xatz_response></XATZRESP>
-15:18:08.776 LOG       CWCC CICS        Response received from Host. Message: JobId:J0697464
-15:18:08.776 INFO      CWCC CICS        Job has been started at host with JobId:J0697464
-15:18:08.776 INFO      CWCC CICS        Waiting for Execution Result from Host
-15:18:12.182 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697464</jobid></xatz_request></XATZREQ>
-15:18:12.386 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:18:12.386 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:18:16.145 LOG       CWCC CICS        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0697464</jobid></xatz_request></XATZREQ>
-15:18:16.332 LOG       CWCC CICS        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:18:16.332 LOG       CWCC CICS        Response received from Host. Message:Job information successfully returned JobId:
-15:18:20.442 INFO      CWCC CICS        Component completed with program exit: +12
-15:18:21.161 LOG       CWCC CICS        Setting execution variable 'jobid' to J0697464
-15:18:21.161 LOG       CWCC CICS        Setting execution variable 'programexit' to 12
-15:18:22.864 INFO      Component        Verifying program exit code: 12 against verify expression: value == 12
-15:18:22.911 INFO      Component        Program exit code was verified to be accepted by the expression: value == 12
-15:18:22.911 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
-15:18:22.911 COMMENT   Engine           Test Scenario execution ended
+18:11:15.544 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+18:11:15.544 INFO      Component        Component will be executed in CICS and top level element definitions are:
+18:11:15.544 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
+18:11:15.544 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
+18:11:15.544 LOG       CWCC CICS        Component Runtime Settings:
+18:11:15.544 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
+18:11:15.544 LOG       CWCC CICS          Additional load libraries :
+18:11:15.544 LOG       CWCC CICS          Listing libraries         :
+18:11:15.544 LOG       CWCC CICS          SysDebug libraries        :
+18:11:15.544 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+18:11:15.544 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
+18:11:15.544 LOG       CWCC CICS          APPLID                    :HCCAC013
+18:11:15.544 LOG       CWCC CICS          Channel                   :
+18:11:15.544 LOG       CWCC CICS          Call interface            :CALL
+18:11:15.544 LOG       CWCC CICS          Debugger type             :NONE
+18:11:15.544 LOG       CWCC CICS          Component type            :COBOL
+18:11:15.544 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
+18:11:16.099 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/cf3ac7fba27648418e4f7eb8b67736ba
+18:11:16.446 LOG       CWCC CICS        Uploading input data for module XADB2TST
+18:11:20.074 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>cf3ac7fba27648418e4f7eb8b67736ba</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+18:11:20.370 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0722557</jobid></xatz_response></XATZRESP>
+18:11:20.370 LOG       HCIClient        Response received from Host. Message: JobId:J0722557
+18:11:20.370 INFO      HCIClient        Job has been started at host with JobId:J0722557
+18:11:20.370 INFO      CWCC CICS        Waiting for Execution Result from Host
+18:11:23.714 INFO      CWCC CICS        Component completed with program exit: +0
+18:11:23.941 LOG       CWCC CICS        Setting execution variable 'jobid' to J0722557
+18:11:23.941 LOG       CWCC CICS        Setting execution variable 'programexit' to 0
+18:11:24.107 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+18:11:24.138 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+18:11:24.138 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+18:11:24.138 INFO      IterateData      IterateData completed
+18:11:24.138 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+18:11:24.138 INFO      Component        Component will be executed in CICS and top level element definitions are:
+18:11:24.138 INFO      Component          Element: xadb2tst-import Area type:DEFAULT
+18:11:24.138 INFO      Component          Element: xadb2tst-export Area type:DEFAULT
+18:11:24.138 LOG       CWCC CICS        Component Runtime Settings:
+18:11:24.138 LOG       CWCC CICS          Load library              :SYS2.CW.XATESTER.SXATLOAD
+18:11:24.138 LOG       CWCC CICS          Additional load libraries :
+18:11:24.138 LOG       CWCC CICS          Listing libraries         :
+18:11:24.138 LOG       CWCC CICS          SysDebug libraries        :
+18:11:24.138 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+18:11:24.138 LOG       CWCC CICS          DB2 plan                  :TOPAZTST
+18:11:24.138 LOG       CWCC CICS          APPLID                    :HCCAC013
+18:11:24.138 LOG       CWCC CICS          Channel                   :
+18:11:24.138 LOG       CWCC CICS          Call interface            :CALL
+18:11:24.138 LOG       CWCC CICS          Debugger type             :NONE
+18:11:24.138 LOG       CWCC CICS          Component type            :COBOL
+18:11:24.138 INFO      CWCC CICS        Sending Module execution request to Host for module:XADB2TST rollback:false
+18:11:24.697 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/c1b5645a562b4319a58981b88ff8c1c7
+18:11:25.034 LOG       CWCC CICS        Uploading input data for module XADB2TST
+18:11:28.702 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CALL</callinterface><applid>HCCAC013</applid><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>c1b5645a562b4319a58981b88ff8c1c7</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+18:11:29.007 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0722558</jobid></xatz_response></XATZRESP>
+18:11:29.007 LOG       HCIClient        Response received from Host. Message: JobId:J0722558
+18:11:29.007 INFO      HCIClient        Job has been started at host with JobId:J0722558
+18:11:29.007 INFO      CWCC CICS        Waiting for Execution Result from Host
+18:11:32.346 INFO      CWCC CICS        Component completed with program exit: +12
+18:11:32.550 LOG       CWCC CICS        Setting execution variable 'jobid' to J0722558
+18:11:32.550 LOG       CWCC CICS        Setting execution variable 'programexit' to 12
+18:11:32.737 INFO      Component        Verifying program exit code: 12 against verify expression: value == 12
+18:11:32.753 INFO      Component        Program exit code was verified to be accepted by the expression: value == 12
+18:11:32.768 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+18:11:32.768 COMMENT   Engine           Test Scenario execution ended

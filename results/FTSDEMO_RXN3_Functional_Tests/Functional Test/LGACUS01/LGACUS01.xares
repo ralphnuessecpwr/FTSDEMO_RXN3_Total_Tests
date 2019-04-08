@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>e183ffc4-7ed8-4215-ac07-9c650542f4bc</ExecutionId>
-  <Message />
+<XaUnitResult resultType="FAILURE" containsSimulation="false">
+  <ExecutionId>b4a07f5c-cd31-4b38-bd3c-76cee116b6ce</ExecutionId>
+  <Message>An error occured and the execution has been stopped. Unable to get a database connection. com.ibm.db2.jcc.DB2Driver</Message>
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Test>
@@ -9,8 +9,8 @@
           <Data>
             <LGCMAREA_Header>
               <ca-request-id />
-              <ca-return-code expected="0">0</ca-return-code>
-              <ca-customer-num>1000242</ca-customer-num>
+              <ca-return-code expected="0" verifiedFalse="DataItem: /LGCMAREA_Header/ca-return-code. Actual value is different from expected. Actual value: 90.0 Expected: 0.0">90</ca-return-code>
+              <ca-customer-num>1</ca-customer-num>
               <ca-customer-request>
                 <ca-first-name>Ralph</ca-first-name>
                 <ca-last-name>Nuesse</ca-last-name>
@@ -37,81 +37,6 @@
             </LGCMAREA_Header>
           </Data>
         </Component>
-        <SQLSelect id="SQLSelect" maxRows="1">
-          <Statement>SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE NATIONALIDNBR = '12345678901234567890' AND DATEOFBIRTH = '1970-02-01'</Statement>
-          <Output name="FIRSTNAME" />
-          <Output name="LASTNAME" />
-          <Output name="DATEOFBIRTH" />
-          <Output name="POSTCODE" />
-          <Output name="PHONEHOME" />
-          <Output name="PHONEMOBILE" />
-          <Output name="EMAILADDRESS" />
-          <Output name="NATIONALIDNBR" />
-          <Output name="NINTYPE" />
-          <Output name="STREETADDRESS" />
-          <Output name="CITY" />
-          <Output name="STATE" />
-          <Output name="COUNTRYCODE" />
-          <Output name="SALESTERRITORY" />
-          <Row>
-            <FIRSTNAME>Ralph</FIRSTNAME>
-            <LASTNAME>Nuesse</LASTNAME>
-            <DATEOFBIRTH>1970-02-01</DATEOFBIRTH>
-            <POSTCODE>12345</POSTCODE>
-            <PHONEHOME>0000012345</PHONEHOME>
-            <PHONEMOBILE>0000012345</PHONEMOBILE>
-            <EMAILADDRESS>RN@ACME.COM</EMAILADDRESS>
-            <NATIONALIDNBR>12345678901234567890</NATIONALIDNBR>
-            <NINTYPE>SS</NINTYPE>
-            <STREETADDRESS>MY STREET 1</STREETADDRESS>
-            <CITY>CITY</CITY>
-            <STATE>ST</STATE>
-            <COUNTRYCODE />
-            <SALESTERRITORY>EMEA</SALESTERRITORY>
-          </Row>
-        </SQLSelect>
-        <Verify name="Verify_First_Name" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.FIRSTNAME == 'Ralph']]></Statement>
-        </Verify>
-        <Verify name="Verify_Last_Name" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.LASTNAME == 'Nuesse']]></Statement>
-        </Verify>
-        <Verify name="Verify_dob" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.DATEOFBIRTH == '1970-02-01']]></Statement>
-        </Verify>
-        <Verify name="Verify_Post_Code" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.POSTCODE == '12345']]></Statement>
-        </Verify>
-        <Verify name="Verify_Phone_Home" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.PHONEHOME == '0000012345']]></Statement>
-        </Verify>
-        <Verify name="Verify_Phone_Mobile" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.PHONEMOBILE == '0000012345']]></Statement>
-        </Verify>
-        <Verify name="Verify_Email" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.EMAILADDRESS == 'RN@ACME.COM']]></Statement>
-        </Verify>
-        <Verify name="Verify_Nat_Id" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.NATIONALIDNBR == '12345678901234567890']]></Statement>
-        </Verify>
-        <Verify name="Verify_NIN_Type" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.NINTYPE == 'SS']]></Statement>
-        </Verify>
-        <Verify name="Verify_Street" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.STREETADDRESS == 'MY STREET 1']]></Statement>
-        </Verify>
-        <Verify name="Verify_City" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.CITY == 'CITY']]></Statement>
-        </Verify>
-        <Verify name="Verify_State" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.STATE == 'ST']]></Statement>
-        </Verify>
-        <Verify name="Verify_Country_Code" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.COUNTRYCODE == '']]></Statement>
-        </Verify>
-        <Verify name="Verify_Territory" haltExecution="false">
-          <Statement><![CDATA[SQLSelect.Row.SALESTERRITORY == 'EMEA']]></Statement>
-        </Verify>
       </Test>
       <MetaData>
         <Component name="LGACUS01" type="COBOL">
@@ -313,6 +238,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190228-11-53-17</Started>
-  <Ended>20190228-11-53-31</Ended>
+  <Started>20190405-14-33-23</Started>
+  <Ended>20190405-14-33-31</Ended>
 </XaUnitResult>
