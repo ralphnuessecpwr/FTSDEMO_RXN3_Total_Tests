@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-03-12 06:26.48��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-04-08 05:30.44��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGICDB01
  STTR014I Processing test scenario LGICDB01
@@ -47,7 +47,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019071, Length = 40
+  IDRU: Creation Date = 2019098, Length = 40
    data = c3e7d3c7c9c3c4c2f0f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
    program = LGICDB01, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
  ---closeW---entry
@@ -58,8 +58,8 @@
  module: LGICDB01, csect: LGICDB01, entry: LGICDB01
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 389F8028
- ---TARGCALL---entry newTARGET: 389F8028
+ ---TARGET---exit newTARGET: 389FA028
+ ---TARGCALL---entry newTARGET: 389FA028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -97,14 +97,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389F80E8
- ---addTargetArg---workingArea: 389F8088
+ AV ptr: 389FA0E8
+ ---addTargetArg---workingArea: 389FA088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389F8088
+ ---T addTargetArg---workingArea: 389FA088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389F8088
+ ---TARGARG--- workingArea: 389FA088
  ---TARGARG---entry
  length: 32500
  ---T addTargetArg---entry
@@ -114,7 +114,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 389F80E8
+ AV ptr: 389FA0E8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -127,14 +127,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389F80E8
- ---addTargetArg---workingArea: 389F8138
+ AV ptr: 389FA0E8
+ ---addTargetArg---workingArea: 389FA138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389F8138
+ ---T addTargetArg---workingArea: 389FA138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389F8138
+ ---TARGARG--- workingArea: 389FA138
  ---BNDHOOK---entry
  --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000000
  ---openW_includeName---entry
@@ -171,14 +171,14 @@
  RETURN
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 389AA2FA  stubToken: 00009C40
- stubType:       signature: 389B431A  signatureLength: 00000006
+ release: 389AC2FA  stubToken: 00009C40
+ stubType:       signature: 389B631A  signatureLength: 00000006
  ---EXCICScxx---entry
- release: 389AA2FA  token: 00009C40
- signature: 389B431A  length: 00000006
- commandTable: 376E30D8
+ release: 389AC2FA  token: 00009C40
+ signature: 389B631A  length: 00000006
+ commandTable: 376F9168
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38AE0028
+ ---EXCICS---exit newEXCICS: 38AE2028
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -213,9 +213,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @38AE0190
+ avData @38AE2190
  *parmData: X'0E080000'
- avData[0] @38AE01A8
+ avData[0] @38AE21A8
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -241,9 +241,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38AE0200
+ avData @38AE2200
  *parmData: X'0E080000'
- avData[0] @38AE0218
+ avData[0] @38AE2218
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -273,15 +273,15 @@
  ---s00 doCall---entry
  ---validateAVs---entry
  AVsBefore: 1
- parm 0: X'B88D2F7E'
+ parm 0: X'B88D4F7E'
  ---validateAVs---exit: 0
  ---storeAVsBeforeLive---entry
  sz: 1
  ---setData---entry
  cL: 17
- avData @38AE99F8
+ avData @38AEB9F8
  *parmData: X'0E080000'
- avData[0] @38AE9A10
+ avData[0] @38AEBA10
  *avData: X'0E080000'
  ---setData---exit
  lL: 17
@@ -316,7 +316,7 @@
  token: 00009C41
  ---buildAvRec---entry
  cL: 17
- avData @: 38AE99F8
+ avData @: 38AEB9F8
  *avData: X'0E080000'
  bL: 17
  *bvData: X'0E080000'

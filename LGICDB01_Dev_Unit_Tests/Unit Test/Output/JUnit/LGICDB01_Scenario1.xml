@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 15.03.2019 10:50:22-->
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 11.04.2019 20:02:00-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" tests="76">
+  <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" tests="98">
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00002: Check for eibdate"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00003: Check for eibtrnid"/>
@@ -44,41 +44,63 @@
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00039: Check for CA_HOUSE_NAME"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00040: Check for CA_HOUSE_NUM"/>
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00041: Check for CA_POSTCODE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00042: Check for CA_POLICY_DATA"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00043: Check for CA_ISSUE_DATE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00044: Check for CA_EXPIRY_DATE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00045: Check for CA_LASTCHANGED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00046: Check for CA_BROKERSREF"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00047: Check for CA_POLICY_SPECIFIC"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00048: Check for CA_E_WITH_PROFITS"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00049: Check for CA_E_EQUITIES"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00050: Check for CA_E_MANAGED_FUND"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00051: Check for CA_E_FUND_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00052: Check for CA_E_LIFE_ASSURED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00053: Check for CA_E_PADDING_DATA"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00054: Check for CA_H_PROPERTY_TYPE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00055: Check for CA_H_HOUSE_NAME"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00056: Check for CA_H_HOUSE_NUMBER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00057: Check for CA_H_POSTCODE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00058: Check for CA_H_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00059: Check for CA_M_MAKE"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00060: Check for CA_M_MODEL"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00061: Check for CA_M_REGNUMBER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00062: Check for CA_M_COLOUR"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00063: Check for CA_M_MANUFACTURED"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00064: Check for CA_M_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00065: Check for CA_B_Address"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00066: Check for CA_B_Postcode"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00067: Check for CA_B_Latitude"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00068: Check for CA_B_Longitude"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00069: Check for CA_B_Customer"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00070: Check for CA_B_PropType"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00071: Check for CA_B_RejectReason"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00072: Check for CA_B_FILLER"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00073: Check for CA_C_Date"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00074: Check for CA_C_Cause"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00075: Check for CA_C_Observations"/>
-    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00076: Check for CA_C_FILLER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00042: Check for CA_NUM_POLICIES"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00043: Check for CA_POLICY_DATA"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00044: Check for CA_POLICY_NUM"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00045: Check for CA_ISSUE_DATE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00046: Check for CA_EXPIRY_DATE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00047: Check for CA_LASTCHANGED"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00048: Check for CA_BROKERID"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00049: Check for CA_BROKERSREF"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00050: Check for CA_PAYMENT"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00051: Check for CA_POLICY_SPECIFIC"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00052: Check for CA_E_WITH_PROFITS"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00053: Check for CA_E_EQUITIES"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00054: Check for CA_E_MANAGED_FUND"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00055: Check for CA_E_FUND_NAME"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00056: Check for CA_E_TERM"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00057: Check for CA_E_SUM_ASSURED"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00058: Check for CA_E_LIFE_ASSURED"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00059: Check for CA_E_PADDING_DATA"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00060: Check for CA_H_PROPERTY_TYPE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00061: Check for CA_H_BEDROOMS"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00062: Check for CA_H_VALUE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00063: Check for CA_H_HOUSE_NAME"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00064: Check for CA_H_HOUSE_NUMBER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00065: Check for CA_H_POSTCODE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00066: Check for CA_H_FILLER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00067: Check for CA_M_MAKE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00068: Check for CA_M_MODEL"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00069: Check for CA_M_VALUE"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00070: Check for CA_M_REGNUMBER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00071: Check for CA_M_COLOUR"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00072: Check for CA_M_CC"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00073: Check for CA_M_MANUFACTURED"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00074: Check for CA_M_FILLER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00075: Check for CA_B_Address"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00076: Check for CA_B_Postcode"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00077: Check for CA_B_Latitude"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00078: Check for CA_B_Longitude"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00079: Check for CA_B_Customer"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00080: Check for CA_B_PropType"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00081: Check for CA_B_FirePeril"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00082: Check for CA_B_FirePremium"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00083: Check for CA_B_CrimePeril"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00084: Check for CA_B_CrimePremium"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00085: Check for CA_B_FloodPeril"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00086: Check for CA_B_FloodPremium"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00087: Check for CA_B_WeatherPeril"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00088: Check for CA_B_WeatherPremium"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00089: Check for CA_B_Status"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00090: Check for CA_B_RejectReason"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00091: Check for CA_B_FILLER"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00092: Check for CA_C_Num"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00093: Check for CA_C_Date"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00094: Check for CA_C_Paid"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00095: Check for CA_C_Value"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00096: Check for CA_C_Cause"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00097: Check for CA_C_Observations"/>
+    <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1" name="00098: Check for CA_C_FILLER"/>
   </testsuite>
   <testsuite errors="0" failures="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_01.00001: Select assertion" tests="0">
     <testcase classname="LGICDB01_Unit_Tests.LGICDB01_Scenario1.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_01.00001: Select assertion" name="Select"/>

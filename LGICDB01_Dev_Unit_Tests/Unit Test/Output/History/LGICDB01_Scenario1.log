@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-03-15 05:50.14��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-04-11 14:01.51��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGICDB01
  STTR014I Processing test scenario LGICDB01
@@ -47,7 +47,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019072, Length = 40
+  IDRU: Creation Date = 2019101, Length = 40
    data = c3e7d3c7c9c3c4c2f0f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
    program = LGICDB01, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
  ---closeW---entry
@@ -58,8 +58,8 @@
  module: LGICDB01, csect: LGICDB01, entry: LGICDB01
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 389F8028
- ---TARGCALL---entry newTARGET: 389F8028
+ ---TARGET---exit newTARGET: 389FA028
+ ---TARGCALL---entry newTARGET: 389FA028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -97,14 +97,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389F80E8
- ---addTargetArg---workingArea: 389F8088
+ AV ptr: 389FA0E8
+ ---addTargetArg---workingArea: 389FA088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389F8088
+ ---T addTargetArg---workingArea: 389FA088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389F8088
+ ---TARGARG--- workingArea: 389FA088
  ---TARGARG---entry
  length: 32500
  ---T addTargetArg---entry
@@ -114,7 +114,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 389F80E8
+ AV ptr: 389FA0E8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -127,14 +127,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389F80E8
- ---addTargetArg---workingArea: 389F8138
+ AV ptr: 389FA0E8
+ ---addTargetArg---workingArea: 389FA138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389F8138
+ ---T addTargetArg---workingArea: 389FA138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389F8138
+ ---TARGARG--- workingArea: 389FA138
  ---BNDHOOK---entry
  --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000000
  ---openW_includeName---entry
@@ -215,14 +215,14 @@
  :DB2-CUSTOMERNUMBER-INT
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 388F022C  stmt: 38A33010  stmtLength: 000000DF  crsrName: 00000000  crsrLength: 00000000
+ release: 388F222C  stmt: 38A35010  stmtLength: 000000DF  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 388F022C  stmt: 38A33010  stmtLength: 000000DF
+ release: 388F222C  stmt: 38A35010  stmtLength: 000000DF
  token: 00002710
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 38AE0028
+ ---DB2SQL---exit  Sel newStatement: 38AE2028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -370,14 +370,14 @@
  RETURN
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 389AA2FA  stubToken: 00004E20
- stubType:       signature: 389B431A  signatureLength: 00000006
+ release: 389AC2FA  stubToken: 00004E20
+ stubType:       signature: 389B631A  signatureLength: 00000006
  ---EXCICScxx---entry
- release: 389AA2FA  token: 00004E20
- signature: 389B431A  length: 00000006
- commandTable: 376E30D8
+ release: 389AC2FA  token: 00004E20
+ signature: 389B631A  length: 00000006
+ commandTable: 376F9168
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38AE07C8
+ ---EXCICS---exit newEXCICS: 38AE27C8
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -412,9 +412,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @38AE0648
+ avData @38AE2648
  *parmData: X'0E080000'
- avData[0] @38AE0930
+ avData[0] @38AE2930
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -440,9 +440,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38AE0970
+ avData @38AE2970
  *parmData: X'0E080000'
- avData[0] @38AE0988
+ avData[0] @38AE2988
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -501,8 +501,8 @@
  ---sqlHVComp---exit: 0
  ---findSQLcall---exit: 0
  ---storeHVsIn---entry
- sqlDAin: 950967312, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:38AE9C10
+ sqlDAin: 950975504, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:38AEBC10
  ---setData---entry
  dataType: 496
  rowsAffected: 0 mLength: 4
@@ -516,18 +516,18 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 950967372, sqlN: 6, HVsOut size: 6
- iA in DA: 950967200
+ sqlDAout: 950975564, sqlN: 6, HVsOut size: 6
+ iA in DA: 950975392
  bitFlag 0
- iA in DA: 950967200
+ iA in DA: 950975392
  bitFlag 0
- iA in DA: 950967200
+ iA in DA: 950975392
  bitFlag 0
- iA in DA: 950967200
+ iA in DA: 950975392
  bitFlag 0
- iA in DA: 950967200
+ iA in DA: 950975392
  bitFlag 0
- iA in DA: 950967200
+ iA in DA: 950975392
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
@@ -542,15 +542,15 @@
  ---s00 doCall---entry
  ---validateAVs---entry
  AVsBefore: 1
- parm 0: X'B88D2F8F'
+ parm 0: X'B88D4F8F'
  ---validateAVs---exit: 0
  ---storeAVsBeforeLive---entry
  sz: 1
  ---setData---entry
  cL: 17
- avData @38AE09E0
+ avData @38AE29E0
  *parmData: X'0E080000'
- avData[0] @38AE0AB0
+ avData[0] @38AE2AB0
  *avData: X'0E080000'
  ---setData---exit
  lL: 17
@@ -594,7 +594,7 @@
  token: 00004E21
  ---buildAvRec---entry
  cL: 17
- avData @: 38AE09E0
+ avData @: 38AE29E0
  *avData: X'0E080000'
  bL: 17
  *bvData: X'0E080000'

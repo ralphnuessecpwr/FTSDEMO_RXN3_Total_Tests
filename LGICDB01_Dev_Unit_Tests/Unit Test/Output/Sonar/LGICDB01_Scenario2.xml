@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.4.1.v20190319-1916_877?>
-<!--Topaz for Total Test 19.4.1.v20190319-1916_877 01.04.2019 18:57:49-->
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 11.04.2019 12:09:18-->
 <testExecutions version="1">
   <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGICDB01_Dev_Unit_Tests\Unit Test\Scenarios\LGICDB01_Scenario2.testscenario">
     <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00001: Check for eibtime"/>
@@ -102,10 +102,10 @@
     <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00097: Check for CA_C_Observations"/>
     <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.00098: Check for CA_C_FILLER"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGICDB01_Dev_Unit_Tests\Unit Test\Stubs\LGICDB01_Select_1_SQL_02.stub">
-    <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.Stub: 'LGICDB01_Select_1_SQL_02'.00001: 'Select' assertion.Select"/>
-  </file>
   <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGICDB01_Dev_Unit_Tests\Unit Test\Stubs\LGICDB01_EXEC_CICS_RETURN2_01.stub">
-    <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.Stub: 'LGICDB01_EXEC_CICS_RETURN2_01'.00002: 'EXEC CICS RETURN' assertion.EXEC CICS RETURN"/>
+    <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.Stub: 'LGICDB01_EXEC_CICS_RETURN2_01'.00001: 'EXEC CICS RETURN' assertion.EXEC CICS RETURN"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN3_Unit_Tests\LGICDB01_Dev_Unit_Tests\Unit Test\Stubs\LGICDB01_Select_1_SQL_03.stub">
+    <testCase duration="0" name="LGICDB01_Unit_Tests.LGICDB01_Scenario2.00001: LGICDB01Case1.Stub: 'LGICDB01_Select_1_SQL_03'.00002: 'Select' assertion.Select"/>
   </file>
 </testExecutions>
