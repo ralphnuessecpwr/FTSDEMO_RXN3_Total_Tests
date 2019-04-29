@@ -1,6 +1,6 @@
-10:17:51.415 COMMENT   Engine           Test Scenario execution started
-10:17:51.415 INFO      Engine           Using context settings:
-  Engine Version       : 4.0.0
+12:59:06.577 COMMENT   Engine           Test Scenario execution started
+12:59:06.592 INFO      Engine           Using context settings:
+  Engine Version       : 19.4.1
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
@@ -13,60 +13,43 @@
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
-10:17:51.415 INFO      Engine           Setting variables from context and context data extensions
-10:17:51.415 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-10:17:51.415 INFO      Engine             id: environmentType    value: BATCH
-10:17:51.415 INFO      Engine             id: userId             value: HDDRXM0
-10:17:51.415 INFO      Variable         Interpreting Variable id:input_file
-10:17:51.415 LOG       Variable         Resolved data:
+12:59:06.592 INFO      Engine           Setting variables from context and context data extensions
+12:59:06.592 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+12:59:06.592 INFO      Engine             id: environmentType    value: BATCH
+12:59:06.592 INFO      Engine             id: userId             value: HDDRXM0
+12:59:06.592 INFO      Variable         Interpreting Variable id:input_file
+12:59:06.592 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTDATA
-10:17:51.415 INFO      Variable         Interpreting Variable id:output_file
-10:17:51.415 LOG       Variable         Resolved data:
+12:59:06.592 INFO      Variable         Interpreting Variable id:output_file
+12:59:06.592 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTRPT
-10:17:51.415 INFO      Variable         Interpreting Variable id:expected_file
-10:17:51.415 LOG       Variable         Resolved data:
+12:59:06.592 INFO      Variable         Interpreting Variable id:expected_file
+12:59:06.592 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.CWXTRPT.EXPECT
-10:17:51.415 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
-10:17:51.415 INFO      Component        Using setup JCL for execution
-10:17:51.415 INFO      Component          Variable substitution found in setup JCL, now substituted
-10:17:51.415 INFO      Component          JCL for setup:
+12:59:06.592 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+12:59:06.592 INFO      Component        Using setup JCL for execution
+12:59:06.592 INFO      Component          Variable substitution found in setup JCL, now substituted
+12:59:06.592 INFO      Component          JCL for setup:
 //EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
-10:17:51.415 LOG       CWCC Batch       Final JCL setup for the component:
+12:59:06.592 LOG       CWCC Batch       Final JCL setup for the component:
 //EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
 //EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
 
-10:17:51.415 LOG       CWCC Batch       Component Runtime Settings:
-10:17:51.415 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
-10:17:51.415 LOG       CWCC Batch         Additional load libraries :
-10:17:51.415 LOG       CWCC Batch         Listing libraries         :
-10:17:51.415 LOG       CWCC Batch         SysDebug libraries        :
-10:17:51.415 LOG       CWCC Batch         DB2 Subsystem ID          :
-10:17:51.415 LOG       CWCC Batch         DB2 plan                  :
-10:17:51.415 LOG       CWCC Batch         Call interface            :NONE
-10:17:51.415 LOG       CWCC Batch         Debugger type             :NONE
-10:17:51.415 LOG       CWCC Batch         Component type            :COBOL
-10:17:51.415 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
-10:17:53.349 LOG       CWCC Batch       Uploading input data for module CWXTCOB
-10:17:54.099 LOG       CWCC Batch       Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>062963f1-f177-4d19-ab8d-d7c0a5abcce2</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
-10:17:54.395 LOG       CWCC Batch       Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0711886</jobid></xatz_response></XATZRESP>
-10:17:54.395 LOG       CWCC Batch       Response received from Host. Message: JobId:J0711886
-10:17:54.395 INFO      CWCC Batch       Job has been started at host with JobId:J0711886
-10:17:54.395 INFO      CWCC Batch       Waiting for Execution Result from Host
-10:17:58.671 INFO      CWCC Batch       Component completed with program exit: +0
-10:17:59.274 LOG       CWCC Batch       Setting execution variable 'jobid' to J0711886
-10:17:59.274 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
-10:18:00.955 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-10:18:00.986 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-10:18:00.986 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
-10:18:00.986 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: ${output_file}
-10:18:00.986 INFO      VerifyRemoteFile   Variable substitution found in actual dataset name
-10:18:00.986 INFO      VerifyRemoteFile   Actual dataset name is now:HDDRXM0.DEMO.CWXTRPT
-10:18:00.986 INFO      VerifyRemoteFile   Variable substitution found in expected dataset name
-10:18:00.986 INFO      VerifyRemoteFile   Expected dataset name is now:HDDRXM0.DEMO.CWXTRPT.EXPECT
-10:18:00.986 INFO      CWCC Batch       Sending Job execution request to Host 
-10:18:02.527 ERROR     Engine           Unable to execute the job definition at the host
-10:18:02.527 ERROR     Engine           An error occured. Now stopping the execution.
-10:18:02.527 COMMENT   Engine           Test Scenario execution ended
+12:59:06.592 LOG       CWCC Batch       Component Runtime Settings:
+12:59:06.592 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
+12:59:06.592 LOG       CWCC Batch         Additional load libraries :
+12:59:06.592 LOG       CWCC Batch         Listing libraries         :
+12:59:06.592 LOG       CWCC Batch         SysDebug libraries        :
+12:59:06.592 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:59:06.592 LOG       CWCC Batch         DB2 plan                  :
+12:59:06.592 LOG       CWCC Batch         Call interface            :NONE
+12:59:06.592 LOG       CWCC Batch         Debugger type             :NONE
+12:59:06.592 LOG       CWCC Batch         Component type            :COBOL
+12:59:06.592 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+12:59:06.936 ERROR     CWCC Batch       Error initializing Dirs: Unable to determine if file /u/xatester/hddrxm0 exists. Reason Unable to check for existence of the specified ZFS file. A MVS environmental or internal error has occurred.
+12:59:06.936 ERROR     Engine           Unable to execute the module:CWXTCOB at the host. Unable to initiate Server connection to server CWCC.COMPUWARE.COM port:16196 ftpPort:21. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to determine if file /u/xatester/hddrxm0 exists. Reason Unable to check for existence of the specified ZFS file. A MVS environmental or internal error has occurred.
+12:59:06.936 ERROR     Engine           An error occured. Now stopping the execution.
+12:59:06.936 COMMENT   Engine           Test Scenario execution ended

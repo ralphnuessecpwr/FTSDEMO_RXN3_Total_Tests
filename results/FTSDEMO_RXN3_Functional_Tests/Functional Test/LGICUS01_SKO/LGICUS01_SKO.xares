@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="FAILURE" containsSimulation="false">
-  <ExecutionId>a802d8a5-2f28-45eb-a9be-43a63dc173ad</ExecutionId>
+  <ExecutionId>255a00e1-5d51-4cc3-bfd3-5dbf40a16c72</ExecutionId>
   <Message>An error occured and the execution has been stopped. Unable to execute the module:LGICUS01 at the host. Unable to initiate Server connection to server CWCC.COMPUWARE.COM port:16196 ftpPort:21. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to determine if file /u/xatester/hddrxm0 exists. Reason Unable to check for existence of the specified ZFS file. A MVS environmental or internal error has occurred.</Message>
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Test>
-        <SQLSelect id="select" maxRows="3">
+        <SQLSelect id="SQLSelect" maxRows="3">
           <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
           <Output name="CITY" />
           <Output name="CUSTOMERNUMBER" />
@@ -38,7 +38,7 @@
             <STATE>AZ</STATE>
           </Row>
         </SQLSelect>
-        <IterateData id="loop" referencedId="select" dataPath="" />
+        <IterateData id="loop" referencedId="SQLSelect" dataPath="" />
       </Test>
       <MetaData>
         <Component name="LGICUS01" type="COBOL">
@@ -111,9 +111,9 @@
         </Parameter>
       </ExtensionData>
       <References componentName="lgicus01" />
-      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicus01" path="LGICUS01_Alternate.xaunit">
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicus01" path="LGICUS01_SKO.xaunit">
         <Test>
-          <SQLSelect id="select" maxRows="3">
+          <SQLSelect id="SQLSelect" maxRows="3">
             <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
             <Output name="CITY" />
             <Output name="CUSTOMERNUMBER" />
@@ -122,7 +122,7 @@
             <Output name="LASTNAME" />
             <Output name="STATE" />
           </SQLSelect>
-          <IterateData id="loop" referencedId="select" dataPath="">
+          <IterateData id="loop" referencedId="SQLSelect" dataPath="">
             <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="false">
               <Data>
                 <dfhcommarea>
@@ -143,7 +143,7 @@
                     <ca-national-id-nbr />
                     <ca-nin-type />
                     <ca-street-address />
-                    <ca-city expected="=loop.Row.CITY" />
+                    <ca-city />
                     <ca-state expected="=loop.Row.STATE" />
                     <ca-country-code />
                     <ca-sales-territory />
@@ -156,10 +156,10 @@
               </Data>
             </Component>
           </IterateData>
-          <SQLUpdate name="Delete">
-            <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 999]]></Statement>
+          <SQLUpdate description="Make sure that customer does not exist" name="Delete">
+            <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = '999']]></Statement>
           </SQLUpdate>
-          <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="true">
+          <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="false">
             <Data>
               <dfhcommarea>
                 <ca-request-id />
@@ -230,6 +230,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190408-12-58-30</Started>
-  <Ended>20190408-12-58-31</Ended>
+  <Started>20190408-12-57-21</Started>
+  <Ended>20190408-12-57-28</Ended>
 </XaUnitResult>
