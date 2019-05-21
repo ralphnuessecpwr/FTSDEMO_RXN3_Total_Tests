@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:number id="LastCustNum.LastCustNum" length="8" name="LastCustNum">
+    <listructure:number id="LastCustNum" length="8" name="LastCustNum">
       <properties:properties>
         <properties:property name="picture" type="string">S9(8)</properties:property>
         <properties:property name="usage" type="string">computational</properties:property>

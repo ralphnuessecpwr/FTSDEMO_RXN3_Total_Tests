@@ -2624,7 +2624,7 @@
     </interface:interface>
     <stub:stub alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN2_01.stub" nextCalltoken="40002" stubtype="CICS" target="" token="40000">
         <stub:description>Created: 20.02.2019 20:48:03</stub:description>
-        <stub:stubdata callToken="40001" id="0" name="EXEC CICS RETURN">
+        <stub:stubdata callToken="40001" id="0" id="EXEC CICS RETURN">
             <stub:interface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN2.interface</stub:interface>
             <stub:inputinterface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN2.interface</stub:inputinterface>
             <stub:input listructure="#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_RETURN2/LGICDB01_EXEC_CICS_RETURN2_CICS-GENERATED-CONSTANT-0.listructure">
@@ -2689,7 +2689,7 @@
     </stub:stub>
     <stub:stub alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_Select_1_SQL_02.stub" nextCalltoken="30003" stubtype="SQL" target="Select" token="30000">
         <stub:description>Created: 20.02.2019 20:48:02</stub:description>
-        <stub:stubdata id="0" name="Select">
+        <stub:stubdata id="0" id="Select">
             <stub:interface>#Unit%20Test/Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_INT.interface</stub:interface>
             <stub:output listructure="#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure">
                 <stub:data baseType="#DB2_CUSTOMERNUMBER_INT" id="arg0.DB2_CUSTOMERNUMBER_INT">
@@ -2815,7 +2815,7 @@
     </stub:stub>
     <stub:stub alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN1_01.stub" nextCalltoken="20002" stubtype="CICS" target="" token="20000">
         <stub:description>Created: 20.02.2019 20:45:44</stub:description>
-        <stub:stubdata callToken="20001" id="0" name="EXEC CICS RETURN">
+        <stub:stubdata callToken="20001" id="0" id="EXEC CICS RETURN">
             <stub:interface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface</stub:interface>
             <stub:inputinterface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface</stub:inputinterface>
             <stub:input listructure="#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure">
@@ -2880,7 +2880,7 @@
     </stub:stub>
     <stub:stub alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_Select_1_SQL_01.stub" nextCalltoken="10003" stubtype="SQL" target="Select" token="10000">
         <stub:description>Created: 20.02.2019 20:45:43</stub:description>
-        <stub:stubdata id="0" name="Select">
+        <stub:stubdata id="0" id="Select">
             <stub:interface>#Unit%20Test/Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_INT.interface</stub:interface>
             <stub:output listructure="#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure">
                 <stub:data baseType="#DB2_CUSTOMERNUMBER_INT" id="arg0.DB2_CUSTOMERNUMBER_INT">
@@ -3006,7 +3006,7 @@
     </stub:stub>
     <stub:stub alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN3_01.stub" nextCalltoken="40002" stubtype="CICS" target="" token="40000">
         <stub:description>Created: 20.02.2019 20:48:03</stub:description>
-        <stub:stubdata callToken="40001" id="0" name="EXEC CICS RETURN">
+        <stub:stubdata callToken="40001" id="0" id="EXEC CICS RETURN">
             <stub:interface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN2.interface</stub:interface>
             <stub:inputinterface>#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN2.interface</stub:inputinterface>
             <stub:input listructure="#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_RETURN2/LGICDB01_EXEC_CICS_RETURN2_CICS-GENERATED-CONSTANT-0.listructure">
@@ -4421,4 +4421,7 @@
         <archive:lines>AAH - for AbendAID Viewing Server AACCVS01 (AA 16.05)</archive:lines>
         <archive:lines>AB400B http://CWCC.NASA.CPWR.CORP:06952/AAVIEW?RPT=0013252</archive:lines>
     </archive:abendInfo>
+  <properties:properties>
+    <properties:property name="hexEncoding" type="string">UTF-8</properties:property>
+  </properties:properties>
 </archive:archive>

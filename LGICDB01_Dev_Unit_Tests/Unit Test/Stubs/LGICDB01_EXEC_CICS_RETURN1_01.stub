@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN1_01.stub" nextCalltoken="20002" stubtype="CICS" target="" token="20000">
   <stub:description>Created: 20.02.2019 20:45:44</stub:description>
-  <stub:stubdata callToken="20001" id="0" name="EXEC CICS RETURN">
+  <stub:stubdata callToken="20001" id="0">
     <stub:interface>../Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_RETURN1.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">0e0800000700001000f0f0f4f7f2404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">0e0800000700001000f0f0f4f7f2404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_RETURN1/LGICDB01_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:statement type="EXEC CICS RETURN">
       <stub:text>      *EXEC CICS RETURN END-EXEC.

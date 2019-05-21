@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_SUBP_LGICUS01_01.stub" nextCalltoken="40002" stubtype="CICS" target="LGICUS01" token="40000">
   <stub:description>Created: 20.02.2019 20:13:47</stub:description>
-  <stub:stubdata callToken="40001" id="0" name="EXEC CICS LINK">
+  <stub:stubdata callToken="40001" id="0">
     <stub:interface>../Interfaces/LGTESTC1_SUBP_LGICUS01.interface#Unit%20Test/Interfaces/LGTESTC1_SUBP_LGICUS01.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_SUBP_LGICUS01.interface#Unit%20Test/Interfaces/LGTESTC1_SUBP_LGICUS01.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">0e02e0000700000100f0f0f1f1f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">D3C7C9C3E4E2F0F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080.dfhc0080" id="input0.arg1.dfhc0080.dfhc0080" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080" id="input0.arg1.dfhc0080.dfhc0080" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure#COMM_AREA" id="arg2.COMM_AREA">
@@ -111,7 +111,7 @@
           <properties:property name="value" type="string">09C4</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhb0020.listructure#dfhb0020.dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhb0020.listructure#dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -119,7 +119,7 @@
           <properties:property name="value" type="string">0e02e0000700000100f0f0f1f1f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
@@ -127,7 +127,7 @@
           <properties:property name="value" type="string">D3C7C9C3E4E2F0F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080.dfhc0080" id="output0.arg1.dfhc0080.dfhc0080" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhc0080.listructure#dfhc0080" id="output0.arg1.dfhc0080.dfhc0080" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_COMM-AREA.listructure#COMM_AREA" id="arg2.COMM_AREA">
@@ -220,7 +220,7 @@
           <properties:property name="value" type="string">09C4</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhb0020.listructure#dfhb0020.dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_SUBP_LGICUS01/LGTESTC1_SUBP_LGICUS01_dfhb0020.listructure#dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:output>
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input0.arg1.dfhc0080.dfhc0080">

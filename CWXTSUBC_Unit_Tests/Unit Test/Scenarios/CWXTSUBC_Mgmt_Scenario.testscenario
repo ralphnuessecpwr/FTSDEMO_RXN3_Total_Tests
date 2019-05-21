@@ -15,7 +15,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -24,7 +24,7 @@
             <properties:property name="expectedValue" type="string">F0F7F5F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -33,7 +33,7 @@
             <properties:property name="expectedValue" type="string">0150000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
@@ -68,7 +68,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -77,7 +77,7 @@
             <properties:property name="expectedValue" type="string">F1F5F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -86,7 +86,7 @@
             <properties:property name="expectedValue" type="string">0375000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
@@ -121,7 +121,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -130,7 +130,7 @@
             <properties:property name="expectedValue" type="string">F2F5F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -139,7 +139,7 @@
             <properties:property name="expectedValue" type="string">0750000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
@@ -174,7 +174,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -183,7 +183,7 @@
             <properties:property name="expectedValue" type="string">F3F5F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -192,7 +192,7 @@
             <properties:property name="expectedValue" type="string">1225000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
@@ -227,7 +227,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -236,7 +236,7 @@
             <properties:property name="expectedValue" type="string">F4F5F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -245,7 +245,7 @@
             <properties:property name="expectedValue" type="string">1800000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
@@ -280,7 +280,7 @@
             <properties:property name="expectedValue" type="string">D4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
@@ -289,7 +289,7 @@
             <properties:property name="expectedValue" type="string">F5F5F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
@@ -298,7 +298,7 @@
             <properties:property name="expectedValue" type="string">2200000F</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>

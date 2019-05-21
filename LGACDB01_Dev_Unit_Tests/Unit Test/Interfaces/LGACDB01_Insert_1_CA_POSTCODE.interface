@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Insert_DB2-CUSTOMERNUM-INT.listructure#DB2_CUSTOMERNUM_INT.DB2_CUSTOMERNUM_INT">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Insert_DB2-CUSTOMERNUM-INT.listructure#DB2_CUSTOMERNUM_INT">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure#CA_FIRST_NAME.CA_FIRST_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure#CA_FIRST_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure#CA_LAST_NAME.CA_LAST_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure#CA_LAST_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -45,7 +45,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure#CA_DOB.CA_DOB">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure#CA_DOB">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -57,7 +57,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME.CA_HOUSE_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -69,7 +69,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM.CA_HOUSE_NUM">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -81,7 +81,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure#CA_POSTCODE.CA_POSTCODE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure#CA_POSTCODE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

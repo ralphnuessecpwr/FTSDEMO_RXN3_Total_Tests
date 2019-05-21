@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWDEMCB2_HANDLE_01.stub" nextCalltoken="60002" stubtype="CICS" target="" token="60000">
   <stub:description>Created: 13.02.2019 09:17:40</stub:description>
-  <stub:stubdata callToken="60001" id="0" name="EXEC CICS HANDLE">
+  <stub:stubdata callToken="60001" id="0">
     <stub:interface>../Interfaces/CWDEMCB2_HANDLE.interface#Unit%20Test/Interfaces/CWDEMCB2_HANDLE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWDEMCB2_HANDLE.interface#Unit%20Test/Interfaces/CWDEMCB2_HANDLE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_HANDLE/CWDEMCB2_HANDLE_CICS-GENERATED-CONSTANT-1.listructure">

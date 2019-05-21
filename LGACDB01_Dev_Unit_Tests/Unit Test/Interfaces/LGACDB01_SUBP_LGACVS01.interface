@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_LGACVS01.listructure#LGACVS01.LGACVS01">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_LGACVS01.listructure#LGACVS01">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -415,7 +415,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_dfhb0020.listructure#dfhb0020.dfhb0020">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_SUBP_LGACVS01/LGACDB01_SUBP_LGACVS01_dfhb0020.listructure#dfhb0020">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

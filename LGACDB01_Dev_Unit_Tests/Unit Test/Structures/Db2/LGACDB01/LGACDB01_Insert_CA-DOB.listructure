@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">10</properties:property>
     </properties:properties>
-    <listructure:string id="CA_DOB.CA_DOB" length="10" name="CA_DOB">
+    <listructure:string id="CA_DOB" length="10" name="CA_DOB">
       <properties:properties>
         <properties:property name="picture" type="string">X(10)</properties:property>
         <properties:property name="displayLength" type="number">10</properties:property>

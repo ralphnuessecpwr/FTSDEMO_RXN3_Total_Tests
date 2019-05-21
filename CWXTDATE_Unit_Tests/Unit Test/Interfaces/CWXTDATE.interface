@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

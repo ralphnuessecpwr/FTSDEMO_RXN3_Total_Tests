@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#CA_FIRST_NAME.CA_FIRST_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#CA_FIRST_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME.CA_LAST_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB.CA_DOB">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -45,7 +45,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME.CA_HOUSE_NAME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -57,7 +57,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM.CA_HOUSE_NUM">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -69,7 +69,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE.CA_POSTCODE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

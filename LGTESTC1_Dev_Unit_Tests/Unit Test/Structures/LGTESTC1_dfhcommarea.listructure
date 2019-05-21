@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">1</properties:property>
     </properties:properties>
-    <listructure:string id="dfhcommarea.dfhcommarea" length="1" name="dfhcommarea">
+    <listructure:string id="dfhcommarea" length="1" name="dfhcommarea">
       <properties:properties>
         <properties:property name="picture" type="string">x(1)</properties:property>
         <properties:property name="displayLength" type="number">1</properties:property>

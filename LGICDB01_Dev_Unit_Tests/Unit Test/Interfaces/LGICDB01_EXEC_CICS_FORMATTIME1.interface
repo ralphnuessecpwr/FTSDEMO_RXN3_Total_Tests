@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME.WS_ABSTIME">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -45,7 +45,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -57,7 +57,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -69,7 +69,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -81,7 +81,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -93,7 +93,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -105,7 +105,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -117,7 +117,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -129,7 +129,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -141,7 +141,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -153,7 +153,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -165,7 +165,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -177,7 +177,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -189,7 +189,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME.WS_TIME">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -201,7 +201,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -213,7 +213,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -225,7 +225,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -237,7 +237,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -249,7 +249,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -261,7 +261,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE.WS_DATE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

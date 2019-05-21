@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:number id="DB2_CUSTOMERNUM_INT.DB2_CUSTOMERNUM_INT" length="9" name="DB2_CUSTOMERNUM_INT">
+    <listructure:number id="DB2_CUSTOMERNUM_INT" length="9" name="DB2_CUSTOMERNUM_INT">
       <properties:properties>
         <properties:property name="picture" type="string">S9(9)</properties:property>
         <properties:property name="usage" type="string">computational</properties:property>

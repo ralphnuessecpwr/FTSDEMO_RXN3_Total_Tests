@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_Select_1_SQL_01.stub" nextCalltoken="10003" stubtype="SQL" target="Select" token="10000">
   <stub:description>Created: 20.02.2019 20:45:43</stub:description>
-  <stub:stubdata id="0" name="Select">
+  <stub:stubdata id="0">
     <stub:interface>../Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_INT.interface#Unit%20Test/Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_INT.interface</stub:interface>
     <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure">
       <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure#DB2_CUSTOMERNUMBER_INT" id="arg0.DB2_CUSTOMERNUMBER_INT">
@@ -9,7 +9,7 @@
           <properties:property name="value" type="string">00000001</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure#DB2_CUSTOMERNUMBER_INT.DB2_CUSTOMERNUMBER_INT" id="output0.arg0.DB2_CUSTOMERNUMBER_INT.DB2_CUSTOMERNUMBER_INT" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-INT.listructure#DB2_CUSTOMERNUMBER_INT" id="output0.arg0.DB2_CUSTOMERNUMBER_INT.DB2_CUSTOMERNUMBER_INT" offset="0"/>
     </stub:output>
     <stub:sqlResults>
       <stub:result id="1" name="Select">
@@ -20,7 +20,7 @@
               <properties:property name="value" type="string">C195849985A640404040</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#CA_FIRST_NAME.CA_FIRST_NAME" id="output1.arg0.CA_FIRST_NAME.CA_FIRST_NAME" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#CA_FIRST_NAME" id="output1.arg0.CA_FIRST_NAME.CA_FIRST_NAME" offset="0"/>
         </stub:output>
         <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure">
           <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME" id="arg1.CA_LAST_NAME">
@@ -28,7 +28,7 @@
               <properties:property name="value" type="string">D7819584A8404040404040404040404040404040</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME.CA_LAST_NAME" id="output1.arg1.CA_LAST_NAME.CA_LAST_NAME" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME" id="output1.arg1.CA_LAST_NAME.CA_LAST_NAME" offset="0"/>
         </stub:output>
         <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure">
           <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB" id="arg2.CA_DOB">
@@ -36,7 +36,7 @@
               <properties:property name="value" type="string">F1F9F5F060F0F760F1F1</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB.CA_DOB" id="output1.arg2.CA_DOB.CA_DOB" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB" id="output1.arg2.CA_DOB.CA_DOB" offset="0"/>
         </stub:output>
         <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure">
           <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME" id="arg3.CA_HOUSE_NAME">
@@ -44,7 +44,7 @@
               <properties:property name="value" type="string">4040404040404040404040404040404040404040</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME.CA_HOUSE_NAME" id="output1.arg3.CA_HOUSE_NAME.CA_HOUSE_NAME" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME" id="output1.arg3.CA_HOUSE_NAME.CA_HOUSE_NAME" offset="0"/>
         </stub:output>
         <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure">
           <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM" id="arg4.CA_HOUSE_NUM">
@@ -52,7 +52,7 @@
               <properties:property name="value" type="string">F3F44040</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM.CA_HOUSE_NUM" id="output1.arg4.CA_HOUSE_NUM.CA_HOUSE_NUM" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM" id="output1.arg4.CA_HOUSE_NUM.CA_HOUSE_NUM" offset="0"/>
         </stub:output>
         <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure">
           <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE" id="arg5.CA_POSTCODE">
@@ -60,7 +60,7 @@
               <properties:property name="value" type="string">D7C9F1F0F1D6D640</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE.CA_POSTCODE" id="output1.arg5.CA_POSTCODE.CA_POSTCODE" offset="0"/>
+          <stub:data baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE" id="output1.arg5.CA_POSTCODE.CA_POSTCODE" offset="0"/>
         </stub:output>
         <stub:sqlStatus>
           <stub:statement type="Select">

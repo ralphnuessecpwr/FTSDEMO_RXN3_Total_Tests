@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">256</properties:property>
     </properties:properties>
-    <listructure:string id="CWCDWRKA.CWCDWRKA" length="256" name="CWCDWRKA">
+    <listructure:string id="CWCDWRKA" length="256" name="CWCDWRKA">
       <properties:properties>
         <properties:property name="picture" type="string">X(256)</properties:property>
         <properties:property name="displayLength" type="number">256</properties:property>

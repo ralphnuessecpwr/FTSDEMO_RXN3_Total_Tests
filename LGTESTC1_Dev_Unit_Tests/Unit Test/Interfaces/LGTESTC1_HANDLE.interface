@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

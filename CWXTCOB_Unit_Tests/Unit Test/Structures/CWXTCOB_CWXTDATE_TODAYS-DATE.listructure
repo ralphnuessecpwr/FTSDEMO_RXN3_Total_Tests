@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">6</properties:property>
     </properties:properties>
-    <listructure:string id="TODAYS_DATE.TODAYS_DATE" length="6" name="TODAYS_DATE">
+    <listructure:string id="TODAYS_DATE" length="6" name="TODAYS_DATE">
       <properties:properties>
         <properties:property name="picture" type="string">X(6)</properties:property>
         <properties:property name="displayLength" type="number">6</properties:property>

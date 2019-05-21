@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGACDB01_Select_1_SQL_01.stub" nextCalltoken="10003" stubtype="SQL" target="Select" token="10000">
   <stub:description>Created: 21.02.2019 08:01:31</stub:description>
-  <stub:stubdata id="0" name="Select">
+  <stub:stubdata id="0">
     <stub:sqlResults>
       <stub:result id="1" name="Select">
         <stub:interface>../Interfaces/LGACDB01_Select_1_LastCustNum.interface#Unit%20Test/Interfaces/LGACDB01_Select_1_LastCustNum.interface</stub:interface>
@@ -11,7 +11,7 @@
               <properties:property name="value" type="string">00000014</properties:property>
             </properties:properties>
           </stub:data>
-          <stub:data baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum.LastCustNum" id="output1.arg0.LastCustNum.LastCustNum" offset="0"/>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum" id="output1.arg0.LastCustNum.LastCustNum" offset="0"/>
         </stub:output>
         <stub:sqlStatus>
           <stub:statement type="Select">

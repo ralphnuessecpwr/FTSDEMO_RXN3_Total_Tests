@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub" stubtype="QSAM" target="RPTFILE" token="30000">
   <stub:description>Created: 13.03.2019 12:43:02</stub:description>
-  <stub:stubdata id="0" name="RPTFILE">
+  <stub:stubdata id="0">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -9,7 +9,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output0.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output0.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output0.arg0.BLANK_LINE.BLANK_LINE">
@@ -18,7 +18,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="1" name="RPTFILE">
+  <stub:stubdata id="1">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -26,7 +26,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output1.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output1.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output1.arg0.BLANK_LINE.BLANK_LINE">
@@ -35,7 +35,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="2" name="RPTFILE">
+  <stub:stubdata id="2">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -43,7 +43,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output2.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output2.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output2.arg0.BLANK_LINE.BLANK_LINE">
@@ -52,7 +52,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="3" name="RPTFILE">
+  <stub:stubdata id="3">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR1.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR1.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR1.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR1.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1" id="arg0.EMPLOYEE_HDR1">
@@ -124,7 +124,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="4" name="RPTFILE">
+  <stub:stubdata id="4">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -132,7 +132,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output4.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output4.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output4.arg0.BLANK_LINE.BLANK_LINE">
@@ -141,7 +141,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="5" name="RPTFILE">
+  <stub:stubdata id="5">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -149,7 +149,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output5.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output5.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output5.arg0.BLANK_LINE.BLANK_LINE">
@@ -158,7 +158,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="6" name="RPTFILE">
+  <stub:stubdata id="6">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR2.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR2.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR2.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR2.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR2.listructure#EMPLOYEE_HDR2" id="arg0.EMPLOYEE_HDR2">
@@ -195,7 +195,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="7" name="RPTFILE">
+  <stub:stubdata id="7">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR3.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_HDR3.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR3.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR3.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-HDR3.listructure#EMPLOYEE_HDR3" id="arg0.EMPLOYEE_HDR3">
@@ -297,7 +297,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="8" name="RPTFILE">
+  <stub:stubdata id="8">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -305,7 +305,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output8.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output8.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output8.arg0.BLANK_LINE.BLANK_LINE">
@@ -314,7 +314,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="9" name="RPTFILE">
+  <stub:stubdata id="9">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -436,7 +436,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="10" name="RPTFILE">
+  <stub:stubdata id="10">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -558,7 +558,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="11" name="RPTFILE">
+  <stub:stubdata id="11">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -680,7 +680,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="12" name="RPTFILE">
+  <stub:stubdata id="12">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -802,7 +802,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="13" name="RPTFILE">
+  <stub:stubdata id="13">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -924,7 +924,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="14" name="RPTFILE">
+  <stub:stubdata id="14">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1046,7 +1046,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="15" name="RPTFILE">
+  <stub:stubdata id="15">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1168,7 +1168,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="16" name="RPTFILE">
+  <stub:stubdata id="16">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1290,7 +1290,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="17" name="RPTFILE">
+  <stub:stubdata id="17">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1412,7 +1412,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="18" name="RPTFILE">
+  <stub:stubdata id="18">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1534,7 +1534,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="19" name="RPTFILE">
+  <stub:stubdata id="19">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1656,7 +1656,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="20" name="RPTFILE">
+  <stub:stubdata id="20">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1778,7 +1778,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="21" name="RPTFILE">
+  <stub:stubdata id="21">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
@@ -1900,7 +1900,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="22" name="RPTFILE">
+  <stub:stubdata id="22">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
@@ -1908,7 +1908,7 @@
           <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE" id="output22.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="output22.arg0.BLANK_LINE.BLANK_LINE" offset="0"/>
     </stub:output>
     <stub:checkconditions>
       <checkconditions:simpleCheckcondition refData="#output22.arg0.BLANK_LINE.BLANK_LINE">
@@ -1917,7 +1917,7 @@
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
-  <stub:stubdata id="23" name="RPTFILE">
+  <stub:stubdata id="23">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_EMP_TOTAL_DTL.interface#Unit%20Test/Interfaces/CWXTCOB_RPTFILE_EMP_TOTAL_DTL.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">

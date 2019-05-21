@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -45,7 +45,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_EXEC_CICS_RETURN1/CWDEMCB2_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

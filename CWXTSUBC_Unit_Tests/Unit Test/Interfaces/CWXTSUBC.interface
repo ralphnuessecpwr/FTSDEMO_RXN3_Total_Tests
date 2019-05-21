@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB_EMP-TYPE.listructure#EMP_TYPE">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -33,7 +33,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_SEND_RECEIVE_01.stub" nextCalltoken="20002" stubtype="CICS" target="" token="20000">
   <stub:description>Created: 20.02.2019 20:13:11</stub:description>
-  <stub:stubdata callToken="20001" id="0" name="EXEC CICS HANDLE">
+  <stub:stubdata callToken="20001" id="0">
     <stub:interface>../Interfaces/LGTESTC1_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_SEND_RECEIVE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_SEND_RECEIVE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">0206c00007050a000000000000000000000000000000f0f0f0f9f7404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">0206c00007050a000000000000000000000000000000f0f0f0f9f7404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:statement type="EXEC CICS HANDLE">
       <stub:text>      *EXEC CICS HANDLE AID

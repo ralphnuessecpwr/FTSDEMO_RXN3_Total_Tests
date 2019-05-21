@@ -36,7 +36,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA.CWCDWRKA">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

@@ -15,7 +15,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -24,7 +24,7 @@
             <properties:property name="expectedValue" type="string">F0F0</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -90,7 +90,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -99,7 +99,7 @@
             <properties:property name="expectedValue" type="string">F3F7</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -177,7 +177,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -186,7 +186,7 @@
             <properties:property name="expectedValue" type="string">F2F6</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -264,7 +264,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -273,7 +273,7 @@
             <properties:property name="expectedValue" type="string">F2F9</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -351,7 +351,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -360,7 +360,7 @@
             <properties:property name="expectedValue" type="string">F3F5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -438,7 +438,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -447,7 +447,7 @@
             <properties:property name="expectedValue" type="string">F3F1</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -525,7 +525,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -534,7 +534,7 @@
             <properties:property name="expectedValue" type="string">F3F7</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -612,7 +612,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -621,7 +621,7 @@
             <properties:property name="expectedValue" type="string">F3F6</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -699,7 +699,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -708,7 +708,7 @@
             <properties:property name="expectedValue" type="string">F2F5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -786,7 +786,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -795,7 +795,7 @@
             <properties:property name="expectedValue" type="string">F2F7</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -873,7 +873,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -882,7 +882,7 @@
             <properties:property name="expectedValue" type="string">F3F1</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -960,7 +960,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -969,7 +969,7 @@
             <properties:property name="expectedValue" type="string">F3F3</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -1047,7 +1047,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -1056,7 +1056,7 @@
             <properties:property name="expectedValue" type="string">F3F6</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
@@ -1134,7 +1134,7 @@
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW.EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
@@ -1143,7 +1143,7 @@
             <properties:property name="expectedValue" type="string">F2F4</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="input.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">

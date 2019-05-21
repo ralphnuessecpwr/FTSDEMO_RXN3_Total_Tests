@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_dfhc0040.listructure#dfhc0040.dfhc0040">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_dfhc0040.listructure#dfhc0040">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -475,7 +475,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_dfhb0020.listructure#dfhb0020.dfhb0020">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_dfhb0020.listructure#dfhb0020">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

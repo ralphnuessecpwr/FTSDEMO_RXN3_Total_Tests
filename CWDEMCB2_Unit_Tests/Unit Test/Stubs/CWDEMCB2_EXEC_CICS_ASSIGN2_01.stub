@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWDEMCB2_EXEC_CICS_ASSIGN2_01.stub" nextCalltoken="50002" stubtype="CICS" target="" token="50000">
   <stub:description>Created: 13.02.2019 09:17:35</stub:description>
-  <stub:stubdata callToken="50001" id="0" name="EXEC CICS ASSIGN">
+  <stub:stubdata callToken="50001" id="0">
     <stub:interface>../Interfaces/CWDEMCB2_EXEC_CICS_ASSIGN2.interface#Unit%20Test/Interfaces/CWDEMCB2_EXEC_CICS_ASSIGN2.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWDEMCB2_EXEC_CICS_ASSIGN2.interface#Unit%20Test/Interfaces/CWDEMCB2_EXEC_CICS_ASSIGN2.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/CWDEMCB2_EXEC_CICS_ASSIGN2/CWDEMCB2_EXEC_CICS_ASSIGN2_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_EXEC_CICS_ASSIGN2/CWDEMCB2_EXEC_CICS_ASSIGN2_CICS-GENERATED-CONSTANT-1.listructure">

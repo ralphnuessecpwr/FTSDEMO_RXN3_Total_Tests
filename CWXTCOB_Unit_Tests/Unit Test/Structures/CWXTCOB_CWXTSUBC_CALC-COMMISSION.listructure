@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:number id="CALC_COMMISSION.CALC_COMMISSION" initial="0" length="7" name="CALC_COMMISSION">
+    <listructure:number id="CALC_COMMISSION" initial="0" length="7" name="CALC_COMMISSION">
       <properties:properties>
         <properties:property name="picture" type="string">9(5)V99</properties:property>
         <properties:property name="usage" type="string">computational-3</properties:property>

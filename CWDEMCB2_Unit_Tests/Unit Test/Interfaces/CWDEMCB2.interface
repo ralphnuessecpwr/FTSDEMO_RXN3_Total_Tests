@@ -171,7 +171,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA.DFHCOMMAREA">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

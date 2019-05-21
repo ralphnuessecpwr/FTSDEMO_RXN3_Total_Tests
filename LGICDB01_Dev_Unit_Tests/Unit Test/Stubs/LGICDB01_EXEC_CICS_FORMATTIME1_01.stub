@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_EXEC_CICS_FORMATTIME1_01.stub" nextCalltoken="60002" stubtype="CICS" target="" token="60000">
   <stub:description>Created: 21.02.2019 16:32:54</stub:description>
-  <stub:stubdata callToken="60001" id="0" name="EXEC CICS FORMATTIME">
+  <stub:stubdata callToken="60001" id="0">
     <stub:interface>../Interfaces/LGICDB01_EXEC_CICS_FORMATTIME1.interface#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_FORMATTIME1.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGICDB01_EXEC_CICS_FORMATTIME1.interface#Unit%20Test/Interfaces/LGICDB01_EXEC_CICS_FORMATTIME1.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">4a048002078002080000000000f0f0f5f3f0404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="arg1.WS_ABSTIME">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">00375973</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME.WS_ABSTIME" id="input0.arg1.WS_ABSTIME.WS_ABSTIME" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="input0.arg1.WS_ABSTIME.WS_ABSTIME" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
@@ -26,7 +26,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" id="input0.arg2.CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="input0.arg2.CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
@@ -34,7 +34,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" id="input0.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="input0.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
@@ -42,7 +42,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" id="input0.arg4.CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="input0.arg4.CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
@@ -50,7 +50,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" id="input0.arg5.CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="input0.arg5.CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
@@ -58,7 +58,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" id="input0.arg6.CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="input0.arg6.CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
@@ -66,7 +66,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" id="input0.arg7.CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="input0.arg7.CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
@@ -74,7 +74,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" id="input0.arg8.CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="input0.arg8.CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
@@ -82,7 +82,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" id="input0.arg9.CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="input0.arg9.CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
@@ -90,7 +90,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" id="input0.arg10.CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="input0.arg10.CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
@@ -98,7 +98,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" id="input0.arg11.CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="input0.arg11.CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
@@ -106,7 +106,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" id="input0.arg12.CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="input0.arg12.CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
@@ -114,7 +114,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" id="input0.arg13.CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="input0.arg13.CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
@@ -122,7 +122,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" id="input0.arg14.CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="input0.arg14.CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="arg15.WS_TIME">
@@ -130,7 +130,7 @@
           <properties:property name="value" type="string">4040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME.WS_TIME" id="input0.arg15.WS_TIME.WS_TIME" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="input0.arg15.WS_TIME.WS_TIME" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
@@ -138,7 +138,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" id="input0.arg16.CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="input0.arg16.CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
@@ -146,7 +146,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" id="input0.arg17.CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="input0.arg17.CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
@@ -154,7 +154,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" id="input0.arg18.CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="input0.arg18.CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
@@ -162,7 +162,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" id="input0.arg19.CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="input0.arg19.CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
@@ -170,7 +170,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" id="input0.arg20.CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="input0.arg20.CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="arg21.WS_DATE">
@@ -178,7 +178,7 @@
           <properties:property name="value" type="string">40404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE.WS_DATE" id="input0.arg21.WS_DATE.WS_DATE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="input0.arg21.WS_DATE.WS_DATE" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -186,7 +186,7 @@
           <properties:property name="value" type="string">4a048002078002080000000000f0f0f5f3f0404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="arg1.WS_ABSTIME">
@@ -194,7 +194,7 @@
           <properties:property name="value" type="string">00375973</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME.WS_ABSTIME" id="output0.arg1.WS_ABSTIME.WS_ABSTIME" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="output0.arg1.WS_ABSTIME.WS_ABSTIME" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
@@ -202,7 +202,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" id="output0.arg2.CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="output0.arg2.CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
@@ -210,7 +210,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" id="output0.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="output0.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
@@ -218,7 +218,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" id="output0.arg4.CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="output0.arg4.CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
@@ -226,7 +226,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" id="output0.arg5.CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="output0.arg5.CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
@@ -234,7 +234,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" id="output0.arg6.CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="output0.arg6.CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
@@ -242,7 +242,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" id="output0.arg7.CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="output0.arg7.CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
@@ -250,7 +250,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" id="output0.arg8.CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="output0.arg8.CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
@@ -258,7 +258,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" id="output0.arg9.CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="output0.arg9.CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
@@ -266,7 +266,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" id="output0.arg10.CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="output0.arg10.CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
@@ -274,7 +274,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" id="output0.arg11.CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="output0.arg11.CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
@@ -282,7 +282,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" id="output0.arg12.CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="output0.arg12.CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
@@ -290,7 +290,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" id="output0.arg13.CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="output0.arg13.CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
@@ -298,7 +298,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" id="output0.arg14.CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="output0.arg14.CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="arg15.WS_TIME">
@@ -306,7 +306,7 @@
           <properties:property name="value" type="string">F1F0F3F2F5F24040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME.WS_TIME" id="output0.arg15.WS_TIME.WS_TIME" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="output0.arg15.WS_TIME.WS_TIME" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
@@ -314,7 +314,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" id="output0.arg16.CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="output0.arg16.CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
@@ -322,7 +322,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" id="output0.arg17.CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="output0.arg17.CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
@@ -330,7 +330,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" id="output0.arg18.CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="output0.arg18.CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
@@ -338,7 +338,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" id="output0.arg19.CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="output0.arg19.CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
@@ -346,7 +346,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" id="output0.arg20.CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="output0.arg20.CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#Unit%20Test/Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="arg21.WS_DATE">
@@ -354,7 +354,7 @@
           <properties:property name="value" type="string">F0F2F2F1F2F0F1F94040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE.WS_DATE" id="output0.arg21.WS_DATE.WS_DATE" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_EXEC_CICS_FORMATTIME1/LGICDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="output0.arg21.WS_DATE.WS_DATE" offset="0"/>
     </stub:output>
     <stub:statement type="EXEC CICS FORMATTIME">
       <stub:text>      *EXEC CICS FORMATTIME ABSTIME(WS-ABSTIME)

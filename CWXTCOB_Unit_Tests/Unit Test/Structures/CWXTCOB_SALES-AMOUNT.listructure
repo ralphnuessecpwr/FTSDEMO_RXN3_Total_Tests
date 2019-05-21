@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">8</properties:property>
     </properties:properties>
-    <listructure:number id="SALES_AMOUNT.SALES_AMOUNT" length="8" name="SALES_AMOUNT">
+    <listructure:number id="SALES_AMOUNT" length="8" name="SALES_AMOUNT">
       <properties:properties>
         <properties:property name="picture" type="string">9(6)V99</properties:property>
         <properties:property name="scale" type="number">2</properties:property>

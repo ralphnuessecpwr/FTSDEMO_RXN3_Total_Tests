@@ -57,7 +57,7 @@ SEND stub - Customer fields</testscenario:description>
             <properties:property name="expectedValue" type="string">40</properties:property>
           </properties:properties>
         </testcase:data>
-        <testcase:data baseType="listructure:stringType ../Structures/LGTESTC1_dfhcommarea.listructure#dfhcommarea.dfhcommarea" id="input.arg1.dfhcommarea.dfhcommarea" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/LGTESTC1_dfhcommarea.listructure#dfhcommarea" id="input.arg1.dfhcommarea.dfhcommarea" offset="0"/>
       </testcase:input>
       <testcase:output listructure="../Structures/LGTESTC1_dfheiblk.listructure#Unit%20Test/Structures/LGTESTC1_dfheiblk.listructure"/>
       <testcase:output listructure="../Structures/LGTESTC1_dfhcommarea.listructure#Unit%20Test/Structures/LGTESTC1_dfhcommarea.listructure"/>

@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum.LastCustNum">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Select_LastCustNum.listructure#LastCustNum">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

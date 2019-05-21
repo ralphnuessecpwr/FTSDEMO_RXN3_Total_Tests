@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:number id="WS_ABSTIME.WS_ABSTIME" initial="+0" length="8" name="WS_ABSTIME">
+    <listructure:number id="WS_ABSTIME" initial="+0" length="8" name="WS_ABSTIME">
       <properties:properties>
         <properties:property name="picture" type="string">S9(8)</properties:property>
         <properties:property name="usage" type="string">computational</properties:property>

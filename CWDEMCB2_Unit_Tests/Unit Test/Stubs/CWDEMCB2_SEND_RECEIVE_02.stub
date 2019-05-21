@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWDEMCB2_SEND_RECEIVE_02.stub" nextCalltoken="40004" stubtype="CICS" target="" token="40000">
   <stub:description>Created: 13.02.2019 09:17:27</stub:description>
-  <stub:stubdata callToken="40001" id="0" name="EXEC CICS HANDLE">
+  <stub:stubdata callToken="40001" id="0">
     <stub:interface>../Interfaces/CWDEMCB2_SEND_RECEIVE.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWDEMCB2_SEND_RECEIVE.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
@@ -33,7 +33,7 @@
       </stub:data>
     </stub:eib>
   </stub:stubdata>
-  <stub:stubdata callToken="40002" id="1" name="EXEC CICS RECEIVE">
+  <stub:stubdata callToken="40002" id="1">
     <stub:interface>../Interfaces/CWDEMCB2_SEND_RECEIVE2.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE2.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWDEMCB2_SEND_RECEIVE2.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE2.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
@@ -94,7 +94,7 @@
       </stub:data>
     </stub:eib>
   </stub:stubdata>
-  <stub:stubdata callToken="40003" id="2" name="EXEC CICS SEND">
+  <stub:stubdata callToken="40003" id="2">
     <stub:interface>../Interfaces/CWDEMCB2_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE1.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWDEMCB2_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE1.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">

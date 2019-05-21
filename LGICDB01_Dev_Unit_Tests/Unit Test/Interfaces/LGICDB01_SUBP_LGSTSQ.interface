@@ -9,7 +9,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -21,7 +21,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080.dfhc0080">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -100,7 +100,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020.dfhb0020">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

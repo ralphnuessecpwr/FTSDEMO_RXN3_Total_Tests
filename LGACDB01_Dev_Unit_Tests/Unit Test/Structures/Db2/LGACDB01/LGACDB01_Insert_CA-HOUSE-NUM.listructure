@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:string id="CA_HOUSE_NUM.CA_HOUSE_NUM" length="4" name="CA_HOUSE_NUM">
+    <listructure:string id="CA_HOUSE_NUM" length="4" name="CA_HOUSE_NUM">
       <properties:properties>
         <properties:property name="picture" type="string">X(4)</properties:property>
         <properties:property name="displayLength" type="number">4</properties:property>

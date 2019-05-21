@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_01.stub" nextCalltoken="10004" stubtype="CICS" target="" token="10000">
   <stub:description>Created: 20.02.2019 20:13:10</stub:description>
-  <stub:stubdata callToken="10001" id="0" name="EXEC CICS SEND">
+  <stub:stubdata callToken="10001" id="0">
     <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f0f9f0404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="input0.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input0.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
@@ -52,7 +52,7 @@
           <properties:property name="value" type="string">00A2</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020.dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -60,7 +60,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="input0.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input0.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -68,7 +68,7 @@
           <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f0f9f0404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -76,7 +76,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="output0.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output0.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
@@ -110,7 +110,7 @@
           <properties:property name="value" type="string">00A2</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020.dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -118,7 +118,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="output0.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output0.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:output>
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input0.arg1.dfhc0070.dfhc0070">
@@ -251,7 +251,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
     </stub:eib>
   </stub:stubdata>
-  <stub:stubdata callToken="10002" id="1" name="EXEC CICS RECEIVE">
+  <stub:stubdata callToken="10002" id="1">
     <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
@@ -260,7 +260,7 @@
           <properties:property name="value" type="string">1802d0000700000000050900000020f0f0f1f0f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -268,7 +268,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="input1.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input1.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I" id="arg2.SSMAPC1I">
@@ -320,7 +320,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" id="input1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="input1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -328,7 +328,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="input1.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input1.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -336,7 +336,7 @@
           <properties:property name="value" type="string">1802d0000700000000050900000020f0f0f1f0f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -344,7 +344,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="output1.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output1.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I" id="arg2.SSMAPC1I">
@@ -396,7 +396,7 @@
           <properties:property name="value" type="string">0000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" id="output1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="output1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -404,7 +404,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="output1.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output1.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:output>
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input1.arg1.dfhc0070.dfhc0070">
@@ -461,7 +461,7 @@
       <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
     </stub:eib>
   </stub:stubdata>
-  <stub:stubdata callToken="10003" id="2" name="EXEC CICS SEND">
+  <stub:stubdata callToken="10003" id="2">
     <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
@@ -470,7 +470,7 @@
           <properties:property name="value" type="string">1804f000070000000005e004000020f0f0f2f3f5404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -478,7 +478,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="input2.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input2.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
@@ -512,7 +512,7 @@
           <properties:property name="value" type="string">00A2</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020.dfhb0020" id="input2.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="input2.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -520,7 +520,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="input2.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input2.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -528,7 +528,7 @@
           <properties:property name="value" type="string">1804f000070000000005e004000020f0f0f2f3f5404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
@@ -536,7 +536,7 @@
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070.dfhc0070" id="output2.arg1.dfhc0070.dfhc0070" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output2.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
@@ -570,7 +570,7 @@
           <properties:property name="value" type="string">00A2</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020.dfhb0020" id="output2.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="output2.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
@@ -578,7 +578,7 @@
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071.dfhc0071" id="output2.arg4.dfhc0071.dfhc0071" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output2.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:output>
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input2.arg1.dfhc0070.dfhc0070">

@@ -8,7 +8,7 @@
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">2</properties:property>
     </properties:properties>
-    <listructure:number id="dfhb0020.dfhb0020" length="4" name="dfhb0020">
+    <listructure:number id="dfhb0020" length="4" name="dfhb0020">
       <properties:properties>
         <properties:property name="picture" type="string">s9(4)</properties:property>
         <properties:property name="usage" type="string">computational</properties:property>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_SUBP_LGSTSQ_01.stub" nextCalltoken="70002" stubtype="CICS" target="LGSTSQ  " token="70000">
   <stub:description>Created: 21.02.2019 16:32:58</stub:description>
-  <stub:stubdata callToken="70001" id="0" name="EXEC CICS LINK">
+  <stub:stubdata callToken="70001" id="0">
     <stub:interface>../Interfaces/LGICDB01_SUBP_LGSTSQ.interface#Unit%20Test/Interfaces/LGICDB01_SUBP_LGSTSQ.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGICDB01_SUBP_LGSTSQ.interface#Unit%20Test/Interfaces/LGICDB01_SUBP_LGSTSQ.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
@@ -10,7 +10,7 @@
           <properties:property name="value" type="string">0e02e0000700000100f0f0f5f3f7404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
@@ -18,7 +18,7 @@
           <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080.dfhc0080" id="input0.arg1.dfhc0080.dfhc0080" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="input0.arg1.dfhc0080.dfhc0080" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#ERROR_MSG" id="arg2.ERROR_MSG">
@@ -44,7 +44,7 @@
           <properties:property name="value" type="string">0057</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020.dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
@@ -52,7 +52,7 @@
           <properties:property name="value" type="string">0e02e0000700000100f0f0f5f3f7404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
@@ -60,7 +60,7 @@
           <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080.dfhc0080" id="output0.arg1.dfhc0080.dfhc0080" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="output0.arg1.dfhc0080.dfhc0080" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#Unit%20Test/Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#ERROR_MSG" id="arg2.ERROR_MSG">
@@ -86,7 +86,7 @@
           <properties:property name="value" type="string">0057</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020.dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/LGICDB01_SUBP_LGSTSQ/LGICDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:output>
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input0.arg1.dfhc0080.dfhc0080">
