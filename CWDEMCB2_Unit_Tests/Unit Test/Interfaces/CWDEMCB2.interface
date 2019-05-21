@@ -166,11 +166,6 @@
     </interface:baseTypeExtension>
   </interface:argument>
   <interface:argument listructure="../Structures/CWDEMCB2_DFHCOMMAREA.listructure#Unit%20Test/Structures/CWDEMCB2_DFHCOMMAREA.listructure">
-    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
