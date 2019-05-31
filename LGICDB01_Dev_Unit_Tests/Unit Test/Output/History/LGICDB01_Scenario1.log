@@ -1,18 +1,18 @@
 
 ***************** Output from TTTRUNNR *****************
 
- CEE3740I The following messages pertain to the system default run-time options.
- CEE3768I The system default for the run-time option DEBUG could not be overridden.
- CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-04-11 14:01.51��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-05-23 03:25.01��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGICDB01
  STTR014I Processing test scenario LGICDB01
  STTR028I Processing test case LGICDB01
  STTR006I Executing target LGICDB01
- STTR008I All targets successfully executed
+ CEE3201S The system detected an operation exception (System Completion Code=0C1).
+          From compile unit LGICDB01 at entry point LGICDB01 at compile unit offset -38494020 at entry offset -38494020
+           at address 00000000.
+          Possible Bad Branch:  Statement:   Offset: +000031A2
 
 ***************** Output from TTOUT *****************
 
@@ -23,7 +23,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getE: rc, count = 3, rs = <0X83000800>.
+  getE: rc, count = 2, rs = <0X83000800>.
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -35,7 +35,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getE: rc, count = 3, rs = <0X83000800>.
+  getE: rc, count = 2, rs = <0X83000800>.
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -47,9 +47,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019101, Length = 40
-   data = c3e7d3c7c9c3c4c2f0f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
-   program = LGICDB01, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
+  IDRU: Creation Date = 2019052, Length = 40
+   data = c3e7d3c7c9c3c4c2f0f1075d57b8640e5ff9795702925e604c7b7e762bc40c800000000000000000
+   program = LGICDB01, ddio(30) = GENAPP.NONISPW.PROD.LISTING.DB
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -58,8 +58,8 @@
  module: LGICDB01, csect: LGICDB01, entry: LGICDB01
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 389FA028
- ---TARGCALL---entry newTARGET: 389FA028
+ ---TARGET---exit newTARGET: 38575028
+ ---TARGCALL---entry newTARGET: 38575028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -97,24 +97,24 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389FA0E8
- ---addTargetArg---workingArea: 389FA088
+ AV ptr: 385750E8
+ ---addTargetArg---workingArea: 38575088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389FA088
+ ---T addTargetArg---workingArea: 38575088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389FA088
+ ---TARGARG--- workingArea: 38575088
  ---TARGARG---entry
- length: 32500
+ length: 32522
  ---T addTargetArg---entry
  ---setData---entry
- cL: 32500
+ cL: 32522
  ---setData---exit
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 389FA0E8
+ AV ptr: 385750E8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -127,14 +127,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 389FA0E8
- ---addTargetArg---workingArea: 389FA138
+ AV ptr: 385750E8
+ ---addTargetArg---workingArea: 38575138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 389FA138
+ ---T addTargetArg---workingArea: 38575138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 389FA138
+ ---TARGARG--- workingArea: 38575138
  ---BNDHOOK---entry
  --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000000
  ---openW_includeName---entry
@@ -142,226 +142,27 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 38, rs = <0X83000800>.
- --->>>class_offset: 00000EA0
- --->>>element_offset: 00000EA0
+  getD: rc, count = 41, rs = <0X83000800>.
+ --->>>class_offset: 00000174
+ --->>>element_offset: 00000154
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
  ---BNDHOOK---entry
- --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000EA0
+ --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000154
  ---openW_includeName---entry
  --->>>moduleName = LGICDB01
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 38, rs = <0X83000800>.
- --->>>class_offset: 00000EA0
+  getD: rc, count = 41, rs = <0X83000800>.
+ --->>>class_offset: 00000174
  --->>>no additional elements found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
- ---BNDHOOK---entry
- --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DSNHLIR  , offset = 00000000
- ---openW_includeName---entry
- --->>>moduleName = LGICDB01
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getD: rc, count = 38, rs = <0X83000800>.
- --->>>element not found
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDHOOK---exit
- ---BNDHOOK---entry
- --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DSNHLI   , offset = 00000000
- ---openW_includeName---entry
- --->>>moduleName = LGICDB01
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getD: rc, count = 38, rs = <0X83000800>.
- --->>>class_offset: 00000EA4
- --->>>element_offset: 00000EA4
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDHOOK---exit
- ---TTEXRE---entry
- |Input EXEC (541 bytes):
-       *****EXEC SQL
-       *****    SELECT FIRSTNAME,
-       *****           LASTNAME,
-       *****           DATEOFBIRTH,
-       *****           HOUSENAME,
-       *****           HOUSENUMBER,
-       *****           POSTCODE
-       *****    INTO  :CA-FIRST-NAME,
-       *****          :CA-LAST-NAME,
-       *****          :CA-DOB,
-       *****          :CA-HOUSE-NAME,
-       *****          :CA-HOUSE-NUM,
-       *****          :CA-POSTCODE
-       *****    FROM CUSTOMER
-       *****    WHERE CUSTOMERNUMBER = :DB2-CUSTOMERNUMBER-INT
-       *****END-EXEC.
- 
- |Reduced EXEC (223 bytes):
- SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, HOUSENAME, HOUSENUMBER, POSTCODE INTO :CA-FIRST-NAME, :CA-L
- AST-NAME, :CA-DOB, :CA-HOUSE-NAME, :CA-HOUSE-NUM, :CA-POSTCODE FROM CUSTOMER WHERE CUSTOMERNUMBER =
- :DB2-CUSTOMERNUMBER-INT
- ---TTEXRE---exit  rc: 0
- ---DB2SQL---entry
- release: 388F222C  stmt: 38A35010  stmtLength: 000000DF  crsrName: 00000000  crsrLength: 00000000
- storedProcName: 00000000
- ---DB2SQLCxx---entry
- release: 388F222C  stmt: 38A35010  stmtLength: 000000DF
- token: 00002710
- assertYN: Y
- ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 38AE2028
- ---DB2PLIST---entry
- ---Sel setPlist---entry
- Size of stubbedCalls: 0
- ---Sel setPlist---exit
- ---DB2PLIST---exit
- ---DB2SQLDA---entry
- IO: I
- Length: 60
- ---Sel setDAin---entry
- sqlN: 1, sqlLd: 1
-   0 -- storing type: 496, storing length: 4
- ---Sel setDAin---exit
- ---DB2SQLDA---exit
- ---DB2SQLDA---entry
- IO: O
- Length: 280
- ---Sel setDAout---entry
- ---Sel setDAout---exit
- ---DB2SQLDA---exit
- ---DB2SQLCA---entry
- ---Sel addSQLCA---entry
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---setPlist---entry
- ---setPlist---exit
- ---initAssertFlag---entry
- ---initAssertFlag---exit
- ---addSQLCA---entry
- token: 00002711
- ---addSQLCA---exit
- ---Sel addSQLCA---exit
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---DB2SQLCA---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 0 -- type: 496
- ---setData---entry
- name: DB2-CUSTOMERNUMBER-INT
- dataType: 496
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 0
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 0 -- type: 452
- ---setData---entry
- name: CA-FIRST-NAME
- dataType: 452
- rowsAffected: 0 mLength: 10
- cL: 10, mL: 10
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 0
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 1 -- type: 452
- ---setData---entry
- name: CA-LAST-NAME
- dataType: 452
- rowsAffected: 0 mLength: 20
- cL: 20, mL: 20
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 1
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 2 -- type: 452
- ---setData---entry
- name: CA-DOB
- dataType: 452
- rowsAffected: 0 mLength: 10
- cL: 10, mL: 10
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 2
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 3 -- type: 452
- ---setData---entry
- name: CA-HOUSE-NAME
- dataType: 452
- rowsAffected: 0 mLength: 20
- cL: 20, mL: 20
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 3
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 4 -- type: 452
- ---setData---entry
- name: CA-HOUSE-NUM
- dataType: 452
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 4
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- O 5 -- type: 452
- ---setData---entry
- name: CA-POSTCODE
- dataType: 452
- rowsAffected: 0 mLength: 8
- cL: 8, mL: 8
- ind: 0
- ---setData---exit
- ---addHVOut---entry
- HVOut #: 5
- ---addHVOut---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -370,14 +171,14 @@
  RETURN
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 389AC2FA  stubToken: 00004E20
- stubType:       signature: 389B631A  signatureLength: 00000006
+ release: 386092FA  stubToken: 00002710
+ stubType:       signature: 3861331A  signatureLength: 00000006
  ---EXCICScxx---entry
- release: 389AC2FA  token: 00004E20
- signature: 389B631A  length: 00000006
- commandTable: 376F9168
+ release: 386092FA  token: 00002710
+ signature: 3861331A  length: 00000006
+ commandTable: 37389140
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 38AE27C8
+ ---EXCICS---exit newEXCICS: 386DA028
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -392,7 +193,7 @@
  ---~cicsCall---entry
  ---~cicsCall---exit
  ---initCall---entry
- token: 00004E21
+ token: 00002711
  ---initCall---exit
  ---s00 addCall---exit
  ---~cicsCall---entry
@@ -412,9 +213,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @38AE2648
+ avData @386DA190
  *parmData: X'0E080000'
- avData[0] @38AE2930
+ avData[0] @386DA1A8
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -440,9 +241,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @38AE2970
+ avData @386DA200
  *parmData: X'0E080000'
- avData[0] @38AE2988
+ avData[0] @386DA218
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -462,143 +263,3 @@
  ---~ciArgVal---entry
  ---~ciArgVal---exit
  ---CICSARGA---exit
- ---TTEXRE---entry
- |Input EXEC (1616 bytes):
-       *****EXEC SQL
-       *****    SELECT FIRSTNAME,
-       *****           LASTNAME,
-       *****           DATEOFBIRTH,
-       *****           HOUSENAME,
-       *****           HOUSENUMBER,
-       *****           POSTCODE
-       *****    INTO  :CA-FIRST-NAME,
-       *****          :CA-LAST-NAME,
-       *****          :CA-DOB,
-       *****          :CA-HOUSE-NAME,
-       *****          :CA-HOUSE-NUM,
-       *****          :CA-POSTCODE
-       *****    FROM CUSTOMER
-       *****    WHERE CUSTOMERNUMBER = :DB2-CUSTOMERNUMBER-INT
-       *****END-EXEC.
--|Reduced EXEC (223 bytes):
- SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, HOUSENAME, HOUSENUMBER, POSTCODE INTO :CA-FIRST-NAME, :CA-L
- AST-NAME, :CA-DOB, :CA-HOUSE-NAME, :CA-HOUSE-NUM, :CA-POSTCODE FROM CUSTOMER WHERE CUSTOMERNUMBER =
- :DB2-CUSTOMERNUMBER-INT
- ---TTEXRE---exit  rc: 0
- ---DONONCUR---entry
- statementlength: 223
- ---Sel doCall---entry
- ---Sel compareDAin---entry
- ---Sel compareDAin---exit: 0
- ---findSQLcall---entry
- ---sqlHVComp---entry
- ---compareData---entry
- vLength: -1
- cL: 4
- sqlDAinVar.len: 4
- type: 496, ind; stub: 0, live: 0
- ---compareData---exit: 0
- ---sqlHVComp---exit: 0
- ---findSQLcall---exit: 0
- ---storeHVsIn---entry
- sqlDAin: 950975504, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:38AEBC10
- ---setData---entry
- dataType: 496
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVInHLI---entry
- HVInHLI #: 0
- ---addHVInHLI---exit
- ---storeHVsIn---exit
- ---copySQLCA---entry
- ---copySQLCA---exit
- ---copyHVsOut---entry
- sqlDAout: 950975564, sqlN: 6, HVsOut size: 6
- iA in DA: 950975392
- bitFlag 0
- iA in DA: 950975392
- bitFlag 0
- iA in DA: 950975392
- bitFlag 0
- iA in DA: 950975392
- bitFlag 0
- iA in DA: 950975392
- bitFlag 0
- iA in DA: 950975392
- bitFlag 0
- ---copyHVsOut---exit
- ---Sel doCall---exit: 0
- ---DONONCUR---exit: 0
- ---TTEXRE---entry
- |Input EXEC (101 bytes):
-       *EXEC CICS RETURN END-EXEC.
--|Reduced EXEC (6 bytes):
- RETURN
- ---TTEXRE---exit  rc: 0
- ---DOCICALL---entry
- ---s00 doCall---entry
- ---validateAVs---entry
- AVsBefore: 1
- parm 0: X'B88D4F8F'
- ---validateAVs---exit: 0
- ---storeAVsBeforeLive---entry
- sz: 1
- ---setData---entry
- cL: 17
- avData @38AE29E0
- *parmData: X'0E080000'
- avData[0] @38AE2AB0
- *avData: X'0E080000'
- ---setData---exit
- lL: 17
- *parmData: X'0E080000'
- ---CC ciArgVal---entry
- CC ciArgVal exit--- avP ptr: 0
- ---addArgBeforeLive---entry
- count: 0
- ---CC ciArgVal---entry
- CC ciArgVal exit--- avP ptr: 0
- ---CC ciArgVal---entry
- CC ciArgVal exit--- avP ptr: 0
- ---~ciArgVal---entry
- ---~ciArgVal---exit
- ---addArgBeforeLive---exit
- ---~ciArgVal---entry
- ---~ciArgVal---exit
- ---storeAVsBeforeLive---exit
- ---~ciArgVal---entry
- ---~ciArgVal---exit
- ---copyEIB---entry
- ---copyEIB---exit
- ---copyAVsAfter---entry
- sz: 1
- value
- ---copyAVsAfter---exit
- ---s00 doCall---exit: 0
- ---DOCICALL---exit: 0
- ---DORTRV---entry
- ---Sel retrieveNext---entry
- ---retrieveNextHV---entry
- token: 00002711
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---Sel retrieveNext---exit: 10
- ---DORTRV---exit
- ---CICSRTRV---entry
- ---retrieveNext---entry
- ---retrieveNextParm---entry
- token: 00004E21
- ---buildAvRec---entry
- cL: 17
- avData @: 38AE29E0
- *avData: X'0E080000'
- bL: 17
- *bvData: X'0E080000'
- ---buildAvRec---exit: 17
- ---retrieveNextParm---exit: 1
- ---retrieveNext---exit: 10
- ---CICSRTRV---exit

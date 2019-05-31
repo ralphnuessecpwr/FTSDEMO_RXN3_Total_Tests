@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:13:51-->
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:31:02-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/LGTESTC1_EXEC_CICS_RETURN1/LGTESTC1_EXEC_CICS_RETURN1_COMM-AREA.listructure">
   <listructure:struct id="COMM_AREA" name="COMM_AREA">
     <properties:properties>
-      <properties:property name="displayLength" type="number">32500</properties:property>
+      <properties:property name="displayLength" type="number">32522</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
-      <properties:property name="storageLength" type="number">32500</properties:property>
+      <properties:property name="storageLength" type="number">32522</properties:property>
     </properties:properties>
     <listructure:string id="COMM_AREA.CA_REQUEST_ID" length="6" name="CA_REQUEST_ID">
       <properties:properties>
@@ -129,23 +129,203 @@
           <properties:property name="storageLength" type="number">3</properties:property>
         </properties:properties>
       </listructure:number>
-      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_POLICY_DATA" length="32407" name="CA_POLICY_DATA">
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_PHONE_MOBILE" length="20" name="CA_PHONE_MOBILE">
         <properties:properties>
-          <properties:property name="picture" type="string">X(32407)</properties:property>
-          <properties:property name="displayLength" type="number">32407</properties:property>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
           <properties:property name="platform" type="string">mainframe</properties:property>
           <properties:property name="liType" type="string">char</properties:property>
-          <properties:property name="mask" type="string">X(32407)</properties:property>
-          <properties:property name="storageLength" type="number">32407</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_PHONE_HOME" length="20" name="CA_PHONE_HOME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_EMAIL_ADDRESS" length="100" name="CA_EMAIL_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(100)</properties:property>
+          <properties:property name="displayLength" type="number">100</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(100)</properties:property>
+          <properties:property name="storageLength" type="number">100</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_NATIONAL_ID_NBR" length="20" name="CA_NATIONAL_ID_NBR">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_NIN_TYPE" length="2" name="CA_NIN_TYPE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_STREET_ADDRESS" length="30" name="CA_STREET_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_CITY" length="20" name="CA_CITY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_STATE" length="2" name="CA_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_COUNTRY_CODE" length="3" name="CA_COUNTRY_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(3)</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(3)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_SALES_TERRITORY" length="5" name="CA_SALES_TERRITORY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(5)</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_PFKEY" length="2" name="CA_CUSTOMER_PFKEY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_BEGIN" length="10" name="CA_CUSTOMER_BEGIN">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_END" length="10" name="CA_CUSTOMER_END">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="COMM_AREA.CA_CUSTOMER_REQUEST.CA_POLICY_DATA" length="32163" name="CA_POLICY_DATA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32163)</properties:property>
+          <properties:property name="displayLength" type="number">32163</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32163)</properties:property>
+          <properties:property name="storageLength" type="number">32163</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="COMM_AREA.CA_CUSTSECR_REQUEST" name="CA_CUSTSECR_REQUEST">
+      <properties:properties>
+        <properties:property name="redefines" type="string">CA_REQUEST_SPECIFIC</properties:property>
+        <properties:property name="displayLength" type="number">32482</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">32482</properties:property>
+      </properties:properties>
+      <listructure:string id="COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_PASS" length="32" name="CA_CUSTSECR_PASS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32)</properties:property>
+          <properties:property name="displayLength" type="number">32</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32)</properties:property>
+          <properties:property name="storageLength" type="number">32</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_COUNT" length="4" name="CA_CUSTSECR_COUNT">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_STATE" length="1" name="CA_CUSTSECR_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_DATA" length="32445" name="CA_CUSTSECR_DATA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32445)</properties:property>
+          <properties:property name="displayLength" type="number">32445</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32445)</properties:property>
+          <properties:property name="storageLength" type="number">32445</properties:property>
         </properties:properties>
       </listructure:string>
     </listructure:struct>
     <listructure:struct id="COMM_AREA.CA_POLICY_REQUEST" name="CA_POLICY_REQUEST">
       <properties:properties>
         <properties:property name="redefines" type="string">CA_REQUEST_SPECIFIC</properties:property>
-        <properties:property name="displayLength" type="number">32482</properties:property>
+        <properties:property name="displayLength" type="number">32504</properties:property>
         <properties:property name="platform" type="string">mainframe</properties:property>
-        <properties:property name="storageLength" type="number">32482</properties:property>
+        <properties:property name="storageLength" type="number">32504</properties:property>
       </properties:properties>
       <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_NUM" length="10" name="CA_POLICY_NUM">
         <properties:properties>
@@ -227,15 +407,47 @@
           </properties:properties>
         </listructure:number>
       </listructure:struct>
-      <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_SPECIFIC" length="32400" name="CA_POLICY_SPECIFIC">
+      <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_PFKEY" length="2" name="CA_POLICY_PFKEY">
         <properties:properties>
-          <properties:property name="picture" type="string">X(32400)</properties:property>
-          <properties:property name="redefined" type="boolean">true</properties:property>
-          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
           <properties:property name="platform" type="string">mainframe</properties:property>
           <properties:property name="liType" type="string">char</properties:property>
-          <properties:property name="mask" type="string">X(32400)</properties:property>
-          <properties:property name="storageLength" type="number">32400</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_BEGIN" length="10" name="CA_POLICY_BEGIN">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_END" length="10" name="CA_POLICY_END">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_SPECIFIC" length="32378" name="CA_POLICY_SPECIFIC">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32378)</properties:property>
+          <properties:property name="redefined" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">32378</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32378)</properties:property>
+          <properties:property name="storageLength" type="number">32378</properties:property>
         </properties:properties>
       </listructure:string>
       <listructure:struct id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT" name="CA_ENDOWMENT">
@@ -317,14 +529,84 @@
             <properties:property name="storageLength" type="number">31</properties:property>
           </properties:properties>
         </listructure:string>
-        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_PADDING_DATA" length="32348" name="CA_E_PADDING_DATA">
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_AUTO_PAY" length="1" name="CA_E_AUTO_PAY">
           <properties:properties>
-            <properties:property name="picture" type="string">X(32348)</properties:property>
-            <properties:property name="displayLength" type="number">32348</properties:property>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
             <properties:property name="platform" type="string">mainframe</properties:property>
             <properties:property name="liType" type="string">char</properties:property>
-            <properties:property name="mask" type="string">X(32348)</properties:property>
-            <properties:property name="storageLength" type="number">32348</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CHECK_ACCT_NBR" length="12" name="CA_E_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_BANK_ROUTE_CODE" length="9" name="CA_E_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_TYP" length="8" name="CA_E_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_NBR" length="16" name="CA_E_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_PIN" length="4" name="CA_E_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_VAL" length="5" name="CA_E_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_PADDING_DATA" length="32293" name="CA_E_PADDING_DATA">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32293)</properties:property>
+            <properties:property name="displayLength" type="number">32293</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32293)</properties:property>
+            <properties:property name="storageLength" type="number">32293</properties:property>
           </properties:properties>
         </listructure:string>
       </listructure:struct>
@@ -397,14 +679,124 @@
             <properties:property name="storageLength" type="number">8</properties:property>
           </properties:properties>
         </listructure:string>
-        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_FILLER" length="32342" name="CA_H_FILLER">
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STREET_ADDRESS" length="30" name="CA_H_STREET_ADDRESS">
           <properties:properties>
-            <properties:property name="picture" type="string">X(32342)</properties:property>
-            <properties:property name="displayLength" type="number">32342</properties:property>
+            <properties:property name="picture" type="string">X(30)</properties:property>
+            <properties:property name="displayLength" type="number">30</properties:property>
             <properties:property name="platform" type="string">mainframe</properties:property>
             <properties:property name="liType" type="string">char</properties:property>
-            <properties:property name="mask" type="string">X(32342)</properties:property>
-            <properties:property name="storageLength" type="number">32342</properties:property>
+            <properties:property name="mask" type="string">X(30)</properties:property>
+            <properties:property name="storageLength" type="number">30</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CITY" length="20" name="CA_H_CITY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STATE" length="2" name="CA_H_STATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(2)</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(2)</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_COUNTRY_CODE" length="3" name="CA_H_COUNTRY_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(3)</properties:property>
+            <properties:property name="displayLength" type="number">3</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(3)</properties:property>
+            <properties:property name="storageLength" type="number">3</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_AUTO_PAY" length="1" name="CA_H_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CHECK_ACCT_NBR" length="12" name="CA_H_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BANK_ROUTE_CODE" length="9" name="CA_H_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_TYP" length="8" name="CA_H_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_NBR" length="16" name="CA_H_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_PIN" length="4" name="CA_H_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_VAL" length="5" name="CA_H_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_FILLER" length="32232" name="CA_H_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32232)</properties:property>
+            <properties:property name="displayLength" type="number">32232</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32232)</properties:property>
+            <properties:property name="storageLength" type="number">32232</properties:property>
           </properties:properties>
         </listructure:string>
       </listructure:struct>
@@ -487,14 +879,126 @@
             <properties:property name="storageLength" type="number">10</properties:property>
           </properties:properties>
         </listructure:string>
-        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_FILLER" length="32335" name="CA_M_FILLER">
+        <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_PREMIUM" length="6" name="CA_M_PREMIUM">
           <properties:properties>
-            <properties:property name="picture" type="string">X(32335)</properties:property>
-            <properties:property name="displayLength" type="number">32335</properties:property>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_ACCIDENTS" length="6" name="CA_M_ACCIDENTS">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_YEAR" length="4" name="CA_M_CAR_YEAR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
             <properties:property name="platform" type="string">mainframe</properties:property>
             <properties:property name="liType" type="string">char</properties:property>
-            <properties:property name="mask" type="string">X(32335)</properties:property>
-            <properties:property name="storageLength" type="number">32335</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_VIN" length="20" name="CA_M_CAR_VIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_AUTO_PAY" length="1" name="CA_M_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CHECK_ACCT_NBR" length="12" name="CA_M_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_BANK_ROUTE_CODE" length="9" name="CA_M_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_TYP" length="8" name="CA_M_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_NBR" length="16" name="CA_M_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_PIN" length="4" name="CA_M_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_VAL" length="5" name="CA_M_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_FILLER" length="32244" name="CA_M_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32244)</properties:property>
+            <properties:property name="displayLength" type="number">32244</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32244)</properties:property>
+            <properties:property name="storageLength" type="number">32244</properties:property>
           </properties:properties>
         </listructure:string>
       </listructure:struct>
@@ -674,14 +1178,124 @@
             <properties:property name="storageLength" type="number">255</properties:property>
           </properties:properties>
         </listructure:string>
-        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FILLER" length="31298" name="CA_B_FILLER">
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STREET_ADDRESS" length="30" name="CA_B_STREET_ADDRESS">
           <properties:properties>
-            <properties:property name="picture" type="string">X(31298)</properties:property>
-            <properties:property name="displayLength" type="number">31298</properties:property>
+            <properties:property name="picture" type="string">X(30)</properties:property>
+            <properties:property name="displayLength" type="number">30</properties:property>
             <properties:property name="platform" type="string">mainframe</properties:property>
             <properties:property name="liType" type="string">char</properties:property>
-            <properties:property name="mask" type="string">X(31298)</properties:property>
-            <properties:property name="storageLength" type="number">31298</properties:property>
+            <properties:property name="mask" type="string">X(30)</properties:property>
+            <properties:property name="storageLength" type="number">30</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CITY" length="20" name="CA_B_CITY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STATE" length="2" name="CA_B_STATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(2)</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(2)</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_COUNTRY_CODE" length="3" name="CA_B_COUNTRY_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(3)</properties:property>
+            <properties:property name="displayLength" type="number">3</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(3)</properties:property>
+            <properties:property name="storageLength" type="number">3</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_AUTO_PAY" length="1" name="CA_B_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CHECK_ACCT_NBR" length="12" name="CA_B_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_BANK_ROUTE_CODE" length="9" name="CA_B_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_TYP" length="8" name="CA_B_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_NBR" length="16" name="CA_B_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_PIN" length="4" name="CA_B_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_VAL" length="5" name="CA_B_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FILLER" length="31188" name="CA_B_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(31188)</properties:property>
+            <properties:property name="displayLength" type="number">31188</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(31188)</properties:property>
+            <properties:property name="storageLength" type="number">31188</properties:property>
           </properties:properties>
         </listructure:string>
       </listructure:struct>
@@ -755,7 +1369,7 @@
             <properties:property name="storageLength" type="number">255</properties:property>
           </properties:properties>
         </listructure:string>
-        <listructure:struct id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER" name="CA_C_FILLER">
+        <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER" length="31854" name="CA_C_FILLER">
           <properties:properties>
             <properties:property name="picture" type="string">X(31854)</properties:property>
             <properties:property name="displayLength" type="number">31854</properties:property>
@@ -764,155 +1378,7 @@
             <properties:property name="mask" type="string">X(31854)</properties:property>
             <properties:property name="storageLength" type="number">31854</properties:property>
           </properties:properties>
-          <listructure:string id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_TEMP" length="128" name="SQL_TEMP">
-            <properties:properties>
-              <properties:property name="picture" type="string">X(128)</properties:property>
-              <properties:property name="displayLength" type="number">128</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">char</properties:property>
-              <properties:property name="mask" type="string">X(128)</properties:property>
-              <properties:property name="storageLength" type="number">128</properties:property>
-            </properties:properties>
-          </listructure:string>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSN_TEMP" length="9" name="DSN_TEMP">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSN_TMP2" length="18" name="DSN_TMP2">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(18)</properties:property>
-              <properties:property name="usage" type="string">computational-3</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="displayLength" type="number">18</properties:property>
-              <properties:property name="integerDigits" type="number">18</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">packed</properties:property>
-              <properties:property name="storageLength" type="number">18</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNROWS" length="9" name="DSNNROWS">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNTYPE" length="4" name="DSNNTYPE">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(4)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="displayLength" type="number">4</properties:property>
-              <properties:property name="integerDigits" type="number">4</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">4</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNLEN" length="4" name="DSNNLEN">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(4)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="displayLength" type="number">4</properties:property>
-              <properties:property name="integerDigits" type="number">4</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">4</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_NULL" initial="+0" length="9" name="SQL_NULL">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+0</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_INIT_FLAG" initial="+0" length="4" name="SQL_INIT_FLAG">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(4)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+0</properties:property>
-              <properties:property name="displayLength" type="number">4</properties:property>
-              <properties:property name="integerDigits" type="number">4</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">4</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_READ" initial="+2" length="9" name="SQL_FILE_READ">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+2</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_CREATE" initial="+8" length="9" name="SQL_FILE_CREATE">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+8</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_OVERWRITE" initial="+16" length="9" name="SQL_FILE_OVERWRITE">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+16</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-          <listructure:number id="COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_APPEND" initial="+32" length="9" name="SQL_FILE_APPEND">
-            <properties:properties>
-              <properties:property name="picture" type="string">S9(9)</properties:property>
-              <properties:property name="usage" type="string">computational-5</properties:property>
-              <properties:property name="signed" type="boolean">true</properties:property>
-              <properties:property name="value">+32</properties:property>
-              <properties:property name="displayLength" type="number">9</properties:property>
-              <properties:property name="integerDigits" type="number">9</properties:property>
-              <properties:property name="platform" type="string">mainframe</properties:property>
-              <properties:property name="liType" type="string">binary</properties:property>
-              <properties:property name="storageLength" type="number">9</properties:property>
-            </properties:properties>
-          </listructure:number>
-        </listructure:struct>
+        </listructure:string>
       </listructure:struct>
     </listructure:struct>
   </listructure:struct>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20.02.2019 20:15:26-->
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:32:03-->
 <interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/LGTESTC1_EXEC_CICS_RETURN3.interface">
   <interface:description></interface:description>
   <interface:argument listructure="../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-0.listructure">
@@ -9,19 +9,19 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
   </interface:argument>
-  <interface:argument listructure="../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhc0040.listructure#Unit%20Test/Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhc0040.listructure">
-    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhc0040.listructure#dfhc0040">
+  <interface:argument listructure="../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhc0040.listructure#dfhc0040">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -93,7 +93,97 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_NATIONAL_ID_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_NIN_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_SALES_TERRITORY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_PFKEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_BEGIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_END">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTOMER_REQUEST.CA_POLICY_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTSECR_REQUEST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_PASS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_COUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_DATA">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -143,6 +233,21 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_PFKEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_BEGIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_END">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_POLICY_SPECIFIC">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
@@ -188,6 +293,41 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_PADDING_DATA">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
@@ -224,6 +364,61 @@
       </properties:properties>
     </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_VAL">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -269,6 +464,61 @@
       </properties:properties>
     </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MANUFACTURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_PREMIUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_ACCIDENTS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_YEAR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_VIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_VAL">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -363,6 +613,61 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
     <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FILLER">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
@@ -403,67 +708,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_TEMP">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSN_TEMP">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSN_TMP2">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNROWS">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNTYPE">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.DSNNLEN">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_NULL">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_INIT_FLAG">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_READ">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_CREATE">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_OVERWRITE">
-      <properties:properties>
-        <properties:property name="usage" type="string">inout</properties:property>
-      </properties:properties>
-    </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER.SQL_FILE_APPEND">
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_COMM-AREA.listructure#COMM_AREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
@@ -475,7 +720,7 @@
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>
     </interface:baseTypeExtension>
-    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhb0020.listructure#dfhb0020">
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGTESTC1_EXEC_CICS_RETURN3/LGTESTC1_EXEC_CICS_RETURN3_dfhb0020.listructure#dfhb0020.dfhb0020">
       <properties:properties>
         <properties:property name="usage" type="string">inout</properties:property>
       </properties:properties>

@@ -1,0 +1,10 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2019-05-21 08:47.01��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ CEE3501S The module LGTESTC1 was not found.
+          From compile unit TTTRUNNR at entry point TTTRUNNR at compile unit offset +000033F0 at entry offset +000033F0
+           at address 373033F0.

@@ -1,212 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_01.stub" nextCalltoken="10004" stubtype="CICS" target="" token="10000">
-  <stub:description>Created: 20.02.2019 20:13:10</stub:description>
-  <stub:stubdata callToken="10001" id="0">
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_01.stub" nextCalltoken="10002" stubtype="CICS" target="" token="10000">
+  <stub:description>Created: 21.05.2019 10:31:01</stub:description>
+  <stub:stubdata callToken="10001" id="0" name="EXEC CICS SEND">
     <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
         <properties:properties>
-          <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f0f9f0404040</properties:property>
+          <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f1f8f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
+    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
         <properties:properties>
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input0.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
         <properties:properties>
-          <properties:property name="value" type="string">0000000000000000C9C7E9E7000040F0F0F0F0F0F0F0F0F0F00000404040404040404040404000004040404040404040404040404040404040404040400000404040404040404040404000004040404040404040404040404040404040404040400000404040404000004040404040404040400000404000004040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+          <properties:property name="value" type="string">4040404040404040404040400000F8F2F0F1F960F0F560F2F10000406D0000C1F0F0F0F0F0F0F0F0F0F00000F040404040404040404040404040000040404040404040404040400000404040404040404040404040404040404040404040000040404040404040404040400000404040404040404040404040404040404040404040000040404000004040404040404040404040404040404040404040404040404040404040404000004040404040404040404040404040404040404040400000404040000040404040000040404040404040404000004040404040400000404040404040404040404000004040404040404040404040000040404040404040404040404040404040404040404040404040400000F840404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="input0.arg2.SSMAPC1O.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER1" id="input0.arg2.SSMAPC1O.FILLER1" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CNOO" id="input0.arg2.SSMAPC1O.ENT1CNOO" offset="15"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER2" id="input0.arg2.SSMAPC1O.FILLER2" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1FNAO" id="input0.arg2.SSMAPC1O.ENT1FNAO" offset="28"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER3" id="input0.arg2.SSMAPC1O.FILLER3" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1LNAO" id="input0.arg2.SSMAPC1O.ENT1LNAO" offset="41"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER4" id="input0.arg2.SSMAPC1O.FILLER4" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1DOBO" id="input0.arg2.SSMAPC1O.ENT1DOBO" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER5" id="input0.arg2.SSMAPC1O.FILLER5" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNMO" id="input0.arg2.SSMAPC1O.ENT1HNMO" offset="77"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER6" id="input0.arg2.SSMAPC1O.FILLER6" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNOO" id="input0.arg2.SSMAPC1O.ENT1HNOO" offset="100"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER7" id="input0.arg2.SSMAPC1O.FILLER7" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HPCO" id="input0.arg2.SSMAPC1O.ENT1HPCO" offset="107"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER8" id="input0.arg2.SSMAPC1O.FILLER8" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1OPTO" id="input0.arg2.SSMAPC1O.ENT1OPTO" offset="118"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER9" id="input0.arg2.SSMAPC1O.FILLER9" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ERRFLDO" id="input0.arg2.SSMAPC1O.ERRFLDO" offset="122"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="input0.arg2.SSMAPC1O.FILLER0"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
         <properties:properties>
-          <properties:property name="value" type="string">00A2</properties:property>
+          <properties:property name="value" type="string">013E</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="input0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
+    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
         <properties:properties>
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input0.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:input>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
         <properties:properties>
-          <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f0f9f0404040</properties:property>
+          <properties:property name="value" type="string">1804f000070000000005e204000020f0f0f1f8f4404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
     </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
+    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
         <properties:properties>
           <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output0.arg1.dfhc0070.dfhc0070" offset="0"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
         <properties:properties>
-          <properties:property name="value" type="string">00000000000000000096E9E7000040F0F0F0F0F0F0F0F0F0F00000404040404040404040404000004040404040404040404040404040404040404040400000404040404040404040404000004040404040404040404040404040404040404040400000404040404000004040404040404040400000404000004040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+          <properties:property name="value" type="string">4040404040404040013240400000F8F2F0F1F960F0F560F2F10000406D0000C1F0F0F0F0F0F0F0F0F0F00000F040404040404040404040404040000040404040404040404040400000404040404040404040404040404040404040404040000040404040404040404040400000404040404040404040404040404040404040404040000040404000004040404040404040404040404040404040404040404040404040404040404000004040404040404040404040404040404040404040400000404040000040404040000040404040404040404000004040404040400000404040404040404040404000004040404040404040404040000040404040404040404040404040404040404040404040404040400000F840404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="output0.arg2.SSMAPC1O.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER1" id="output0.arg2.SSMAPC1O.FILLER1" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CNOO" id="output0.arg2.SSMAPC1O.ENT1CNOO" offset="15"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER2" id="output0.arg2.SSMAPC1O.FILLER2" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1FNAO" id="output0.arg2.SSMAPC1O.ENT1FNAO" offset="28"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER3" id="output0.arg2.SSMAPC1O.FILLER3" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1LNAO" id="output0.arg2.SSMAPC1O.ENT1LNAO" offset="41"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER4" id="output0.arg2.SSMAPC1O.FILLER4" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1DOBO" id="output0.arg2.SSMAPC1O.ENT1DOBO" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER5" id="output0.arg2.SSMAPC1O.FILLER5" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNMO" id="output0.arg2.SSMAPC1O.ENT1HNMO" offset="77"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER6" id="output0.arg2.SSMAPC1O.FILLER6" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNOO" id="output0.arg2.SSMAPC1O.ENT1HNOO" offset="100"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER7" id="output0.arg2.SSMAPC1O.FILLER7" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HPCO" id="output0.arg2.SSMAPC1O.ENT1HPCO" offset="107"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER8" id="output0.arg2.SSMAPC1O.FILLER8" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1OPTO" id="output0.arg2.SSMAPC1O.ENT1OPTO" offset="118"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER9" id="output0.arg2.SSMAPC1O.FILLER9" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ERRFLDO" id="output0.arg2.SSMAPC1O.ERRFLDO" offset="122"/>
     </stub:output>
     <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
         <properties:properties>
-          <properties:property name="value" type="string">00A2</properties:property>
+          <properties:property name="value" type="string">013E</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="output0.arg3.dfhb0020.dfhb0020" offset="0"/>
     </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
+    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
         <properties:properties>
           <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output0.arg4.dfhc0071.dfhc0071" offset="0"/>
     </stub:output>
+    <stub:checkconditions/>
     <stub:inputDataCheckconditions>
-      <checkconditions:simpleCheckcondition refData="#input0.arg1.dfhc0070.dfhc0070">
-        <checkconditions:expression>'SSMAPC1' eq result.arg1.dfhc0070.dfhc0070</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAPC1</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER0">
-        <checkconditions:expectation assert="noassert" type="string">x'0000000000000000C9C7E9E7'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER1">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER1</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1CNOO">
-        <checkconditions:expression>'0000000000' eq result.arg2.SSMAPC1O.ENT1CNOO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">0000000000</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER2">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER2</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1FNAO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1FNAO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER3">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER3</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1LNAO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1LNAO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER4">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER4</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1DOBO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1DOBO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER5">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER5</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1HNMO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1HNMO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER6">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER6</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1HNOO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1HNOO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER7">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER7</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1HPCO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1HPCO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER8">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER8</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1OPTO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ENT1OPTO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER9">
-        <checkconditions:expression>x'000040' eq result.arg2.SSMAPC1O.FILLER9</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000040'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ERRFLDO">
-        <checkconditions:expression>'' eq result.arg2.SSMAPC1O.ERRFLDO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input0.arg4.dfhc0071.dfhc0071">
-        <checkconditions:expression>'SSMAP' eq result.arg4.dfhc0071.dfhc0071</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAP</checkconditions:expectation>
+        <checkconditions:expectation assert="noassert"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:inputDataCheckconditions>
     <stub:statement type="EXEC CICS SEND">
       <stub:text>      *EXEC CICS SEND MAP ('SSMAPC1')
+      *          FROM(SSMAPC1O)
       *          MAPSET ('SSMAP')
       *          ERASE
       *          END-EXEC.
@@ -215,501 +92,9 @@
     <stub:eib listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
         <properties:properties>
-          <properties:property name="value" type="string">0141243C0119051FE2E2C3F10000304CF1F9F9F10000000400007D180400000000000000000000000000000000000000000000E2E2D4C1D7C3F1400000000000000000000000000000000000000000000000000000</properties:property>
+          <properties:property name="value" type="string">0042942C0119141FE2E2C3F10001909CC3F3F0F60000000400007D180400000000000000000000000000000000000000000000E2E2D4C1D7C3F1400000000000000000000000000000000000000000000000000000</properties:property>
         </properties:properties>
       </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
-    </stub:eib>
-  </stub:stubdata>
-  <stub:stubdata callToken="10002" id="1">
-    <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface</stub:interface>
-    <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface</stub:inputinterface>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
-        <properties:properties>
-          <properties:property name="value" type="string">1802d0000700000000050900000020f0f0f1f0f4404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input1.arg1.dfhc0070.dfhc0070" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I" id="arg2.SSMAPC1I">
-        <properties:properties>
-          <properties:property name="value" type="string">00000000000000000096E9E7000040F0F0F0F0F0F0F0F0F0F00000404040404040404040404000004040404040404040404040404040404040404040400000404040404040404040404000004040404040404040404040404040404040404040400000404040404000004040404040404040400000404000004040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER0" id="input1.arg2.SSMAPC1I.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOL" id="input1.arg2.SSMAPC1I.ENT1CNOL" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOF" id="input1.arg2.SSMAPC1I.ENT1CNOF" offset="14"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER1.ENT1CNOA" id="input1.arg2.SSMAPC1I.FILLER1.ENT1CNOA" offset="14"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOI" id="input1.arg2.SSMAPC1I.ENT1CNOI" offset="15"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAL" id="input1.arg2.SSMAPC1I.ENT1FNAL" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAF" id="input1.arg2.SSMAPC1I.ENT1FNAF" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER2.ENT1FNAA" id="input1.arg2.SSMAPC1I.FILLER2.ENT1FNAA" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAI" id="input1.arg2.SSMAPC1I.ENT1FNAI" offset="28"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAL" id="input1.arg2.SSMAPC1I.ENT1LNAL" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAF" id="input1.arg2.SSMAPC1I.ENT1LNAF" offset="40"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER3.ENT1LNAA" id="input1.arg2.SSMAPC1I.FILLER3.ENT1LNAA" offset="40"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAI" id="input1.arg2.SSMAPC1I.ENT1LNAI" offset="41"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBL" id="input1.arg2.SSMAPC1I.ENT1DOBL" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBF" id="input1.arg2.SSMAPC1I.ENT1DOBF" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER4.ENT1DOBA" id="input1.arg2.SSMAPC1I.FILLER4.ENT1DOBA" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBI" id="input1.arg2.SSMAPC1I.ENT1DOBI" offset="64"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNML" id="input1.arg2.SSMAPC1I.ENT1HNML" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMF" id="input1.arg2.SSMAPC1I.ENT1HNMF" offset="76"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER5.ENT1HNMA" id="input1.arg2.SSMAPC1I.FILLER5.ENT1HNMA" offset="76"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMI" id="input1.arg2.SSMAPC1I.ENT1HNMI" offset="77"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOL" id="input1.arg2.SSMAPC1I.ENT1HNOL" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOF" id="input1.arg2.SSMAPC1I.ENT1HNOF" offset="99"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER6.ENT1HNOA" id="input1.arg2.SSMAPC1I.FILLER6.ENT1HNOA" offset="99"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOI" id="input1.arg2.SSMAPC1I.ENT1HNOI" offset="100"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCL" id="input1.arg2.SSMAPC1I.ENT1HPCL" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCF" id="input1.arg2.SSMAPC1I.ENT1HPCF" offset="106"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER7.ENT1HPCA" id="input1.arg2.SSMAPC1I.FILLER7.ENT1HPCA" offset="106"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCI" id="input1.arg2.SSMAPC1I.ENT1HPCI" offset="107"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTL" id="input1.arg2.SSMAPC1I.ENT1OPTL" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTF" id="input1.arg2.SSMAPC1I.ENT1OPTF" offset="117"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER8.ENT1OPTA" id="input1.arg2.SSMAPC1I.FILLER8.ENT1OPTA" offset="117"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTI" id="input1.arg2.SSMAPC1I.ENT1OPTI" offset="118"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDL" id="input1.arg2.SSMAPC1I.ERRFLDL" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDF" id="input1.arg2.SSMAPC1I.ERRFLDF" offset="121"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER9.ERRFLDA" id="input1.arg2.SSMAPC1I.FILLER9.ERRFLDA" offset="121"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDI" id="input1.arg2.SSMAPC1I.ERRFLDI" offset="122"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
-        <properties:properties>
-          <properties:property name="value" type="string">0000</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="input1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input1.arg4.dfhc0071.dfhc0071" offset="0"/>
-    </stub:input>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
-        <properties:properties>
-          <properties:property name="value" type="string">1802d0000700000000050900000020f0f0f1f0f4404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output1.arg1.dfhc0070.dfhc0070" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I" id="arg2.SSMAPC1I">
-        <properties:properties>
-          <properties:property name="value" type="string">00000000000000000096E9E700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100F100000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER0" id="output1.arg2.SSMAPC1I.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOL" id="output1.arg2.SSMAPC1I.ENT1CNOL" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOF" id="output1.arg2.SSMAPC1I.ENT1CNOF" offset="14"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER1.ENT1CNOA" id="output1.arg2.SSMAPC1I.FILLER1.ENT1CNOA" offset="14"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1CNOI" id="output1.arg2.SSMAPC1I.ENT1CNOI" offset="15"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAL" id="output1.arg2.SSMAPC1I.ENT1FNAL" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAF" id="output1.arg2.SSMAPC1I.ENT1FNAF" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER2.ENT1FNAA" id="output1.arg2.SSMAPC1I.FILLER2.ENT1FNAA" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1FNAI" id="output1.arg2.SSMAPC1I.ENT1FNAI" offset="28"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAL" id="output1.arg2.SSMAPC1I.ENT1LNAL" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAF" id="output1.arg2.SSMAPC1I.ENT1LNAF" offset="40"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER3.ENT1LNAA" id="output1.arg2.SSMAPC1I.FILLER3.ENT1LNAA" offset="40"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1LNAI" id="output1.arg2.SSMAPC1I.ENT1LNAI" offset="41"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBL" id="output1.arg2.SSMAPC1I.ENT1DOBL" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBF" id="output1.arg2.SSMAPC1I.ENT1DOBF" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER4.ENT1DOBA" id="output1.arg2.SSMAPC1I.FILLER4.ENT1DOBA" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1DOBI" id="output1.arg2.SSMAPC1I.ENT1DOBI" offset="64"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNML" id="output1.arg2.SSMAPC1I.ENT1HNML" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMF" id="output1.arg2.SSMAPC1I.ENT1HNMF" offset="76"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER5.ENT1HNMA" id="output1.arg2.SSMAPC1I.FILLER5.ENT1HNMA" offset="76"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNMI" id="output1.arg2.SSMAPC1I.ENT1HNMI" offset="77"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOL" id="output1.arg2.SSMAPC1I.ENT1HNOL" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOF" id="output1.arg2.SSMAPC1I.ENT1HNOF" offset="99"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER6.ENT1HNOA" id="output1.arg2.SSMAPC1I.FILLER6.ENT1HNOA" offset="99"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HNOI" id="output1.arg2.SSMAPC1I.ENT1HNOI" offset="100"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCL" id="output1.arg2.SSMAPC1I.ENT1HPCL" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCF" id="output1.arg2.SSMAPC1I.ENT1HPCF" offset="106"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER7.ENT1HPCA" id="output1.arg2.SSMAPC1I.FILLER7.ENT1HPCA" offset="106"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1HPCI" id="output1.arg2.SSMAPC1I.ENT1HPCI" offset="107"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTL" id="output1.arg2.SSMAPC1I.ENT1OPTL" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTF" id="output1.arg2.SSMAPC1I.ENT1OPTF" offset="117"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER8.ENT1OPTA" id="output1.arg2.SSMAPC1I.FILLER8.ENT1OPTA" offset="117"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ENT1OPTI" id="output1.arg2.SSMAPC1I.ENT1OPTI" offset="118"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDL" id="output1.arg2.SSMAPC1I.ERRFLDL" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDF" id="output1.arg2.SSMAPC1I.ERRFLDF" offset="121"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.FILLER9.ERRFLDA" id="output1.arg2.SSMAPC1I.FILLER9.ERRFLDA" offset="121"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1I.listructure#SSMAPC1I.ERRFLDI" id="output1.arg2.SSMAPC1I.ERRFLDI" offset="122"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
-        <properties:properties>
-          <properties:property name="value" type="string">0000</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="output1.arg3.CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output1.arg4.dfhc0071.dfhc0071" offset="0"/>
-    </stub:output>
-    <stub:inputDataCheckconditions>
-      <checkconditions:simpleCheckcondition refData="#input1.arg1.dfhc0070.dfhc0070">
-        <checkconditions:expression>'SSMAPC1' eq result.arg1.dfhc0070.dfhc0070</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAPC1</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input1.arg4.dfhc0071.dfhc0071">
-        <checkconditions:expression>'SSMAP' eq result.arg4.dfhc0071.dfhc0071</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAP</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-    </stub:inputDataCheckconditions>
-    <stub:statement type="EXEC CICS RECEIVE">
-      <stub:text>      *EXEC CICS RECEIVE MAP('SSMAPC1')
-      *          INTO(SSMAPC1I)
-      *          MAPSET('SSMAP') END-EXEC.
-</stub:text>
-    </stub:statement>
-    <stub:eib listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
-        <properties:properties>
-          <properties:property name="value" type="string">0141243C0119051FE2E2C3F10000304CF1F9F9F1000007380000F8180200000000000000000000000000000000000000000000E2E2D4C1D7C3F1400000000000000000000000000000000000000000000000000000</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
-    </stub:eib>
-  </stub:stubdata>
-  <stub:stubdata callToken="10003" id="2">
-    <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:interface>
-    <stub:inputinterface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE.interface</stub:inputinterface>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
-        <properties:properties>
-          <properties:property name="value" type="string">1804f000070000000005e004000020f0f0f2f3f5404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="input2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="input2.arg1.dfhc0070.dfhc0070" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
-        <properties:properties>
-          <properties:property name="value" type="string">00000000000000000096E9E700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100F1000000D596408481A38140A681A2409985A3A4999585844B40404040404040404040404040404040404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="input2.arg2.SSMAPC1O.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER1" id="input2.arg2.SSMAPC1O.FILLER1" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CNOO" id="input2.arg2.SSMAPC1O.ENT1CNOO" offset="15"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER2" id="input2.arg2.SSMAPC1O.FILLER2" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1FNAO" id="input2.arg2.SSMAPC1O.ENT1FNAO" offset="28"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER3" id="input2.arg2.SSMAPC1O.FILLER3" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1LNAO" id="input2.arg2.SSMAPC1O.ENT1LNAO" offset="41"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER4" id="input2.arg2.SSMAPC1O.FILLER4" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1DOBO" id="input2.arg2.SSMAPC1O.ENT1DOBO" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER5" id="input2.arg2.SSMAPC1O.FILLER5" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNMO" id="input2.arg2.SSMAPC1O.ENT1HNMO" offset="77"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER6" id="input2.arg2.SSMAPC1O.FILLER6" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNOO" id="input2.arg2.SSMAPC1O.ENT1HNOO" offset="100"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER7" id="input2.arg2.SSMAPC1O.FILLER7" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HPCO" id="input2.arg2.SSMAPC1O.ENT1HPCO" offset="107"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER8" id="input2.arg2.SSMAPC1O.FILLER8" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1OPTO" id="input2.arg2.SSMAPC1O.ENT1OPTO" offset="118"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER9" id="input2.arg2.SSMAPC1O.FILLER9" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ERRFLDO" id="input2.arg2.SSMAPC1O.ERRFLDO" offset="122"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
-        <properties:properties>
-          <properties:property name="value" type="string">00A2</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="input2.arg3.dfhb0020.dfhb0020" offset="0"/>
-    </stub:input>
-    <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="input2.arg4.dfhc0071.dfhc0071" offset="0"/>
-    </stub:input>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
-        <properties:properties>
-          <properties:property name="value" type="string">1804f000070000000005e004000020f0f0f2f3f5404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="output2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="arg1.dfhc0070">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D7C3F1</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure#dfhc0070" id="output2.arg1.dfhc0070.dfhc0070" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O" id="arg2.SSMAPC1O">
-        <properties:properties>
-          <properties:property name="value" type="string">00000000000000000096E9E700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100F1000000D596408481A38140A681A2409985A3A4999585844B40404040404040404040404040404040404040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="output2.arg2.SSMAPC1O.FILLER0" offset="0"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER1" id="output2.arg2.SSMAPC1O.FILLER1" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CNOO" id="output2.arg2.SSMAPC1O.ENT1CNOO" offset="15"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER2" id="output2.arg2.SSMAPC1O.FILLER2" offset="25"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1FNAO" id="output2.arg2.SSMAPC1O.ENT1FNAO" offset="28"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER3" id="output2.arg2.SSMAPC1O.FILLER3" offset="38"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1LNAO" id="output2.arg2.SSMAPC1O.ENT1LNAO" offset="41"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER4" id="output2.arg2.SSMAPC1O.FILLER4" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1DOBO" id="output2.arg2.SSMAPC1O.ENT1DOBO" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER5" id="output2.arg2.SSMAPC1O.FILLER5" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNMO" id="output2.arg2.SSMAPC1O.ENT1HNMO" offset="77"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER6" id="output2.arg2.SSMAPC1O.FILLER6" offset="97"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HNOO" id="output2.arg2.SSMAPC1O.ENT1HNOO" offset="100"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER7" id="output2.arg2.SSMAPC1O.FILLER7" offset="104"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1HPCO" id="output2.arg2.SSMAPC1O.ENT1HPCO" offset="107"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER8" id="output2.arg2.SSMAPC1O.FILLER8" offset="115"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1OPTO" id="output2.arg2.SSMAPC1O.ENT1OPTO" offset="118"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER9" id="output2.arg2.SSMAPC1O.FILLER9" offset="119"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ERRFLDO" id="output2.arg2.SSMAPC1O.ERRFLDO" offset="122"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
-        <properties:properties>
-          <properties:property name="value" type="string">00A2</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="output2.arg3.dfhb0020.dfhb0020" offset="0"/>
-    </stub:output>
-    <stub:output listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="arg4.dfhc0071">
-        <properties:properties>
-          <properties:property name="value" type="string">E2E2D4C1D74040</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0071.listructure#dfhc0071" id="output2.arg4.dfhc0071.dfhc0071" offset="0"/>
-    </stub:output>
-    <stub:inputDataCheckconditions>
-      <checkconditions:simpleCheckcondition refData="#input2.arg1.dfhc0070.dfhc0070">
-        <checkconditions:expression>'SSMAPC1' eq result.arg1.dfhc0070.dfhc0070</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAPC1</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER0">
-        <checkconditions:expression>x'00000000000000000096E9E7' eq result.arg2.SSMAPC1O.FILLER0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'00000000000000000096E9E7'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER1">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER1</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1CNOO">
-        <checkconditions:expression>x'00000000000000000000' eq result.arg2.SSMAPC1O.ENT1CNOO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'00000000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER2">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER2</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1FNAO">
-        <checkconditions:expression>x'00000000000000000000' eq result.arg2.SSMAPC1O.ENT1FNAO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'00000000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER3">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER3</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1LNAO">
-        <checkconditions:expression>x'0000000000000000000000000000000000000000' eq result.arg2.SSMAPC1O.ENT1LNAO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'0000000000000000000000000000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER4">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER4</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1DOBO">
-        <checkconditions:expression>x'00000000000000000000' eq result.arg2.SSMAPC1O.ENT1DOBO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'00000000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER5">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER5</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1HNMO">
-        <checkconditions:expression>x'0000000000000000000000000000000000000000' eq result.arg2.SSMAPC1O.ENT1HNMO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'0000000000000000000000000000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER6">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER6</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1HNOO">
-        <checkconditions:expression>x'00000000' eq result.arg2.SSMAPC1O.ENT1HNOO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'00000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER7">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER7</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1HPCO">
-        <checkconditions:expression>x'0000000000000000' eq result.arg2.SSMAPC1O.ENT1HPCO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'0000000000000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER8">
-        <checkconditions:expression>x'000100' eq result.arg2.SSMAPC1O.FILLER8</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000100'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ENT1OPTO">
-        <checkconditions:expression>'1' eq result.arg2.SSMAPC1O.ENT1OPTO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">1</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.FILLER9">
-        <checkconditions:expression>x'000000' eq result.arg2.SSMAPC1O.FILLER9</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg2.SSMAPC1O.ERRFLDO">
-        <checkconditions:expression>'No data was returned.' eq result.arg2.SSMAPC1O.ERRFLDO</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">No data was returned.</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-      <checkconditions:simpleCheckcondition refData="#input2.arg4.dfhc0071.dfhc0071">
-        <checkconditions:expression>'SSMAP' eq result.arg4.dfhc0071.dfhc0071</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">SSMAP</checkconditions:expectation>
-      </checkconditions:simpleCheckcondition>
-    </stub:inputDataCheckconditions>
-    <stub:statement type="EXEC CICS SEND">
-      <stub:text>      *EXEC CICS SEND MAP ('SSMAPC1')
-      *          FROM(SSMAPC1O)
-      *          MAPSET ('SSMAP')
-      *END-EXEC.
-</stub:text>
-    </stub:statement>
-    <stub:eib listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure">
-      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
-        <properties:properties>
-          <properties:property name="value" type="string">0141243C0119051FE2E2C3F10000304CF1F9F9F1000007380000F8180400000000000000000000000000000000000000000000E2E2D4C1D7C3F1400000000000000000000000000000000000000000000000000000</properties:property>
-        </properties:properties>
-      </stub:data>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
-      <stub:data baseType="listructure:numberType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
-      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
     </stub:eib>
   </stub:stubdata>
 </stub:stub>
