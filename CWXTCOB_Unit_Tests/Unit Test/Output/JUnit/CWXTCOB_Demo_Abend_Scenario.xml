@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 05.06.2019 20:09:59-->
+<testsuites>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <failure>Check for PARM_DATA failed
+
+Actual Value:    00002
+
+Expected Value:  = 00001</failure>
+    </testcase>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00001: RPTFILE assertion" tests="1">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00001: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00002: RPTFILE assertion" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00002: RPTFILE assertion" name="00001: Check for BLANK_LINE">
+      <failure>Check for BLANK_LINE failed
+
+Actual Value:        TOTAL                                                                   0.00
+
+Expected Value:  = </failure>
+    </testcase>
+  </testsuite>
+  <testsuite errors="1" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00003: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="3">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00003: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="2" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00004: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="4">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00004: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="3" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00005: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="5">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00005: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="4" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00006: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="6">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00006: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="5" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00007: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="7">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00007: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="6" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00008: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="8">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00008: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="7" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00009: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="9">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00009: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="8" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00010: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="10">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00010: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="9" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00011: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="11">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00011: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+  <testsuite errors="10" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00012: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" tests="12">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Demo_Abend_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00012: CWXTCOB_RPTFILE_FILE_02.RPTFILE assertion" name="00001: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+</testsuites>
