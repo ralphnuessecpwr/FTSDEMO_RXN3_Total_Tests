@@ -2,7 +2,7 @@
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtsubc">
   <Test>
     <Variable id="data" filePath="CWXTSUBC_Iterate_data.xls" />
-    <IterateData id="loop" referencedId="data" dataPath="/testcase[2]">
+    <IterateData id="loop" referencedId="data" dataPath="">
       <Component id="cwxtsubc" label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
         <Data>
           <emp-type>=loop.testcase.emp-type_input</emp-type>

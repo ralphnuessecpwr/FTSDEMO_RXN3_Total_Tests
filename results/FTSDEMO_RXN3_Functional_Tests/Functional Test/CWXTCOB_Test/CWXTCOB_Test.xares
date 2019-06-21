@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaUnitResult resultType="FAILURE" containsSimulation="false">
-  <ExecutionId>aeb5adbc-591f-4f8e-a2be-52ff8b1e80a2</ExecutionId>
-  <Message>An error occurred and the execution has been stopped. Unable to execute the module:CWXTCOB at the host. Unable to initiate Server connection to server CWCC.COMPUWARE.COM port:16196. com.compuware.totaltest.common.hci.api.HciServicesException: Unable to define host CWCC.COMPUWARE.COM:16196</Message>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>514b5948-d3a5-4f49-9575-ed12f2cd82b5</ExecutionId>
+  <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
-      <Test />
+      <Test>
+        <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <parminfo>
+              <parm-lth>5</parm-lth>
+              <parm-data>00003</parm-data>
+            </parminfo>
+          </Data>
+        </Component>
+        <VerifyRemoteFile name="Verify remote file" mode="COMPARE" haltExecution="false" mDataDefinition="rptHeader" actualPath="HDDRXM0.DEMO.CWXTRPT" expectedPath="HDDRXM0.DEMO.CWXTRPT.EXPECT">
+          <ExcludedFields>
+            <Path>/runMonth</Path>
+            <Path>/runYear</Path>
+          </ExcludedFields>
+        </VerifyRemoteFile>
+      </Test>
       <MetaData>
         <Component name="CWXTCOB" type="COBOL">
           <INOUT>
@@ -80,6 +95,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20190621-11-54-05</Started>
-  <Ended>20190621-11-54-05</Ended>
+  <Started>20190621-12-22-05</Started>
+  <Ended>20190621-12-22-16</Ended>
 </XaUnitResult>

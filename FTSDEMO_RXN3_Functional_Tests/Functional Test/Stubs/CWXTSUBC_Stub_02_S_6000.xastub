@@ -1,0 +1,14 @@
+<Simulation xmlns="http://www.xact.dk/xatester/v/1" name="CWXTSUBC" type="COBOL">
+  <Output>
+    <emp-type>S</emp-type>
+    <sales-amount>75000</sales-amount>
+    <comm-total expected="6000">6000</comm-total>
+  </Output>
+  <Metadata>
+    <Container>
+      <emp-type type="Character" length="1" bytes="1" inOutType="INPUT"></emp-type>
+      <sales-amount type="NumericDisplay" length="8" bytes="8" inOutType="INPUT" signed="false" decimals="2"></sales-amount>
+      <comm-total type="NumericPacked" length="7" bytes="4" inOutType="OUTPUT" signed="false" decimals="2"></comm-total>
+    </Container>
+  </Metadata>
+</Simulation>
