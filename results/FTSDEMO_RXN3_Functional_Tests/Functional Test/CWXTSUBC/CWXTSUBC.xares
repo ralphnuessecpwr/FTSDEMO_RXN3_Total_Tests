@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>3fa26ea1-191b-436b-b96f-271ea078a59e</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Component label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <emp-type>S</emp-type>
+            <sales-amount>100000</sales-amount>
+            <comm-total expected="10000">10000</comm-total>
+          </Data>
+        </Component>
+        <Component label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <emp-type>M</emp-type>
+            <sales-amount>100000</sales-amount>
+            <comm-total expected="2000">2000</comm-total>
+          </Data>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="CWXTSUBC" type="COBOL">
+          <INOUT>
+            <emp-type type="Character" length="1" bytes="1" />
+            <sales-amount type="NumericDisplay" length="8" bytes="8" signed="false" decimals="2" />
+            <comm-total type="NumericPacked" length="7" bytes="4" signed="false" decimals="2" />
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime callinterface="NONE" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" />
+      <ExtensionData />
+      <ExtensionData componentName="cwxtsubc" componentId="5b979b12787be73b59238f84">
+        <Parameter key="sourcelibrary">
+          <Value>HDDRXM0.DEMO.COB.BATCH</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>HDDRXM0.DEMO.LOAD.PDSE</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>HDDRXM0.DEMO.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="cwxtsubc" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtsubc" path="CWXTSUBC.xaunit">
+        <Test>
+          <Component label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <emp-type>S</emp-type>
+              <sales-amount>100000</sales-amount>
+              <comm-total expected="10000" />
+            </Data>
+          </Component>
+          <Component label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <emp-type>M</emp-type>
+              <sales-amount>100000</sales-amount>
+              <comm-total expected="2000" />
+            </Data>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="CWXTSUBC" type="COBOL">
+            <INOUT>
+              <emp-type type="Character" length="1" bytes="1" />
+              <sales-amount type="NumericDisplay" length="8" bytes="8" signed="false" decimals="2" />
+              <comm-total type="NumericPacked" length="7" bytes="4" signed="false" decimals="2" />
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190613-11-20-29</Started>
+  <Ended>20190613-11-20-52</Ended>
+</XaUnitResult>

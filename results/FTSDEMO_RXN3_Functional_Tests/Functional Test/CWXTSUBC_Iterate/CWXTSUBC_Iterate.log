@@ -1,0 +1,207 @@
+11:53:25.730 COMMENT   Engine           Test Scenario execution started
+11:53:25.730 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+11:53:25.730 INFO      Engine           Setting variables from context and context data extensions
+11:53:25.731 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+11:53:25.731 INFO      Engine             id: environmentType    value: BATCH
+11:53:25.731 INFO      Engine             id: userId             value: HDDRXM0
+11:53:25.731 INFO      Variable         Interpreting Variable id:data dataFile:CWXTSUBC_Iterate_data.xls
+11:53:25.744 LOG       Variable         Resolved data items from file CWXTSUBC_Iterate_data.xls
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>0</sales-amount_input>
+  <comm-total_expected>0</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>1</sales-amount_input>
+  <comm-total_expected>0.02</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>75000</sales-amount_input>
+  <comm-total_expected>1500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>100000</sales-amount_input>
+  <comm-total_expected>2000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>100001</sales-amount_input>
+  <comm-total_expected>2500.03</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>150000</sales-amount_input>
+  <comm-total_expected>3750</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>200000</sales-amount_input>
+  <comm-total_expected>5000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>200001</sales-amount_input>
+  <comm-total_expected>6000.03</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>250000</sales-amount_input>
+  <comm-total_expected>7500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>300000</sales-amount_input>
+  <comm-total_expected>9000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>300001</sales-amount_input>
+  <comm-total_expected>10500.035000000002</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>350000</sales-amount_input>
+  <comm-total_expected>12250.000000000002</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>400000</sales-amount_input>
+  <comm-total_expected>14000.000000000002</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>400001</sales-amount_input>
+  <comm-total_expected>16000.04</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>450000</sales-amount_input>
+  <comm-total_expected>18000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>500000</sales-amount_input>
+  <comm-total_expected>20000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>0</sales-amount_input>
+  <comm-total_expected>0</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>1</sales-amount_input>
+  <comm-total_expected>0.02</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>15000</sales-amount_input>
+  <comm-total_expected>300</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>20000</sales-amount_input>
+  <comm-total_expected>400</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>20001</sales-amount_input>
+  <comm-total_expected>800.04</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>25000</sales-amount_input>
+  <comm-total_expected>1000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>40000</sales-amount_input>
+  <comm-total_expected>1600</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>40001</sales-amount_input>
+  <comm-total_expected>2400.06</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>55000</sales-amount_input>
+  <comm-total_expected>3300</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>60000</sales-amount_input>
+  <comm-total_expected>3600</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>60001</sales-amount_input>
+  <comm-total_expected>4800.08</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>75000</sales-amount_input>
+  <comm-total_expected>6000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>80000</sales-amount_input>
+  <comm-total_expected>6400</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>80001</sales-amount_input>
+  <comm-total_expected>8000.1</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>85000</sales-amount_input>
+  <comm-total_expected>8500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>100000</sales-amount_input>
+  <comm-total_expected>10000</comm-total_expected>
+</testcase>
+11:53:25.745 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 1. Variable loopIndex contains iteration number
+11:53:25.745 INFO      IterateData      Iteration number 0 started.
+11:53:25.745 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>75000</sales-amount_input>
+  <comm-total_expected>1500</comm-total_expected>
+</testcase>
+11:53:25.745 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+11:53:25.752 LOG       CWCC Batch       Component Runtime Settings:
+11:53:25.752 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
+11:53:25.752 LOG       CWCC Batch         Additional load libraries :
+11:53:25.752 LOG       CWCC Batch         Listing libraries         :
+11:53:25.752 LOG       CWCC Batch         SysDebug libraries        :
+11:53:25.752 LOG       CWCC Batch         DB2 Subsystem ID          :
+11:53:25.752 LOG       CWCC Batch         DB2 plan                  :
+11:53:25.752 LOG       CWCC Batch         Call interface            :NONE
+11:53:25.752 LOG       CWCC Batch         Debugger type             :NONE
+11:53:25.752 LOG       CWCC Batch         Component type            :COBOL
+11:53:25.753 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+11:53:25.759 ERROR     HCIClient        Error connecting to HCI: Unable to define host CWCC.COMPUWARE.COM:16196
+11:53:25.760 ERROR     Engine           Unable to execute the module:CWXTSUBC at the host. Unable to initiate Server connection to server CWCC.COMPUWARE.COM port:16196. com.compuware.totaltest.common.hci.api.HciServicesException: Unable to define host CWCC.COMPUWARE.COM:16196
+11:53:25.760 ERROR     Engine           An error occurred. Now stopping the execution.
+11:53:25.760 ERROR     IterateData      Iteration unexpectedly stopped. Child component failed.
+11:53:25.760 INFO      IterateData      IterateData completed
+11:53:25.760 COMMENT   Engine           Test Scenario execution ended
