@@ -8,8 +8,11 @@
           <parm-data>00003</parm-data>
         </parminfo>
       </Data>
+      <Subcomponents calltype="dynamic">
+        <Mockup moduleName="CWXTSUBC" repositoryId="5d10d27218074200615eae09" />
+      </Subcomponents>
     </Component>
-    <VerifyRemoteFile name="Verify remote file" mode="COMPARE" haltExecution="false" mDataDefinition="rptHeader" actualPath="HDDRXM0.DEMO.CWXTRPT" expectedPath="HDDRXM0.DEMO.CWXTRPT.EXPECT">
+    <VerifyRemoteFile name="Verify remote file" mode="COMPARE" haltExecution="false" mDataDefinition="rptHeader" actualPath="HDDRXM0.DEMO.CWXTRPT" expectedPath="HDDRXM0.DEMO.CWXTRPT.EXPECT.STUBBED">
       <ExcludedFields>
         <Path>/runMonth</Path>
         <Path>/runYear</Path>

@@ -1,0 +1,70 @@
+15:46:28.290 COMMENT   Engine           Test Scenario execution started
+15:46:28.290 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+15:46:28.290 INFO      Engine           Setting variables from context and context data extensions
+15:46:28.290 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+15:46:28.290 INFO      Engine             id: environmentType    value: BATCH
+15:46:28.290 INFO      Engine             id: userId             value: HDDRXM0
+15:46:28.291 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+15:46:28.291 INFO      Component        Using mockup data for mocking sub modules.
+15:46:28.291 INFO      Component          Repository id: 5d10d27218074200615eae09
+15:46:28.292 LOG       CWCC Batch       Final JCL setup for the component:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
+
+15:46:28.292 LOG       CWCC Batch       Component Runtime Settings:
+15:46:28.292 LOG       CWCC Batch         Load library              :HDDRXM0.DEMO.LOAD.PDSE
+15:46:28.292 LOG       CWCC Batch         Additional load libraries :
+15:46:28.292 LOG       CWCC Batch         Listing libraries         :
+15:46:28.292 LOG       CWCC Batch         SysDebug libraries        :
+15:46:28.292 LOG       CWCC Batch         DB2 Subsystem ID          :
+15:46:28.292 LOG       CWCC Batch         DB2 plan                  :
+15:46:28.292 LOG       CWCC Batch         Call interface            :NONE
+15:46:28.292 LOG       CWCC Batch         Debugger type             :NONE
+15:46:28.292 LOG       CWCC Batch         Component type            :COBOL
+15:46:28.292 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+15:46:28.478 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/98044b4b769d4cd3b21f886bf2f4662f
+15:46:28.851 LOG       CWCC Batch       Uploading input data for module CWXTCOB
+15:46:29.935 LOG       CWCC Batch       Uploading mockup data for sub modules into file XAT_mockups.xml
+15:46:31.043 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>98044b4b769d4cd3b21f886bf2f4662f</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs><mockups><mockstate>dynamic</mockstate><mockup><modulename>CWXTSUBC</modulename></mockup></mockups></xatz_request></XATZREQ>
+15:46:31.354 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0758092</jobid><jobname>HDDRXM0E</jobname><starttime>20190624094631453</starttime></xatz_response></XATZRESP>
+15:46:31.356 LOG       HCIClient        Response received from Host. Message: JobId:J0758092
+15:46:31.356 INFO      HCIClient        Job has been started at host with JobId:J0758092
+15:46:31.356 INFO      CWCC Batch       Waiting for Execution Result from Host
+15:46:34.658 INFO      CWCC Batch       Component completed with program exit: +0
+15:46:34.809 LOG       CWCC Batch       Setting execution variable 'jobid' to J0758092
+15:46:34.809 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+15:46:34.810 WARNING   CWCC Batch       Execution resulted in warning messages from the host.
+15:46:34.810 WARNING   CWCC Batch       XATM006W MOCP Mockup reply CWXTSUBC,00000002 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000003 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000004 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000005 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000006 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000007 not found. Using Callno. 1XATM006W MOCP Mockup reply CWXTSUBC,00000008 not found. Using Callno. 1
+15:46:34.959 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:46:34.978 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:46:34.978 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
+15:46:34.978 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: HDDRXM0.DEMO.CWXTRPT
+15:46:34.978 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 12 to 13
+15:46:34.978 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 15 to 16
+15:46:34.978 INFO      CWCC Batch       Sending Job execution request to Host 
+15:46:35.124 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/54a1c11ce04f477eafaec47d1c9e5b3e
+15:46:35.714 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>54a1c11ce04f477eafaec47d1c9e5b3e</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.DEMO.CWXTRPT.EXPECT.STUBBED</olddsn><newdsn>HDDRXM0.DEMO.CWXTRPT</newdsn><compareopts><compareopt>excflds=13,2,16,2</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
+15:46:35.964 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0758093</jobid><jobname>HDDRXM0S</jobname><starttime>20190624094636061</starttime></xatz_response></XATZRESP>
+15:46:35.964 LOG       HCIClient        Response received from Host. Message: JobId:J0758093
+15:46:35.964 INFO      HCIClient        Job has been started at host with JobId:J0758093
+15:46:35.964 INFO      CWCC Batch       Waiting for Execution Result from Host
+15:46:39.263 LOG       VerifyRemoteFile Notification message contained a Verification Error, now retrieving compare files with content
+15:46:39.263 ERROR     VerifyRemoteFile Comparison of DSN expected:HDDRXM0.DEMO.CWXTRPT.EXPECT.STUBBED actual:HDDRXM0.DEMO.CWXTRPT was FAIL
+15:46:39.264 LOG       VerifyRemoteFile Getting information about the comparison from file:output.xml.cmpr12
+15:46:39.264 LOG       VerifyRemoteFile Retrieving file:output.xml.cmpr12
+15:46:39.466 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
+15:46:39.466 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: HDDRXM0.DEMO.CWXTRPT and expected dataset:HDDRXM0.DEMO.CWXTRPT.EXPECT.STUBBED
+15:46:39.466 COMMENT   Engine           Test Scenario execution ended

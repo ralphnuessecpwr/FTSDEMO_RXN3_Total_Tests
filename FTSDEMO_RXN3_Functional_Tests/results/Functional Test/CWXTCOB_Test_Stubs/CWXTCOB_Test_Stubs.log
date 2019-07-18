@@ -1,0 +1,51 @@
+09:59:33.720 COMMENT   Engine           Test Scenario execution started
+09:59:33.722 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b5089c9787be73b59238d35
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.142
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+09:59:33.722 INFO      Engine           Setting variables from context and context data extensions
+09:59:33.722 INFO      Engine             id: environmentId      value: 5b5089c9787be73b59238d35
+09:59:33.722 INFO      Engine             id: environmentType    value: BATCH
+09:59:33.722 INFO      Engine             id: userId             value: HDDRXM0
+09:59:33.722 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+09:59:33.726 INFO      Component        Using mockup data for mocking sub modules.
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub_02_S_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub01_M_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub_02_S_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub_02_S_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub01_M_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub01_M_6000.xastub
+09:59:33.726 INFO      Component          File path: Stubs/CWXTSUBC_Stub01_M_6000.xastub
+09:59:33.764 LOG       CWC2 Batch       Final JCL setup for the component:
+//EMPFILE  DD  DISP=SHR,DSN=SYS2.CW.&CWGAXT..SLXTSAMP(CWXTDATA)
+//RPTFILE  DD   DISP=(MOD,CATLG),DSN=SNCBAW0.REPORT.FILE,
+//         UNIT=SYSDA,SPACE=(TRK,(1,1))
+//SYSOUT   DD  SYSOUT=*
+
+09:59:33.764 LOG       CWC2 Batch       Component Runtime Settings:
+09:59:33.764 LOG       CWC2 Batch         Load library              :SNCBAW0.ESS.LOAD
+09:59:33.765 LOG       CWC2 Batch         Additional load libraries :
+09:59:33.765 LOG       CWC2 Batch         Listing libraries         :
+09:59:33.765 LOG       CWC2 Batch         SysDebug libraries        :
+09:59:33.765 LOG       CWC2 Batch         DB2 Subsystem ID          :
+09:59:33.765 LOG       CWC2 Batch         DB2 plan                  :
+09:59:33.765 LOG       CWC2 Batch         Call interface            :NONE
+09:59:33.765 LOG       CWC2 Batch         Debugger type             :NONE
+09:59:33.765 LOG       CWC2 Batch         Component type            :COBOL
+09:59:33.775 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+09:59:55.413 ERROR     CWC2 Batch       Error initializing Dirs: Unable to determine if file /u/xatester/hddrxm0 exists. Reason An exception occurred while trying to check the existence of the ZFS file at path /u/xatester/hddrxm0 on cwc2.nasa.cpwr.corp:16196.
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+09:59:55.414 ERROR     Engine           Unable to execute the module:CWXTCOB at the host. Unable to initiate Server connection to server 192.168.96.142 port:16196. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to determine if file /u/xatester/hddrxm0 exists. Reason An exception occurred while trying to check the existence of the ZFS file at path /u/xatester/hddrxm0 on cwc2.nasa.cpwr.corp:16196.
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+09:59:55.414 ERROR     Engine           An error occurred. Now stopping the execution.
+09:59:55.414 COMMENT   Engine           Test Scenario execution ended

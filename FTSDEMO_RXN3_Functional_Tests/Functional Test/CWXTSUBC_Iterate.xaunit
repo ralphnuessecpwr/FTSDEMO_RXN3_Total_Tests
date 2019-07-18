@@ -3,7 +3,7 @@
   <Test>
     <Variable id="data" filePath="CWXTSUBC_Iterate_data.xls" />
     <IterateData id="loop" referencedId="data" dataPath="">
-      <Component id="cwxtsubc" label="CWXTSUBC" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
+      <Component label="CWXTSUBC - HDDRXM0" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
         <Data>
           <emp-type>=loop.testcase.emp-type_input</emp-type>
           <sales-amount>=loop.testcase.sales-amount_input</sales-amount>

@@ -12,7 +12,7 @@
       <Data>
         <emp-type>M</emp-type>
         <sales-amount>100000</sales-amount>
-        <comm-total expected="2000" />
+        <comm-total expected="2200" />
       </Data>
     </Component>
   </Test>
