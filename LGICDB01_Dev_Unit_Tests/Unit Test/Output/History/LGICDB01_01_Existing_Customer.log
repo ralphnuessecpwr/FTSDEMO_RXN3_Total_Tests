@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-05-21 08:21.31��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-06-18 05:46.21��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite LGICDB01
  STTR014I Processing test scenario LGICDB01
@@ -44,7 +44,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019141, Length = 40
+  IDRU: Creation Date = 2019164, Length = 40
    data = c3e7d3c7c9c3c4c2f0f109394bdb7a1802e85c3019deaf0338cb4d59191377600000000000000000
    program = LGICDB01, ddio(31) = SALESSUP.RXN3.DEV1.CICSLOAD.SSD
  ---closeW---entry
@@ -55,8 +55,8 @@
  module: LGICDB01, csect: LGICDB01, entry: LGICDB01
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38576028
- ---TARGCALL---entry newTARGET: 38576028
+ ---TARGET---exit newTARGET: 38592028
+ ---TARGCALL---entry newTARGET: 38592028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -94,14 +94,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 385760E8
- ---addTargetArg---workingArea: 38576088
+ AV ptr: 385920E8
+ ---addTargetArg---workingArea: 38592088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38576088
+ ---T addTargetArg---workingArea: 38592088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38576088
+ ---TARGARG--- workingArea: 38592088
  ---TARGARG---entry
  length: 32522
  ---T addTargetArg---entry
@@ -111,7 +111,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 385760E8
+ AV ptr: 385920E8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -124,14 +124,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 385760E8
- ---addTargetArg---workingArea: 38576138
+ AV ptr: 385920E8
+ ---addTargetArg---workingArea: 38592138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38576138
+ ---T addTargetArg---workingArea: 38592138
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38576138
+ ---TARGARG--- workingArea: 38592138
  ---BNDHOOK---entry
  --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000000
  ---openW_includeName---entry
@@ -235,14 +235,14 @@
  NUMBER-BIGINT
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3853E994  stmt: 3862E010  stmtLength: 00000201  crsrName: 00000000  crsrLength: 00000000
+ release: 3855A51C  stmt: 38655010  stmtLength: 00000201  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3853E994  stmt: 3862E010  stmtLength: 00000201
+ release: 3855A51C  stmt: 38655010  stmtLength: 00000201
  token: 00004E20
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 386E1028
+ ---DB2SQL---exit  Sel newStatement: 38708028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -542,14 +542,14 @@
  OPEN Cust_Cursor
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3853E994  stmt: 3862E480  stmtLength: 00000010  crsrName: 3853B1D0  crsrLength: 0000000B
+ release: 3855A51C  stmt: 38655480  stmtLength: 00000010  crsrName: 385571D0  crsrLength: 0000000B
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3853E994  stmt: 3862E480  stmtLength: 00000010
+ release: 3855A51C  stmt: 38655480  stmtLength: 00000010
  token: 00002710
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Csr newStatement: 386E17B8
+ ---DB2SQL---exit  Csr newStatement: 387087B8
  ---DB2PLIST---entry
  ---Csr setPlist---entry
  new OFC
@@ -2559,14 +2559,14 @@
  RETURN
  ---TTEXRE---exit  rc: 0
  ---EXCICS---entry
- release: 386102FA  stubToken: 00007530
- stubType:       signature: 3861A31A  signatureLength: 00000006
+ release: 386372FA  stubToken: 00007530
+ stubType:       signature: 3864131A  signatureLength: 00000006
  ---EXCICScxx---entry
- release: 386102FA  token: 00007530
- signature: 3861A31A  length: 00000006
- commandTable: 37389140
+ release: 386372FA  token: 00007530
+ signature: 3864131A  length: 00000006
+ commandTable: 373E65A8
  ---EXCICScxx---exit
- ---EXCICS---exit newEXCICS: 386E1F58
+ ---EXCICS---exit newEXCICS: 38708F58
  ---TTEXRE---entry
  |Input EXEC (34 bytes):
        *EXEC CICS RETURN END-EXEC.
@@ -2601,9 +2601,9 @@
  ---s00 buildMyCICSee---exit
  ---setData---entry
  cL: 17
- avData @386E1820
+ avData @38708820
  *parmData: X'0E080000'
- avData[0] @386E1D60
+ avData[0] @38708D60
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2629,9 +2629,9 @@
  arg: 0
  ---setData---entry
  cL: 17
- avData @386E1D38
+ avData @38708D38
  *parmData: X'0E080000'
- avData[0] @386E1DC0
+ avData[0] @38708DC0
  *avData: X'0E080000'
  ---setData---exit
  ---CC ciArgVal---entry
@@ -2733,24 +2733,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -2794,24 +2794,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 2
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -2855,24 +2855,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 3
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -2916,24 +2916,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 4
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -2977,24 +2977,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 5
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -3038,24 +3038,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 6
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -3099,24 +3099,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 7
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -3160,24 +3160,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 8
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -3221,24 +3221,24 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 9
  ---copyHVsOut---entry
- sqlDAout: 946819736, sqlN: 9, HVsOut size: 9
- iA in DA: 946816832
+ sqlDAout: 946979480, sqlN: 9, HVsOut size: 9
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -3334,8 +3334,8 @@
  ---sqlHVComp---exit: 0
  ---findSQLcall---exit: 0
  ---storeHVsIn---entry
- sqlDAin: 946817696, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:386F4AA0
+ sqlDAin: 946977440, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:3871BAA0
  ---setData---entry
  dataType: 492
  rowsAffected: 0 mLength: 8
@@ -3349,38 +3349,38 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 946817756, sqlN: 16, HVsOut size: 16
- iA in DA: 946816832
+ sqlDAout: 946977500, sqlN: 16, HVsOut size: 16
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
- iA in DA: 946816832
+ iA in DA: 946976576
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
@@ -3395,15 +3395,15 @@
  ---s00 doCall---entry
  ---validateAVs---entry
  AVsBefore: 1
- parm 0: X'B84968B9'
+ parm 0: X'B84B28B9'
  ---validateAVs---exit: 0
  ---storeAVsBeforeLive---entry
  sz: 1
  ---setData---entry
  cL: 17
- avData @386E1F08
+ avData @38708F08
  *parmData: X'0E080000'
- avData[0] @386E20C0
+ avData[0] @387090C0
  *avData: X'0E080000'
  ---setData---exit
  lL: 17
@@ -3546,7 +3546,7 @@
  token: 00007531
  ---buildAvRec---entry
  cL: 17
- avData @: 386E1F08
+ avData @: 38708F08
  *avData: X'0E080000'
  bL: 17
  *bvData: X'0E080000'
