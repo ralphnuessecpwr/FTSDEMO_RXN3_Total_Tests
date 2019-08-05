@@ -9,16 +9,16 @@
       <testcase:targetCaptureCompileTime>1552458571000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
           <properties:properties>
-            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="value" type="string">00</properties:property>
             <properties:property name="expectedValue" type="string">D5</properties:property>
           </properties:properties>
         </testcase:data>
         <testcase:data baseType="listructure:stringType ../Structures/CWXTCOB_EOM-SW.listructure#EOM_SW" id="input.arg0.EOM_SW.EOM_SW" offset="0"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure">
-        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
           <properties:properties>
             <properties:property name="value" type="string">F0F0</properties:property>
             <properties:property name="expectedValue" type="string">F0F0</properties:property>
@@ -48,6 +48,10 @@
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_MM" id="input.arg3.HIRE_DATE.HIRE_MM" offset="2"/>
         <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB_HIRE-DATE.listructure#HIRE_DATE.HIRE_DD" id="input.arg3.HIRE_DATE.HIRE_DD" offset="4"/>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB_HIRE-DATE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_EOM-SW.listructure#Unit%20Test/Structures/CWXTCOB_EOM-SW.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_RUN-DATE.listructure#Unit%20Test/Structures/CWXTCOB_RUN-DATE.listructure"/>
