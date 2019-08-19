@@ -1,0 +1,12 @@
+<testsuites>
+  <testsuite name="Folder: /XADB2TST_Functional_Tests/Functional Test for Environment: CWCC Batch" errors="0" tests="1" failures="1" time="0" timestamp="2013-05-24T10:23:58">
+    <system-out />
+    <testcase classname="../../Functional Test" name="XADB2TST_CREATE.xaunit">
+      <failure>The Verify expression was evaluated to false. Expression:xadb2tstSql.Row.LASTNAME == 'Brahe'</failure>
+    </testcase>
+    <testcase classname="../../Functional Test" name="XADB2TST_DELETE.xaunit" />
+    <testcase classname="../../Functional Test" name="XADB2TST_INTEGRATION.xaunit" />
+    <testcase classname="../../Functional Test" name="XADB2TST_READ.xaunit" />
+    <testcase classname="../../Functional Test" name="XADB2TST_UPDATE.xaunit" />
+  </testsuite>
+</testsuites>

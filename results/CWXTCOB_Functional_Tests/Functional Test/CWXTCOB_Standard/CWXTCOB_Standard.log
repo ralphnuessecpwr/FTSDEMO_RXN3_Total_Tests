@@ -1,0 +1,87 @@
+08:48:57.935 COMMENT   Engine           Test Scenario execution started
+08:48:57.936 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+08:48:57.936 INFO      Engine           Setting variables from context and context data extensions
+08:48:57.936 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+08:48:57.936 INFO      Engine             id: environmentType    value: BATCH
+08:48:57.936 INFO      Engine             id: userId             value: HDDRXM0
+08:48:57.940 INFO      Variable         Interpreting Variable id:inFile
+08:48:57.943 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.CWXTDATA
+08:48:57.945 INFO      Variable         Interpreting Variable id:outFile
+08:48:57.945 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.EOM.CWXTRPT
+08:48:57.945 INFO      Variable         Interpreting Variable id:expectFile
+08:48:57.945 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.EOM.CWXTRPT.EXPECT
+08:48:57.946 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+08:48:57.946 INFO      Component        Using setup JCL for execution
+08:48:57.947 INFO      Component          Variable substitution found in setup JCL, now substituted
+08:48:57.948 INFO      Component          JCL for setup:
+//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.EOM.CWXTRPT
+08:48:58.000 LOG       CWCC Batch       Final JCL setup for the component:
+//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.EOM.CWXTRPT
+//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
+
+08:48:58.001 LOG       CWCC Batch       Component Runtime Settings:
+08:48:58.001 LOG       CWCC Batch         Load library              :SALESSUP.RXN3.DEV1.LOAD
+08:48:58.001 LOG       CWCC Batch         Additional load libraries :SALESSUP.RXN3.QA1.LOAD,SALESSUP.RXN3.STG.LOAD,SALESSUP.RXN3.PRD.LOAD
+08:48:58.001 LOG       CWCC Batch         Listing libraries         :
+08:48:58.001 LOG       CWCC Batch         SysDebug libraries        :
+08:48:58.001 LOG       CWCC Batch         DB2 Subsystem ID          :
+08:48:58.001 LOG       CWCC Batch         DB2 plan                  :
+08:48:58.001 LOG       CWCC Batch         Call interface            :NONE
+08:48:58.001 LOG       CWCC Batch         Debugger type             :NONE
+08:48:58.001 LOG       CWCC Batch         Component type            :COBOL
+08:48:58.013 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+08:48:59.916 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/892a6ed767a34506884d2fce9d9d3c95
+08:49:00.248 LOG       CWCC Batch       Uploading input data for module CWXTCOB
+08:49:01.499 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>892a6ed767a34506884d2fce9d9d3c95</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>SALESSUP.RXN3.DEV1.LOAD</mainload><load>SALESSUP.RXN3.QA1.LOAD</load><load>SALESSUP.RXN3.STG.LOAD</load><load>SALESSUP.RXN3.PRD.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.EOM.CWXTRPT</ref><ref>//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
+08:49:01.925 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0773424</jobid><jobname>HDDRXM0E</jobname><starttime>20190815024901911</starttime></xatz_response></XATZRESP>
+08:49:01.929 LOG       HCIClient        Response received from Host. Message: JobId:J0773424
+08:49:01.930 INFO      HCIClient        Job has been started at host with JobId:J0773424
+08:49:01.931 INFO      CWCC Batch       Waiting for Execution Result from Host
+08:49:05.251 INFO      CWCC Batch       Component completed with program exit: +0
+08:49:05.411 LOG       CWCC Batch       Setting execution variable 'jobid' to J0773424
+08:49:05.411 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+08:49:05.680 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+08:49:06.522 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+08:49:06.522 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
+08:49:06.522 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: ${outFile}
+08:49:06.522 INFO      VerifyRemoteFile   Variable substitution found in actual dataset name
+08:49:06.522 INFO      VerifyRemoteFile   Actual dataset name is now:HDDRXM0.DEMO.EOM.CWXTRPT
+08:49:06.522 INFO      VerifyRemoteFile   Variable substitution found in expected dataset name
+08:49:06.523 INFO      VerifyRemoteFile   Expected dataset name is now:HDDRXM0.DEMO.EOM.CWXTRPT.EXPECT
+08:49:06.525 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 12 to 13
+08:49:06.525 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 15 to 16
+08:49:06.525 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 18 to 19
+08:49:06.525 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 78 to 80
+08:49:06.527 INFO      CWCC Batch       Sending Job execution request to Host 
+08:49:07.203 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/e19762b441f64bee8ac25945f8c56e31
+08:49:07.840 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>e19762b441f64bee8ac25945f8c56e31</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.DEMO.EOM.CWXTRPT.EXPECT</olddsn><newdsn>HDDRXM0.DEMO.EOM.CWXTRPT</newdsn><compareopts><compareopt>excflds=13,2,16,2,19,2,79,3</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
+08:49:08.102 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0773426</jobid><jobname>HDDRXM0S</jobname><starttime>20190815024908093</starttime></xatz_response></XATZRESP>
+08:49:08.104 LOG       HCIClient        Response received from Host. Message: JobId:J0773426
+08:49:08.104 INFO      HCIClient        Job has been started at host with JobId:J0773426
+08:49:08.104 INFO      CWCC Batch       Waiting for Execution Result from Host
+08:49:11.416 LOG       VerifyRemoteFile Notification message contained a Verification Error, now retrieving compare files with content
+08:49:11.417 ERROR     VerifyRemoteFile Comparison of DSN expected:HDDRXM0.DEMO.EOM.CWXTRPT.EXPECT actual:HDDRXM0.DEMO.EOM.CWXTRPT was FAIL
+08:49:11.417 LOG       VerifyRemoteFile Getting information about the comparison from file:output.xml.cmpr12
+08:49:11.420 LOG       VerifyRemoteFile Retrieving file:output.xml.cmpr12
+08:49:11.597 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
+08:49:11.623 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: HDDRXM0.DEMO.EOM.CWXTRPT and expected dataset:HDDRXM0.DEMO.EOM.CWXTRPT.EXPECT
+08:49:11.623 COMMENT   Engine           Test Scenario execution ended

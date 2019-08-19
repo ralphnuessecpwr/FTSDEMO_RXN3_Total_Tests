@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b5089c9787be73b59238d35" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
-  <ExtensionData />
-  <ExtensionData componentName="cwxtsubc" componentId="5d108753180742005d50c330" />
-  <XaUnit path="CWXTSUBC_Iterate.xaunit" />
-</ExecutionContext>

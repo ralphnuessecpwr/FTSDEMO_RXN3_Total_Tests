@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="FAILURE" containsSimulation="false">
+  <ExecutionId>94f1529a-b271-4dfd-ac25-4c9277619ff3</ExecutionId>
+  <Message>An error occurred and the execution has been stopped. Unable to execute the job definition at the host. Notification received from host with FAILURE status. Error: Dataset HDDRXM0.DEMO.EOM.CWXTDATA.EXPECT not found</Message>
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Variable id="inFile">HDDRXM0.DEMO.CWXTDATA</Variable>
+        <Variable id="outFile">HDDRXM0.DEMO.EOM.CWXTRPT</Variable>
+        <Variable id="expectFile">HDDRXM0.DEMO.EOM.CWXTDATA.EXPECT</Variable>
+        <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <parminfo>
+              <parm-lth>5</parm-lth>
+              <parm-data>00003</parm-data>
+            </parminfo>
+          </Data>
+          <Setup>
+            <Content><![CDATA[//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.EOM.CWXTRPT]]></Content>
+            <PreContent><![CDATA[//XG      EXEC PGM=XGCBATCH,
+//         PARM='DATE=2019/06/30,SUBSYS=MXG1,STEP=*'
+//STEPLIB  DD DSN=SYS2.CW.XGR17Y.SLXGLOAD,DISP=SHR
+//SYSPRINT DD SYSOUT=*]]></PreContent>
+          </Setup>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="CWXTCOB" type="COBOL">
+          <INOUT>
+            <parminfo>
+              <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <parm-data type="Character" length="5" bytes="5" />
+            </parminfo>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="cwxtcob" componentId="5d4d2aec423da3164cab5cac">
+        <Parameter key="sourcelibrary">
+          <Value>SALESSUP.RXN3.DEV3.COB</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>SALESSUP.RXN3.QA3.LOAD</Value>
+          <Value>SALESSUP.RXN3.STG.LOAD</Value>
+          <Value>SALESSUP.RXN3.PRD.LOAD</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>SALESSUP.RXN3.DEV3.LOAD</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>SALESSUP.RXN3.DEV3.CPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="cwxtcob">
+        <Reference>//EMPFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</Reference>
+      </References>
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" path="CWXTCOB_Test.xaunit">
+        <Test>
+          <Variable id="inFile">HDDRXM0.DEMO.CWXTDATA</Variable>
+          <Variable id="outFile">HDDRXM0.DEMO.EOM.CWXTRPT</Variable>
+          <Variable id="expectFile">HDDRXM0.DEMO.EOM.CWXTDATA.EXPECT</Variable>
+          <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <parminfo>
+                <parm-lth>5</parm-lth>
+                <parm-data>00003</parm-data>
+              </parminfo>
+            </Data>
+            <Setup>
+              <Content><![CDATA[//EMPFILE DD DISP=SHR,DSN=${inFile}
+//RPTFILE DD DISP=SHR,DSN=${outFile}]]></Content>
+              <PreContent><![CDATA[//XG      EXEC PGM=XGCBATCH,
+//         PARM='DATE=2019/06/30,SUBSYS=MXG1,STEP=*'
+//STEPLIB  DD DSN=SYS2.CW.XGR17Y.SLXGLOAD,DISP=SHR
+//SYSPRINT DD SYSOUT=*]]></PreContent>
+            </Setup>
+          </Component>
+          <VerifyRemoteFile name="Verify remote file" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdr1" actualPath="${outFile}" expectedPath="${expectFile}">
+            <ExcludedFields>
+              <Path>/employee-hdr1/emp-run-mm</Path>
+              <Path>/employee-hdr1/emp-run-dd</Path>
+              <Path>/employee-hdr1/emp-run-yy</Path>
+              <Path>/employee-hdr1/emp-page</Path>
+            </ExcludedFields>
+          </VerifyRemoteFile>
+        </Test>
+        <MetaData>
+          <MDataDefinition name="rptHdr1">
+            <employee-hdr1 native="01 EMPLOYEE-HDR1.">
+              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <filler2 type="Character" length="11" bytes="11" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
+              <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
+              <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+              <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
+              <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+              <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
+              <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
+              <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
+              <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
+              <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
+              <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
+            </employee-hdr1>
+          </MDataDefinition>
+          <MDataDefinition name="rptEmpDt">
+            <employee-dtl native="01 EMPLOYEE-DTL.">
+              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-name type="Character" length="15" bytes="15" native="05 EMP-DTL-NAME PIC X(15)." />
+              <filler2 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-region type="Character" length="5" bytes="5" native="05 EMP-DTL-REGION PIC X(5)." />
+              <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
+              <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
+              <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
+              <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+              <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
+              <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+              <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+              <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
+            </employee-dtl>
+          </MDataDefinition>
+          <Component name="CWXTCOB" type="COBOL">
+            <INOUT>
+              <parminfo>
+                <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <parm-data type="Character" length="5" bytes="5" />
+              </parminfo>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190809-10-46-29</Started>
+  <Ended>20190809-10-46-40</Ended>
+</XaUnitResult>

@@ -1,0 +1,208 @@
+11:55:50.447 COMMENT   Engine           Test Scenario execution started
+11:55:50.447 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+11:55:50.447 INFO      Engine           Setting variables from context and context data extensions
+11:55:50.447 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+11:55:50.447 INFO      Engine             id: environmentType    value: BATCH
+11:55:50.447 INFO      Engine             id: userId             value: HDDRXM0
+11:55:50.447 INFO      Scope            Interpreting Scope name:Initialization
+11:55:50.447 INFO      Variable         Interpreting Variable id:inputRecords dataFile:XADB2TST_Insert_Scenario_Records.xml
+11:55:50.448 LOG       Variable         Resolved data items from file XADB2TST_Insert_Scenario_Records.xml
+<record>
+  <dclxaemployee>
+    <rident>0</rident>
+    <firstname>Ralph</firstname>
+    <lastname>Nuesse</lastname>
+    <cprnr>12345678</cprnr>
+    <tstmp>2019-02-05-09.12.44.000416</tstmp>
+    <userid>XATESTER</userid>
+    <statuscode>O</statuscode>
+  </dclxaemployee>
+</record>
+11:55:50.449 INFO      Variable         Interpreting Variable id:db2CreatorName
+11:55:50.449 LOG       Variable         Resolved data:
+ADKKXC0
+11:55:50.449 INFO      Variable         Interpreting Variable id:db2TableName
+11:55:50.449 LOG       Variable         Resolved data:
+XAEMPLOYEE
+11:55:50.449 INFO      Variable         Interpreting Variable id:testInputFileName
+11:55:50.449 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.TTTFT.XAEMP.INPUT
+11:55:50.449 INFO      Variable         Interpreting Variable id:expectedEmployeeStatus
+11:55:50.449 LOG       Variable         Resolved data:
+O
+11:55:50.449 INFO      Variable         Interpreting Variable id:expectedUserId
+11:55:50.449 LOG       Variable         Resolved data:
+XATESTER
+11:55:50.449 INFO      Scope            Scope completed
+11:55:50.449 INFO      Scope            Interpreting Scope name:Set up and get mainframe data
+11:55:50.449 WARNING   Scope            Scope element is disabled
+11:55:50.449 INFO      Scope            Interpreting Scope name:Determine DB2 Table Row Id
+11:55:50.449 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
+11:55:50.449 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+11:55:50.449 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM ADKKXC0.XAEMPLOYEE
+11:55:50.449 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+11:55:51.141 LOG       SQLSelect        Preparing the SQL statement: SELECT MAX(RIDENT) FROM ADKKXC0.XAEMPLOYEE
+11:55:51.142 LOG       SQLSelect        Setting max rows to: 1
+11:55:51.142 LOG       SQLSelect        Setting up the SQL statement with parameters
+11:55:51.142 LOG       SQLSelect        Executing the SQL statement
+11:55:51.289 LOG       SQLSelect        Handling the SQL result
+11:55:51.290 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+11:55:51.291 INFO      Variable         Interpreting Variable id:maxRowId
+11:55:51.291 LOG       Variable         Resolved data:
+800010012
+11:55:51.291 INFO      Variable         Interpreting Variable id:newRowId
+11:55:51.291 INFO      Expression       Interpreting Expression:var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString();
+11:55:51.351 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString();
+11:55:51.359 LOG       Expression       Expression evaluated to:800010013
+11:55:51.359 LOG       Variable         Resolved data:
+800010013
+11:55:51.359 INFO      Scope            Scope completed
+11:55:51.359 INFO      Scope            Interpreting Scope name:Check table before
+11:55:51.359 INFO      SQLSelect        Interpreting SQLSelect id:selectBefore statement: SELECT * FROM ${db2CreatorName}.${db2TableName} where RIDENT=${newRowId};
+11:55:51.359 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+11:55:51.359 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT * FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+11:55:51.359 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+11:55:51.897 LOG       SQLSelect        Preparing the SQL statement: SELECT * FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+11:55:51.897 LOG       SQLSelect        Setting max rows to: 1
+11:55:51.897 LOG       SQLSelect        Setting up the SQL statement with parameters
+11:55:51.897 LOG       SQLSelect        Executing the SQL statement
+11:55:52.043 LOG       SQLSelect        Handling the SQL result
+11:55:52.044 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:0
+11:55:52.044 INFO      Verify           Interpreting Verify component name:Row does not exist
+11:55:52.044 INFO      Verify           Using verify expression:selectBefore.Row == null
+11:55:52.101 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectBefore.Row == null
+11:55:52.107 LOG       Verify           Expression returned:
+true
+11:55:52.107 INFO      Scope            Scope completed
+11:55:52.107 INFO      Scope            Interpreting Scope name:Execute Tests
+11:55:52.107 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+11:55:52.111 LOG       CWCC Batch       Component Runtime Settings:
+11:55:52.111 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+11:55:52.111 LOG       CWCC Batch         Additional load libraries :HDDRXM0.DEMO.LOAD
+11:55:52.111 LOG       CWCC Batch         Listing libraries         :
+11:55:52.111 LOG       CWCC Batch         SysDebug libraries        :
+11:55:52.111 LOG       CWCC Batch         DB2 Subsystem ID          :DBCC
+11:55:52.111 LOG       CWCC Batch         DB2 plan                  :TOPAZTST
+11:55:52.111 LOG       CWCC Batch         Call interface            :NONE
+11:55:52.111 LOG       CWCC Batch         Debugger type             :NONE
+11:55:52.111 LOG       CWCC Batch         Component type            :COBOL
+11:55:52.112 INFO      CWCC Batch       Sending Module execution request to Host for module:XADB2TST rollback:false
+11:55:52.769 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/cb5eb7dae6a44c91bf2449949dfd4241
+11:55:53.056 LOG       CWCC Batch       Uploading input data for module XADB2TST
+11:55:56.508 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>cb5eb7dae6a44c91bf2449949dfd4241</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload><load>HDDRXM0.DEMO.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+11:55:56.784 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0774151</jobid><jobname>HDDRXM0E</jobname><starttime>20190819055556717</starttime></xatz_response></XATZRESP>
+11:55:56.784 LOG       HCIClient        Response received from Host. Message: JobId:J0774151
+11:55:56.784 INFO      HCIClient        Job has been started at host with JobId:J0774151
+11:55:56.784 INFO      CWCC Batch       Waiting for Execution Result from Host
+11:56:00.354 INFO      CWCC Batch       Component completed with program exit: +0
+11:56:00.549 LOG       CWCC Batch       Setting execution variable 'jobid' to J0774151
+11:56:00.549 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+11:56:00.707 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:56:00.728 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:56:00.728 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+11:56:00.728 INFO      Scope            Scope completed
+11:56:00.728 INFO      Scope            Interpreting Scope name:Verification
+11:56:00.728 INFO      SQLSelect        Interpreting SQLSelect id:selectAfter statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT=${newRowId};
+11:56:00.728 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+11:56:00.728 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+11:56:00.728 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+11:56:01.274 LOG       SQLSelect        Preparing the SQL statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+11:56:01.275 LOG       SQLSelect        Setting max rows to: 20
+11:56:01.275 LOG       SQLSelect        Setting up the SQL statement with parameters
+11:56:01.275 LOG       SQLSelect        Executing the SQL statement
+11:56:01.425 LOG       SQLSelect        Handling the SQL result
+11:56:01.428 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+11:56:01.428 INFO      Verify           Interpreting Verify component name:Row exists after test
+11:56:01.428 INFO      Verify           Using verify expression:selectAfter.Row != null
+11:56:01.482 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row != null
+11:56:01.486 LOG       Verify           Expression returned:
+true
+11:56:01.486 INFO      Verify           Interpreting Verify component name:Firstname
+11:56:01.527 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+inputRecords.record.dclxaemployee.firstname
+11:56:01.531 LOG       Verify           Expression evaluated to:Ralph
+11:56:01.531 LOG       Verify           Expected from expression:
+Ralph
+11:56:01.571 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.FIRSTNAME
+11:56:01.575 LOG       Verify           Expression evaluated to:Ralph
+11:56:01.575 LOG       Verify           Actual from expression:
+Ralph
+11:56:01.575 INFO      Verify           Expected and Actual data was found to be identical
+11:56:01.575 INFO      Verify           Interpreting Verify component name:Lastname
+11:56:01.611 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+inputRecords.record.dclxaemployee.lastname
+11:56:01.615 LOG       Verify           Expression evaluated to:Nuesse
+11:56:01.615 LOG       Verify           Expected from expression:
+Nuesse
+11:56:01.652 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.LASTNAME
+11:56:01.656 LOG       Verify           Expression evaluated to:Nuesse
+11:56:01.656 LOG       Verify           Actual from expression:
+Nuesse
+11:56:01.656 INFO      Verify           Expected and Actual data was found to be identical
+11:56:01.656 INFO      Verify           Interpreting Verify component name:CPNR
+11:56:01.693 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+inputRecords.record.dclxaemployee.cprnr
+11:56:01.697 LOG       Verify           Expression evaluated to:12345678
+11:56:01.697 LOG       Verify           Expected from expression:
+12345678
+11:56:01.736 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.CPRNR
+11:56:01.741 LOG       Verify           Expression evaluated to:12345678
+11:56:01.741 LOG       Verify           Actual from expression:
+12345678
+11:56:01.741 INFO      Verify           Expected and Actual data was found to be identical
+11:56:01.741 INFO      Verify           Interpreting Verify component name:User Id
+11:56:01.766 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+expectedUserId
+11:56:01.769 LOG       Verify           Expression evaluated to:XATESTER
+11:56:01.769 LOG       Verify           Expected from expression:
+XATESTER
+11:56:01.797 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.USERID
+11:56:01.801 LOG       Verify           Expression evaluated to:XATESTER
+11:56:01.801 LOG       Verify           Actual from expression:
+XATESTER
+11:56:01.801 INFO      Verify           Expected and Actual data was found to be identical
+11:56:01.801 INFO      Verify           Interpreting Verify component name:Status
+11:56:01.830 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+expectedEmployeeStatus
+11:56:01.832 LOG       Verify           Expression evaluated to:O
+11:56:01.832 LOG       Verify           Expected from expression:
+O
+11:56:01.861 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.STATUSCODE
+11:56:01.866 LOG       Verify           Expression evaluated to:O
+11:56:01.866 LOG       Verify           Actual from expression:
+O
+11:56:01.866 INFO      Verify           Expected and Actual data was found to be identical
+11:56:01.866 INFO      Scope            Scope completed
+11:56:01.866 INFO      Scope            Interpreting Scope name:Clean Up Database
+11:56:01.866 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:56:01.866 INFO      SQLUpdate        Using database from Environment:DBCCCWCC
+11:56:01.866 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+DELETE FROM ADKKXC0.XAEMPLOYEE WHERE RIDENT = 800010013
+11:56:01.866 LOG       SQLUpdate        Establishing connection to database DBCCCWCC
+11:56:02.409 LOG       SQLUpdate        Executing the SQL: DELETE FROM ADKKXC0.XAEMPLOYEE WHERE RIDENT = 800010013
+11:56:02.692 LOG       SQLUpdate        Number of updated rows 1
+11:56:02.693 INFO      Scope            Scope completed
+11:56:02.693 COMMENT   Engine           Test Scenario execution ended

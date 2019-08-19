@@ -1,0 +1,174 @@
+13:17:50.174 COMMENT   Engine           Test Scenario execution started
+13:17:50.174 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+13:17:50.174 INFO      Engine           Setting variables from context and context data extensions
+13:17:50.174 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+13:17:50.174 INFO      Engine             id: environmentType    value: BATCH
+13:17:50.174 INFO      Engine             id: userId             value: HDDRXM0
+13:17:50.174 INFO      Scope            Interpreting Scope name:Initialization
+13:17:50.174 INFO      Variable         Interpreting Variable id:testInputFileName
+13:17:50.174 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.TTTFT.XAEMP.INPUT
+13:17:50.174 INFO      Variable         Interpreting Variable id:expectedEmployeeStatus
+13:17:50.174 LOG       Variable         Resolved data:
+O
+13:17:50.174 INFO      Variable         Interpreting Variable id:expectedUserId
+13:17:50.174 LOG       Variable         Resolved data:
+XATESTER
+13:17:50.174 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: ${testInputFileName} first record:1 number of records to read: 1
+13:17:50.174 INFO      ReadRemoteFile     Variable substitution found in file name
+13:17:50.174 INFO      ReadRemoteFile     File name is now:HDDRXM0.DEMO.TTTFT.XAEMP.INPUT
+13:17:50.174 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+13:17:50.324 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/b467edb0fdac490b98044ac0f0575d4f
+13:17:51.670 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>b467edb0fdac490b98044ac0f0575d4f</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.DEMO.TTTFT.XAEMP.INPUT</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>1</impmax><impskip>0</impskip></impfile></xatz_request></XATZREQ>
+13:17:52.058 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0773843</jobid><jobname>HDDRXM0I</jobname><starttime>20190816071752042</starttime></xatz_response></XATZRESP>
+13:17:52.058 LOG       HCIClient        Response received from Host. Message: JobId:J0773843
+13:17:52.058 INFO      HCIClient        Job has been started at host with JobId:J0773843
+13:17:52.058 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:17:55.651 INFO      ReadRemoteFile   Records received, count= 1
+13:17:55.651 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ADKKXC0.XAEMPLOYEE
+13:17:55.651 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+13:17:55.651 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+13:17:56.453 LOG       SQLSelect        Preparing the SQL statement: SELECT MAX(RIDENT) FROM ADKKXC0.XAEMPLOYEE
+13:17:56.453 LOG       SQLSelect        Setting max rows to: 1
+13:17:56.453 LOG       SQLSelect        Setting up the SQL statement with parameters
+13:17:56.453 LOG       SQLSelect        Executing the SQL statement
+13:17:56.598 LOG       SQLSelect        Handling the SQL result
+13:17:56.598 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+13:17:56.598 INFO      Variable         Interpreting Variable id:maxRowId
+13:17:56.598 LOG       Variable         Resolved data:
+800010012
+13:17:56.598 INFO      Variable         Interpreting Variable id:rowId
+13:17:56.598 INFO      Expression       Interpreting Expression:var numRowId = Number(maxRowId) + 1;
+numRowId.toString();
+13:17:56.624 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+var numRowId = Number(maxRowId) + 1;
+numRowId.toString();
+13:17:56.629 LOG       Expression       Expression evaluated to:800010013
+13:17:56.629 LOG       Variable         Resolved data:
+800010013
+13:17:56.629 INFO      Scope            Scope completed
+13:17:56.629 INFO      Scope            Interpreting Scope name:Check table before
+13:17:56.629 INFO      SQLSelect        Interpreting SQLSelect id:selectBefore statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=${rowId};
+13:17:56.629 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+13:17:56.629 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+13:17:56.629 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+13:17:57.273 LOG       SQLSelect        Preparing the SQL statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+13:17:57.273 LOG       SQLSelect        Setting max rows to: 1
+13:17:57.273 LOG       SQLSelect        Setting up the SQL statement with parameters
+13:17:57.273 LOG       SQLSelect        Executing the SQL statement
+13:17:57.424 LOG       SQLSelect        Handling the SQL result
+13:17:57.424 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:0
+13:17:57.424 INFO      Verify           Interpreting Verify component name:Rows does not exist before test
+13:17:57.424 INFO      Verify           Using verify expression:selectBefore.Row == null
+13:17:57.451 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectBefore.Row == null
+13:17:57.453 LOG       Verify           Expression returned:
+true
+13:17:57.453 INFO      Scope            Scope completed
+13:17:57.453 INFO      Scope            Interpreting Scope name:Execute Tests
+13:17:57.453 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+13:17:57.455 LOG       CWCC Batch       Component Runtime Settings:
+13:17:57.455 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+13:17:57.455 LOG       CWCC Batch         Additional load libraries :HDDRXM0.DEMO.LOAD
+13:17:57.455 LOG       CWCC Batch         Listing libraries         :
+13:17:57.455 LOG       CWCC Batch         SysDebug libraries        :
+13:17:57.455 LOG       CWCC Batch         DB2 Subsystem ID          :DBCC
+13:17:57.455 LOG       CWCC Batch         DB2 plan                  :TOPAZTST
+13:17:57.455 LOG       CWCC Batch         Call interface            :NONE
+13:17:57.455 LOG       CWCC Batch         Debugger type             :NONE
+13:17:57.455 LOG       CWCC Batch         Component type            :COBOL
+13:17:57.455 INFO      CWCC Batch       Sending Module execution request to Host for module:XADB2TST rollback:false
+13:17:57.909 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/ddf563edf24540718db41baee718d76c
+13:17:58.196 LOG       CWCC Batch       Uploading input data for module XADB2TST
+13:18:01.657 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>ddf563edf24540718db41baee718d76c</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload><load>HDDRXM0.DEMO.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+13:18:01.932 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0773844</jobid><jobname>HDDRXM0E</jobname><starttime>20190816071801915</starttime></xatz_response></XATZRESP>
+13:18:01.932 LOG       HCIClient        Response received from Host. Message: JobId:J0773844
+13:18:01.932 INFO      HCIClient        Job has been started at host with JobId:J0773844
+13:18:01.932 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:18:05.232 INFO      CWCC Batch       Component completed with program exit: +0
+13:18:05.408 LOG       CWCC Batch       Setting execution variable 'jobid' to J0773844
+13:18:05.408 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+13:18:05.557 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+13:18:05.565 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+13:18:05.565 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+13:18:05.565 INFO      Scope            Scope completed
+13:18:05.565 INFO      Scope            Interpreting Scope name:Verification
+13:18:05.565 INFO      SQLSelect        Interpreting SQLSelect id:selectAfter statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=${rowId};
+13:18:05.565 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+13:18:05.565 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+13:18:05.565 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+13:18:06.212 LOG       SQLSelect        Preparing the SQL statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ADKKXC0.XAEMPLOYEE where RIDENT=800010013;
+13:18:06.212 LOG       SQLSelect        Setting max rows to: 20
+13:18:06.212 LOG       SQLSelect        Setting up the SQL statement with parameters
+13:18:06.212 LOG       SQLSelect        Executing the SQL statement
+13:18:06.361 LOG       SQLSelect        Handling the SQL result
+13:18:06.361 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+13:18:06.361 INFO      Verify           Interpreting Verify component name:Row exists after test
+13:18:06.361 INFO      Verify           Using verify expression:selectAfter.Row != null
+13:18:06.403 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row != null
+13:18:06.406 LOG       Verify           Expression returned:
+true
+13:18:06.406 INFO      Verify           Interpreting Verify component name:First Name
+13:18:06.453 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.FIRSTNAME
+13:18:06.456 LOG       Verify           Expression evaluated to:Ralph
+13:18:06.456 LOG       Verify           Expected from expression:
+Ralph
+13:18:06.498 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+testInputFile.record.dclxaemployee.firstname
+13:18:06.506 LOG       Verify           Expression evaluated to:Ralph
+13:18:06.506 LOG       Verify           Actual from expression:
+Ralph
+13:18:06.506 INFO      Verify           Expected and Actual data was found to be identical
+13:18:06.506 INFO      Verify           Interpreting Verify component name:Surname
+13:18:06.544 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.LASTNAME
+13:18:06.548 LOG       Verify           Expression evaluated to:Nuesse
+13:18:06.548 LOG       Verify           Expected from expression:
+Nuesse
+13:18:06.591 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+testInputFile.record.dclxaemployee.lastname
+13:18:06.597 LOG       Verify           Expression evaluated to:Nuesse
+13:18:06.597 LOG       Verify           Actual from expression:
+Nuesse
+13:18:06.597 INFO      Verify           Expected and Actual data was found to be identical
+13:18:06.597 INFO      Verify           Interpreting Verify component name:Status
+13:18:06.637 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.STATUSCODE
+13:18:06.640 LOG       Verify           Expression evaluated to:O
+13:18:06.640 LOG       Verify           Expected from expression:
+O
+13:18:06.688 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+expectedEmployeeStatus
+13:18:06.691 LOG       Verify           Expression evaluated to:O
+13:18:06.691 LOG       Verify           Actual from expression:
+O
+13:18:06.691 INFO      Verify           Expected and Actual data was found to be identical
+13:18:06.691 INFO      Verify           Interpreting Verify component name:Userid
+13:18:06.727 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectAfter.Row.USERID
+13:18:06.731 LOG       Verify           Expression evaluated to:XATESTER
+13:18:06.731 LOG       Verify           Expected from expression:
+XATESTER
+13:18:06.766 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+expectedUserId
+13:18:06.769 LOG       Verify           Expression evaluated to:XATESTER
+13:18:06.769 LOG       Verify           Actual from expression:
+XATESTER
+13:18:06.769 INFO      Verify           Expected and Actual data was found to be identical
+13:18:06.769 INFO      Scope            Scope completed
+13:18:06.769 COMMENT   Engine           Test Scenario execution ended

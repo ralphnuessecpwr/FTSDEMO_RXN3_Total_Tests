@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuiteResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <Message>Total 1 tests failed out of 5 tests.</Message>
+  <Started>20190815-10-53-36</Started>
+  <Ended>20190815-10-56-35</Ended>
+  <XaUnitResults>
+    <XaUnitResult path="../../Functional Test/XADB2TST_CREATE.xactx" xaUnitPath="../../Functional Test/XADB2TST_CREATE.xaunit" resultPath="XADB2TST_CREATE.xares" containsSimulation="false" resultType="VERIFICATION_ERROR" duration="11562" componentUnderTest="xadb2tst">
+      <CC />
+      <Message />
+      <DetailedMessage>The Verify expression was evaluated to false. Expression:xadb2tstSql.Row.LASTNAME == 'Brahe'</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../../Functional Test/XADB2TST_DELETE.xactx" xaUnitPath="../../Functional Test/XADB2TST_DELETE.xaunit" resultPath="XADB2TST_DELETE.xares" containsSimulation="false" resultType="SUCCESS" duration="12175" componentUnderTest="xadb2tst">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+    <XaUnitResult path="../../Functional Test/XADB2TST_INTEGRATION.xactx" xaUnitPath="../../Functional Test/XADB2TST_INTEGRATION.xaunit" resultPath="XADB2TST_INTEGRATION.xares" containsSimulation="false" resultType="SUCCESS" duration="69751" componentUnderTest="xadb2tst">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+    <XaUnitResult path="../../Functional Test/XADB2TST_READ.xactx" xaUnitPath="../../Functional Test/XADB2TST_READ.xaunit" resultPath="XADB2TST_READ.xares" containsSimulation="false" resultType="SUCCESS" duration="62557" componentUnderTest="xadb2tst">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+    <XaUnitResult path="../../Functional Test/XADB2TST_UPDATE.xactx" xaUnitPath="../../Functional Test/XADB2TST_UPDATE.xaunit" resultPath="XADB2TST_UPDATE.xares" containsSimulation="false" resultType="SUCCESS" duration="22710" componentUnderTest="xadb2tst">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+  </XaUnitResults>
+</XaSuiteResult>

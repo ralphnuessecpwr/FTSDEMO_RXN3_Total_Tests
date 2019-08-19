@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>c3565bb6-54a5-471d-ac96-008a9fe7567a</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <SQLSelect id="SqlSelect" maxRows="20">
+          <Statement>SELECT RIDENT, FIRSTNAME, LASTNAME, CPRNR, TSTMP, USERID, STATUSCODE FROM ADKKXC0.XAEMPLOYEE WHERE LASTNAME LIKE 'H%'</Statement>
+          <Output name="RIDENT" />
+          <Output name="FIRSTNAME" />
+          <Output name="LASTNAME" />
+          <Output name="CPRNR" />
+          <Output name="TSTMP" />
+          <Output name="USERID" />
+          <Output name="STATUSCODE" />
+          <Row>
+            <RIDENT>800010002</RIDENT>
+            <FIRSTNAME>Hans</FIRSTNAME>
+            <LASTNAME>Hansen</LASTNAME>
+            <CPRNR>1313890001</CPRNR>
+            <TSTMP>2019-02-05-09.12.44.000416</TSTMP>
+            <USERID>MIC</USERID>
+            <STATUSCODE>O</STATUSCODE>
+          </Row>
+          <Row>
+            <RIDENT>10</RIDENT>
+            <FIRSTNAME>Peter</FIRSTNAME>
+            <LASTNAME>Hansen</LASTNAME>
+            <CPRNR>12345678</CPRNR>
+            <TSTMP>2019-08-09-05.32.44.000544</TSTMP>
+            <USERID>XATESTER</USERID>
+            <STATUSCODE>D</STATUSCODE>
+          </Row>
+        </SQLSelect>
+        <ReadRemoteFile fileName="HDDRXM0.DEMO.TTTFT.SQLOUT.EXPECT" id="remoteExpect" label="remoteExpect" firstRecord="1" numberRecords="10" mDataDefinitionName="xaemployee">
+          <Records>
+            <Record>
+              <dclxaemployee>
+                <rident>800010002</rident>
+                <firstname>Hans</firstname>
+                <lastname>Hansen</lastname>
+                <cprnr>1313890001</cprnr>
+                <tstmp>2019-02-05-09.12.44.000416</tstmp>
+                <userid>XATESTER</userid>
+                <statuscode>O</statuscode>
+              </dclxaemployee>
+            </Record>
+            <Record>
+              <dclxaemployee>
+                <rident>10</rident>
+                <firstname>Peter</firstname>
+                <lastname>Hansen</lastname>
+                <cprnr>12345678</cprnr>
+                <tstmp>2019-08-09-05.32.44.000544</tstmp>
+                <userid>MIC</userid>
+                <statuscode>D</statuscode>
+              </dclxaemployee>
+            </Record>
+          </Records>
+        </ReadRemoteFile>
+        <Verify name="Verify" haltExecution="false">
+          <Statement><![CDATA[SqlSelect.Row[0].RIDENT == remoteExpect.record[0].dclxaemployee.rident]]></Statement>
+        </Verify>
+        <Verify name="Verify" haltExecution="false">
+          <Statement><![CDATA[SqlSelect.Row[0].FIRSTNAME == remoteExpect.record[0].dclxaemployee.firstname]]></Statement>
+        </Verify>
+        <Verify name="Verify" haltExecution="false">
+          <Statement><![CDATA[SqlSelect.Row[1].STATUSCODE == remoteExpect.record[1].dclxaemployee.statuscode]]></Statement>
+        </Verify>
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" path="WriteToFile.xaunit">
+        <Test>
+          <SQLSelect id="SqlSelect" maxRows="20">
+            <Statement>SELECT RIDENT, FIRSTNAME, LASTNAME, CPRNR, TSTMP, USERID, STATUSCODE FROM ADKKXC0.XAEMPLOYEE WHERE LASTNAME LIKE 'H%'</Statement>
+            <Output name="RIDENT" />
+            <Output name="FIRSTNAME" />
+            <Output name="LASTNAME" />
+            <Output name="CPRNR" />
+            <Output name="TSTMP" />
+            <Output name="USERID" />
+            <Output name="STATUSCODE" />
+          </SQLSelect>
+          <ReadRemoteFile fileName="HDDRXM0.DEMO.TTTFT.SQLOUT.EXPECT" id="remoteExpect" label="remoteExpect" firstRecord="1" numberRecords="10" mDataDefinitionName="xaemployee" />
+          <Verify name="Verify" haltExecution="false">
+            <Statement><![CDATA[SqlSelect.Row[0].RIDENT == remoteExpect.record[0].dclxaemployee.rident]]></Statement>
+          </Verify>
+          <Verify name="Verify" haltExecution="false">
+            <Statement><![CDATA[SqlSelect.Row[0].FIRSTNAME == remoteExpect.record[0].dclxaemployee.firstname]]></Statement>
+          </Verify>
+          <Verify name="Verify" haltExecution="false">
+            <Statement><![CDATA[SqlSelect.Row[1].STATUSCODE == remoteExpect.record[1].dclxaemployee.statuscode]]></Statement>
+          </Verify>
+        </Test>
+        <MetaData>
+          <MDataDefinition name="xaemployee">
+            <dclxaemployee native="01 DCLXAEMPLOYEE.">
+              <rident type="NumericBinary" length="9" bytes="4" native="10 RIDENT PIC S9(9) USAGE COMP." signed="true" decimals="0" />
+              <firstname type="Character" length="32" bytes="32" native="10 FIRSTNAME PIC X(32)." />
+              <lastname type="Character" length="32" bytes="32" native="10 LASTNAME PIC X(32)." />
+              <cprnr type="NumericPacked" length="10" bytes="6" native="10 CPRNR PIC S9(10)V USAGE COMP-3." signed="true" decimals="0" />
+              <tstmp type="Character" length="26" bytes="26" native="10 TSTMP PIC X(26)." />
+              <userid type="Character" length="8" bytes="8" native="10 USERID PIC X(8)." />
+              <statuscode type="Character" length="1" bytes="1" native="10 STATUSCODE PIC X(1)." />
+            </dclxaemployee>
+          </MDataDefinition>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190815-10-22-47</Started>
+  <Ended>20190815-10-22-55</Ended>
+</XaUnitResult>

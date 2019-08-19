@@ -1,0 +1,75 @@
+10:56:13.094 COMMENT   Engine           Test Scenario execution started
+10:56:13.100 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+10:56:13.105 INFO      Engine           Setting variables from context and context data extensions
+10:56:13.110 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+10:56:13.114 INFO      Engine             id: environmentType    value: BATCH
+10:56:13.119 INFO      Engine             id: userId             value: HDDRXM0
+10:56:13.123 INFO      SQLSelect        Interpreting SQLSelect id:before statement: select RIDENT,FIRSTNAME,LASTNAME from ADKKXC0.XAEMPLOYEE
+10:56:13.127 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+10:56:13.131 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+10:56:13.697 LOG       SQLSelect        Preparing the SQL statement: select RIDENT,FIRSTNAME,LASTNAME from ADKKXC0.XAEMPLOYEE
+10:56:13.712 LOG       SQLSelect        Setting max rows to: 1
+10:56:13.726 LOG       SQLSelect        Setting up the SQL statement with parameters
+10:56:13.737 LOG       SQLSelect        Executing the SQL statement
+10:56:14.895 LOG       SQLSelect        Handling the SQL result
+10:56:14.911 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+10:56:14.914 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+10:56:14.931 LOG       CWCC Batch       Component Runtime Settings:
+10:56:14.940 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+10:56:14.949 LOG       CWCC Batch         Additional load libraries :HDDRXM0.DEMO.LOAD
+10:56:14.958 LOG       CWCC Batch         Listing libraries         :
+10:56:14.965 LOG       CWCC Batch         SysDebug libraries        :
+10:56:14.970 LOG       CWCC Batch         DB2 Subsystem ID          :DBCC
+10:56:14.975 LOG       CWCC Batch         DB2 plan                  :TOPAZTST
+10:56:14.980 LOG       CWCC Batch         Call interface            :NONE
+10:56:14.985 LOG       CWCC Batch         Debugger type             :NONE
+10:56:14.990 LOG       CWCC Batch         Component type            :COBOL
+10:56:14.995 INFO      CWCC Batch       Sending Module execution request to Host for module:XADB2TST rollback:true
+10:56:15.865 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/0ca43ff961a94c2590448f0055d2b230
+10:56:16.201 LOG       CWCC Batch       Uploading input data for module XADB2TST
+10:56:20.986 INFO      CWCC Batch       Variable substitution found in Post SQLSelect, now substituted
+10:56:21.001 INFO      CWCC Batch       Component has post SQLSelect statement that is: select RIDENT, FIRSTNAME,LASTNAME from ADKKXC0.XAEMPLOYEE where RIDENT=800010001
+10:56:21.016 LOG       CWCC Batch       Uploading SQLSelect data into file XAT_Module.i.xmlsql
+10:56:22.367 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>true</rollback><jobdirectory>0ca43ff961a94c2590448f0055d2b230</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload><load>HDDRXM0.DEMO.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang><sql>true</sql></xatz_request></XATZREQ>
+10:56:23.935 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0773539</jobid><jobname>HDDRXM0E</jobname><starttime>20190815045623151</starttime></xatz_response></XATZRESP>
+10:56:23.949 LOG       HCIClient        Response received from Host. Message: JobId:J0773539
+10:56:23.963 INFO      HCIClient        Job has been started at host with JobId:J0773539
+10:56:23.972 INFO      CWCC Batch       Waiting for Execution Result from Host
+10:56:27.152 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0773539</jobid></xatz_request></XATZREQ>
+10:56:27.718 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+10:56:27.736 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+10:56:30.899 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0773539</jobid></xatz_request></XATZREQ>
+10:56:31.453 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+10:56:31.471 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+10:56:34.837 INFO      CWCC Batch       Component completed with program exit: +0
+10:56:35.241 LOG       CWCC Batch       Setting execution variable 'jobid' to J0773539
+10:56:35.256 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+10:56:35.275 LOG       CWCC Batch       Post SQLSelect has been executed, now getting result from file XAT_Module.o.xmlsql
+10:56:35.580 LOG       CWCC Batch       Setting SQLSelect result at id:after
+10:56:35.744 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:56:35.760 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:56:35.770 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+10:56:35.779 INFO      Verify           Interpreting Verify component name:Verify
+10:56:35.785 INFO      Verify           Using verify expression:before.Row.FIRSTNAME != after.Row.FIRSTNAME
+10:56:35.806 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+before.Row.FIRSTNAME != after.Row.FIRSTNAME
+10:56:35.815 INFO      Verify           Comments from JavaScript execution:
+10:56:35.806 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+before.Row.FIRSTNAME != after.Row.FIRSTNAME
+
+10:56:35.822 LOG       Verify           Expression returned:
+true
+10:56:35.828 COMMENT   Engine           Test Scenario execution ended

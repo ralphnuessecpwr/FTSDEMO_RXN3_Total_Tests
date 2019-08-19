@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>8bde41b6-111a-4695-adfd-dd1bf263c307</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Log>Cleanup</Log>
+        <Variable id="rident">10</Variable>
+        <SQLUpdate name="Delete any exiting customer with id 123">
+          <Statement><![CDATA[delete from ADKKXC0.XAEMPLOYEE where RIDENT=10;]]></Statement>
+        </SQLUpdate>
+        <Log>Create employee</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>INSERT</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname>Steen</xadb2tst-imp-firstname>
+              <xadb2tst-imp-lastname>Brahe</xadb2tst-imp-lastname>
+              <xadb2tst-imp-cprnr>12345678</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>0</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+        <Log>Read employee</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname />
+              <xadb2tst-imp-lastname />
+              <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>1</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>10</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname expected="Steen">Steen</xadb2tst-exp-firstname>
+                <xadb2tst-exp-lastname expected="Brahe">Brahe</xadb2tst-exp-lastname>
+                <xadb2tst-exp-cprnr expected="12345678">12345678</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp>2019-08-15-04.54.12.809906</xadb2tst-exp-tstmp>
+                <xadb2tst-exp-statuscode expected="O">O</xadb2tst-exp-statuscode>
+                <xadb2tst-exp-userid>XATESTER</xadb2tst-exp-userid>
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+        <Log>Update employee</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>MODIFY</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname>Peter</xadb2tst-imp-firstname>
+              <xadb2tst-imp-lastname>Hansen</xadb2tst-imp-lastname>
+              <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>0</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+        <Log>Read employee again</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname />
+              <xadb2tst-imp-lastname />
+              <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>1</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>10</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname expected="Peter">Peter</xadb2tst-exp-firstname>
+                <xadb2tst-exp-lastname expected="Hansen">Hansen</xadb2tst-exp-lastname>
+                <xadb2tst-exp-cprnr>12345678</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp>2019-08-15-04.54.31.538259</xadb2tst-exp-tstmp>
+                <xadb2tst-exp-statuscode expected="M">M</xadb2tst-exp-statuscode>
+                <xadb2tst-exp-userid>XATESTER</xadb2tst-exp-userid>
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+        <Log>Delete employee</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname />
+              <xadb2tst-imp-lastname />
+              <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>0</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+        <Log>Ensure that the employee is not there anymore - or only have the status code D</Log>
+        <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt;8" programExit="0" rollback="false" description="Read and see there is no one. ">
+          <Data>
+            <xadb2tst-import>
+              <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+              <xadb2tst-imp-rident>10</xadb2tst-imp-rident>
+              <xadb2tst-imp-firstname />
+              <xadb2tst-imp-lastname />
+              <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+              <xadb2tst-exp-count>1</xadb2tst-exp-count>
+              <xadb2tst-exp-errorcode>0</xadb2tst-exp-errorcode>
+              <xadb2tst-exp-message />
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>10</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname expected="Peter">Peter</xadb2tst-exp-firstname>
+                <xadb2tst-exp-lastname expected="Hansen">Hansen</xadb2tst-exp-lastname>
+                <xadb2tst-exp-cprnr>12345678</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp>2019-08-15-04.54.51.284842</xadb2tst-exp-tstmp>
+                <xadb2tst-exp-statuscode expected="D">D</xadb2tst-exp-statuscode>
+                <xadb2tst-exp-userid>XATESTER</xadb2tst-exp-userid>
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+              <xadb2tst-exp-table>
+                <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                <xadb2tst-exp-firstname />
+                <xadb2tst-exp-lastname />
+                <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                <xadb2tst-exp-tstmp />
+                <xadb2tst-exp-statuscode />
+                <xadb2tst-exp-userid />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </Data>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="XADB2TST" type="COBOL">
+          <INOUT>
+            <xadb2tst-import>
+              <xadb2tst-imp-function type="Character" length="8" bytes="8" />
+              <xadb2tst-imp-rident type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+              <xadb2tst-imp-firstname type="Character" length="30" bytes="30" />
+              <xadb2tst-imp-lastname type="Character" length="30" bytes="30" />
+              <xadb2tst-imp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <xadb2tst-exp-count type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <xadb2tst-exp-errorcode type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+              <xadb2tst-exp-message type="Character" length="80" bytes="80" />
+              <xadb2tst-exp-table count="7">
+                <xadb2tst-exp-id type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-exp-firstname type="Character" length="30" bytes="30" />
+                <xadb2tst-exp-lastname type="Character" length="30" bytes="30" />
+                <xadb2tst-exp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+                <xadb2tst-exp-tstmp type="Character" length="26" bytes="26" />
+                <xadb2tst-exp-statuscode type="Character" length="1" bytes="1" />
+                <xadb2tst-exp-userid type="Character" length="8" bytes="8" />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="xadb2tst" componentId="5d4d3c84423da3164cab5cb0">
+        <Parameter key="db2id">
+          <Value>DBCC</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>SYS2.CW.XATESTER.SXATSAMP</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>TOPAZTST</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>HDDRXM0.DEMO.LOAD</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>SYS2.CW.XATESTER.SXATLOAD</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="xadb2tst" />
+      <PreReferences componentName="xadb2tst" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xadb2tst" path="XADB2TST_INTEGRATION.xaunit">
+        <Test>
+          <Log>Cleanup</Log>
+          <Variable id="rident">10</Variable>
+          <SQLUpdate name="Delete any exiting customer with id 123">
+            <Statement><![CDATA[delete from ADKKXC0.XAEMPLOYEE where RIDENT=${rident};]]></Statement>
+          </SQLUpdate>
+          <Log>Create employee</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>INSERT</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname>Steen</xadb2tst-imp-firstname>
+                <xadb2tst-imp-lastname>Brahe</xadb2tst-imp-lastname>
+                <xadb2tst-imp-cprnr>12345678</xadb2tst-imp-cprnr>
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+          <Log>Read employee</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname />
+                <xadb2tst-imp-lastname />
+                <xadb2tst-imp-cprnr />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname expected="Steen" />
+                  <xadb2tst-exp-lastname expected="Brahe" />
+                  <xadb2tst-exp-cprnr expected="12345678" />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode expected="O" />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+          <Log>Update employee</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>MODIFY</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname>Peter</xadb2tst-imp-firstname>
+                <xadb2tst-imp-lastname>Hansen</xadb2tst-imp-lastname>
+                <xadb2tst-imp-cprnr />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+          <Log>Read employee again</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname />
+                <xadb2tst-imp-lastname />
+                <xadb2tst-imp-cprnr />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname expected="Peter" />
+                  <xadb2tst-exp-lastname expected="Hansen" />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode expected="M" />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+          <Log>Delete employee</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname />
+                <xadb2tst-imp-lastname />
+                <xadb2tst-imp-cprnr />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+          <Log>Ensure that the employee is not there anymore - or only have the status code D</Log>
+          <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt;8" rollback="false" description="Read and see there is no one. ">
+            <Data>
+              <xadb2tst-import>
+                <xadb2tst-imp-function>GET</xadb2tst-imp-function>
+                <xadb2tst-imp-rident>=rident</xadb2tst-imp-rident>
+                <xadb2tst-imp-firstname />
+                <xadb2tst-imp-lastname />
+                <xadb2tst-imp-cprnr />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount />
+                <xadb2tst-exp-count />
+                <xadb2tst-exp-errorcode />
+                <xadb2tst-exp-message />
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname expected="Peter" />
+                  <xadb2tst-exp-lastname expected="Hansen" />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode expected="D" />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+                <xadb2tst-exp-table>
+                  <xadb2tst-exp-id />
+                  <xadb2tst-exp-firstname />
+                  <xadb2tst-exp-lastname />
+                  <xadb2tst-exp-cprnr />
+                  <xadb2tst-exp-tstmp />
+                  <xadb2tst-exp-statuscode />
+                  <xadb2tst-exp-userid />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </Data>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="XADB2TST" type="COBOL">
+            <INOUT>
+              <xadb2tst-import>
+                <xadb2tst-imp-function type="Character" length="8" bytes="8" />
+                <xadb2tst-imp-rident type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-imp-firstname type="Character" length="30" bytes="30" />
+                <xadb2tst-imp-lastname type="Character" length="30" bytes="30" />
+                <xadb2tst-imp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <xadb2tst-exp-count type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <xadb2tst-exp-errorcode type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-exp-message type="Character" length="80" bytes="80" />
+                <xadb2tst-exp-table count="7">
+                  <xadb2tst-exp-id type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                  <xadb2tst-exp-firstname type="Character" length="30" bytes="30" />
+                  <xadb2tst-exp-lastname type="Character" length="30" bytes="30" />
+                  <xadb2tst-exp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+                  <xadb2tst-exp-tstmp type="Character" length="26" bytes="26" />
+                  <xadb2tst-exp-statuscode type="Character" length="1" bytes="1" />
+                  <xadb2tst-exp-userid type="Character" length="8" bytes="8" />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190815-10-54-00</Started>
+  <Ended>20190815-10-55-10</Ended>
+</XaUnitResult>
