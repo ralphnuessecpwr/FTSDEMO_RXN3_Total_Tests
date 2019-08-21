@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xadb2tst">
-  <Description>Test the INSERT function of XADB2TST&#xD;
-- Use data from an xml file&#xD;
-- Determine highest current row id and increase by one to insert the new record&#xD;
-- Check table before insert to make sure the row does not exist&#xD;
-- execute program under test (XADB2TST)&#xD;
-- Check table after insert to make sure the row got inserted and verify data in table against date from xml&#xD;
-- Delect record from table afterwards</Description>
+  <Description>Program receives a "function code" and data via linkage section. Based on the function code it executes different functions against DB2 table XAEMPLOYEE like&#xD;
+Insert, Get, Delete, Modify&#xD;
+&#xD;
+Scenario to test Modify function&#xD;
+- read data to be used from local file: Before modify and after modify&#xD;
+- use variables for table name and creator name of DB2 table&#xD;
+- use variables for old values from local input file&#xD;
+- use variables for "fixed" expected values&#xD;
+- retrieve highest existing row id from the table and calculate next possible id&#xD;
+&#xD;
+- use the next row id insert new row into table natively using the "before" data from local file&#xD;
+- verify that no result was returned, i.e. the row does not exist and can be inserted&#xD;
+&#xD;
+Execute two test case&#xD;
+Positive - Existing row&#xD;
+- Use next row id function code "modify" to execute program, using "after" data from local file&#xD;
+- use the next row id again and retrieve data natively from table&#xD;
+- verify that data retrieved from table matches the "after" data from local file&#xD;
+&#xD;
+Negative - Non existing row&#xD;
+- Calculate new row id&#xD;
+- retrieve data from table natively, using new row id &#xD;
+- verify that no data was retrieved, otherwise abort test&#xD;
+- execute program using new row id and "after" data from local file&#xD;
+- Verify that return code indicates error&#xD;
+&#xD;
+Clean up&#xD;
+- delete inserted row from the table to clean up database after test</Description>
   <Test>
     <Scope name="Initialization" disabled="false">
       <Variable id="inputRecords" filePath="Input_Data/XADB2TST_Modify_Scenario_Records.xml" />

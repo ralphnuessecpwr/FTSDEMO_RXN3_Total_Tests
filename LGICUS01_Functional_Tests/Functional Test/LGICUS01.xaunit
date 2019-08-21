@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicus01">
+  <Description>Program receives customer number via linkage section and retrieves data from DB2 table GENAPPDB.CUSTOMER for the corresponding customer&#xD;
+Two test cases&#xD;
+&#xD;
+Existing customer(s)&#xD;
+- Read up to first three rows from table natively&#xD;
+- For each retrieved row&#xD;
+- Execute program, using the customer number retrieved natively&#xD;
+- verify that values returned by program match values retrieved natively&#xD;
+&#xD;
+Non existing customer&#xD;
+- To make sure a certain (fixed) customer number does not exist delete row from table&#xD;
+- Execute program using customer number&#xD;
+- Verify that the return code indicates an error situation</Description>
   <Test>
-    <Variable id="data" filePath="LGICUS01_data.xls" />
-    <IterateData id="loop" referencedId="data" dataPath="">
-      <Component id="lgicus01" label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="false">
+    <Scope name="Positive Tests" disabled="false">
+      <SQLSelect id="select" maxRows="3">
+        <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
+        <Output name="CITY" />
+        <Output name="CUSTOMERNUMBER" />
+        <Output name="EMAILADDRESS" />
+        <Output name="FIRSTNAME" />
+        <Output name="LASTNAME" />
+        <Output name="STATE" />
+      </SQLSelect>
+      <IterateData id="loopThroughDb2Records" referencedId="select" dataPath="">
+        <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="false">
+          <Data>
+            <dfhcommarea>
+              <ca-request-id />
+              <ca-return-code />
+              <ca-customer-num>=loopThroughDb2Records.Row.CUSTOMERNUMBER</ca-customer-num>
+              <ca-customer-request>
+                <ca-first-name expected="=loopThroughDb2Records.Row.FIRSTNAME" />
+                <ca-last-name expected="=loopThroughDb2Records.Row.LASTNAME" />
+                <ca-dob />
+                <ca-house-name />
+                <ca-house-num />
+                <ca-postcode />
+                <ca-num-policies />
+                <ca-phone-mobile />
+                <ca-phone-home />
+                <ca-email-address expected="=loopThroughDb2Records.Row.EMAILADDRESS" />
+                <ca-national-id-nbr />
+                <ca-nin-type />
+                <ca-street-address />
+                <ca-city expected="=loopThroughDb2Records.Row.CITY" />
+                <ca-state expected="=loopThroughDb2Records.Row.STATE" />
+                <ca-country-code />
+                <ca-sales-territory />
+                <ca-customer-pfkey />
+                <ca-customer-begin />
+                <ca-customer-end />
+                <ca-policy-data />
+              </ca-customer-request>
+            </dfhcommarea>
+          </Data>
+        </Component>
+      </IterateData>
+    </Scope>
+    <Scope name="Negative Tests" disabled="false">
+      <SQLUpdate description="Delete record that might exist in the database, &#xD;&#xA;i.e. make sure the record does not exist when executing LGICUS01" name="delete">
+        <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 999]]></Statement>
+      </SQLUpdate>
+      <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="true">
         <Data>
           <dfhcommarea>
             <ca-request-id />
-            <ca-return-code expected="=loop.testcase.ca-return-code_expected" />
-            <ca-customer-num>=loop.testcase.ca-customer-num_input</ca-customer-num>
+            <ca-return-code expected="1" />
+            <ca-customer-num>999</ca-customer-num>
             <ca-customer-request>
-              <ca-first-name expected="=loop.testcase.ca-first-name_expected" />
-              <ca-last-name expected="=loop.testcase.ca-last-name_expected" />
+              <ca-first-name />
+              <ca-last-name />
               <ca-dob />
               <ca-house-name />
               <ca-house-num />
@@ -19,12 +79,12 @@
               <ca-num-policies />
               <ca-phone-mobile />
               <ca-phone-home />
-              <ca-email-address expected="=loop.testcase.ca-email-address_expected" />
+              <ca-email-address />
               <ca-national-id-nbr />
               <ca-nin-type />
               <ca-street-address />
-              <ca-city expected="=loop.testcase.ca-city_expected" />
-              <ca-state expected="=loop.testcase.ca-state_expected" />
+              <ca-city />
+              <ca-state />
               <ca-country-code />
               <ca-sales-territory />
               <ca-customer-pfkey />
@@ -35,7 +95,7 @@
           </dfhcommarea>
         </Data>
       </Component>
-    </IterateData>
+    </Scope>
   </Test>
   <MetaData>
     <Component name="LGICUS01" type="COBOL">
@@ -43,10 +103,10 @@
         <dfhcommarea>
           <ca-request-id type="Character" length="6" bytes="6" />
           <ca-return-code type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
-          <ca-customer-num type="NumericDisplay" length="10" bytes="10" inOutType="INPUT" signed="false" decimals="0" />
-          <ca-customer-request inOutType="OUTPUT" redefines="ca-request-specific">
-            <ca-first-name type="Character" length="10" bytes="10" inOutType="OUTPUT" />
-            <ca-last-name type="Character" length="20" bytes="20" inOutType="OUTPUT" />
+          <ca-customer-num type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+          <ca-customer-request redefines="ca-request-specific">
+            <ca-first-name type="Character" length="10" bytes="10" />
+            <ca-last-name type="Character" length="20" bytes="20" />
             <ca-dob type="Character" length="10" bytes="10" />
             <ca-house-name type="Character" length="20" bytes="20" />
             <ca-house-num type="Character" length="4" bytes="4" />

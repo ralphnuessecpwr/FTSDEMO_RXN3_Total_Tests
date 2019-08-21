@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xadb2tst">
-  <Description>Test the INSERT function of XADB2TST&#xD;
-- Use data from an xml file&#xD;
-- Determine highest current row id and increase by one to insert the new record&#xD;
-- Check table before insert to make sure the row does not exist&#xD;
-- execute program under test (XADB2TST)&#xD;
-- Check table after insert to make sure the row got inserted and verify data in table against date from xml&#xD;
-- Delect record from table afterwards</Description>
+  <Description>Program receives a "function code" and data via linkage section. Based on the function code it executes different functions against DB2 table XAEMPLOYEE like&#xD;
+Insert, Get, Delete, Modify&#xD;
+&#xD;
+Scenario to test Delete function - the program will not delete the record physically. Instead it will set the status code to "D"&#xD;
+&#xD;
+Scope "Initialization"&#xD;
+- read data to be used from local file&#xD;
+- use variables for table name and creator name of DB2 table&#xD;
+- use variables for old values from local input file&#xD;
+- use variables for "fixed" expected values&#xD;
+&#xD;
+Scope "Determine DB2 Table Row Id"&#xD;
+- retrieve highest existing row id from the table and calculate next possible id&#xD;
+&#xD;
+Scope "Add row to table"&#xD;
+- use the next row id to insert new row into table natively using the data from local file&#xD;
+&#xD;
+Two tests&#xD;
+Scope "Positive Tests" - Existing row(s)&#xD;
+Sub Scope "Execute Tests"&#xD;
+- Use next row id function code "delete" to execute program&#xD;
+Sub Scope "Verification"&#xD;
+- use the next row id again and retrieve data natively from table&#xD;
+- verify that the status in the tabe has been set to "D"&#xD;
+&#xD;
+Scope "Negative Tests" - Non existing row&#xD;
+Sub Scope "Set up"&#xD;
+- Calculate new row id&#xD;
+- retrieve data from table natively, using new row id &#xD;
+- verify that no data was retrieved, otherwise abort test&#xD;
+Sub Scope "Execute Tests"&#xD;
+- execute program using new row id and "after" data from local file&#xD;
+- Verify that return code indicates error&#xD;
+&#xD;
+Scope "Clean Up Database"&#xD;
+- delete inserted row from the table to clean up database after test</Description>
   <Test>
     <Scope name="Initialization" disabled="false">
       <Variable id="inputRecords" filePath="Input_Data/XADB2TST_Delete_Scenario_Records.xml" />
@@ -160,7 +189,7 @@ VALUES
       </Scope>
     </Scope>
     <Scope name="Negative Tests" disabled="false">
-      <Scope name="Execute Negative Test" disabled="false">
+      <Scope name="Set up" disabled="false">
         <Variable id="nextRowId">
           <data:Replaceable>
             <Expression description="Increase newRowId by 1">
@@ -175,6 +204,8 @@ tempRowId.toString();]]></Statement>
         <Verify name="Row does not exist" haltExecution="true">
           <Statement><![CDATA[selectNonExisting.Row == null]]></Statement>
         </Verify>
+      </Scope>
+      <Scope name="Execute Tests" disabled="false">
         <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value == 12" rollback="false">
           <Data>
             <xadb2tst-import>

@@ -1,0 +1,140 @@
+<Data xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' RUN DATE  08/19/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>'                               HIRE  YRS OF'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' GAIL LAWRENCE   SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' MICHAEL DAYTON  SOUTH   S   08/30/82   36    825.00     0.00   6000.00  6825.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2></filler2>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+      <filler2>'    TOTAL                                                               44113.50'</filler2>
+    </rpt-unformatted>
+  </record>
+</Data>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xariscal">
+  <Description>Program receives an age value via linkage section and returns a risk factor&#xD;
+- Read inputs and expected outrputs from Excel sheet&#xD;
+- Iterate through the retrieved data records&#xD;
+- Execute program several times using the records from the excel sheet</Description>
+  <Test>
+    <Variable id="dataFromExcel" filePath="XARISCAL_data_from_excel_data.xls" />
+    <IterateData id="loopThroughDataFromExcel" referencedId="dataFromExcel" dataPath="">
+      <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+        <Data>
+          <import>
+            <customer>
+              <age>=loopThroughDataFromExcel.testcase.age_input</age>
+            </customer>
+          </import>
+          <export>
+            <risc expected="=loopThroughDataFromExcel.testcase.risc_expected" />
+          </export>
+        </Data>
+      </Component>
+    </IterateData>
+  </Test>
+  <MetaData>
+    <Component name="XARISCAL" type="COBOL">
+      <INOUT>
+        <import>
+          <customer>
+            <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+          </customer>
+        </import>
+        <export>
+          <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+        </export>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>

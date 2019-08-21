@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xadb2tst">
+  <Description>Program receives a "function code" and data via linkage section. Based on the function code it executes different functions against DB2 table XAEMPLOYEE like&#xD;
+Insert, Get, Delete, Modify&#xD;
+&#xD;
+Scenario to test Get function&#xD;
+Scope "Initialization"&#xD;
+- use variables for table name and creator name of DB2 table&#xD;
+&#xD;
+Scope "Determine DB2 Table Row Id"&#xD;
+- retrieve highest existing row id from the table and calculate next possible id&#xD;
+&#xD;
+Scope "Check that row exists"&#xD;
+- use the highest row id and retrieve data natively from table&#xD;
+- verify that a result was returned, otherwise the scenario will abort&#xD;
+&#xD;
+Execute two test cases&#xD;
+Scope "Positive Tests" - Existing row(s)&#xD;
+Sub Scope "Execute Tests and Verify"&#xD;
+- Use highest row id and function code "get" to execute program&#xD;
+- verify that data returned ba program matches data retrieved natively&#xD;
+&#xD;
+Scope "Negative Tests" - Non existing row&#xD;
+Sub Scope "Check that row does not exist"&#xD;
+- Use next row id to retrieve data from table natively&#xD;
+- Verify that no data was retrieved, otherwise abort test&#xD;
+Sub Scope "Execute Negative Tests and Verify"&#xD;
+- Use next row id and function code "get" to execute program&#xD;
+- Verify that return code indicates an error</Description>
   <Test>
     <Scope name="Initialization" disabled="false">
       <Variable id="db2CreatorName">ADKKXC0</Variable>
