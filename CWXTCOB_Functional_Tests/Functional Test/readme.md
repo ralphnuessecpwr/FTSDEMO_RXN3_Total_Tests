@@ -1,11 +1,11 @@
 Scenarios
 
-# CWXTCOB_End_Of_Month.xaunit
+**CWXTCOB_End_Of_Month.xaunit**
 
 This scenario is not working yet:
 Execute Xchange to simulate end of month execution
 
-# CWXTCOB_Standard.xaunit
+**CWXTCOB_Standard.xaunit**
 
 Execute program on a "normal" day
 - Prepare mainframe input dataset EMPFILE from local data
