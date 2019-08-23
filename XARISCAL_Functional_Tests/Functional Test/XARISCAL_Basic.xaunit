@@ -47,7 +47,7 @@
           </customer>
         </import>
         <export>
-          <risc expected="34" />
+          <risc expected="35" />
         </export>
       </Data>
     </Component>
