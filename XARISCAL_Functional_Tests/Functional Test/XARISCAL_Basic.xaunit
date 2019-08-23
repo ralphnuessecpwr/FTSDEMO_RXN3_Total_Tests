@@ -51,66 +51,6 @@
         </export>
       </Data>
     </Component>
-    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Lower Boundary - Second Range">
-      <Data>
-        <import>
-          <customer>
-            <age>18</age>
-          </customer>
-        </import>
-        <export>
-          <risc expected="54" />
-        </export>
-      </Data>
-    </Component>
-    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Mid - Second Range">
-      <Data>
-        <import>
-          <customer>
-            <age>40</age>
-          </customer>
-        </import>
-        <export>
-          <risc expected="120" />
-        </export>
-      </Data>
-    </Component>
-    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Upper Boundary - Second Range">
-      <Data>
-        <import>
-          <customer>
-            <age>50</age>
-          </customer>
-        </import>
-        <export>
-          <risc expected="200" />
-        </export>
-      </Data>
-    </Component>
-    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Lower Boundary - Third Range">
-      <Data>
-        <import>
-          <customer>
-            <age>51</age>
-          </customer>
-        </import>
-        <export>
-          <risc expected="204" />
-        </export>
-      </Data>
-    </Component>
-    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Mid - Third Range">
-      <Data>
-        <import>
-          <customer>
-            <age>80</age>
-          </customer>
-        </import>
-        <export>
-          <risc expected="320" />
-        </export>
-      </Data>
-    </Component>
   </Test>
   <MetaData>
     <Component name="XARISCAL" type="COBOL">
