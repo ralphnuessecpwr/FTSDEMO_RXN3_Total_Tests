@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
-  <ExtensionData />
-  <ExtensionData componentName="cwxtcob" componentId="5d5fea81180742000cf98888" />
-  <XaUnit path="TestScenario1.xaunit" />
-</ExecutionContext>
