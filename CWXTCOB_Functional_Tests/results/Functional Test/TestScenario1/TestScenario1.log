@@ -1,0 +1,48 @@
+16:28:53.307 COMMENT   Engine           Test Scenario execution started
+16:28:53.308 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+16:28:53.308 INFO      Engine           Setting variables from context and context data extensions
+16:28:53.308 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+16:28:53.308 INFO      Engine             id: environmentType    value: BATCH
+16:28:53.308 INFO      Engine             id: userId             value: HDDRXM0
+16:28:53.308 INFO      Component        Interpreting Component: CWXTCOB - HDDRXXM0 program:CWXTCOB
+16:28:53.339 LOG       CWCC Batch       Component Runtime Settings:
+16:28:53.340 LOG       CWCC Batch         Load library              :SALESSUP.RXN1.DEV1.LOAD
+16:28:53.340 LOG       CWCC Batch         Additional load libraries :SALESSUP.RXN1.QA1.LOAD,SALESSUP.RXN1.STG.LOAD,SALESSUP.RXN1.PRD.LOAD
+16:28:53.340 LOG       CWCC Batch         Listing libraries         :
+16:28:53.340 LOG       CWCC Batch         SysDebug libraries        :
+16:28:53.340 LOG       CWCC Batch         DB2 Subsystem ID          :
+16:28:53.340 LOG       CWCC Batch         DB2 plan                  :
+16:28:53.340 LOG       CWCC Batch         Call interface            :NONE
+16:28:53.340 LOG       CWCC Batch         Debugger type             :NONE
+16:28:53.340 LOG       CWCC Batch         Component type            :COBOL
+16:28:53.357 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+16:28:53.544 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/1715fd998d754e659e0776c2c3bbf428
+16:28:53.837 LOG       CWCC Batch       Uploading input data for module CWXTCOB
+16:28:54.927 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>1715fd998d754e659e0776c2c3bbf428</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>SALESSUP.RXN1.DEV1.LOAD</mainload><load>SALESSUP.RXN1.QA1.LOAD</load><load>SALESSUP.RXN1.STG.LOAD</load><load>SALESSUP.RXN1.PRD.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+16:28:55.198 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0776731</jobid><jobname>HDDRXM0E</jobname><starttime>20190823102855172</starttime></xatz_response></XATZRESP>
+16:28:55.199 LOG       HCIClient        Response received from Host. Message: JobId:J0776731
+16:28:55.199 INFO      HCIClient        Job has been started at host with JobId:J0776731
+16:28:55.199 INFO      CWCC Batch       Waiting for Execution Result from Host
+16:28:58.368 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0776731</jobid></xatz_request></XATZREQ>
+16:28:58.554 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+16:28:58.554 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+16:29:03.215 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0776731</jobid></xatz_request></XATZREQ>
+16:29:03.651 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+16:29:03.651 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+16:29:06.963 ERROR     CWCC Batch       Message from host: Abend U4038 in program XATZCTRL:CWXTCOB
+16:29:06.995 ERROR     Engine           Unable to execute the module:CWXTCOB at the host. Notification received from host with FAILURE status. Error: Abend U4038 in program XATZCTRL:CWXTCOB
+16:29:06.998 ERROR     Engine           An error occurred. Now stopping the execution.
+16:29:06.998 COMMENT   Engine           Test Scenario execution ended
