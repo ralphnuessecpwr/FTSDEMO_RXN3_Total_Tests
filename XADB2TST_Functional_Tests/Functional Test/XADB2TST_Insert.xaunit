@@ -162,7 +162,7 @@ tempRowId.toString();]]></Statement>
         <Actual expression="selectAfter.Row.LASTNAME" />
       </Verify>
       <Verify name="CPNR" haltExecution="false">
-        <Expected expression="inputRecords.record[0].dclxaemployee.cprnr" />
+        <Expected expression="inputRecords.record.dclxaemployee.cprnr" />
         <Actual expression="selectAfter.Row.CPRNR" />
       </Verify>
       <Verify name="User Id" haltExecution="false">
