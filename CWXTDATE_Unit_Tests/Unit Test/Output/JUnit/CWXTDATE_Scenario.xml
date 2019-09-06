@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 6, 2019 11:02:42 AM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 6, 2019 11:07:53 AM-->
 <testsuites>
   <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" tests="8">
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00001: Check for EOM_SW">
