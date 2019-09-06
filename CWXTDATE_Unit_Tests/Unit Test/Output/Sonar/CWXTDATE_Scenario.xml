@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 6, 2019 12:36:07 PM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 6, 2019 12:38:13 PM-->
 <testExecutions version="1">
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00001: Check for EOM_SW">
       <failure message="Check for EOM_SW failed">Check for EOM_SW failed
 
@@ -18,7 +18,7 @@ Expected Value:  = N</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -34,7 +34,7 @@ Expected Value:  = 37</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -50,7 +50,7 @@ Expected Value:  = 26</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -66,7 +66,7 @@ Expected Value:  = 29</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -82,7 +82,7 @@ Expected Value:  = 35</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -98,7 +98,7 @@ Expected Value:  = 31</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00007: CWXTDATECase7.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00007: CWXTDATECase7.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -114,7 +114,7 @@ Expected Value:  = 37</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00007: CWXTDATECase7.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00007: CWXTDATECase7.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00008: CWXTDATECase8.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00008: CWXTDATECase8.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -130,7 +130,7 @@ Expected Value:  = 36</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00008: CWXTDATECase8.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00008: CWXTDATECase8.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00009: CWXTDATECase9.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00009: CWXTDATECase9.00002: Check for YRS_OF_SERVICE">
       <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
@@ -146,294 +146,84 @@ Expected Value:  = 25</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00009: CWXTDATECase9.00007: Check for HIRE_MM"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00009: CWXTDATECase9.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00001: Check for EOM_SW">
-      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00002: Check for YRS_OF_SERVICE">
-      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
 
-Actual Value:    null
+Actual Value:    25
 
-Expected Value:  null</failure>
+Expected Value:  = 27</failure>
     </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00003: Check for RUN_YY">
-      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00004: Check for RUN_MM">
-      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00005: Check for RUN_DD">
-      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00006: Check for HIRE_YY">
-      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00007: Check for HIRE_MM">
-      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00008: Check for HIRE_DD">
-      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00010: CWXTDATECase10.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00001: Check for EOM_SW">
-      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00002: Check for YRS_OF_SERVICE">
-      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
 
-Actual Value:    null
+Actual Value:    27
 
-Expected Value:  null</failure>
+Expected Value:  = 31</failure>
     </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00003: Check for RUN_YY">
-      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00004: Check for RUN_MM">
-      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00005: Check for RUN_DD">
-      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00006: Check for HIRE_YY">
-      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00007: Check for HIRE_MM">
-      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00008: Check for HIRE_DD">
-      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00011: CWXTDATECase11.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00001: Check for EOM_SW">
-      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00002: Check for YRS_OF_SERVICE">
-      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
 
-Actual Value:    null
+Actual Value:    31
 
-Expected Value:  null</failure>
+Expected Value:  = 33</failure>
     </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00003: Check for RUN_YY">
-      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00004: Check for RUN_MM">
-      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00005: Check for RUN_DD">
-      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00006: Check for HIRE_YY">
-      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00007: Check for HIRE_MM">
-      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00008: Check for HIRE_DD">
-      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00012: CWXTDATECase12.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00001: Check for EOM_SW">
-      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00002: Check for YRS_OF_SERVICE">
-      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
 
-Actual Value:    null
+Actual Value:    33
 
-Expected Value:  null</failure>
+Expected Value:  = 36</failure>
     </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00003: Check for RUN_YY">
-      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00004: Check for RUN_MM">
-      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00005: Check for RUN_DD">
-      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00006: Check for HIRE_YY">
-      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00007: Check for HIRE_MM">
-      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00008: Check for HIRE_DD">
-      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00013: CWXTDATECase13.00008: Check for HIRE_DD"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00001: Check for EOM_SW">
-      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Promote_New\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00002: Check for YRS_OF_SERVICE">
-      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
 
-Actual Value:    null
+Actual Value:    36
 
-Expected Value:  null</failure>
+Expected Value:  = 24</failure>
     </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00003: Check for RUN_YY">
-      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00004: Check for RUN_MM">
-      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00005: Check for RUN_DD">
-      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00006: Check for HIRE_YY">
-      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00007: Check for HIRE_MM">
-      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00008: Check for HIRE_DD">
-      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00014: CWXTDATECase14.00008: Check for HIRE_DD"/>
   </file>
 </testExecutions>
