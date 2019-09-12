@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>d3e76190-e5a7-4fe0-9d9f-a2b51f30dfb8</ExecutionId>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>9eb6716e-fb34-4fe8-8af9-c2a3fba557ab</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
@@ -18,7 +18,7 @@
                   <wa-emp-num>3431</wa-emp-num>
                   <wa-emp-type>H</wa-emp-type>
                   <wa-emp-region>2</wa-emp-region>
-                  <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+                  <wa-emp-name>Ralph Nuesse</wa-emp-name>
                   <wa-emp-address>
                     <wa-emp-street>123 NORTH AVE</wa-emp-street>
                     <wa-emp-city>PLANO</wa-emp-city>
@@ -444,32 +444,6 @@
               <record>
                 <employee-dtl>
                   <filler1 />
-                  <emp-dtl-name>TED NESSMAN</emp-dtl-name>
-                  <filler2 />
-                  <emp-dtl-region>NORTH</emp-dtl-region>
-                  <filler3 />
-                  <emp-dtl-type>S</emp-dtl-type>
-                  <filler4 />
-                  <emp-dtl-hire-mm>1</emp-dtl-hire-mm>
-                  <emp-dtl-slash1>/</emp-dtl-slash1>
-                  <emp-dtl-hire-dd>30</emp-dtl-hire-dd>
-                  <emp-dtl-slash2>/</emp-dtl-slash2>
-                  <emp-dtl-hire-yy>79</emp-dtl-hire-yy>
-                  <filler5 />
-                  <emp-dtl-yrs-of-service>40</emp-dtl-yrs-of-service>
-                  <filler6 />
-                  <emp-dtl-wages>1000.00</emp-dtl-wages>
-                  <filler7 />
-                  <emp-dtl-ot>0.00</emp-dtl-ot>
-                  <filler8 />
-                  <emp-dtl-comm>0.00</emp-dtl-comm>
-                  <filler9 />
-                  <emp-dtl-total>1000.00</emp-dtl-total>
-                </employee-dtl>
-              </record>
-              <record>
-                <employee-dtl>
-                  <filler1 />
                   <emp-dtl-name>ROY GARDNER</emp-dtl-name>
                   <filler2 />
                   <emp-dtl-region>NORTH</emp-dtl-region>
@@ -496,53 +470,27 @@
               <record>
                 <employee-dtl>
                   <filler1 />
-                  <emp-dtl-name>GAIL LAWRENCE</emp-dtl-name>
+                  <emp-dtl-name>DAN PEARSON</emp-dtl-name>
                   <filler2 />
-                  <emp-dtl-region>SOUTH</emp-dtl-region>
-                  <filler3 />
-                  <emp-dtl-type>H</emp-dtl-type>
-                  <filler4 />
-                  <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
-                  <emp-dtl-slash1>/</emp-dtl-slash1>
-                  <emp-dtl-hire-dd>25</emp-dtl-hire-dd>
-                  <emp-dtl-slash2>/</emp-dtl-slash2>
-                  <emp-dtl-hire-yy>84</emp-dtl-hire-yy>
-                  <filler5 />
-                  <emp-dtl-yrs-of-service>35</emp-dtl-yrs-of-service>
-                  <filler6 />
-                  <emp-dtl-wages>1140.00</emp-dtl-wages>
-                  <filler7 />
-                  <emp-dtl-ot>0.00</emp-dtl-ot>
-                  <filler8 />
-                  <emp-dtl-comm>0.00</emp-dtl-comm>
-                  <filler9 />
-                  <emp-dtl-total>1140.00</emp-dtl-total>
-                </employee-dtl>
-              </record>
-              <record>
-                <employee-dtl>
-                  <filler1 />
-                  <emp-dtl-name>VALERIE OLSEN</emp-dtl-name>
-                  <filler2 />
-                  <emp-dtl-region>SOUTH</emp-dtl-region>
+                  <emp-dtl-region>NORTH</emp-dtl-region>
                   <filler3 />
                   <emp-dtl-type>S</emp-dtl-type>
                   <filler4 />
-                  <emp-dtl-hire-mm>5</emp-dtl-hire-mm>
+                  <emp-dtl-hire-mm>7</emp-dtl-hire-mm>
                   <emp-dtl-slash1>/</emp-dtl-slash1>
-                  <emp-dtl-hire-dd>1</emp-dtl-hire-dd>
+                  <emp-dtl-hire-dd>20</emp-dtl-hire-dd>
                   <emp-dtl-slash2>/</emp-dtl-slash2>
-                  <emp-dtl-hire-yy>94</emp-dtl-hire-yy>
+                  <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>25</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>30</emp-dtl-yrs-of-service>
                   <filler6 />
-                  <emp-dtl-wages>900.00</emp-dtl-wages>
+                  <emp-dtl-wages>850.00</emp-dtl-wages>
                   <filler7 />
                   <emp-dtl-ot>0.00</emp-dtl-ot>
                   <filler8 />
-                  <emp-dtl-comm>5600.00</emp-dtl-comm>
+                  <emp-dtl-comm>1000.00</emp-dtl-comm>
                   <filler9 />
-                  <emp-dtl-total>6500.00</emp-dtl-total>
+                  <emp-dtl-total>1850.00</emp-dtl-total>
                 </employee-dtl>
               </record>
               <record>
@@ -560,7 +508,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>825.00</emp-dtl-wages>
                   <filler7 />
@@ -600,27 +548,105 @@
               <record>
                 <employee-dtl>
                   <filler1 />
-                  <emp-dtl-name>DAN PEARSON</emp-dtl-name>
+                  <emp-dtl-name>VALERIE OLSEN</emp-dtl-name>
                   <filler2 />
                   <emp-dtl-region>EAST</emp-dtl-region>
                   <filler3 />
                   <emp-dtl-type>S</emp-dtl-type>
                   <filler4 />
-                  <emp-dtl-hire-mm>7</emp-dtl-hire-mm>
+                  <emp-dtl-hire-mm>5</emp-dtl-hire-mm>
                   <emp-dtl-slash1>/</emp-dtl-slash1>
-                  <emp-dtl-hire-dd>20</emp-dtl-hire-dd>
+                  <emp-dtl-hire-dd>1</emp-dtl-hire-dd>
                   <emp-dtl-slash2>/</emp-dtl-slash2>
-                  <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
+                  <emp-dtl-hire-yy>94</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>30</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>25</emp-dtl-yrs-of-service>
                   <filler6 />
-                  <emp-dtl-wages>850.00</emp-dtl-wages>
+                  <emp-dtl-wages>900.00</emp-dtl-wages>
                   <filler7 />
                   <emp-dtl-ot>0.00</emp-dtl-ot>
                   <filler8 />
-                  <emp-dtl-comm>1000.00</emp-dtl-comm>
+                  <emp-dtl-comm>5600.00</emp-dtl-comm>
                   <filler9 />
-                  <emp-dtl-total>1850.00</emp-dtl-total>
+                  <emp-dtl-total>6500.00</emp-dtl-total>
+                </employee-dtl>
+              </record>
+              <record>
+                <employee-dtl>
+                  <filler1 />
+                  <emp-dtl-name>LAURA MARTIN</emp-dtl-name>
+                  <filler2 />
+                  <emp-dtl-region>EAST</emp-dtl-region>
+                  <filler3 />
+                  <emp-dtl-type>S</emp-dtl-type>
+                  <filler4 />
+                  <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
+                  <emp-dtl-slash1>/</emp-dtl-slash1>
+                  <emp-dtl-hire-dd>14</emp-dtl-hire-dd>
+                  <emp-dtl-slash2>/</emp-dtl-slash2>
+                  <emp-dtl-hire-yy>83</emp-dtl-hire-yy>
+                  <filler5 />
+                  <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                  <filler6 />
+                  <emp-dtl-wages>1225.00</emp-dtl-wages>
+                  <filler7 />
+                  <emp-dtl-ot>0.00</emp-dtl-ot>
+                  <filler8 />
+                  <emp-dtl-comm>6000.00</emp-dtl-comm>
+                  <filler9 />
+                  <emp-dtl-total>7225.00</emp-dtl-total>
+                </employee-dtl>
+              </record>
+              <record>
+                <employee-dtl>
+                  <filler1 />
+                  <emp-dtl-name>MARCIA SULLIVAN</emp-dtl-name>
+                  <filler2 />
+                  <emp-dtl-region>EAST</emp-dtl-region>
+                  <filler3 />
+                  <emp-dtl-type>H</emp-dtl-type>
+                  <filler4 />
+                  <emp-dtl-hire-mm>4</emp-dtl-hire-mm>
+                  <emp-dtl-slash1>/</emp-dtl-slash1>
+                  <emp-dtl-hire-dd>5</emp-dtl-hire-dd>
+                  <emp-dtl-slash2>/</emp-dtl-slash2>
+                  <emp-dtl-hire-yy>93</emp-dtl-hire-yy>
+                  <filler5 />
+                  <emp-dtl-yrs-of-service>26</emp-dtl-yrs-of-service>
+                  <filler6 />
+                  <emp-dtl-wages>1200.00</emp-dtl-wages>
+                  <filler7 />
+                  <emp-dtl-ot>180.00</emp-dtl-ot>
+                  <filler8 />
+                  <emp-dtl-comm>0.00</emp-dtl-comm>
+                  <filler9 />
+                  <emp-dtl-total>1380.00</emp-dtl-total>
+                </employee-dtl>
+              </record>
+              <record>
+                <employee-dtl>
+                  <filler1 />
+                  <emp-dtl-name>JAMES MORRISON</emp-dtl-name>
+                  <filler2 />
+                  <emp-dtl-region>EAST</emp-dtl-region>
+                  <filler3 />
+                  <emp-dtl-type>H</emp-dtl-type>
+                  <filler4 />
+                  <emp-dtl-hire-mm>9</emp-dtl-hire-mm>
+                  <emp-dtl-slash1>/</emp-dtl-slash1>
+                  <emp-dtl-hire-dd>13</emp-dtl-hire-dd>
+                  <emp-dtl-slash2>/</emp-dtl-slash2>
+                  <emp-dtl-hire-yy>91</emp-dtl-hire-yy>
+                  <filler5 />
+                  <emp-dtl-yrs-of-service>27</emp-dtl-yrs-of-service>
+                  <filler6 />
+                  <emp-dtl-wages>1017.50</emp-dtl-wages>
+                  <filler7 />
+                  <emp-dtl-ot>0.00</emp-dtl-ot>
+                  <filler8 />
+                  <emp-dtl-comm>0.00</emp-dtl-comm>
+                  <filler9 />
+                  <emp-dtl-total>1017.50</emp-dtl-total>
                 </employee-dtl>
               </record>
               <record>
@@ -642,37 +668,11 @@
                   <filler6 />
                   <emp-dtl-wages>1000.00</emp-dtl-wages>
                   <filler7 />
-                  <emp-dtl-ot>187.50</emp-dtl-ot>
+                  <emp-dtl-ot>0.00</emp-dtl-ot>
                   <filler8 />
                   <emp-dtl-comm>0.00</emp-dtl-comm>
                   <filler9 />
-                  <emp-dtl-total>1187.50</emp-dtl-total>
-                </employee-dtl>
-              </record>
-              <record>
-                <employee-dtl>
-                  <filler1 />
-                  <emp-dtl-name>LAURA MARTIN</emp-dtl-name>
-                  <filler2 />
-                  <emp-dtl-region>WEST</emp-dtl-region>
-                  <filler3 />
-                  <emp-dtl-type>S</emp-dtl-type>
-                  <filler4 />
-                  <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
-                  <emp-dtl-slash1>/</emp-dtl-slash1>
-                  <emp-dtl-hire-dd>14</emp-dtl-hire-dd>
-                  <emp-dtl-slash2>/</emp-dtl-slash2>
-                  <emp-dtl-hire-yy>83</emp-dtl-hire-yy>
-                  <filler5 />
-                  <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
-                  <filler6 />
-                  <emp-dtl-wages>1225.00</emp-dtl-wages>
-                  <filler7 />
-                  <emp-dtl-ot>0.00</emp-dtl-ot>
-                  <filler8 />
-                  <emp-dtl-comm>6000.00</emp-dtl-comm>
-                  <filler9 />
-                  <emp-dtl-total>7225.00</emp-dtl-total>
+                  <emp-dtl-total>1000.00</emp-dtl-total>
                 </employee-dtl>
               </record>
               <record>
@@ -699,6 +699,32 @@
                   <emp-dtl-comm>3333.00</emp-dtl-comm>
                   <filler9 />
                   <emp-dtl-total>4333.00</emp-dtl-total>
+                </employee-dtl>
+              </record>
+              <record>
+                <employee-dtl>
+                  <filler1 />
+                  <emp-dtl-name>SAMUEL ADDAMS</emp-dtl-name>
+                  <filler2 />
+                  <emp-dtl-region>WEST</emp-dtl-region>
+                  <filler3 />
+                  <emp-dtl-type>H</emp-dtl-type>
+                  <filler4 />
+                  <emp-dtl-hire-mm>1</emp-dtl-hire-mm>
+                  <emp-dtl-slash1>/</emp-dtl-slash1>
+                  <emp-dtl-hire-dd>2</emp-dtl-hire-dd>
+                  <emp-dtl-slash2>/</emp-dtl-slash2>
+                  <emp-dtl-hire-yy>86</emp-dtl-hire-yy>
+                  <filler5 />
+                  <emp-dtl-yrs-of-service>33</emp-dtl-yrs-of-service>
+                  <filler6 />
+                  <emp-dtl-wages>1100.00</emp-dtl-wages>
+                  <filler7 />
+                  <emp-dtl-ot>82.50</emp-dtl-ot>
+                  <filler8 />
+                  <emp-dtl-comm>0.00</emp-dtl-comm>
+                  <filler9 />
+                  <emp-dtl-total>1182.50</emp-dtl-total>
                 </employee-dtl>
               </record>
               <record>
@@ -776,7 +802,7 @@
                   <filler8 />
                   <emp-dtl-comm />
                   <filler9 />
-                  <emp-dtl-total>44113.50</emp-dtl-total>
+                  <emp-dtl-total>45366.00</emp-dtl-total>
                 </employee-dtl>
               </record>
             </Variable>
@@ -784,147 +810,129 @@
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2 />
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2 />
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2 />
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' RUN DATE  09/06/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler1>
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2>' RUN DATE  08/19/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler2>
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2 />
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>'                               HIRE  YRS OF'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler1>
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2 />
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' VALERIE OLSEN   EAST    S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' LAURA MARTIN    EAST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' MARCIA SULLIVAN EAST    H   04/05/93   26   1200.00   180.00      0.00  1380.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' JAMES MORRISON  EAST    H   09/13/91   27   1017.50     0.00      0.00  1017.50'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' THOMAS LONG     WEST    H   03/31/87   32   1000.00     0.00      0.00  1000.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' SAMUEL ADDAMS   WEST    H   01/02/86   33   1100.00    82.50      0.00  1182.50'</filler1>
+                </rpt-unformatted>
+              </record>
+              <record>
+                <rpt-unformatted>
+                  <filler1>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler1>
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
                   <filler1 />
-                  <filler2>'                               HIRE  YRS OF'</filler2>
                 </rpt-unformatted>
               </record>
               <record>
                 <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2 />
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' GAIL LAWRENCE   SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' MICHAEL DAYTON  SOUTH   S   08/30/82   36    825.00     0.00   6000.00  6825.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler2>
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2 />
-                </rpt-unformatted>
-              </record>
-              <record>
-                <rpt-unformatted>
-                  <filler1 />
-                  <filler2>'    TOTAL                                                               44113.50'</filler2>
+                  <filler1>'    TOTAL                                                               45366.00'</filler1>
                 </rpt-unformatted>
               </record>
             </Variable>
           </Scope>
           <Scope name="Dataset Setup" disabled="false">
-            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsHourly" />
-            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsSales" />
-            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsMgmt" />
+            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsHourly" />
+            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsSales" />
+            <WriteRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsMgmt" />
             <Scope name="Skip" disabled="false" />
           </Scope>
         </Scope>
@@ -947,7 +955,7 @@
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTRPT]]></Content>
             </Setup>
           </Component>
-          <ReadRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTRPT" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDtOut">
+          <ReadRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTRPT" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet">
             <Records>
               <Record>
                 <employee-dtl>
@@ -1030,7 +1038,7 @@
               <Record>
                 <employee-dtl>
                   <filler1 />
-                  <emp-dtl-name>GAIL LAWRENCE</emp-dtl-name>
+                  <emp-dtl-name>Ralph Nuesse</emp-dtl-name>
                   <filler2 />
                   <emp-dtl-region>SOUTH</emp-dtl-region>
                   <filler3 />
@@ -1094,7 +1102,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>825.00</emp-dtl-wages>
                   <filler7 />
@@ -1325,12 +1333,111 @@
               <Actual>6750.00</Actual>
             </Verify>
           </IterateData>
-          <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdrOut" actualPath="HDDRXM0.DEMO.TTTFT.CWXTRPT" expectedPath="HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT">
+          <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdr" actualPath="HDDRXM0.DEMO.TTTFT.CWXTRPT" expectedPath="HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT">
             <ExcludedFields>
               <Path>/employee-hdr1/emp-run-mm</Path>
               <Path>/employee-hdr1/emp-run-dd</Path>
               <Path>/employee-hdr1/emp-run-yy</Path>
             </ExcludedFields>
+            <Result>&lt;root&gt;&lt;difs&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;11&lt;/newrno&gt;&lt;oldrno&gt;11&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0354055224150000056938000200001130179000400001000B00000000B000000000B00001000B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;12&lt;/newrno&gt;&lt;oldrno&gt;12&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4CCD4DCCDEDD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0415075192650000056938000200007120189000300000850B00000000B000001000B00001850B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;13&lt;/newrno&gt;&lt;oldrno&gt;13&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ Ralph Nuesse    SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0913780545225000026438000800006125184000350001140B00000000B000000000B00001140B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;14&lt;/newrno&gt;&lt;oldrno&gt;14&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0513599506325500026438000200005101194000250000900B00000000B000005600B00006500B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0455592068935000026438000200002129188000310001050B00000000B000001120B00002170B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;15&lt;/newrno&gt;&lt;oldrno&gt;15&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ VALERIE OLSEN   EAST    S   05/01/94   25    900.00     0.00   5600.00  6500.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4ECDCDCC4DDECD444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0513599506325500051230000200005101194000250000900B00000000B000005600B00006500B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;16&lt;/newrno&gt;&lt;oldrno&gt;16&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ LAURA MARTIN    EAST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0455592068935000026438000200002129188000310001050B00000000B000001120B00002170B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCEDC4DCDECD4444CCEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0314910419395000051230000200006114183000360001225B00000000B000006000B00007225B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;17&lt;/newrno&gt;&lt;oldrno&gt;17&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ MARCIA SULLIVAN EAST    H   04/05/93   26   1200.00   180.00      0.00  1280.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0415075192650000051230000200007120189000300000850B00000000B000001000B00001850B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCDCCC4EEDDCECD4CCEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0419391024339515051230000800004105193000260001200B00000180B000000000B00001280B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;18&lt;/newrno&gt;&lt;oldrno&gt;18&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ JAMES MORRISON  EAST    H   09/13/91   27   1017.50     0.00      0.00  1017.50]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0386412036570000065230000800003131187000320001000B00000187B500000000B00001187B50&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCDCE4DDDDCEDD44CCEE4444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0114520469992650051230000800009113191000270001017B50000000B000000000B00001017B50&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;19&lt;/newrno&gt;&lt;oldrno&gt;19&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   32   1000.00     0.00      0.00  1000.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0314910419395000065230000200006114183000360001225B00000000B000006000B00007225B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0386412036570000065230000800003131187000320001000B00000000B000000000B00001000B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;21&lt;/newrno&gt;&lt;oldrno&gt;21&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ SAMUEL ADDAMS   WEST    H   01/02/86   33   1100.00    82.50      0.00  1182.50]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DCDD4DDCDEDD4444ECEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0419201685265000065230000200009130182000360000750B00000000B000006000B00006750B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4ECDECD4CCCCDE444ECEE4444C444FF6FF6FF444FF444FFFF4FF4444FF4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0214453014414200065230000800001102186000330001100B00000082B500000000B00001182B50&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;/difs&gt;&lt;/root&gt;</Result>
+            <ExpectedResult><![CDATA[Record number: 11
+ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00
+4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00
+
+Record number: 12
+ DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00
+4CCD4DCCDEDD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0415075192650000056938000200007120189000300000850B00000000B000001000B00001850B00
+
+Record number: 13
+ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00
+4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00
+
+Record number: 14
+ DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00
+4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0455592068935000026438000200002129188000310001050B00000000B000001120B00002170B00
+
+Record number: 15
+ VALERIE OLSEN   EAST    S   05/01/94   25    900.00     0.00   5600.00  6500.00
+4ECDCDCC4DDECD444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0513599506325500051230000200005101194000250000900B00000000B000005600B00006500B00
+
+Record number: 16
+ LAURA MARTIN    EAST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00
+4DCEDC4DCDECD4444CCEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0314910419395000051230000200006114183000360001225B00000000B000006000B00007225B00
+
+Record number: 17
+ MARCIA SULLIVAN EAST    H   04/05/93   26   1200.00   180.00      0.00  1280.00
+4DCDCCC4EEDDCECD4CCEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF
+0419391024339515051230000800004105193000260001200B00000180B000000000B00001280B00
+
+Record number: 18
+ JAMES MORRISON  EAST    H   09/13/91   27   1017.50     0.00      0.00  1017.50
+4DCDCE4DDDDCEDD44CCEE4444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0114520469992650051230000800009113191000270001017B50000000B000000000B00001017B50
+
+Record number: 19
+ THOMAS LONG     WEST    H   03/31/87   32   1000.00     0.00      0.00  1000.00
+4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0386412036570000065230000800003131187000320001000B00000000B000000000B00001000B00
+
+Record number: 21
+ SAMUEL ADDAMS   WEST    H   01/02/86   33   1100.00    82.50      0.00  1182.50
+4ECDECD4CCCCDE444ECEE4444C444FF6FF6FF444FF444FFFF4FF4444FF4FF444444F4FF44FFFF4FF
+0214453014414200065230000800001102186000330001100B00000082B500000000B00001182B50]]></ExpectedResult>
+            <ActualResult><![CDATA[Record number: 11
+ TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00
+4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0354055224150000056938000200001130179000400001000B00000000B000000000B00001000B00
+
+Record number: 12
+ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00
+4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00
+
+Record number: 13
+ Ralph Nuesse    SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00
+4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0913780545225000026438000800006125184000350001140B00000000B000000000B00001140B00
+
+Record number: 14
+ VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00
+4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0513599506325500026438000200005101194000250000900B00000000B000005600B00006500B00
+
+Record number: 15
+ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00
+4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00
+
+Record number: 16
+ DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00
+4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0455592068935000026438000200002129188000310001050B00000000B000001120B00002170B00
+
+Record number: 17
+ DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00
+4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0415075192650000051230000200007120189000300000850B00000000B000001000B00001850B00
+
+Record number: 18
+ THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50
+4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF
+0386412036570000065230000800003131187000320001000B00000187B500000000B00001187B50
+
+Record number: 19
+ LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00
+4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0314910419395000065230000200006114183000360001225B00000000B000006000B00007225B00
+
+Record number: 21
+ MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00
+4DCDD4DDCDEDD4444ECEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0419201685265000065230000200009130182000360000750B00000000B000006000B00006750B00]]></ActualResult>
           </VerifyRemoteFile>
         </Scope>
       </Test>
@@ -1347,29 +1454,31 @@
     </XaUnit>
   </AST>
   <Context>
-    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
-      <platformruntime callinterface="NONE" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" />
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
       <ExtensionData />
-      <ExtensionData componentName="cwxtcob" componentId="5d5fea81180742000cf98888">
+      <ExtensionData componentName="cwxtcob" componentId="5d4d2a7c423da3164cab5ca6">
         <Parameter key="sourcelibrary">
-          <Value>SALESSUP.RXN1.DEV1.COB</Value>
+          <Value>SALESSUP.RXN3.DEV1.COB</Value>
         </Parameter>
         <Parameter key="loadlibraries">
-          <Value>SALESSUP.RXN1.QA1.LOAD</Value>
-          <Value>SALESSUP.RXN1.STG.LOAD</Value>
-          <Value>SALESSUP.RXN1.PRD.LOAD</Value>
+          <Value>SALESSUP.RXN3.QA1.LOAD</Value>
+          <Value>SALESSUP.RXN3.STG.LOAD</Value>
+          <Value>SALESSUP.RXN3.PRD.LOAD</Value>
         </Parameter>
         <Parameter key="loadlibrary">
-          <Value>SALESSUP.RXN1.DEV1.LOAD</Value>
+          <Value>SALESSUP.RXN3.DEV1.LOAD</Value>
         </Parameter>
         <Parameter key="sourcelibraries">
-          <Value>HDDRXM0.DEMO.COPY</Value>
+          <Value>SALESSUP.RXN3.DEV1.COPY</Value>
         </Parameter>
         <Parameter key="callinterface">
           <Value>NONE</Value>
         </Parameter>
       </ExtensionData>
-      <References componentName="cwxtcob" />
+      <References componentName="cwxtcob">
+        <Reference>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</Reference>
+      </References>
       <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" path="CWXTCOB_Standard.xaunit">
         <Description>Program reads a file of records for employees containing, times worked, revenues achieved. Based on some rules creates a weekly report. At month end, and additional section gets generated in the report&#xD;
 &#xD;
@@ -1397,11 +1506,11 @@ Store expected RPFILE data locally and restore to mainframe</Description>
               <Variable id="rptExpectedFullRecords" filePath="Output_Data/report_file_expected_unformatted.xml" />
             </Scope>
             <Scope name="Dataset Setup" disabled="false">
-              <WriteRemoteFile fileName="${empInDatasetNameHourly}" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsHourly" />
-              <WriteRemoteFile fileName="${empInDatasetNameSales}" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsSales" />
-              <WriteRemoteFile fileName="${empInDatasetNameMgmt}" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsMgmt" />
+              <WriteRemoteFile fileName="${empInDatasetNameHourly}" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsHourly" />
+              <WriteRemoteFile fileName="${empInDatasetNameSales}" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsSales" />
+              <WriteRemoteFile fileName="${empInDatasetNameMgmt}" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsMgmt" />
               <Scope name="Skip" disabled="true">
-                <WriteRemoteFile fileName="${outDatasetNameExpected}" id="rptOutDatasetExpected" label="Report Outdataset Expected" mDataDefinitionName="rptunformatted" recordLength="81" recordFormat="FBA" blockSize="27945" volumnName="PCC003" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="rptExpectedFullRecords" />
+                <WriteRemoteFile fileName="${outDatasetNameExpected}" id="rptOutDatasetExpected" label="Report Outdataset Expected" mDataDefinitionName="rptunformatted" recordLength="80" recordFormat="FB" blockSize="8000" volumnName="PCC003" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="BASIC" memberName="" disposition="Old" referencedId="rptExpectedFullRecords" />
               </Scope>
             </Scope>
           </Scope>
@@ -1424,7 +1533,7 @@ Store expected RPFILE data locally and restore to mainframe</Description>
 //  DSN=${outDatasetNameActual}]]></Content>
               </Setup>
             </Component>
-            <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDtOut" />
+            <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet" />
             <IterateData id="loopThroughOutput" referencedId="readOutDatasetActual" dataPath="">
               <Variable id="expectTotal">
                 <data:Replaceable>
@@ -1443,7 +1552,7 @@ tmpTotal.toFixed(2)]]></Statement>
                 <Actual expression="loopThroughOutput.record['employee-dtl']['emp-dtl-total']" />
               </Verify>
             </IterateData>
-            <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdrOut" actualPath="${outDatasetNameActual}" expectedPath="${outDatasetNameExpected}">
+            <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdr" actualPath="${outDatasetNameActual}" expectedPath="${outDatasetNameExpected}">
               <ExcludedFields>
                 <Path>/employee-hdr1/emp-run-mm</Path>
                 <Path>/employee-hdr1/emp-run-dd</Path>
@@ -1453,48 +1562,6 @@ tmpTotal.toFixed(2)]]></Statement>
           </Scope>
         </Test>
         <MetaData>
-          <MDataDefinition name="rptHdrOut">
-            <employee-hdr1 native="01 EMPLOYEE-HDR1.">
-              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <filler2 type="Character" length="11" bytes="11" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
-              <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
-              <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-              <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
-              <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-              <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
-              <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
-              <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
-              <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
-              <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
-              <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
-            </employee-hdr1>
-          </MDataDefinition>
-          <MDataDefinition name="rptEmpDtOut">
-            <employee-dtl native="01 EMPLOYEE-DTL.">
-              <filler1 type="Character" length="2" bytes="2" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-name type="Character" length="15" bytes="15" native="05 EMP-DTL-NAME PIC X(15)." />
-              <filler2 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-region type="Character" length="5" bytes="5" native="05 EMP-DTL-REGION PIC X(5)." />
-              <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-              <emp-dtl-type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
-              <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-              <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
-              <emp-dtl-slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
-              <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
-              <emp-dtl-slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
-              <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
-              <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-              <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
-              <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-              <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
-              <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
-              <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-              <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
-              <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
-            </employee-dtl>
-          </MDataDefinition>
           <MDataDefinition name="empfile_hourly">
             <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
               <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
@@ -1571,9 +1638,50 @@ tmpTotal.toFixed(2)]]></Statement>
           </MDataDefinition>
           <MDataDefinition name="rptunformatted">
             <rpt-unformatted native="01 RPT-UNFORMATTED.">
-              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X(2) VALUE SPACES." />
-              <filler2 type="Character" length="80" bytes="80" native="05 FILLER PIC X(79) VALUE SPACES." />
+              <filler1 type="Character" length="80" bytes="80" native="05 FILLER PIC X(80) VALUE SPACES." />
             </rpt-unformatted>
+          </MDataDefinition>
+          <MDataDefinition name="rptEmpDet">
+            <employee-dtl native="01 EMPLOYEE-DTL.">
+              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-name type="Character" length="15" bytes="15" native="05 EMP-DTL-NAME PIC X(15)." />
+              <filler2 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-region type="Character" length="5" bytes="5" native="05 EMP-DTL-REGION PIC X(5)." />
+              <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
+              <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
+              <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
+              <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+              <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+              <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
+              <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+              <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+              <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
+              <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
+            </employee-dtl>
+          </MDataDefinition>
+          <MDataDefinition name="rptHdr">
+            <employee-hdr1 native="01 EMPLOYEE-HDR1.">
+              <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+              <filler2 type="Character" length="10" bytes="10" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
+              <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
+              <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+              <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
+              <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+              <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
+              <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
+              <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
+              <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
+              <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
+              <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
+            </employee-hdr1>
           </MDataDefinition>
           <Component name="CWXTCOB" type="COBOL">
             <INOUT>
@@ -1593,7 +1701,7 @@ tmpTotal.toFixed(2)]]></Statement>
                 <wa-emp-num>3431</wa-emp-num>
                 <wa-emp-type>H</wa-emp-type>
                 <wa-emp-region>2</wa-emp-region>
-                <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+                <wa-emp-name>Ralph Nuesse</wa-emp-name>
                 <wa-emp-address>
                   <wa-emp-street>123 NORTH AVE</wa-emp-street>
                   <wa-emp-city>PLANO</wa-emp-city>
@@ -1995,7 +2103,7 @@ tmpTotal.toFixed(2)]]></Statement>
           </Data>
         </Resource>
         <Resource path="Output_Data/report_file_expected_detail.xml">
-          <Data>
+          <SerializedData>
             <record>
               <employee-dtl>
                 <filler1 />
@@ -2020,32 +2128,6 @@ tmpTotal.toFixed(2)]]></Statement>
                 <emp-dtl-comm>0.00</emp-dtl-comm>
                 <filler9 />
                 <emp-dtl-total>1083.00</emp-dtl-total>
-              </employee-dtl>
-            </record>
-            <record>
-              <employee-dtl>
-                <filler1 />
-                <emp-dtl-name>TED NESSMAN</emp-dtl-name>
-                <filler2 />
-                <emp-dtl-region>NORTH</emp-dtl-region>
-                <filler3 />
-                <emp-dtl-type>S</emp-dtl-type>
-                <filler4 />
-                <emp-dtl-hire-mm>1</emp-dtl-hire-mm>
-                <emp-dtl-slash1>/</emp-dtl-slash1>
-                <emp-dtl-hire-dd>30</emp-dtl-hire-dd>
-                <emp-dtl-slash2>/</emp-dtl-slash2>
-                <emp-dtl-hire-yy>79</emp-dtl-hire-yy>
-                <filler5 />
-                <emp-dtl-yrs-of-service>40</emp-dtl-yrs-of-service>
-                <filler6 />
-                <emp-dtl-wages>1000.00</emp-dtl-wages>
-                <filler7 />
-                <emp-dtl-ot>0.00</emp-dtl-ot>
-                <filler8 />
-                <emp-dtl-comm>0.00</emp-dtl-comm>
-                <filler9 />
-                <emp-dtl-total>1000.00</emp-dtl-total>
               </employee-dtl>
             </record>
             <record>
@@ -2077,53 +2159,27 @@ tmpTotal.toFixed(2)]]></Statement>
             <record>
               <employee-dtl>
                 <filler1 />
-                <emp-dtl-name>GAIL LAWRENCE</emp-dtl-name>
+                <emp-dtl-name>DAN PEARSON</emp-dtl-name>
                 <filler2 />
-                <emp-dtl-region>SOUTH</emp-dtl-region>
-                <filler3 />
-                <emp-dtl-type>H</emp-dtl-type>
-                <filler4 />
-                <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
-                <emp-dtl-slash1>/</emp-dtl-slash1>
-                <emp-dtl-hire-dd>25</emp-dtl-hire-dd>
-                <emp-dtl-slash2>/</emp-dtl-slash2>
-                <emp-dtl-hire-yy>84</emp-dtl-hire-yy>
-                <filler5 />
-                <emp-dtl-yrs-of-service>35</emp-dtl-yrs-of-service>
-                <filler6 />
-                <emp-dtl-wages>1140.00</emp-dtl-wages>
-                <filler7 />
-                <emp-dtl-ot>0.00</emp-dtl-ot>
-                <filler8 />
-                <emp-dtl-comm>0.00</emp-dtl-comm>
-                <filler9 />
-                <emp-dtl-total>1140.00</emp-dtl-total>
-              </employee-dtl>
-            </record>
-            <record>
-              <employee-dtl>
-                <filler1 />
-                <emp-dtl-name>VALERIE OLSEN</emp-dtl-name>
-                <filler2 />
-                <emp-dtl-region>SOUTH</emp-dtl-region>
+                <emp-dtl-region>NORTH</emp-dtl-region>
                 <filler3 />
                 <emp-dtl-type>S</emp-dtl-type>
                 <filler4 />
-                <emp-dtl-hire-mm>5</emp-dtl-hire-mm>
+                <emp-dtl-hire-mm>7</emp-dtl-hire-mm>
                 <emp-dtl-slash1>/</emp-dtl-slash1>
-                <emp-dtl-hire-dd>1</emp-dtl-hire-dd>
+                <emp-dtl-hire-dd>20</emp-dtl-hire-dd>
                 <emp-dtl-slash2>/</emp-dtl-slash2>
-                <emp-dtl-hire-yy>94</emp-dtl-hire-yy>
+                <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
                 <filler5 />
-                <emp-dtl-yrs-of-service>25</emp-dtl-yrs-of-service>
+                <emp-dtl-yrs-of-service>30</emp-dtl-yrs-of-service>
                 <filler6 />
-                <emp-dtl-wages>900.00</emp-dtl-wages>
+                <emp-dtl-wages>850.00</emp-dtl-wages>
                 <filler7 />
                 <emp-dtl-ot>0.00</emp-dtl-ot>
                 <filler8 />
-                <emp-dtl-comm>5600.00</emp-dtl-comm>
+                <emp-dtl-comm>1000.00</emp-dtl-comm>
                 <filler9 />
-                <emp-dtl-total>6500.00</emp-dtl-total>
+                <emp-dtl-total>1850.00</emp-dtl-total>
               </employee-dtl>
             </record>
             <record>
@@ -2141,7 +2197,7 @@ tmpTotal.toFixed(2)]]></Statement>
                 <emp-dtl-slash2>/</emp-dtl-slash2>
                 <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
                 <filler5 />
-                <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
                 <filler6 />
                 <emp-dtl-wages>825.00</emp-dtl-wages>
                 <filler7 />
@@ -2181,27 +2237,105 @@ tmpTotal.toFixed(2)]]></Statement>
             <record>
               <employee-dtl>
                 <filler1 />
-                <emp-dtl-name>DAN PEARSON</emp-dtl-name>
+                <emp-dtl-name>VALERIE OLSEN</emp-dtl-name>
                 <filler2 />
                 <emp-dtl-region>EAST</emp-dtl-region>
                 <filler3 />
                 <emp-dtl-type>S</emp-dtl-type>
                 <filler4 />
-                <emp-dtl-hire-mm>7</emp-dtl-hire-mm>
+                <emp-dtl-hire-mm>5</emp-dtl-hire-mm>
                 <emp-dtl-slash1>/</emp-dtl-slash1>
-                <emp-dtl-hire-dd>20</emp-dtl-hire-dd>
+                <emp-dtl-hire-dd>1</emp-dtl-hire-dd>
                 <emp-dtl-slash2>/</emp-dtl-slash2>
-                <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
+                <emp-dtl-hire-yy>94</emp-dtl-hire-yy>
                 <filler5 />
-                <emp-dtl-yrs-of-service>30</emp-dtl-yrs-of-service>
+                <emp-dtl-yrs-of-service>25</emp-dtl-yrs-of-service>
                 <filler6 />
-                <emp-dtl-wages>850.00</emp-dtl-wages>
+                <emp-dtl-wages>900.00</emp-dtl-wages>
                 <filler7 />
                 <emp-dtl-ot>0.00</emp-dtl-ot>
                 <filler8 />
-                <emp-dtl-comm>1000.00</emp-dtl-comm>
+                <emp-dtl-comm>5600.00</emp-dtl-comm>
                 <filler9 />
-                <emp-dtl-total>1850.00</emp-dtl-total>
+                <emp-dtl-total>6500.00</emp-dtl-total>
+              </employee-dtl>
+            </record>
+            <record>
+              <employee-dtl>
+                <filler1 />
+                <emp-dtl-name>LAURA MARTIN</emp-dtl-name>
+                <filler2 />
+                <emp-dtl-region>EAST</emp-dtl-region>
+                <filler3 />
+                <emp-dtl-type>S</emp-dtl-type>
+                <filler4 />
+                <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
+                <emp-dtl-slash1>/</emp-dtl-slash1>
+                <emp-dtl-hire-dd>14</emp-dtl-hire-dd>
+                <emp-dtl-slash2>/</emp-dtl-slash2>
+                <emp-dtl-hire-yy>83</emp-dtl-hire-yy>
+                <filler5 />
+                <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                <filler6 />
+                <emp-dtl-wages>1225.00</emp-dtl-wages>
+                <filler7 />
+                <emp-dtl-ot>0.00</emp-dtl-ot>
+                <filler8 />
+                <emp-dtl-comm>6000.00</emp-dtl-comm>
+                <filler9 />
+                <emp-dtl-total>7225.00</emp-dtl-total>
+              </employee-dtl>
+            </record>
+            <record>
+              <employee-dtl>
+                <filler1 />
+                <emp-dtl-name>MARCIA SULLIVAN</emp-dtl-name>
+                <filler2 />
+                <emp-dtl-region>EAST</emp-dtl-region>
+                <filler3 />
+                <emp-dtl-type>H</emp-dtl-type>
+                <filler4 />
+                <emp-dtl-hire-mm>4</emp-dtl-hire-mm>
+                <emp-dtl-slash1>/</emp-dtl-slash1>
+                <emp-dtl-hire-dd>5</emp-dtl-hire-dd>
+                <emp-dtl-slash2>/</emp-dtl-slash2>
+                <emp-dtl-hire-yy>93</emp-dtl-hire-yy>
+                <filler5 />
+                <emp-dtl-yrs-of-service>26</emp-dtl-yrs-of-service>
+                <filler6 />
+                <emp-dtl-wages>1200.00</emp-dtl-wages>
+                <filler7 />
+                <emp-dtl-ot>180.00</emp-dtl-ot>
+                <filler8 />
+                <emp-dtl-comm>0.00</emp-dtl-comm>
+                <filler9 />
+                <emp-dtl-total>1380.00</emp-dtl-total>
+              </employee-dtl>
+            </record>
+            <record>
+              <employee-dtl>
+                <filler1 />
+                <emp-dtl-name>JAMES MORRISON</emp-dtl-name>
+                <filler2 />
+                <emp-dtl-region>EAST</emp-dtl-region>
+                <filler3 />
+                <emp-dtl-type>H</emp-dtl-type>
+                <filler4 />
+                <emp-dtl-hire-mm>9</emp-dtl-hire-mm>
+                <emp-dtl-slash1>/</emp-dtl-slash1>
+                <emp-dtl-hire-dd>13</emp-dtl-hire-dd>
+                <emp-dtl-slash2>/</emp-dtl-slash2>
+                <emp-dtl-hire-yy>91</emp-dtl-hire-yy>
+                <filler5 />
+                <emp-dtl-yrs-of-service>27</emp-dtl-yrs-of-service>
+                <filler6 />
+                <emp-dtl-wages>1017.50</emp-dtl-wages>
+                <filler7 />
+                <emp-dtl-ot>0.00</emp-dtl-ot>
+                <filler8 />
+                <emp-dtl-comm>0.00</emp-dtl-comm>
+                <filler9 />
+                <emp-dtl-total>1017.50</emp-dtl-total>
               </employee-dtl>
             </record>
             <record>
@@ -2223,37 +2357,11 @@ tmpTotal.toFixed(2)]]></Statement>
                 <filler6 />
                 <emp-dtl-wages>1000.00</emp-dtl-wages>
                 <filler7 />
-                <emp-dtl-ot>187.50</emp-dtl-ot>
+                <emp-dtl-ot>0.00</emp-dtl-ot>
                 <filler8 />
                 <emp-dtl-comm>0.00</emp-dtl-comm>
                 <filler9 />
-                <emp-dtl-total>1187.50</emp-dtl-total>
-              </employee-dtl>
-            </record>
-            <record>
-              <employee-dtl>
-                <filler1 />
-                <emp-dtl-name>LAURA MARTIN</emp-dtl-name>
-                <filler2 />
-                <emp-dtl-region>WEST</emp-dtl-region>
-                <filler3 />
-                <emp-dtl-type>S</emp-dtl-type>
-                <filler4 />
-                <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
-                <emp-dtl-slash1>/</emp-dtl-slash1>
-                <emp-dtl-hire-dd>14</emp-dtl-hire-dd>
-                <emp-dtl-slash2>/</emp-dtl-slash2>
-                <emp-dtl-hire-yy>83</emp-dtl-hire-yy>
-                <filler5 />
-                <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
-                <filler6 />
-                <emp-dtl-wages>1225.00</emp-dtl-wages>
-                <filler7 />
-                <emp-dtl-ot>0.00</emp-dtl-ot>
-                <filler8 />
-                <emp-dtl-comm>6000.00</emp-dtl-comm>
-                <filler9 />
-                <emp-dtl-total>7225.00</emp-dtl-total>
+                <emp-dtl-total>1000.00</emp-dtl-total>
               </employee-dtl>
             </record>
             <record>
@@ -2280,6 +2388,32 @@ tmpTotal.toFixed(2)]]></Statement>
                 <emp-dtl-comm>3333.00</emp-dtl-comm>
                 <filler9 />
                 <emp-dtl-total>4333.00</emp-dtl-total>
+              </employee-dtl>
+            </record>
+            <record>
+              <employee-dtl>
+                <filler1 />
+                <emp-dtl-name>SAMUEL ADDAMS</emp-dtl-name>
+                <filler2 />
+                <emp-dtl-region>WEST</emp-dtl-region>
+                <filler3 />
+                <emp-dtl-type>H</emp-dtl-type>
+                <filler4 />
+                <emp-dtl-hire-mm>1</emp-dtl-hire-mm>
+                <emp-dtl-slash1>/</emp-dtl-slash1>
+                <emp-dtl-hire-dd>2</emp-dtl-hire-dd>
+                <emp-dtl-slash2>/</emp-dtl-slash2>
+                <emp-dtl-hire-yy>86</emp-dtl-hire-yy>
+                <filler5 />
+                <emp-dtl-yrs-of-service>33</emp-dtl-yrs-of-service>
+                <filler6 />
+                <emp-dtl-wages>1100.00</emp-dtl-wages>
+                <filler7 />
+                <emp-dtl-ot>82.50</emp-dtl-ot>
+                <filler8 />
+                <emp-dtl-comm>0.00</emp-dtl-comm>
+                <filler9 />
+                <emp-dtl-total>1182.50</emp-dtl-total>
               </employee-dtl>
             </record>
             <record>
@@ -2357,156 +2491,138 @@ tmpTotal.toFixed(2)]]></Statement>
                 <filler8 />
                 <emp-dtl-comm />
                 <filler9 />
-                <emp-dtl-total>44113.50</emp-dtl-total>
+                <emp-dtl-total>45366.00</emp-dtl-total>
               </employee-dtl>
             </record>
-          </Data>
+          </SerializedData>
         </Resource>
         <Resource path="Output_Data/report_file_expected_unformatted.xml">
-          <Data>
+          <SerializedData>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2 />
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2 />
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2 />
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' RUN DATE  09/06/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler1>
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2>' RUN DATE  08/19/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler2>
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2 />
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>'                               HIRE  YRS OF'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler1>
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2 />
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' VALERIE OLSEN   EAST    S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' LAURA MARTIN    EAST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' MARCIA SULLIVAN EAST    H   04/05/93   26   1200.00   180.00      0.00  1380.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' JAMES MORRISON  EAST    H   09/13/91   27   1017.50     0.00      0.00  1017.50'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' THOMAS LONG     WEST    H   03/31/87   32   1000.00     0.00      0.00  1000.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' SAMUEL ADDAMS   WEST    H   01/02/86   33   1100.00    82.50      0.00  1182.50'</filler1>
+              </rpt-unformatted>
+            </record>
+            <record>
+              <rpt-unformatted>
+                <filler1>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler1>
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
                 <filler1 />
-                <filler2>'                               HIRE  YRS OF'</filler2>
               </rpt-unformatted>
             </record>
             <record>
               <rpt-unformatted>
-                <filler1 />
-                <filler2>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler2>
+                <filler1>'    TOTAL                                                               45366.00'</filler1>
               </rpt-unformatted>
             </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2 />
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' GAIL LAWRENCE   SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' MICHAEL DAYTON  SOUTH   S   08/30/82   36    825.00     0.00   6000.00  6825.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler2>
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2 />
-              </rpt-unformatted>
-            </record>
-            <record>
-              <rpt-unformatted>
-                <filler1 />
-                <filler2>'    TOTAL                                                               44113.50'</filler2>
-              </rpt-unformatted>
-            </record>
-          </Data>
+          </SerializedData>
         </Resource>
       </ExternalResources>
     </ExecutionContext>
   </Context>
-  <Started>20190823-16-30-42</Started>
-  <Ended>20190823-16-31-29</Ended>
+  <Started>20190912-08-41-39</Started>
+  <Ended>20190912-08-43-29</Ended>
 </XaUnitResult>
