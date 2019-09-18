@@ -1,5 +1,5 @@
-15:27:22.083 COMMENT   Engine           Test Scenario execution started
-15:27:22.083 INFO      Engine           Using context settings:
+13:16:41.624 COMMENT   Engine           Test Scenario execution started
+13:16:41.624 INFO      Engine           Using context settings:
   Engine Version       : 19.5.1
   Environment id                : 5cee98c2d3142c1f90a4976d
   Environment type              : Batch
@@ -13,29 +13,29 @@
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
-15:27:22.083 INFO      Engine           Setting variables from context and context data extensions
-15:27:22.083 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
-15:27:22.083 INFO      Engine             id: environmentType    value: BATCH
-15:27:22.083 INFO      Engine             id: userId             value: HDDRXM0
-15:27:22.083 INFO      Scope            Interpreting Scope name:Initialize
-15:27:22.083 INFO      Scope            Interpreting Scope name:Variable Set Up
-15:27:22.083 INFO      Variable         Interpreting Variable id:empInDatasetNameHourly
-15:27:22.083 LOG       Variable         Resolved data:
+13:16:41.624 INFO      Engine           Setting variables from context and context data extensions
+13:16:41.624 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+13:16:41.624 INFO      Engine             id: environmentType    value: BATCH
+13:16:41.624 INFO      Engine             id: userId             value: HDDRXM0
+13:16:41.625 INFO      Scope            Interpreting Scope name:Initialize
+13:16:41.625 INFO      Scope            Interpreting Scope name:Variable Set Up
+13:16:41.625 INFO      Variable         Interpreting Variable id:empInDatasetNameHourly
+13:16:41.625 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
-15:27:22.083 INFO      Variable         Interpreting Variable id:empInDatasetNameSales
-15:27:22.083 LOG       Variable         Resolved data:
+13:16:41.625 INFO      Variable         Interpreting Variable id:empInDatasetNameSales
+13:16:41.625 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES
-15:27:22.083 INFO      Variable         Interpreting Variable id:empInDatasetNameMgmt
-15:27:22.083 LOG       Variable         Resolved data:
+13:16:41.625 INFO      Variable         Interpreting Variable id:empInDatasetNameMgmt
+13:16:41.625 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
-15:27:22.083 INFO      Variable         Interpreting Variable id:outDatasetNameActual
-15:27:22.083 LOG       Variable         Resolved data:
+13:16:41.625 INFO      Variable         Interpreting Variable id:outDatasetNameActual
+13:16:41.625 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.TTTFT.CWXTRPT
-15:27:22.083 INFO      Variable         Interpreting Variable id:outDatasetNameExpected
-15:27:22.083 LOG       Variable         Resolved data:
+13:16:41.625 INFO      Variable         Interpreting Variable id:outDatasetNameExpected
+13:16:41.625 LOG       Variable         Resolved data:
 HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
-15:27:22.083 INFO      Variable         Interpreting Variable id:empInRecordsHourly dataFile:Input_Data/employee_input_file_hourly.xml
-15:27:22.084 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_hourly.xml
+13:16:41.625 INFO      Variable         Interpreting Variable id:empInRecordsHourly dataFile:Input_Data/employee_input_file_hourly.xml
+13:16:41.626 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_hourly.xml
 <record>
   <employee-work-area>
     <wa-emp-num>3431</wa-emp-num>
@@ -111,8 +111,8 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <filler1></filler1>
   </employee-work-area>
 </record>
-15:27:22.084 INFO      Variable         Interpreting Variable id:empInRecordsSales dataFile:Input_Data/employee_input_file_sales.xml
-15:27:22.085 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_sales.xml
+13:16:41.627 INFO      Variable         Interpreting Variable id:empInRecordsSales dataFile:Input_Data/employee_input_file_sales.xml
+13:16:41.634 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_sales.xml
 <record>
   <employee-work-area>
     <wa-emp-num>1431</wa-emp-num>
@@ -338,8 +338,8 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <filler1></filler1>
   </employee-work-area>
 </record>
-15:27:22.085 INFO      Variable         Interpreting Variable id:empInRecordsMgmt dataFile:Input_Data/employee_input_file_mgmt.xml
-15:27:22.085 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_mgmt.xml
+13:16:41.640 INFO      Variable         Interpreting Variable id:empInRecordsMgmt dataFile:Input_Data/employee_input_file_mgmt.xml
+13:16:41.642 LOG       Variable         Resolved data items from file Input_Data/employee_input_file_mgmt.xml
 <record>
   <employee-work-area>
     <wa-emp-num>2136</wa-emp-num>
@@ -436,8 +436,8 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <filler1></filler1>
   </employee-work-area>
 </record>
-15:27:22.085 INFO      Variable         Interpreting Variable id:rptExpectedDetailRecords dataFile:Output_Data/report_file_expected_detail.xml
-15:27:22.087 LOG       Variable         Resolved data items from file Output_Data/report_file_expected_detail.xml
+13:16:41.642 INFO      Variable         Interpreting Variable id:rptExpectedDetailRecords dataFile:Output_Data/report_file_expected_detail.xml
+13:16:41.652 LOG       Variable         Resolved data items from file Output_Data/report_file_expected_detail.xml
 <record>
   <employee-dtl>
     <filler1></filler1>
@@ -828,8 +828,8 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <emp-dtl-total>45366.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:27:22.087 INFO      Variable         Interpreting Variable id:rptExpectedFullRecords dataFile:Output_Data/report_file_expected_unformatted.xml
-15:27:22.088 LOG       Variable         Resolved data items from file Output_Data/report_file_expected_unformatted.xml
+13:16:41.653 INFO      Variable         Interpreting Variable id:rptExpectedFullRecords dataFile:Output_Data/report_file_expected_unformatted.xml
+13:16:41.660 LOG       Variable         Resolved data items from file Output_Data/report_file_expected_unformatted.xml
 <record>
   <rpt-unformatted>
     <filler1></filler1>
@@ -950,95 +950,95 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <filler1>'    TOTAL                                                               45366.00'</filler1>
   </rpt-unformatted>
 </record>
-15:27:22.088 INFO      Scope            Scope completed
-15:27:22.088 INFO      Scope            Interpreting Scope name:Dataset Setup
-15:27:22.088 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
-15:27:22.088 INFO      WriteRemoteFile  Variable substitution found in fileName name
-15:27:22.088 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
-15:27:22.088 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsHourly
-15:27:22.088 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
-15:27:22.088 INFO      WriteRemoteFile  Number of records to write:3
-15:27:22.088 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
-15:27:22.088 INFO      WriteRemoteFile    Record length         : 80
-15:27:22.088 INFO      WriteRemoteFile    Record format         : FB
-15:27:22.088 INFO      WriteRemoteFile    Block size            : 27920
-15:27:22.088 INFO      WriteRemoteFile    Volumn name           : PCC006
-15:27:22.088 INFO      WriteRemoteFile    Unit name             : 
-15:27:22.088 INFO      WriteRemoteFile    Unit type             : TRK
-15:27:22.088 INFO      WriteRemoteFile    Primary allocation    : 5
-15:27:22.088 INFO      WriteRemoteFile    Secondary allocation  : 5
-15:27:22.088 INFO      WriteRemoteFile    Directory block count : 0
-15:27:22.088 INFO      WriteRemoteFile    Dataset type          : NONE
-15:27:22.088 INFO      WriteRemoteFile    Disposition           : Old
-15:27:22.088 INFO      WriteRemoteFile  Sending Write dataset request to Host 
-15:27:22.257 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/5fa16ff790a742fe930f99feacc27ea2
-15:27:26.092 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>5fa16ff790a742fe930f99feacc27ea2</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
-15:27:26.625 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782699</jobid><jobname>HDDRXM0X</jobname><starttime>20190912092726555</starttime></xatz_response></XATZRESP>
-15:27:26.625 LOG       HCIClient        Response received from Host. Message: JobId:J0782699
-15:27:26.625 INFO      HCIClient        Job has been started at host with JobId:J0782699
-15:27:26.625 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:27:30.099 INFO      WriteRemoteFile  Write dataset request completed
-15:27:30.100 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
-15:27:30.100 INFO      WriteRemoteFile  Variable substitution found in fileName name
-15:27:30.100 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES
-15:27:30.100 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsSales
-15:27:30.100 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
-15:27:30.101 INFO      WriteRemoteFile  Number of records to write:9
-15:27:30.101 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES
-15:27:30.101 INFO      WriteRemoteFile    Record length         : 80
-15:27:30.101 INFO      WriteRemoteFile    Record format         : FB
-15:27:30.101 INFO      WriteRemoteFile    Block size            : 27920
-15:27:30.101 INFO      WriteRemoteFile    Volumn name           : PCC006
-15:27:30.101 INFO      WriteRemoteFile    Unit name             : 
-15:27:30.101 INFO      WriteRemoteFile    Unit type             : TRK
-15:27:30.101 INFO      WriteRemoteFile    Primary allocation    : 5
-15:27:30.101 INFO      WriteRemoteFile    Secondary allocation  : 5
-15:27:30.101 INFO      WriteRemoteFile    Directory block count : 0
-15:27:30.101 INFO      WriteRemoteFile    Dataset type          : NONE
-15:27:30.101 INFO      WriteRemoteFile    Disposition           : Old
-15:27:30.101 INFO      WriteRemoteFile  Sending Write dataset request to Host 
-15:27:30.629 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/b5ad705ed2884ae6b7a6aff761cd08ad
-15:27:35.340 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>b5ad705ed2884ae6b7a6aff761cd08ad</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
-15:27:35.642 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782701</jobid><jobname>HDDRXM0X</jobname><starttime>20190912092735594</starttime></xatz_response></XATZRESP>
-15:27:35.642 LOG       HCIClient        Response received from Host. Message: JobId:J0782701
-15:27:35.642 INFO      HCIClient        Job has been started at host with JobId:J0782701
-15:27:35.642 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:27:39.099 INFO      WriteRemoteFile  Write dataset request completed
-15:27:39.100 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
-15:27:39.100 INFO      WriteRemoteFile  Variable substitution found in fileName name
-15:27:39.100 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
-15:27:39.100 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsMgmt
-15:27:39.100 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
-15:27:39.101 INFO      WriteRemoteFile  Number of records to write:4
-15:27:39.101 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
-15:27:39.101 INFO      WriteRemoteFile    Record length         : 80
-15:27:39.101 INFO      WriteRemoteFile    Record format         : FB
-15:27:39.101 INFO      WriteRemoteFile    Block size            : 27920
-15:27:39.101 INFO      WriteRemoteFile    Volumn name           : PCC006
-15:27:39.101 INFO      WriteRemoteFile    Unit name             : 
-15:27:39.101 INFO      WriteRemoteFile    Unit type             : TRK
-15:27:39.101 INFO      WriteRemoteFile    Primary allocation    : 5
-15:27:39.101 INFO      WriteRemoteFile    Secondary allocation  : 5
-15:27:39.101 INFO      WriteRemoteFile    Directory block count : 0
-15:27:39.101 INFO      WriteRemoteFile    Dataset type          : NONE
-15:27:39.101 INFO      WriteRemoteFile    Disposition           : Old
-15:27:39.101 INFO      WriteRemoteFile  Sending Write dataset request to Host 
-15:27:39.560 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/e8c0298f7b734c88813e1588e50f8757
-15:27:43.313 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>e8c0298f7b734c88813e1588e50f8757</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
-15:27:43.576 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782702</jobid><jobname>HDDRXM0X</jobname><starttime>20190912092743541</starttime></xatz_response></XATZRESP>
-15:27:43.576 LOG       HCIClient        Response received from Host. Message: JobId:J0782702
-15:27:43.576 INFO      HCIClient        Job has been started at host with JobId:J0782702
-15:27:43.576 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:27:47.029 INFO      WriteRemoteFile  Write dataset request completed
-15:27:47.030 INFO      Scope            Interpreting Scope name:Skip
-15:27:47.030 WARNING   Scope            Scope element is disabled
-15:27:47.030 INFO      Scope            Scope completed
-15:27:47.030 INFO      Scope            Scope completed
-15:27:47.030 INFO      Scope            Interpreting Scope name:Execute Test and Verify
-15:27:47.030 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
-15:27:47.030 INFO      Component        Using setup JCL for execution
-15:27:47.030 INFO      Component          Variable substitution found in setup JCL, now substituted
-15:27:47.030 INFO      Component          JCL for setup:
+13:16:41.661 INFO      Scope            Scope completed
+13:16:41.661 INFO      Scope            Interpreting Scope name:Dataset Setup
+13:16:41.661 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
+13:16:41.661 INFO      WriteRemoteFile  Variable substitution found in fileName name
+13:16:41.661 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
+13:16:41.661 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsHourly
+13:16:41.661 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
+13:16:41.661 INFO      WriteRemoteFile  Number of records to write:3
+13:16:41.661 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
+13:16:41.661 INFO      WriteRemoteFile    Record length         : 80
+13:16:41.661 INFO      WriteRemoteFile    Record format         : FB
+13:16:41.661 INFO      WriteRemoteFile    Block size            : 27920
+13:16:41.661 INFO      WriteRemoteFile    Volumn name           : PCC006
+13:16:41.661 INFO      WriteRemoteFile    Unit name             : 
+13:16:41.661 INFO      WriteRemoteFile    Unit type             : TRK
+13:16:41.661 INFO      WriteRemoteFile    Primary allocation    : 5
+13:16:41.662 INFO      WriteRemoteFile    Secondary allocation  : 5
+13:16:41.662 INFO      WriteRemoteFile    Directory block count : 0
+13:16:41.662 INFO      WriteRemoteFile    Dataset type          : NONE
+13:16:41.662 INFO      WriteRemoteFile    Disposition           : Old
+13:16:41.662 INFO      WriteRemoteFile  Sending Write dataset request to Host 
+13:16:41.873 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/e64bb9309a6840e89467d648c7c288c9
+13:16:46.373 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>e64bb9309a6840e89467d648c7c288c9</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
+13:16:46.968 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784611</jobid><jobname>HDDRXM0X</jobname><starttime>20190918071646821</starttime></xatz_response></XATZRESP>
+13:16:46.970 LOG       HCIClient        Response received from Host. Message: JobId:J0784611
+13:16:46.970 INFO      HCIClient        Job has been started at host with JobId:J0784611
+13:16:46.970 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:16:50.428 INFO      WriteRemoteFile  Write dataset request completed
+13:16:50.428 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
+13:16:50.428 INFO      WriteRemoteFile  Variable substitution found in fileName name
+13:16:50.428 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES
+13:16:50.428 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsSales
+13:16:50.429 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
+13:16:50.431 INFO      WriteRemoteFile  Number of records to write:9
+13:16:50.431 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES
+13:16:50.431 INFO      WriteRemoteFile    Record length         : 80
+13:16:50.431 INFO      WriteRemoteFile    Record format         : FB
+13:16:50.431 INFO      WriteRemoteFile    Block size            : 27920
+13:16:50.431 INFO      WriteRemoteFile    Volumn name           : PCC006
+13:16:50.431 INFO      WriteRemoteFile    Unit name             : 
+13:16:50.431 INFO      WriteRemoteFile    Unit type             : TRK
+13:16:50.431 INFO      WriteRemoteFile    Primary allocation    : 5
+13:16:50.431 INFO      WriteRemoteFile    Secondary allocation  : 5
+13:16:50.431 INFO      WriteRemoteFile    Directory block count : 0
+13:16:50.431 INFO      WriteRemoteFile    Dataset type          : NONE
+13:16:50.431 INFO      WriteRemoteFile    Disposition           : Old
+13:16:50.431 INFO      WriteRemoteFile  Sending Write dataset request to Host 
+13:16:51.166 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/a49fbbc761eb4778bff7f399c5c072f6
+13:16:55.718 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>a49fbbc761eb4778bff7f399c5c072f6</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
+13:16:56.178 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784612</jobid><jobname>HDDRXM0X</jobname><starttime>20190918071655993</starttime></xatz_response></XATZRESP>
+13:16:56.179 LOG       HCIClient        Response received from Host. Message: JobId:J0784612
+13:16:56.179 INFO      HCIClient        Job has been started at host with JobId:J0784612
+13:16:56.179 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:16:59.659 INFO      WriteRemoteFile  Write dataset request completed
+13:16:59.659 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
+13:16:59.659 INFO      WriteRemoteFile  Variable substitution found in fileName name
+13:16:59.659 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
+13:16:59.659 INFO      WriteRemoteFile  Finding referenced records from the id: empInRecordsMgmt
+13:16:59.659 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
+13:16:59.659 INFO      WriteRemoteFile  Number of records to write:4
+13:16:59.659 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
+13:16:59.659 INFO      WriteRemoteFile    Record length         : 80
+13:16:59.659 INFO      WriteRemoteFile    Record format         : FB
+13:16:59.659 INFO      WriteRemoteFile    Block size            : 27920
+13:16:59.659 INFO      WriteRemoteFile    Volumn name           : PCC006
+13:16:59.659 INFO      WriteRemoteFile    Unit name             : 
+13:16:59.659 INFO      WriteRemoteFile    Unit type             : TRK
+13:16:59.659 INFO      WriteRemoteFile    Primary allocation    : 5
+13:16:59.659 INFO      WriteRemoteFile    Secondary allocation  : 5
+13:16:59.659 INFO      WriteRemoteFile    Directory block count : 0
+13:16:59.659 INFO      WriteRemoteFile    Dataset type          : NONE
+13:16:59.659 INFO      WriteRemoteFile    Disposition           : Old
+13:16:59.659 INFO      WriteRemoteFile  Sending Write dataset request to Host 
+13:17:00.456 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/58d665b138b24fbda76f89ed7f224fee
+13:17:04.372 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>58d665b138b24fbda76f89ed7f224fee</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>5</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
+13:17:05.371 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784613</jobid><jobname>HDDRXM0X</jobname><starttime>20190918071705237</starttime></xatz_response></XATZRESP>
+13:17:05.372 LOG       HCIClient        Response received from Host. Message: JobId:J0784613
+13:17:05.372 INFO      HCIClient        Job has been started at host with JobId:J0784613
+13:17:05.372 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:17:08.865 INFO      WriteRemoteFile  Write dataset request completed
+13:17:08.865 INFO      Scope            Interpreting Scope name:Skip
+13:17:08.865 WARNING   Scope            Scope element is disabled
+13:17:08.865 INFO      Scope            Scope completed
+13:17:08.865 INFO      Scope            Scope completed
+13:17:08.865 INFO      Scope            Interpreting Scope name:Execute Test and Verify
+13:17:08.865 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+13:17:08.865 INFO      Component        Using setup JCL for execution
+13:17:08.865 INFO      Component          Variable substitution found in setup JCL, now substituted
+13:17:08.865 INFO      Component          JCL for setup:
 //EMPFILE DD DISP=SHR,
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
 //        DD DISP=SHR,
@@ -1047,7 +1047,7 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT
 //RPTFILE DD DISP=SHR,
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTRPT
-15:27:47.031 LOG       CWCC Batch       Final JCL setup for the component:
+13:17:08.865 LOG       CWCC Batch       Final JCL setup for the component:
 //EMPFILE DD DISP=SHR,
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY
 //        DD DISP=SHR,
@@ -1058,44 +1058,47 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
 //  DSN=HDDRXM0.DEMO.TTTFT.CWXTRPT
 //RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
 
-15:27:47.031 LOG       CWCC Batch       Component Runtime Settings:
-15:27:47.031 LOG       CWCC Batch         Load library              :SALESSUP.RXN3.DEV2.LOAD
-15:27:47.031 LOG       CWCC Batch         Additional load libraries :SALESSUP.RXN3.QA2.LOAD,SALESSUP.RXN3.STG.LOAD,SALESSUP.RXN3.PRD.LOAD
-15:27:47.031 LOG       CWCC Batch         Listing libraries         :
-15:27:47.031 LOG       CWCC Batch         SysDebug libraries        :
-15:27:47.031 LOG       CWCC Batch         DB2 Subsystem ID          :
-15:27:47.031 LOG       CWCC Batch         DB2 plan                  :
-15:27:47.031 LOG       CWCC Batch         Call interface            :NONE
-15:27:47.031 LOG       CWCC Batch         Debugger type             :NONE
-15:27:47.031 LOG       CWCC Batch         Component type            :COBOL
-15:27:47.033 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
-15:27:47.508 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/39835c601d334071b6760d77f2f81511
-15:27:47.810 LOG       CWCC Batch       Uploading input data for module CWXTCOB
-15:27:49.105 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>39835c601d334071b6760d77f2f81511</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>SALESSUP.RXN3.DEV2.LOAD</mainload><load>SALESSUP.RXN3.QA2.LOAD</load><load>SALESSUP.RXN3.STG.LOAD</load><load>SALESSUP.RXN3.PRD.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</ref><ref>//        DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</ref><ref>//        DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</ref><ref>//RPTFILE DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTRPT</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
-15:27:49.584 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782703</jobid><jobname>HDDRXM0E</jobname><starttime>20190912092749493</starttime></xatz_response></XATZRESP>
-15:27:49.585 LOG       HCIClient        Response received from Host. Message: JobId:J0782703
-15:27:49.585 INFO      HCIClient        Job has been started at host with JobId:J0782703
-15:27:49.585 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:27:52.887 INFO      CWCC Batch       Component completed with program exit: +0
-15:27:53.038 LOG       CWCC Batch       Setting execution variable 'jobid' to J0782703
-15:27:53.039 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
-15:27:53.191 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-15:27:53.294 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-15:27:53.294 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
-15:27:53.294 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: ${outDatasetNameActual} first record:10 number of records to read: 12
-15:27:53.295 INFO      ReadRemoteFile     Variable substitution found in file name
-15:27:53.295 INFO      ReadRemoteFile     File name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT
-15:27:53.295 INFO      ReadRemoteFile   Sending Read dataset request to Host 
-15:27:53.756 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/24ca43da28e047f7b8b814bc8c2e5413
-15:27:57.192 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>24ca43da28e047f7b8b814bc8c2e5413</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.DEMO.TTTFT.CWXTRPT</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>12</impmax><impskip>9</impskip></impfile></xatz_request></XATZREQ>
-15:27:57.456 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782704</jobid><jobname>HDDRXM0I</jobname><starttime>20190912092757422</starttime></xatz_response></XATZRESP>
-15:27:57.457 LOG       HCIClient        Response received from Host. Message: JobId:J0782704
-15:27:57.457 INFO      HCIClient        Job has been started at host with JobId:J0782704
-15:27:57.457 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:28:01.161 INFO      ReadRemoteFile   Records received, count= 12
-15:28:01.162 INFO      IterateData      Interpreting IterateData id: loopThroughOutput. Number of data iterations: 12. Variable loopThroughOutputIndex contains iteration number
-15:28:01.162 INFO      IterateData      Iteration number 0 started.
-15:28:01.162 LOG       IterateData      Iteration Data:
+13:17:08.865 LOG       CWCC Batch       Component Runtime Settings:
+13:17:08.865 LOG       CWCC Batch         Load library              :SALESSUP.RXN3.DEV2.LOAD
+13:17:08.865 LOG       CWCC Batch         Additional load libraries :SALESSUP.RXN3.QA2.LOAD,SALESSUP.RXN3.STG.LOAD,SALESSUP.RXN3.PRD.LOAD
+13:17:08.865 LOG       CWCC Batch         Listing libraries         :
+13:17:08.865 LOG       CWCC Batch         SysDebug libraries        :
+13:17:08.865 LOG       CWCC Batch         DB2 Subsystem ID          :
+13:17:08.865 LOG       CWCC Batch         DB2 plan                  :
+13:17:08.865 LOG       CWCC Batch         Call interface            :NONE
+13:17:08.865 LOG       CWCC Batch         Debugger type             :NONE
+13:17:08.865 LOG       CWCC Batch         Component type            :COBOL
+13:17:08.866 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+13:17:09.579 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/ecf10bd6d0b2496b8b919366bd7f7935
+13:17:09.875 LOG       CWCC Batch       Uploading input data for module CWXTCOB
+13:17:10.921 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>ecf10bd6d0b2496b8b919366bd7f7935</jobdirectory><amode24>false</amode24><members><membername>CWXTCOB</membername></members><loads><mainload>SALESSUP.RXN3.DEV2.LOAD</mainload><load>SALESSUP.RXN3.QA2.LOAD</load><load>SALESSUP.RXN3.STG.LOAD</load><load>SALESSUP.RXN3.PRD.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</ref><ref>//        DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</ref><ref>//        DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</ref><ref>//RPTFILE DD DISP=SHR,</ref><ref>//  DSN=HDDRXM0.DEMO.TTTFT.CWXTRPT</ref><ref>//RPTFILE DD DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT</ref></refs></xatz_request></XATZREQ>
+13:17:11.577 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784614</jobid><jobname>HDDRXM0E</jobname><starttime>20190918071711419</starttime></xatz_response></XATZRESP>
+13:17:11.577 LOG       HCIClient        Response received from Host. Message: JobId:J0784614
+13:17:11.577 INFO      HCIClient        Job has been started at host with JobId:J0784614
+13:17:11.577 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:17:14.728 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0784614</jobid></xatz_request></XATZREQ>
+13:17:15.164 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+13:17:15.164 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+13:17:18.476 INFO      CWCC Batch       Component completed with program exit: +0
+13:17:18.675 LOG       CWCC Batch       Setting execution variable 'jobid' to J0784614
+13:17:18.676 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+13:17:18.829 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+13:17:18.849 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+13:17:18.849 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
+13:17:18.849 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: ${outDatasetNameActual} first record:10 number of records to read: 12
+13:17:18.849 INFO      ReadRemoteFile     Variable substitution found in file name
+13:17:18.849 INFO      ReadRemoteFile     File name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT
+13:17:18.849 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+13:17:19.627 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/76ca33c541504702b289dea71ee7957a
+13:17:23.252 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>76ca33c541504702b289dea71ee7957a</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.DEMO.TTTFT.CWXTRPT</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>12</impmax><impskip>9</impskip></impfile></xatz_request></XATZREQ>
+13:17:23.865 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784615</jobid><jobname>HDDRXM0I</jobname><starttime>20190918071723697</starttime></xatz_response></XATZRESP>
+13:17:23.866 LOG       HCIClient        Response received from Host. Message: JobId:J0784615
+13:17:23.866 INFO      HCIClient        Job has been started at host with JobId:J0784615
+13:17:23.866 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:17:27.712 INFO      ReadRemoteFile   Records received, count= 12
+13:17:27.713 INFO      IterateData      Interpreting IterateData id: loopThroughOutput. Number of data iterations: 12. Variable loopThroughOutputIndex contains iteration number
+13:17:27.713 INFO      IterateData      Iteration number 0 started.
+13:17:27.715 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1122,37 +1125,37 @@ HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
     <emp-dtl-total>1083.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:01.162 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:01.162 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:27.716 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:27.716 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.278 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:27.811 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.290 LOG       Expression       Expression evaluated to:1083.00
-15:28:01.290 LOG       Variable         Resolved data:
+13:17:27.824 LOG       Expression       Expression evaluated to:1083.00
+13:17:27.824 LOG       Variable         Resolved data:
 1083.00
-15:28:01.290 INFO      Verify           Interpreting Verify component name:Total
-15:28:01.346 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:27.824 INFO      Verify           Interpreting Verify component name:Total
+13:17:27.890 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:01.349 LOG       Verify           Expression evaluated to:1083.00
-15:28:01.349 LOG       Verify           Expected from expression:
+13:17:27.892 LOG       Verify           Expression evaluated to:1083.00
+13:17:27.892 LOG       Verify           Expected from expression:
 1083.00
-15:28:01.419 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:27.943 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:01.421 LOG       Verify           Expression evaluated to:1083.00
-15:28:01.421 LOG       Verify           Actual from expression:
+13:17:27.947 LOG       Verify           Expression evaluated to:1083.00
+13:17:27.947 LOG       Verify           Actual from expression:
 1083.00
-15:28:01.421 INFO      Verify           Expected and Actual data was found to be identical
-15:28:01.422 INFO      IterateData      Iteration number 1 started.
-15:28:01.422 LOG       IterateData      Iteration Data:
+13:17:27.947 INFO      Verify           Expected and Actual data was found to be identical
+13:17:27.947 INFO      IterateData      Iteration number 1 started.
+13:17:27.947 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1179,37 +1182,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>1000.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:01.422 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:01.422 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:27.947 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:27.947 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.488 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.008 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.495 LOG       Expression       Expression evaluated to:1000.00
-15:28:01.495 LOG       Variable         Resolved data:
+13:17:28.035 LOG       Expression       Expression evaluated to:1000.00
+13:17:28.036 LOG       Variable         Resolved data:
 1000.00
-15:28:01.495 INFO      Verify           Interpreting Verify component name:Total
-15:28:01.558 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.036 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.136 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:01.561 LOG       Verify           Expression evaluated to:1000.00
-15:28:01.561 LOG       Verify           Expected from expression:
+13:17:28.140 LOG       Verify           Expression evaluated to:1000.00
+13:17:28.140 LOG       Verify           Expected from expression:
 1000.00
-15:28:01.621 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.188 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:01.624 LOG       Verify           Expression evaluated to:1000.00
-15:28:01.624 LOG       Verify           Actual from expression:
+13:17:28.192 LOG       Verify           Expression evaluated to:1000.00
+13:17:28.192 LOG       Verify           Actual from expression:
 1000.00
-15:28:01.624 INFO      Verify           Expected and Actual data was found to be identical
-15:28:01.624 INFO      IterateData      Iteration number 2 started.
-15:28:01.624 LOG       IterateData      Iteration Data:
+13:17:28.192 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.192 INFO      IterateData      Iteration number 2 started.
+13:17:28.192 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1236,37 +1239,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>4050.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:01.624 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:01.624 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.192 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.192 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.689 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.241 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.698 LOG       Expression       Expression evaluated to:4050.00
-15:28:01.698 LOG       Variable         Resolved data:
+13:17:28.247 LOG       Expression       Expression evaluated to:4050.00
+13:17:28.247 LOG       Variable         Resolved data:
 4050.00
-15:28:01.698 INFO      Verify           Interpreting Verify component name:Total
-15:28:01.764 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.247 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.302 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:01.767 LOG       Verify           Expression evaluated to:4050.00
-15:28:01.767 LOG       Verify           Expected from expression:
+13:17:28.305 LOG       Verify           Expression evaluated to:4050.00
+13:17:28.305 LOG       Verify           Expected from expression:
 4050.00
-15:28:01.821 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.358 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:01.827 LOG       Verify           Expression evaluated to:4050.00
-15:28:01.827 LOG       Verify           Actual from expression:
+13:17:28.361 LOG       Verify           Expression evaluated to:4050.00
+13:17:28.362 LOG       Verify           Actual from expression:
 4050.00
-15:28:01.827 INFO      Verify           Expected and Actual data was found to be identical
-15:28:01.827 INFO      IterateData      Iteration number 3 started.
-15:28:01.827 LOG       IterateData      Iteration Data:
+13:17:28.362 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.362 INFO      IterateData      Iteration number 3 started.
+13:17:28.362 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1293,37 +1296,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>1140.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:01.827 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:01.827 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.362 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.362 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.887 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.411 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:01.899 LOG       Expression       Expression evaluated to:1140.00
-15:28:01.899 LOG       Variable         Resolved data:
+13:17:28.415 LOG       Expression       Expression evaluated to:1140.00
+13:17:28.415 LOG       Variable         Resolved data:
 1140.00
-15:28:01.899 INFO      Verify           Interpreting Verify component name:Total
-15:28:01.960 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.415 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.473 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:01.963 LOG       Verify           Expression evaluated to:1140.00
-15:28:01.963 LOG       Verify           Expected from expression:
+13:17:28.476 LOG       Verify           Expression evaluated to:1140.00
+13:17:28.476 LOG       Verify           Expected from expression:
 1140.00
-15:28:02.031 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.524 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.033 LOG       Verify           Expression evaluated to:1140.00
-15:28:02.033 LOG       Verify           Actual from expression:
+13:17:28.528 LOG       Verify           Expression evaluated to:1140.00
+13:17:28.528 LOG       Verify           Actual from expression:
 1140.00
-15:28:02.033 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.034 INFO      IterateData      Iteration number 4 started.
-15:28:02.034 LOG       IterateData      Iteration Data:
+13:17:28.528 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.528 INFO      IterateData      Iteration number 4 started.
+13:17:28.528 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1350,37 +1353,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>6500.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.034 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.034 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.529 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.529 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.082 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.570 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.090 LOG       Expression       Expression evaluated to:6500.00
-15:28:02.090 LOG       Variable         Resolved data:
+13:17:28.575 LOG       Expression       Expression evaluated to:6500.00
+13:17:28.576 LOG       Variable         Resolved data:
 6500.00
-15:28:02.090 INFO      Verify           Interpreting Verify component name:Total
-15:28:02.165 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.576 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.624 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:02.167 LOG       Verify           Expression evaluated to:6500.00
-15:28:02.167 LOG       Verify           Expected from expression:
+13:17:28.627 LOG       Verify           Expression evaluated to:6500.00
+13:17:28.627 LOG       Verify           Expected from expression:
 6500.00
-15:28:02.215 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.690 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.220 LOG       Verify           Expression evaluated to:6500.00
-15:28:02.220 LOG       Verify           Actual from expression:
+13:17:28.693 LOG       Verify           Expression evaluated to:6500.00
+13:17:28.693 LOG       Verify           Actual from expression:
 6500.00
-15:28:02.220 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.220 INFO      IterateData      Iteration number 5 started.
-15:28:02.220 LOG       IterateData      Iteration Data:
+13:17:28.693 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.693 INFO      IterateData      Iteration number 5 started.
+13:17:28.693 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1407,37 +1410,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>6825.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.220 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.220 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.693 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.693 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.288 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.733 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.296 LOG       Expression       Expression evaluated to:6825.00
-15:28:02.296 LOG       Variable         Resolved data:
+13:17:28.740 LOG       Expression       Expression evaluated to:6825.00
+13:17:28.740 LOG       Variable         Resolved data:
 6825.00
-15:28:02.296 INFO      Verify           Interpreting Verify component name:Total
-15:28:02.353 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.740 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.786 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:02.355 LOG       Verify           Expression evaluated to:6825.00
-15:28:02.355 LOG       Verify           Expected from expression:
+13:17:28.788 LOG       Verify           Expression evaluated to:6825.00
+13:17:28.788 LOG       Verify           Expected from expression:
 6825.00
-15:28:02.403 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.826 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.405 LOG       Verify           Expression evaluated to:6825.00
-15:28:02.405 LOG       Verify           Actual from expression:
+13:17:28.828 LOG       Verify           Expression evaluated to:6825.00
+13:17:28.828 LOG       Verify           Actual from expression:
 6825.00
-15:28:02.405 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.405 INFO      IterateData      Iteration number 6 started.
-15:28:02.405 LOG       IterateData      Iteration Data:
+13:17:28.828 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.828 INFO      IterateData      Iteration number 6 started.
+13:17:28.829 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1464,37 +1467,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>2170.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.405 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.405 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.829 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.829 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.449 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.874 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.454 LOG       Expression       Expression evaluated to:2170.00
-15:28:02.454 LOG       Variable         Resolved data:
+13:17:28.877 LOG       Expression       Expression evaluated to:2170.00
+13:17:28.877 LOG       Variable         Resolved data:
 2170.00
-15:28:02.454 INFO      Verify           Interpreting Verify component name:Total
-15:28:02.496 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.878 INFO      Verify           Interpreting Verify component name:Total
+13:17:28.924 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:02.498 LOG       Verify           Expression evaluated to:2170.00
-15:28:02.498 LOG       Verify           Expected from expression:
+13:17:28.927 LOG       Verify           Expression evaluated to:2170.00
+13:17:28.927 LOG       Verify           Expected from expression:
 2170.00
-15:28:02.543 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:28.961 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.545 LOG       Verify           Expression evaluated to:2170.00
-15:28:02.545 LOG       Verify           Actual from expression:
+13:17:28.963 LOG       Verify           Expression evaluated to:2170.00
+13:17:28.963 LOG       Verify           Actual from expression:
 2170.00
-15:28:02.545 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.545 INFO      IterateData      Iteration number 7 started.
-15:28:02.545 LOG       IterateData      Iteration Data:
+13:17:28.963 INFO      Verify           Expected and Actual data was found to be identical
+13:17:28.963 INFO      IterateData      Iteration number 7 started.
+13:17:28.963 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1521,37 +1524,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>1850.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.545 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.545 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:28.963 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:28.963 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.588 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.000 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.593 LOG       Expression       Expression evaluated to:1850.00
-15:28:02.593 LOG       Variable         Resolved data:
+13:17:29.005 LOG       Expression       Expression evaluated to:1850.00
+13:17:29.005 LOG       Variable         Resolved data:
 1850.00
-15:28:02.593 INFO      Verify           Interpreting Verify component name:Total
-15:28:02.646 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.005 INFO      Verify           Interpreting Verify component name:Total
+13:17:29.046 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:02.647 LOG       Verify           Expression evaluated to:1850.00
-15:28:02.647 LOG       Verify           Expected from expression:
+13:17:29.047 LOG       Verify           Expression evaluated to:1850.00
+13:17:29.048 LOG       Verify           Expected from expression:
 1850.00
-15:28:02.689 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.082 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.691 LOG       Verify           Expression evaluated to:1850.00
-15:28:02.692 LOG       Verify           Actual from expression:
+13:17:29.084 LOG       Verify           Expression evaluated to:1850.00
+13:17:29.084 LOG       Verify           Actual from expression:
 1850.00
-15:28:02.692 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.692 INFO      IterateData      Iteration number 8 started.
-15:28:02.692 LOG       IterateData      Iteration Data:
+13:17:29.085 INFO      Verify           Expected and Actual data was found to be identical
+13:17:29.085 INFO      IterateData      Iteration number 8 started.
+13:17:29.085 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1578,37 +1581,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>1187.50</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.692 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.692 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:29.085 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:29.085 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.750 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.124 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.758 LOG       Expression       Expression evaluated to:1187.50
-15:28:02.758 LOG       Variable         Resolved data:
+13:17:29.129 LOG       Expression       Expression evaluated to:1187.50
+13:17:29.129 LOG       Variable         Resolved data:
 1187.50
-15:28:02.758 INFO      Verify           Interpreting Verify component name:Total
-15:28:02.818 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.129 INFO      Verify           Interpreting Verify component name:Total
+13:17:29.165 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:02.821 LOG       Verify           Expression evaluated to:1187.50
-15:28:02.821 LOG       Verify           Expected from expression:
+13:17:29.167 LOG       Verify           Expression evaluated to:1187.50
+13:17:29.167 LOG       Verify           Expected from expression:
 1187.50
-15:28:02.912 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.210 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:02.915 LOG       Verify           Expression evaluated to:1187.50
-15:28:02.915 LOG       Verify           Actual from expression:
+13:17:29.212 LOG       Verify           Expression evaluated to:1187.50
+13:17:29.212 LOG       Verify           Actual from expression:
 1187.50
-15:28:02.915 INFO      Verify           Expected and Actual data was found to be identical
-15:28:02.915 INFO      IterateData      Iteration number 9 started.
-15:28:02.915 LOG       IterateData      Iteration Data:
+13:17:29.212 INFO      Verify           Expected and Actual data was found to be identical
+13:17:29.212 INFO      IterateData      Iteration number 9 started.
+13:17:29.212 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1635,37 +1638,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>7225.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:02.915 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:02.915 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:29.213 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:29.213 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.978 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.246 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:02.985 LOG       Expression       Expression evaluated to:7225.00
-15:28:02.985 LOG       Variable         Resolved data:
+13:17:29.252 LOG       Expression       Expression evaluated to:7225.00
+13:17:29.253 LOG       Variable         Resolved data:
 7225.00
-15:28:02.985 INFO      Verify           Interpreting Verify component name:Total
-15:28:03.042 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.253 INFO      Verify           Interpreting Verify component name:Total
+13:17:29.306 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:03.045 LOG       Verify           Expression evaluated to:7225.00
-15:28:03.045 LOG       Verify           Expected from expression:
+13:17:29.308 LOG       Verify           Expression evaluated to:7225.00
+13:17:29.308 LOG       Verify           Expected from expression:
 7225.00
-15:28:03.087 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.348 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:03.089 LOG       Verify           Expression evaluated to:7225.00
-15:28:03.089 LOG       Verify           Actual from expression:
+13:17:29.349 LOG       Verify           Expression evaluated to:7225.00
+13:17:29.349 LOG       Verify           Actual from expression:
 7225.00
-15:28:03.089 INFO      Verify           Expected and Actual data was found to be identical
-15:28:03.089 INFO      IterateData      Iteration number 10 started.
-15:28:03.089 LOG       IterateData      Iteration Data:
+13:17:29.349 INFO      Verify           Expected and Actual data was found to be identical
+13:17:29.350 INFO      IterateData      Iteration number 10 started.
+13:17:29.350 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1692,37 +1695,37 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>4333.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:03.089 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:03.089 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:29.350 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:29.350 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:03.132 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.391 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:03.136 LOG       Expression       Expression evaluated to:4333.00
-15:28:03.137 LOG       Variable         Resolved data:
+13:17:29.396 LOG       Expression       Expression evaluated to:4333.00
+13:17:29.396 LOG       Variable         Resolved data:
 4333.00
-15:28:03.137 INFO      Verify           Interpreting Verify component name:Total
-15:28:03.179 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.396 INFO      Verify           Interpreting Verify component name:Total
+13:17:29.437 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:03.181 LOG       Verify           Expression evaluated to:4333.00
-15:28:03.181 LOG       Verify           Expected from expression:
+13:17:29.439 LOG       Verify           Expression evaluated to:4333.00
+13:17:29.439 LOG       Verify           Expected from expression:
 4333.00
-15:28:03.224 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.483 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:03.227 LOG       Verify           Expression evaluated to:4333.00
-15:28:03.227 LOG       Verify           Actual from expression:
+13:17:29.486 LOG       Verify           Expression evaluated to:4333.00
+13:17:29.486 LOG       Verify           Actual from expression:
 4333.00
-15:28:03.227 INFO      Verify           Expected and Actual data was found to be identical
-15:28:03.227 INFO      IterateData      Iteration number 11 started.
-15:28:03.227 LOG       IterateData      Iteration Data:
+13:17:29.487 INFO      Verify           Expected and Actual data was found to be identical
+13:17:29.487 INFO      IterateData      Iteration number 11 started.
+13:17:29.487 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -1749,55 +1752,55 @@ loopThroughOutput.record['employee-dtl']['emp-dtl-total']
     <emp-dtl-total>6750.00</emp-dtl-total>
   </employee-dtl>
 </record>
-15:28:03.227 INFO      Variable         Interpreting Variable id:expectTotal
-15:28:03.227 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+13:17:29.487 INFO      Variable         Interpreting Variable id:expectTotal
+13:17:29.487 INFO      Expression       Interpreting Expression:var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:03.275 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.526 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
 var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)
-15:28:03.279 LOG       Expression       Expression evaluated to:6750.00
-15:28:03.279 LOG       Variable         Resolved data:
+13:17:29.529 LOG       Expression       Expression evaluated to:6750.00
+13:17:29.529 LOG       Variable         Resolved data:
 6750.00
-15:28:03.279 INFO      Verify           Interpreting Verify component name:Total
-15:28:03.331 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.529 INFO      Verify           Interpreting Verify component name:Total
+13:17:29.567 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 expectTotal
-15:28:03.333 LOG       Verify           Expression evaluated to:6750.00
-15:28:03.333 LOG       Verify           Expected from expression:
+13:17:29.568 LOG       Verify           Expression evaluated to:6750.00
+13:17:29.568 LOG       Verify           Expected from expression:
 6750.00
-15:28:03.375 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+13:17:29.604 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 loopThroughOutput.record['employee-dtl']['emp-dtl-total']
-15:28:03.378 LOG       Verify           Expression evaluated to:6750.00
-15:28:03.378 LOG       Verify           Actual from expression:
+13:17:29.608 LOG       Verify           Expression evaluated to:6750.00
+13:17:29.608 LOG       Verify           Actual from expression:
 6750.00
-15:28:03.378 INFO      Verify           Expected and Actual data was found to be identical
-15:28:03.378 INFO      IterateData      IterateData completed
-15:28:03.378 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: ${outDatasetNameActual}
-15:28:03.378 INFO      VerifyRemoteFile   Variable substitution found in actual dataset name
-15:28:03.378 INFO      VerifyRemoteFile   Actual dataset name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT
-15:28:03.378 INFO      VerifyRemoteFile   Variable substitution found in expected dataset name
-15:28:03.378 INFO      VerifyRemoteFile   Expected dataset name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
-15:28:03.378 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 11 to 12
-15:28:03.378 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 14 to 15
-15:28:03.378 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 17 to 18
-15:28:03.379 INFO      CWCC Batch       Sending Job execution request to Host 
-15:28:03.875 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/8f8873bb79de4e2286b3408c0b4939a3
-15:28:04.462 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>8f8873bb79de4e2286b3408c0b4939a3</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT</olddsn><newdsn>HDDRXM0.DEMO.TTTFT.CWXTRPT</newdsn><compareopts><compareopt>excflds=12,2,15,2,18,2</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
-15:28:04.962 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0782705</jobid><jobname>HDDRXM0S</jobname><starttime>20190912092804926</starttime></xatz_response></XATZRESP>
-15:28:04.963 LOG       HCIClient        Response received from Host. Message: JobId:J0782705
-15:28:04.963 INFO      HCIClient        Job has been started at host with JobId:J0782705
-15:28:04.963 INFO      CWCC Batch       Waiting for Execution Result from Host
-15:28:08.120 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0782705</jobid></xatz_request></XATZREQ>
-15:28:08.427 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0S</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
-15:28:08.427 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
-15:28:11.743 INFO      VerifyRemoteFile Dataset compared to be as expected
-15:28:11.746 INFO      VerifyRemoteFile Expected and Actual datasets were found to be identical
-15:28:11.746 INFO      Scope            Scope completed
-15:28:11.746 COMMENT   Engine           Test Scenario execution ended
+13:17:29.608 INFO      Verify           Expected and Actual data was found to be identical
+13:17:29.608 INFO      IterateData      IterateData completed
+13:17:29.608 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: ${outDatasetNameActual}
+13:17:29.608 INFO      VerifyRemoteFile   Variable substitution found in actual dataset name
+13:17:29.608 INFO      VerifyRemoteFile   Actual dataset name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT
+13:17:29.608 INFO      VerifyRemoteFile   Variable substitution found in expected dataset name
+13:17:29.608 INFO      VerifyRemoteFile   Expected dataset name is now:HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
+13:17:29.609 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 11 to 12
+13:17:29.609 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 14 to 15
+13:17:29.609 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 17 to 18
+13:17:29.609 INFO      CWCC Batch       Sending Job execution request to Host 
+13:17:30.436 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/8f80fdb2a392432da8d70a753375f1a1
+13:17:31.116 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>8f80fdb2a392432da8d70a753375f1a1</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT</olddsn><newdsn>HDDRXM0.DEMO.TTTFT.CWXTRPT</newdsn><compareopts><compareopt>excflds=12,2,15,2,18,2</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
+13:17:31.895 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0784616</jobid><jobname>HDDRXM0S</jobname><starttime>20190918071731466</starttime></xatz_response></XATZRESP>
+13:17:31.896 LOG       HCIClient        Response received from Host. Message: JobId:J0784616
+13:17:31.896 INFO      HCIClient        Job has been started at host with JobId:J0784616
+13:17:31.896 INFO      CWCC Batch       Waiting for Execution Result from Host
+13:17:35.051 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0784616</jobid></xatz_request></XATZREQ>
+13:17:35.408 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0S</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+13:17:35.408 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+13:17:38.762 INFO      VerifyRemoteFile Dataset compared to be as expected
+13:17:38.771 INFO      VerifyRemoteFile Expected and Actual datasets were found to be identical
+13:17:38.771 INFO      Scope            Scope completed
+13:17:38.771 COMMENT   Engine           Test Scenario execution ended

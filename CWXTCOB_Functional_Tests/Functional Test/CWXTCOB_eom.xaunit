@@ -2,37 +2,22 @@
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob">
   <Description>Program reads a file of records for employees containing, times worked, revenues achieved. Based on some rules creates a weekly report. At month end, and additional section gets generated in the report&#xD;
 &#xD;
-This scenario is not working yet:&#xD;
-Execute Xchange to simulate end of month execution</Description>
+Execute program on a "normal" day&#xD;
+- Prepare mainframe input dataset EMPFILE from local data&#xD;
+- Execute CWXTCOB&#xD;
+- Read output file RPTFILE&#xD;
+- Verify for each detail record, that total wages equal sum of wages, overtime and commision&#xD;
+- Compare actual RPTFILE against expected RPTFILE&#xD;
+&#xD;
+Not working yet:&#xD;
+Store expected RPFILE data locally and restore to mainframe</Description>
   <Test>
-    <Job name="Set Date and Time" jobName="HDDRXM0G">
-      <Content><![CDATA[//XGSRTREQ EXEC PGM=SORT                                                
-//SYSOUT   DD   SYSOUT=*                                                
-//SORTIN   DD   DISP=SHR,DSN=HDDRXM0.DEMO.TTTFT.XGSEQINP(TTTFT) 
-//SORTOUT  DD   DSN=&&XGINPREQ,DISP=(NEW,PASS),                         
-// SPACE=(CYL,(1,1),RLSE),UNIT=SYSALLDA,                                
-// DCB=(RECFM=FB,LRECL=80,BLKSIZE=8000)                                 
-//SYSIN    DD   *                                                       
- SORT FIELDS=(6,4,CH,A,13,36,CH,A)                                      
-/*                                                                      
-//*                                                                     
-//XGSETREQ EXEC PGM=XGSETREQ                                            
-//*                                                                     
-//STEPLIB  DD   DISP=SHR,DSN=SYS2.CW.XGR17Y.SLXGLOAD 
-//*                                                                     
-//XGINPREQ DD   DSN=&&XGINPREQ,DISP=(OLD,DELETE)                        
-//SYSPRINT DD   SYSOUT=*                                                
-//XGOUTBDT DD   SYSOUT=*                                                
-//XGOUTBOF DD   SYSOUT=*                                                
-//XGOUTCDT DD   SYSOUT=*                                                
-//XGOUTCOF DD   SYSOUT=*]]></Content>
-    </Job>
     <Scope name="Initialize" disabled="false">
       <Scope name="Variable Set Up" disabled="false">
         <Variable id="empInDatasetNameHourly">HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</Variable>
         <Variable id="empInDatasetNameSales">HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</Variable>
         <Variable id="empInDatasetNameMgmt">HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</Variable>
-        <Variable id="outDatasetNameActual">HDDRXM0.DEMO.TTTFT.CWXTRPT.EOM</Variable>
+        <Variable id="outDatasetNameActual">HDDRXM0.DEMO.TTTFT.CWXTRPT</Variable>
         <Variable id="outDatasetNameExpected">HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT</Variable>
         <Variable id="empInRecordsHourly" filePath="Input_Data/employee_input_file_hourly.xml" />
         <Variable id="empInRecordsSales" filePath="Input_Data/employee_input_file_sales.xml" />
@@ -41,11 +26,11 @@ Execute Xchange to simulate end of month execution</Description>
         <Variable id="rptExpectedFullRecords" filePath="Output_Data/report_file_expected_unformatted.xml" />
       </Scope>
       <Scope name="Dataset Setup" disabled="false">
-        <WriteRemoteFile fileName="${empInDatasetNameHourly}" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsHourly" />
-        <WriteRemoteFile fileName="${empInDatasetNameSales}" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsSales" />
-        <WriteRemoteFile fileName="${empInDatasetNameMgmt}" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="empInRecordsMgmt" />
+        <WriteRemoteFile fileName="${empInDatasetNameHourly}" id="empInDatasetHourly" label="Employee Indataset Hourly" mDataDefinitionName="empfile_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsHourly" />
+        <WriteRemoteFile fileName="${empInDatasetNameSales}" id="empInDatasetSales" label="Employee Indataset Sales" mDataDefinitionName="empfile_sales" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsSales" />
+        <WriteRemoteFile fileName="${empInDatasetNameMgmt}" id="empInDatasetMgmt" label="Employee Indataset Mgmt" mDataDefinitionName="empfile_mgmt" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="5" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old" referencedId="empInRecordsMgmt" />
         <Scope name="Skip" disabled="true">
-          <WriteRemoteFile fileName="${outDatasetNameExpected}" id="rptOutDatasetExpected" label="Report Outdataset Expected" mDataDefinitionName="rptunformatted" recordLength="81" recordFormat="FBA" blockSize="27945" volumnName="PCC003" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New" referencedId="rptExpectedFullRecords" />
+          <WriteRemoteFile fileName="${outDatasetNameExpected}" id="rptOutDatasetExpected" label="Report Outdataset Expected" mDataDefinitionName="rptunformatted" recordLength="80" recordFormat="FB" blockSize="8000" volumnName="PCC003" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="BASIC" memberName="" disposition="Old" referencedId="rptExpectedFullRecords" />
         </Scope>
       </Scope>
     </Scope>
@@ -68,92 +53,35 @@ Execute Xchange to simulate end of month execution</Description>
 //  DSN=${outDatasetNameActual}]]></Content>
         </Setup>
       </Component>
-      <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDtOut" />
+      <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet" />
       <IterateData id="loopThroughOutput" referencedId="readOutDatasetActual" dataPath="">
         <Variable id="expectTotal">
           <data:Replaceable>
             <Expression>
-              <Statement><![CDATA[var tmpWages = Number(loopThroughOutput.record.employee_dtl.emp_dtl_wages)
-var tmpOt    = Number(loopThroughOutput.record.employee_dtl.emp_dtl_ot)
-var tmpComm  = Number(loopThroughOutput.record.employee_dtl.emp_dtl_comm)
+              <Statement><![CDATA[var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)]]></Statement>
             </Expression>
           </data:Replaceable>
         </Variable>
-        <Log>
-          <data:String>Expect Total:</data:String>
-          <data:Replaceable>
-            <Expression>
-              <Statement><![CDATA[expectTotal]]></Statement>
-            </Expression>
-          </data:Replaceable>
-        </Log>
-        <Log>
-          <data:String>Actual Total:</data:String>
-          <data:Replaceable>
-            <Expression>
-              <Statement><![CDATA[loopThroughOutput.record.employee_dtl.emp_dtl_total]]></Statement>
-            </Expression>
-          </data:Replaceable>
-        </Log>
         <Verify name="Total" haltExecution="false">
-          <Statement><![CDATA[loopThroughOutput.record.employee_dtl.emp_dtl_total == expectTotal]]></Statement>
+          <Expected expression="expectTotal" />
+          <Actual expression="loopThroughOutput.record['employee-dtl']['emp-dtl-total']" />
         </Verify>
       </IterateData>
-      <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdrOut" actualPath="${outDatasetNameActual}" expectedPath="${outDatasetNameExpected}">
+      <VerifyRemoteFile name="Compare" mode="COMPARE" haltExecution="false" mDataDefinition="rptHdr" actualPath="${outDatasetNameActual}" expectedPath="${outDatasetNameExpected}">
         <ExcludedFields>
-          <Path>/employee_hdr1/emp_run_mm</Path>
-          <Path>/employee_hdr1/emp_run_dd</Path>
-          <Path>/employee_hdr1/emp_run_yy</Path>
+          <Path>/employee-hdr1/emp-run-mm</Path>
+          <Path>/employee-hdr1/emp-run-dd</Path>
+          <Path>/employee-hdr1/emp-run-yy</Path>
         </ExcludedFields>
       </VerifyRemoteFile>
     </Scope>
   </Test>
   <MetaData>
-    <MDataDefinition name="rptHdrOut">
-      <employee_hdr1 native="01 EMPLOYEE-HDR1.">
-        <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-        <filler2 type="Character" length="11" bytes="11" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
-        <emp_run_mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
-        <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-        <emp_run_dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
-        <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-        <emp_run_yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
-        <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
-        <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
-        <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
-        <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
-        <emp_page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
-      </employee_hdr1>
-    </MDataDefinition>
-    <MDataDefinition name="rptEmpDtOut">
-      <employee_dtl native="01 EMPLOYEE-DTL.">
-        <filler1 type="Character" length="2" bytes="2" native="05 FILLER PIC X VALUE SPACES." />
-        <emp_dtl_name type="Character" length="15" bytes="15" native="05 EMP-DTL-NAME PIC X(15)." />
-        <filler2 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-        <emp_dtl_region type="Character" length="5" bytes="5" native="05 EMP-DTL-REGION PIC X(5)." />
-        <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-        <emp_dtl_type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
-        <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-        <emp_dtl_hire_mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
-        <emp_dtl_slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
-        <emp_dtl_hire_dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
-        <emp_dtl_slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
-        <emp_dtl_hire_yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
-        <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-        <emp_dtl_yrs_of_service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
-        <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-        <emp_dtl_wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
-        <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-        <emp_dtl_ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
-        <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-        <emp_dtl_comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
-        <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-        <emp_dtl_total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
-      </employee_dtl>
-    </MDataDefinition>
     <MDataDefinition name="empfile_hourly">
       <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
         <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
@@ -230,9 +158,50 @@ tmpTotal.toFixed(2)]]></Statement>
     </MDataDefinition>
     <MDataDefinition name="rptunformatted">
       <rpt-unformatted native="01 RPT-UNFORMATTED.">
-        <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X(2) VALUE SPACES." />
-        <filler2 type="Character" length="80" bytes="80" native="05 FILLER PIC X(79) VALUE SPACES." />
+        <filler1 type="Character" length="80" bytes="80" native="05 FILLER PIC X(80) VALUE SPACES." />
       </rpt-unformatted>
+    </MDataDefinition>
+    <MDataDefinition name="rptEmpDet">
+      <employee-dtl native="01 EMPLOYEE-DTL.">
+        <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+        <emp-dtl-name type="Character" length="15" bytes="15" native="05 EMP-DTL-NAME PIC X(15)." />
+        <filler2 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+        <emp-dtl-region type="Character" length="5" bytes="5" native="05 EMP-DTL-REGION PIC X(5)." />
+        <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+        <emp-dtl-type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
+        <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+        <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+        <emp-dtl-slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
+        <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+        <emp-dtl-slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
+        <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+        <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
+        <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
+        <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+        <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
+        <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+        <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
+        <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
+        <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
+        <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+        <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
+      </employee-dtl>
+    </MDataDefinition>
+    <MDataDefinition name="rptHdr">
+      <employee-hdr1 native="01 EMPLOYEE-HDR1.">
+        <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
+        <filler2 type="Character" length="10" bytes="10" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
+        <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
+        <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+        <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
+        <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
+        <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
+        <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
+        <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
+        <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
+        <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
+        <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
+      </employee-hdr1>
     </MDataDefinition>
     <Component name="CWXTCOB" type="COBOL">
       <INOUT>

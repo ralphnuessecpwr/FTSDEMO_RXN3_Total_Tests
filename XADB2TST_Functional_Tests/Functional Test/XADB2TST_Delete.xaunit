@@ -37,7 +37,7 @@ Sub Scope "Execute Tests"&#xD;
 Scope "Clean Up Database"&#xD;
 - delete inserted row from the table to clean up database after test</Description>
   <Test>
-    <Scope name="Initialization" disabled="false">
+    <Scope name="Initialization" disabled="true">
       <Variable id="inputRecords" filePath="Input_Data/XADB2TST_Delete_Scenario_Records.xml" />
       <Variable id="oldFirstname">=inputRecords.record[0].dclxaemployee.firstname</Variable>
       <Variable id="oldLastname">=inputRecords.record[0].dclxaemployee.lastname</Variable>
