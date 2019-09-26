@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.5.2.v20190729-0425_142?>
-<!--Topaz for Total Test 19.5.2.v20190729-0425_142 05.08.2019 19:42:15-->
+<?totaltestVersion 19.5.1.v20190606-1245_92?>
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 26, 2019 8:32:36 AM-->
 <testExecutions version="1">
-  <file path="C:\Users\cwde-rnuesse\git\TTT_Tech_Summit\CWXTCOB_Unit_Tests\Unit Test\Scenarios\CWXTCOB_Scenario_Special_Case_Data.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTCOB_Unit_Tests\Unit Test\Scenarios\CWXTCOB_Scenario_Special_Case_Data.testscenario">
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.00002: Check for PARM_DATA"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\TTT_Tech_Summit\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_RPTFILE_FILE_Special_Case_Data.stub">
-    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00038: RPTFILE assertion.00001: Check for ERROR_LINE">
-      <failure message="Check for ERROR_LINE failed">Check for ERROR_LINE failed
-
-Actual Value:     INVALID EMPLOYEE TYPE
-
-Expected Value:  = INVALID EMPLOYEE TYPE</failure>
-    </testCase>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_RPTFILE_FILE_Special_Case_Data.stub">
+    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00038: RPTFILE assertion.00001: Check for ERROR_LINE"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00031: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>
@@ -96,21 +90,9 @@ Expected Value:  = INVALID EMPLOYEE TYPE</failure>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00017: Check for FILLER6"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00019: Check for FILLER7"/>
-    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00020: Check for EMP_DTL_COMM">
-      <failure message="Check for EMP_DTL_COMM failed">Check for EMP_DTL_COMM failed
-
-Actual Value:    20.00
-
-Expected Value:  = 2000</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
-      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
-
-Actual Value:    770.00
-
-Expected Value:  = 77000</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00011: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00012: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00012: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00012: RPTFILE assertion.00003: Check for FILLER1"/>
@@ -357,18 +339,12 @@ Expected Value:  = 77000</failure>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00024: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00024: RPTFILE assertion.00002: Check for FILLER1"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00024: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00024: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL">
-      <failure message="Check for EMP_GRAND_TOTAL failed">Check for EMP_GRAND_TOTAL failed
-
-Actual Value:    43106.00
-
-Expected Value:  = 4310600</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00024: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\TTT_Tech_Summit\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_DATETIME_01.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_DATETIME_01.stub">
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.Stub: 'CWXTCOB_DATETIME_01'.00026: 'ACCEPT DATE' assertion.ACCEPT DATE"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\TTT_Tech_Summit\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_CWXTDATE_Special_Case_Data.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_CWXTDATE_Special_Case_Data.stub">
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion.00001: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion.00002: Check for YRS_OF_SERVICE"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion.00003: Check for TODAYS_DATE"/>
@@ -460,7 +436,7 @@ Expected Value:  = 4310600</failure>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion.00005: Check for WA_EMP_HIRE_MM"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion.00006: Check for WA_EMP_HIRE_DD"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\TTT_Tech_Summit\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_CWXTSUBC_Special_Case_Data.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTCOB_Unit_Tests\Unit Test\Stubs\CWXTCOB_CWXTSUBC_Special_Case_Data.stub">
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00001: CWXTSUBC assertion.00001: Check for EMP_TYPE"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00001: CWXTSUBC assertion.00002: Check for CALC_SALES"/>
     <testCase duration="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00002: CWXTSUBC assertion.00001: Check for EMP_TYPE"/>

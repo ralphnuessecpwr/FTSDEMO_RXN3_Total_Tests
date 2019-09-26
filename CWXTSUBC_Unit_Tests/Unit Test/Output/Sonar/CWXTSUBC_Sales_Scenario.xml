@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 26, 2019 3:30:44 AM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 26, 2019 8:36:21 AM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1.00001: Check for EMP_TYPE"/>
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1.00002: Check for SALES_AMOUNT"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1.00003: Check for COMM_TOTAL">
-      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
-
-Actual Value:    3300.00
-
-Expected Value:  = 3200.00</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1.00003: Check for COMM_TOTAL"/>
   </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2.00001: Check for EMP_TYPE"/>
@@ -32,25 +26,5 @@ Expected Value:  = 3200.00</failure>
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5.00001: Check for EMP_TYPE"/>
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5.00002: Check for SALES_AMOUNT"/>
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5.00003: Check for COMM_TOTAL"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00006: CWXTSUBCCase6.00001: Check for EMP_TYPE"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00006: CWXTSUBCCase6.00002: Check for SALES_AMOUNT"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00006: CWXTSUBCCase6.00003: Check for COMM_TOTAL"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00007: CWXTSUBCCase7.00001: Check for EMP_TYPE"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00007: CWXTSUBCCase7.00002: Check for SALES_AMOUNT"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00007: CWXTSUBCCase7.00003: Check for COMM_TOTAL"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00008: CWXTSUBCCase8.00001: Check for EMP_TYPE"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00008: CWXTSUBCCase8.00002: Check for SALES_AMOUNT"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00008: CWXTSUBCCase8.00003: Check for COMM_TOTAL"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales_Scenario.testscenario">
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00009: CWXTSUBCCase9.00001: Check for EMP_TYPE"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00009: CWXTSUBCCase9.00002: Check for SALES_AMOUNT"/>
-    <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00009: CWXTSUBCCase9.00003: Check for COMM_TOTAL"/>
   </file>
 </testExecutions>
