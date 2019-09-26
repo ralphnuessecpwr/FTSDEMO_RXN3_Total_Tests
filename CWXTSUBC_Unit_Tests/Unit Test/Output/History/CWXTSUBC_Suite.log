@@ -1,42 +1,37 @@
 
 ***************** Output from TTTRUNNR *****************
 
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-05-21 08:05.30��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-09-26 08:07.59��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
- STTR013I Processing test suite CWXTSUBC
- STTR014I Processing test scenario CWXTSUBC
- STTR028I Processing test case CWXTSUBC
+ STTR013I Processing test suite CWXTSUBC_Suite
+ STTR014I Processing test scenario CWXTSUBC_Mgmt_Scenario
+ STTR028I Processing test case CWXTSUBCCase1
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase2
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase3
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase4
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase5
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR014I Processing test scenario CWXTSUBC_Sales_Scenario
+ STTR028I Processing test case CWXTSUBCCase6
  STTR006I Executing target CWXTSUBC
- STTR014I Processing test scenario ��������
- STTR028I Processing test case CWXTSUBC
+ STTR028I Processing test case CWXTSUBCCase1
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase2
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase3
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase4
  STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
- STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
- STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
- STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
- STTR006I Executing target CWXTSUBC
- STTR028I Processing test case ��������
+ STTR028I Processing test case CWXTSUBCCase5
  STTR006I Executing target CWXTSUBC
  STTR008I All targets successfully executed
 
@@ -73,9 +68,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -84,8 +79,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857B028
- ---TARGCALL---entry newTARGET: 3857B028
+ ---TARGET---exit newTARGET: 38865028
+ ---TARGCALL---entry newTARGET: 38865028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -106,95 +101,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38865090
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B098
- ---addTargetArg---workingArea: 3857B088
+ AV ptr: 388650A0
+ ---addTargetArg---workingArea: 38865090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B088
+ ---T addTargetArg---workingArea: 38865090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B088
+ ---TARGARG--- workingArea: 38865090
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38865100
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857B098
+ AV ptr: 388650A0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B098
- ---addTargetArg---workingArea: 3857B0E8
+ AV ptr: 388650A0
+ ---addTargetArg---workingArea: 38865100
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B0E8
+ ---T addTargetArg---workingArea: 38865100
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B0E8
+ ---TARGARG--- workingArea: 38865100
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 388650D0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857B098
+ AV ptr: 388650A0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B098
- ---addTargetArg---workingArea: 3857B128
+ AV ptr: 388650A0
+ ---addTargetArg---workingArea: 388650D0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B128
+ ---T addTargetArg---workingArea: 388650D0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B128
+ ---TARGARG--- workingArea: 388650D0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -226,9 +248,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -237,8 +259,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857B0F8
- ---TARGCALL---entry newTARGET: 3857B0F8
+ ---TARGET---exit newTARGET: 38865110
+ ---TARGCALL---entry newTARGET: 38865110
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -259,95 +281,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38865810
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B820
- ---addTargetArg---workingArea: 3857B810
+ AV ptr: 38865820
+ ---addTargetArg---workingArea: 38865810
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B810
+ ---T addTargetArg---workingArea: 38865810
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B810
+ ---TARGARG--- workingArea: 38865810
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38865880
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857B820
+ AV ptr: 38865820
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B820
- ---addTargetArg---workingArea: 3857B870
+ AV ptr: 38865820
+ ---addTargetArg---workingArea: 38865880
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B870
+ ---T addTargetArg---workingArea: 38865880
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B870
+ ---TARGARG--- workingArea: 38865880
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38865850
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857B820
+ AV ptr: 38865820
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857B820
- ---addTargetArg---workingArea: 3857B8B0
+ AV ptr: 38865820
+ ---addTargetArg---workingArea: 38865850
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857B8B0
+ ---T addTargetArg---workingArea: 38865850
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857B8B0
+ ---TARGARG--- workingArea: 38865850
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -379,9 +428,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -390,8 +439,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857B880
- ---TARGCALL---entry newTARGET: 3857B880
+ ---TARGET---exit newTARGET: 38865890
+ ---TARGCALL---entry newTARGET: 38865890
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -412,95 +461,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38865F90
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857BFA8
- ---addTargetArg---workingArea: 3857BF98
+ AV ptr: 38865FA0
+ ---addTargetArg---workingArea: 38865F90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857BF98
+ ---T addTargetArg---workingArea: 38865F90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857BF98
+ ---TARGARG--- workingArea: 38865F90
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38866000
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857BFA8
+ AV ptr: 38865FA0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857BFA8
- ---addTargetArg---workingArea: 3857BFF8
+ AV ptr: 38865FA0
+ ---addTargetArg---workingArea: 38866000
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857BFF8
+ ---T addTargetArg---workingArea: 38866000
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857BFF8
+ ---TARGARG--- workingArea: 38866000
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38865FD0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857BFA8
+ AV ptr: 38865FA0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857BFA8
- ---addTargetArg---workingArea: 3857C038
+ AV ptr: 38865FA0
+ ---addTargetArg---workingArea: 38865FD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857C038
+ ---T addTargetArg---workingArea: 38865FD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857C038
+ ---TARGARG--- workingArea: 38865FD0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -532,9 +608,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -543,8 +619,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857C008
- ---TARGCALL---entry newTARGET: 3857C008
+ ---TARGET---exit newTARGET: 38866010
+ ---TARGCALL---entry newTARGET: 38866010
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -565,95 +641,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38866710
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857C730
- ---addTargetArg---workingArea: 3857C720
+ AV ptr: 38866720
+ ---addTargetArg---workingArea: 38866710
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857C720
+ ---T addTargetArg---workingArea: 38866710
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857C720
+ ---TARGARG--- workingArea: 38866710
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38866780
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857C730
+ AV ptr: 38866720
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857C730
- ---addTargetArg---workingArea: 3857C780
+ AV ptr: 38866720
+ ---addTargetArg---workingArea: 38866780
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857C780
+ ---T addTargetArg---workingArea: 38866780
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857C780
+ ---TARGARG--- workingArea: 38866780
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38866750
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857C730
+ AV ptr: 38866720
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857C730
- ---addTargetArg---workingArea: 3857C7C0
+ AV ptr: 38866720
+ ---addTargetArg---workingArea: 38866750
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857C7C0
+ ---T addTargetArg---workingArea: 38866750
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857C7C0
+ ---TARGARG--- workingArea: 38866750
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -685,9 +788,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -696,8 +799,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857C790
- ---TARGCALL---entry newTARGET: 3857C790
+ ---TARGET---exit newTARGET: 38866790
+ ---TARGCALL---entry newTARGET: 38866790
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -718,95 +821,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38866E90
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857CEB8
- ---addTargetArg---workingArea: 3857CEA8
+ AV ptr: 38866EA0
+ ---addTargetArg---workingArea: 38866E90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857CEA8
+ ---T addTargetArg---workingArea: 38866E90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857CEA8
+ ---TARGARG--- workingArea: 38866E90
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38866F00
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857CEB8
+ AV ptr: 38866EA0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857CEB8
- ---addTargetArg---workingArea: 3857CF08
+ AV ptr: 38866EA0
+ ---addTargetArg---workingArea: 38866F00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857CF08
+ ---T addTargetArg---workingArea: 38866F00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857CF08
+ ---TARGARG--- workingArea: 38866F00
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38866ED0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857CEB8
+ AV ptr: 38866EA0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857CEB8
- ---addTargetArg---workingArea: 3857CF48
+ AV ptr: 38866EA0
+ ---addTargetArg---workingArea: 38866ED0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857CF48
+ ---T addTargetArg---workingArea: 38866ED0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857CF48
+ ---TARGARG--- workingArea: 38866ED0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -838,9 +968,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -849,8 +979,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857CF18
- ---TARGCALL---entry newTARGET: 3857CF18
+ ---TARGET---exit newTARGET: 38866F10
+ ---TARGCALL---entry newTARGET: 38866F10
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -871,95 +1001,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38867610
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857D640
- ---addTargetArg---workingArea: 3857D630
+ AV ptr: 38867620
+ ---addTargetArg---workingArea: 38867610
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857D630
+ ---T addTargetArg---workingArea: 38867610
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857D630
+ ---TARGARG--- workingArea: 38867610
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38867680
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857D640
+ AV ptr: 38867620
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857D640
- ---addTargetArg---workingArea: 3857D690
+ AV ptr: 38867620
+ ---addTargetArg---workingArea: 38867680
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857D690
+ ---T addTargetArg---workingArea: 38867680
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857D690
+ ---TARGARG--- workingArea: 38867680
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38867650
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857D640
+ AV ptr: 38867620
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857D640
- ---addTargetArg---workingArea: 3857D6D0
+ AV ptr: 38867620
+ ---addTargetArg---workingArea: 38867650
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857D6D0
+ ---T addTargetArg---workingArea: 38867650
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857D6D0
+ ---TARGARG--- workingArea: 38867650
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -991,9 +1148,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1002,8 +1159,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857D6A0
- ---TARGCALL---entry newTARGET: 3857D6A0
+ ---TARGET---exit newTARGET: 38867690
+ ---TARGCALL---entry newTARGET: 38867690
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1024,95 +1181,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38867D90
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857DDC8
- ---addTargetArg---workingArea: 3857DDB8
+ AV ptr: 38867DA0
+ ---addTargetArg---workingArea: 38867D90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857DDB8
+ ---T addTargetArg---workingArea: 38867D90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857DDB8
+ ---TARGARG--- workingArea: 38867D90
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38867E00
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857DDC8
+ AV ptr: 38867DA0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857DDC8
- ---addTargetArg---workingArea: 3857DE18
+ AV ptr: 38867DA0
+ ---addTargetArg---workingArea: 38867E00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857DE18
+ ---T addTargetArg---workingArea: 38867E00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857DE18
+ ---TARGARG--- workingArea: 38867E00
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38867DD0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857DDC8
+ AV ptr: 38867DA0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857DDC8
- ---addTargetArg---workingArea: 3857DE58
+ AV ptr: 38867DA0
+ ---addTargetArg---workingArea: 38867DD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857DE58
+ ---T addTargetArg---workingArea: 38867DD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857DE58
+ ---TARGARG--- workingArea: 38867DD0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -1144,9 +1328,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1155,8 +1339,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857DE28
- ---TARGCALL---entry newTARGET: 3857DE28
+ ---TARGET---exit newTARGET: 38867E10
+ ---TARGCALL---entry newTARGET: 38867E10
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1177,95 +1361,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38868510
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857E550
- ---addTargetArg---workingArea: 3857E540
+ AV ptr: 38868520
+ ---addTargetArg---workingArea: 38868510
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857E540
+ ---T addTargetArg---workingArea: 38868510
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857E540
+ ---TARGARG--- workingArea: 38868510
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38868580
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857E550
+ AV ptr: 38868520
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857E550
- ---addTargetArg---workingArea: 3857E5A0
+ AV ptr: 38868520
+ ---addTargetArg---workingArea: 38868580
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857E5A0
+ ---T addTargetArg---workingArea: 38868580
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857E5A0
+ ---TARGARG--- workingArea: 38868580
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38868550
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857E550
+ AV ptr: 38868520
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857E550
- ---addTargetArg---workingArea: 3857E5E0
+ AV ptr: 38868520
+ ---addTargetArg---workingArea: 38868550
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857E5E0
+ ---T addTargetArg---workingArea: 38868550
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857E5E0
+ ---TARGARG--- workingArea: 38868550
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -1297,9 +1508,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1308,8 +1519,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857E5B0
- ---TARGCALL---entry newTARGET: 3857E5B0
+ ---TARGET---exit newTARGET: 38868590
+ ---TARGCALL---entry newTARGET: 38868590
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1330,95 +1541,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38868C90
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857ECD8
- ---addTargetArg---workingArea: 3857ECC8
+ AV ptr: 38868CA0
+ ---addTargetArg---workingArea: 38868C90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857ECC8
+ ---T addTargetArg---workingArea: 38868C90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857ECC8
+ ---TARGARG--- workingArea: 38868C90
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38868D00
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857ECD8
+ AV ptr: 38868CA0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857ECD8
- ---addTargetArg---workingArea: 3857ED28
+ AV ptr: 38868CA0
+ ---addTargetArg---workingArea: 38868D00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857ED28
+ ---T addTargetArg---workingArea: 38868D00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857ED28
+ ---TARGARG--- workingArea: 38868D00
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38868CD0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857ECD8
+ AV ptr: 38868CA0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857ECD8
- ---addTargetArg---workingArea: 3857ED68
+ AV ptr: 38868CA0
+ ---addTargetArg---workingArea: 38868CD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857ED68
+ ---T addTargetArg---workingArea: 38868CD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857ED68
+ ---TARGARG--- workingArea: 38868CD0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -1450,9 +1688,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1461,8 +1699,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857ED38
- ---TARGCALL---entry newTARGET: 3857ED38
+ ---TARGET---exit newTARGET: 38868D10
+ ---TARGCALL---entry newTARGET: 38868D10
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1483,95 +1721,122 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38869410
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857F460
- ---addTargetArg---workingArea: 3857F450
+ AV ptr: 38869420
+ ---addTargetArg---workingArea: 38869410
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857F450
+ ---T addTargetArg---workingArea: 38869410
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857F450
+ ---TARGARG--- workingArea: 38869410
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38869480
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857F460
+ AV ptr: 38869420
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857F460
- ---addTargetArg---workingArea: 3857F4B0
+ AV ptr: 38869420
+ ---addTargetArg---workingArea: 38869480
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857F4B0
+ ---T addTargetArg---workingArea: 38869480
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857F4B0
+ ---TARGARG--- workingArea: 38869480
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38869450
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857F460
+ AV ptr: 38869420
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857F460
- ---addTargetArg---workingArea: 3857F4F0
+ AV ptr: 38869420
+ ---addTargetArg---workingArea: 38869450
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857F4F0
+ ---T addTargetArg---workingArea: 38869450
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857F4F0
+ ---TARGARG--- workingArea: 38869450
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTSUBC
  ---openW_includeName---entry
@@ -1603,9 +1868,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019269, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019debb8c5dec030b190000000000000000000000
+   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV3.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1614,8 +1879,8 @@
  module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857F4C0
- ---TARGCALL---entry newTARGET: 3857F4C0
+ ---TARGET---exit newTARGET: 38869490
+ ---TARGCALL---entry newTARGET: 38869490
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1636,704 +1901,119 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 1
+ beforeLength: 1
+ afterLength: 1
  ---T addTargetArg---entry
  ---setData---entry
- cL: 1
- ---setData---exit
+ bL: 1, aL: 1
+ ---setData---exit --- A(data): 38869B90
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857FBE8
- ---addTargetArg---workingArea: 3857FBD8
+ AV ptr: 38869BA0
+ ---addTargetArg---workingArea: 38869B90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857FBD8
+ ---T addTargetArg---workingArea: 38869B90
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857FBD8
+ ---TARGARG--- workingArea: 38869B90
  ---TARGARG---entry
- length: 8
+ beforeLength: 8
+ afterLength: 8
  ---T addTargetArg---entry
  ---setData---entry
- cL: 8
- ---setData---exit
+ bL: 8, aL: 8
+ ---setData---exit --- A(data): 38869C00
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857FBE8
+ AV ptr: 38869BA0
  AV #: 1
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857FBE8
- ---addTargetArg---workingArea: 3857FC38
+ AV ptr: 38869BA0
+ ---addTargetArg---workingArea: 38869C00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857FC38
+ ---T addTargetArg---workingArea: 38869C00
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857FC38
+ ---TARGARG--- workingArea: 38869C00
  ---TARGARG---entry
- length: 4
+ beforeLength: 4
+ afterLength: 4
  ---T addTargetArg---entry
  ---setData---entry
- cL: 4
- ---setData---exit
+ bL: 4, aL: 4
+ ---setData---exit --- A(data): 38869BD0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
- AV ptr: 3857FBE8
+ AV ptr: 38869BA0
  AV #: 2
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 3857FBE8
- ---addTargetArg---workingArea: 3857FC78
+ AV ptr: 38869BA0
+ ---addTargetArg---workingArea: 38869BD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3857FC78
+ ---T addTargetArg---workingArea: 38869BD0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3857FC78
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---IDRDDIO---entry
- --->>>modName = CWXTCOB , csectName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---IDRDDIO---exit
- ---TARGET---entry
- module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
- ---TARGETcxx---entry
- ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3857FC48
- ---TARGCALL---entry newTARGET: 3857FC48
- ---T addTargetCall---entry
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---addTargetCall---entry
- AV ptr: 0
- AVb ptr: 0
- ---addTargetCall---exit
- ---T addTargetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---TARGCALL---exit
- ---TARGARG---entry
- length: 1
- ---T addTargetArg---entry
- ---setData---entry
- cL: 1
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 0
- AV #: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580370
- ---addTargetArg---workingArea: 38580360
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38580360
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38580360
- ---TARGARG---entry
- length: 8
- ---T addTargetArg---entry
- ---setData---entry
- cL: 8
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38580370
- AV #: 1
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580370
- ---addTargetArg---workingArea: 385803C0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 385803C0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 385803C0
- ---TARGARG---entry
- length: 4
- ---T addTargetArg---entry
- ---setData---entry
- cL: 4
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38580370
- AV #: 2
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580370
- ---addTargetArg---workingArea: 38580400
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38580400
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38580400
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---IDRDDIO---entry
- --->>>modName = CWXTCOB , csectName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---IDRDDIO---exit
- ---TARGET---entry
- module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
- ---TARGETcxx---entry
- ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 385803D0
- ---TARGCALL---entry newTARGET: 385803D0
- ---T addTargetCall---entry
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---addTargetCall---entry
- AV ptr: 0
- AVb ptr: 0
- ---addTargetCall---exit
- ---T addTargetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---TARGCALL---exit
- ---TARGARG---entry
- length: 1
- ---T addTargetArg---entry
- ---setData---entry
- cL: 1
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 0
- AV #: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580AF8
- ---addTargetArg---workingArea: 38580AE8
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38580AE8
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38580AE8
- ---TARGARG---entry
- length: 8
- ---T addTargetArg---entry
- ---setData---entry
- cL: 8
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38580AF8
- AV #: 1
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580AF8
- ---addTargetArg---workingArea: 38580B48
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38580B48
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38580B48
- ---TARGARG---entry
- length: 4
- ---T addTargetArg---entry
- ---setData---entry
- cL: 4
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38580AF8
- AV #: 2
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38580AF8
- ---addTargetArg---workingArea: 38580B88
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38580B88
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38580B88
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---IDRDDIO---entry
- --->>>modName = CWXTCOB , csectName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---IDRDDIO---exit
- ---TARGET---entry
- module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
- ---TARGETcxx---entry
- ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38580B58
- ---TARGCALL---entry newTARGET: 38580B58
- ---T addTargetCall---entry
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---addTargetCall---entry
- AV ptr: 0
- AVb ptr: 0
- ---addTargetCall---exit
- ---T addTargetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---TARGCALL---exit
- ---TARGARG---entry
- length: 1
- ---T addTargetArg---entry
- ---setData---entry
- cL: 1
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 0
- AV #: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581280
- ---addTargetArg---workingArea: 38581270
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38581270
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38581270
- ---TARGARG---entry
- length: 8
- ---T addTargetArg---entry
- ---setData---entry
- cL: 8
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38581280
- AV #: 1
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581280
- ---addTargetArg---workingArea: 385812D0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 385812D0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 385812D0
- ---TARGARG---entry
- length: 4
- ---T addTargetArg---entry
- ---setData---entry
- cL: 4
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38581280
- AV #: 2
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581280
- ---addTargetArg---workingArea: 38581310
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38581310
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38581310
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 4, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
- ---IDRDDIO---entry
- --->>>modName = CWXTCOB , csectName = CWXTSUBC
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  IDRU: Creation Date = 2019135, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a1802e85c3019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.RXN3.DEV1.LOAD.SSD
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---IDRDDIO---exit
- ---TARGET---entry
- module: CWXTCOB , csect: CWXTSUBC, entry: CWXTSUBC
- ---TARGETcxx---entry
- ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 385812E0
- ---TARGCALL---entry newTARGET: 385812E0
- ---T addTargetCall---entry
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---CC targetCall---entry
- CC AV ptr: 0
- CC AVb ptr: 0
- ---CC targetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---addTargetCall---entry
- AV ptr: 0
- AVb ptr: 0
- ---addTargetCall---exit
- ---T addTargetCall---exit
- ---~targetCall---entry
- ---~targetCall---exit
- ---TARGCALL---exit
- ---TARGARG---entry
- length: 1
- ---T addTargetArg---entry
- ---setData---entry
- cL: 1
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 0
- AV #: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581A08
- ---addTargetArg---workingArea: 385819F8
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 385819F8
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 385819F8
- ---TARGARG---entry
- length: 8
- ---T addTargetArg---entry
- ---setData---entry
- cL: 8
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38581A08
- AV #: 1
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581A08
- ---addTargetArg---workingArea: 38581A58
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38581A58
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38581A58
- ---TARGARG---entry
- length: 4
- ---T addTargetArg---entry
- ---setData---entry
- cL: 4
- ---setData---exit
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---addTargetArg---entry
- AV ptr: 38581A08
- AV #: 2
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- gDA
- AV ptr: 38581A08
- ---addTargetArg---workingArea: 38581A98
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38581A98
- ---~TTArgVal---entry
- ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38581A98
+ ---TARGARG--- workingArea: 38869BD0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 8, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---TGTRTRV---exit
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 4, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
