@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 27, 2019 2:31:38 AM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 27, 2019 10:27:01 AM-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" tests="8">
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00001: Check for EOM_SW"/>
@@ -368,120 +368,24 @@ Expected Value:  = Y</failure>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="8" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00001: Check for EOM_SW">
-      <failure>Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00002: Check for YRS_OF_SERVICE">
-      <failure>Error encountered parsing field YRS_OF_SERVICE
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00003: Check for RUN_YY">
-      <failure>Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00004: Check for RUN_MM">
-      <failure>Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00005: Check for RUN_DD">
-      <failure>Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00006: Check for HIRE_YY">
-      <failure>Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00007: Check for HIRE_MM">
-      <failure>Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00008: Check for HIRE_DD">
-      <failure>Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="8" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00001: Check for EOM_SW">
-      <failure>Error encountered parsing field EOM_SW
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00002: Check for YRS_OF_SERVICE">
-      <failure>Error encountered parsing field YRS_OF_SERVICE
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00003: Check for RUN_YY">
-      <failure>Error encountered parsing field RUN_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00004: Check for RUN_MM">
-      <failure>Error encountered parsing field RUN_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00005: Check for RUN_DD">
-      <failure>Error encountered parsing field RUN_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00006: Check for HIRE_YY">
-      <failure>Error encountered parsing field HIRE_YY
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00007: Check for HIRE_MM">
-      <failure>Error encountered parsing field HIRE_MM
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00008: Check for HIRE_DD">
-      <failure>Error encountered parsing field HIRE_DD
-
-Actual Value:    null
-
-Expected Value:  null</failure>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00002: Check for YRS_OF_SERVICE"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
 </testsuites>
