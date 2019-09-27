@@ -2,9 +2,13 @@
 <?totaltestVersion 19.6.1.v20190917-0343_107?>
 <!--Topaz for Total Test 19.6.1.v20190917-0343_107 Sep 26, 2019 1:44:45 PM-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" tests="3">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" name="00001: Check for EMP_TYPE"/>
@@ -541,9 +545,13 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_01.00014: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_01.00014: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1.CWXTCOB_CWXTDATE_BAD_PARM.00001: CWXTDATE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1.CWXTCOB_CWXTDATE_BAD_PARM.00001: CWXTDATE assertion" name="CWXTDATE"/>
@@ -629,9 +637,13 @@
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_BAD_PARM.00038: RPTFILE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00002: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_BAD_PARM.00001: RPTFILE assertion" name="RPTFILE"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2.CWXTCOB_CWXTDATE_BAD_PARM.00001: CWXTDATE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2.CWXTCOB_CWXTDATE_BAD_PARM.00001: CWXTDATE assertion" name="CWXTDATE"/>
@@ -717,9 +729,13 @@
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2.CWXTCOB_RPTFILE_FILE_BAD_PARM.00038: RPTFILE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_BAD_PARM.00003: CWXTCOBCase2.CWXTCOB_RPTFILE_FILE_BAD_PARM.00001: RPTFILE assertion" name="RPTFILE"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1.CWXTCOB_DATETIME_EOM.00001: ACCEPT DATE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1.CWXTCOB_DATETIME_EOM.00001: ACCEPT DATE assertion" name="ACCEPT DATE"/>
@@ -1392,9 +1408,13 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_EOM.00040: RPTFILE assertion" name="00004: Check for MGMT_GRAND_TOTAL"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_EOM.00004: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_EOM.00040: RPTFILE assertion" name="00005: Check for FILLER3"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00038: RPTFILE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_Special_Case_Data.00001: RPTFILE assertion" name="RPTFILE"/>
@@ -1639,9 +1659,13 @@
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00011: CWXTSUBC assertion" tests="17">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Special_Case_Data.00005: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00012: CWXTSUBC assertion" name="CWXTSUBC"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" tests="2">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
+  <testsuite errors="2" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" name="00001: Check for PARM_LTH">
+      <error>Error encountered parsing field PARM_LTH</error>
+    </testcase>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1" name="00002: Check for PARM_DATA">
+      <error>Error encountered parsing field PARM_DATA</error>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1.CWXTCOB_DATETIME_01.00001: ACCEPT DATE assertion" tests="0">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00006: CWXTCOBCase1.CWXTCOB_DATETIME_01.00001: ACCEPT DATE assertion" name="ACCEPT DATE"/>
