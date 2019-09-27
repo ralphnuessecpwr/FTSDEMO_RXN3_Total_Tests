@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.5.1.v20190606-1245_92?>
-<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 26, 2019 8:58:34 AM-->
+<!--Topaz for Total Test 19.5.1.v20190606-1245_92 Sep 27, 2019 2:31:38 AM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario_EOM_Tests.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM.00001: Check for EOM_SW"/>
@@ -369,23 +369,119 @@ Expected Value:  = Y</failure>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM.00008: Check for HIRE_DD"/>
   </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario_EOM_Tests.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00001: Check for EOM_SW"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00002: Check for YRS_OF_SERVICE"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00003: Check for RUN_YY"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00004: Check for RUN_MM"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00005: Check for RUN_DD"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00006: Check for HIRE_YY"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00007: Check for HIRE_MM"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00008: Check for HIRE_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00001: Check for EOM_SW">
+      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00002: Check for YRS_OF_SERVICE">
+      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00003: Check for RUN_YY">
+      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00004: Check for RUN_MM">
+      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00005: Check for RUN_DD">
+      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00006: Check for HIRE_YY">
+      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00007: Check for HIRE_MM">
+      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM.00008: Check for HIRE_DD">
+      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
   </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario_EOM_Tests.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00001: Check for EOM_SW"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00002: Check for YRS_OF_SERVICE"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00003: Check for RUN_YY"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00004: Check for RUN_MM"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00005: Check for RUN_DD"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00006: Check for HIRE_YY"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00007: Check for HIRE_MM"/>
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00008: Check for HIRE_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00001: Check for EOM_SW">
+      <failure message="Error encountered parsing field EOM_SW">Error encountered parsing field EOM_SW
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00002: Check for YRS_OF_SERVICE">
+      <failure message="Error encountered parsing field YRS_OF_SERVICE">Error encountered parsing field YRS_OF_SERVICE
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00003: Check for RUN_YY">
+      <failure message="Error encountered parsing field RUN_YY">Error encountered parsing field RUN_YY
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00004: Check for RUN_MM">
+      <failure message="Error encountered parsing field RUN_MM">Error encountered parsing field RUN_MM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00005: Check for RUN_DD">
+      <failure message="Error encountered parsing field RUN_DD">Error encountered parsing field RUN_DD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00006: Check for HIRE_YY">
+      <failure message="Error encountered parsing field HIRE_YY">Error encountered parsing field HIRE_YY
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00007: Check for HIRE_MM">
+      <failure message="Error encountered parsing field HIRE_MM">Error encountered parsing field HIRE_MM
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00038: Dec 31 EOM.00008: Check for HIRE_DD">
+      <failure message="Error encountered parsing field HIRE_DD">Error encountered parsing field HIRE_DD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
   </file>
 </testExecutions>
