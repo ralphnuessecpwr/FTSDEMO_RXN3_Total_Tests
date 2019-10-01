@@ -1,60 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190927-0347_118?>
-<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Sep 30, 2019 5:10:59 PM-->
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 1, 2019 12:31:32 PM-->
 <testsuites>
-  <testsuite errors="3" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" tests="3">
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00001: Check for EMP_TYPE">
-      <error>Error encountered parsing field EMP_TYPE</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00002: Check for SALES_AMOUNT">
-      <error>Error encountered parsing field SALES_AMOUNT</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00003: Check for COMM_TOTAL">
-      <error>Error encountered parsing field COMM_TOTAL</error>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00001: CWXTSUBCCase1" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="3" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" tests="3">
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00001: Check for EMP_TYPE">
-      <error>Error encountered parsing field EMP_TYPE</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00002: Check for SALES_AMOUNT">
-      <error>Error encountered parsing field SALES_AMOUNT</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00003: Check for COMM_TOTAL">
-      <error>Error encountered parsing field COMM_TOTAL</error>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00002: CWXTSUBCCase2" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="3" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" tests="3">
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00001: Check for EMP_TYPE">
-      <error>Error encountered parsing field EMP_TYPE</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00002: Check for SALES_AMOUNT">
-      <error>Error encountered parsing field SALES_AMOUNT</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00003: Check for COMM_TOTAL">
-      <error>Error encountered parsing field COMM_TOTAL</error>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00003: CWXTSUBCCase3" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="3" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" tests="3">
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00001: Check for EMP_TYPE">
-      <error>Error encountered parsing field EMP_TYPE</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00002: Check for SALES_AMOUNT">
-      <error>Error encountered parsing field SALES_AMOUNT</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00003: Check for COMM_TOTAL">
-      <error>Error encountered parsing field COMM_TOTAL</error>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00004: CWXTSUBCCase4" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="3" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" tests="3">
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00001: Check for EMP_TYPE">
-      <error>Error encountered parsing field EMP_TYPE</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00002: Check for SALES_AMOUNT">
-      <error>Error encountered parsing field SALES_AMOUNT</error>
-    </testcase>
-    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00003: Check for COMM_TOTAL">
-      <error>Error encountered parsing field COMM_TOTAL</error>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Sales_Scenario.00005: CWXTSUBCCase5" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
 </testsuites>
