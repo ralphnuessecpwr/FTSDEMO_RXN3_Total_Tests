@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Generated suite for folder: tests/CWXTCOB_Functional_Tests" environmentId="5b508b8a787be73b59238d38" haltAtFailure="false">
+  <Description>Generated suite by XaTester CLI for folder on server: C:/Users/pfhsxk0/.jenkins/workspace/RNU_FTSDEMO_Functional_Tests/tests/CWXTCOB_Functional_Tests</Description>
+  <XaUnits>
+    <Path>Functional Test/CWXTCOB_Standard_Jenkins.xactx</Path>
+  </XaUnits>
+</XaSuite>
