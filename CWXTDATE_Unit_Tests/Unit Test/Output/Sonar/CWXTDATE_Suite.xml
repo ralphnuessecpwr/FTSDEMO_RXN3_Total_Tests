@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 Sep 26, 2019 1:44:45 PM-->
+<?totaltestVersion 19.6.1.v20190927-0347_118?>
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 1, 2019 5:42:56 PM-->
 <testExecutions version="1">
   <file path="C:\Users\cwde-rnuesse.EMEA\git\FTSDEMO_RXN3_Unit_Tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00001: Check for EOM_SW"/>
@@ -203,13 +203,7 @@
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00020: Feb 27 No LY No EOM.00008: Check for HIRE_DD"/>
   </file>
   <file path="C:\Users\cwde-rnuesse.EMEA\git\FTSDEMO_RXN3_Unit_Tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario_EOM_Tests.testscenario">
-    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Feb 28 No LY EOM.00001: Check for EOM_SW">
-      <failure message="Check for EOM_SW failed">Check for EOM_SW failed
-
-Actual Value:    N
-
-Expected Value:  = Y</failure>
-    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Feb 28 No LY EOM.00001: Check for EOM_SW"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Feb 28 No LY EOM.00002: Check for YRS_OF_SERVICE"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Feb 28 No LY EOM.00003: Check for RUN_YY"/>
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Feb 28 No LY EOM.00004: Check for RUN_MM"/>
