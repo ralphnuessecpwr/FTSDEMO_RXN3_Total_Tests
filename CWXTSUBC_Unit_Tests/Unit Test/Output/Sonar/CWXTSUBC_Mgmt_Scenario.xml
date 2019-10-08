@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190927-0347_118?>
-<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 8, 2019 4:55:34 AM-->
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 8, 2019 5:01:33 AM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\RNU_FTSDEMO_Generate\tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Mgmt_Scenario.testscenario">
     <testCase duration="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00001: CWXTSUBCCase1.00001: Check for EMP_TYPE"/>
