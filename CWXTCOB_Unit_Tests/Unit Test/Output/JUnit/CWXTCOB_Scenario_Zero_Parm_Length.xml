@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190927-0347_118?>
-<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 8, 2019 4:01:43 PM-->
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 8, 2019 4:06:11 PM-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1" tests="2">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
@@ -437,21 +437,15 @@
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00011: CWXTSUBC assertion" tests="17">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_Special_Case_Data.00012: CWXTSUBC assertion" name="CWXTSUBC"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" tests="6">
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW">
-      <failure>Check for END_OF_MONTH_SW failed
-
-Actual Value:    N
-
-Expected Value:  = x'00'</failure>
-    </testcase>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" tests="6">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00004: Check for WA_EMP_HIRE_YY"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00001: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" tests="12">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" tests="12">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -459,7 +453,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00002: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" tests="18">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" tests="18">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -467,7 +461,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00015: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" tests="24">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" tests="24">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -475,7 +469,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00003: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" tests="30">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" tests="30">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -483,7 +477,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00004: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" tests="36">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" tests="36">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -491,7 +485,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00005: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" tests="42">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" tests="42">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -499,7 +493,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00006: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" tests="48">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" tests="48">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -507,7 +501,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00007: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" tests="54">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" tests="54">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -515,7 +509,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00008: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" tests="60">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" tests="60">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -523,7 +517,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00009: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" tests="66">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" tests="66">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -531,7 +525,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00010: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" tests="72">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" tests="72">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -539,7 +533,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00011: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" tests="78">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" tests="78">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -547,7 +541,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00012: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" tests="84">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" tests="84">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -555,7 +549,7 @@ Expected Value:  = x'00'</failure>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00013: CWXTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion" tests="90">
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion" tests="90">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Zero_Parm_Length.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_Special_Case_Data.00014: CWXTDATE assertion" name="00003: Check for TODAYS_DATE"/>
