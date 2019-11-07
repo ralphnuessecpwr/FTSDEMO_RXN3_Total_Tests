@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>FTSDEMO_RXN3_Unit_Tests</name>
+=======
+	<name>FTSDEMO_RXN3_Functional_Tests</name>
+>>>>>>> branch 'master' of https://github.com/ralphnuessecpwr/FTSDEMO_RXN3_Unit_Tests
 	<comment></comment>
 	<projects>
 	</projects>
