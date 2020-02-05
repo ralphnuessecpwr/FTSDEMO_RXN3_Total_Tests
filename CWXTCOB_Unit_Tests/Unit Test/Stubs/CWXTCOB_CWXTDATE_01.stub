@@ -10,7 +10,7 @@
     <stub:input listructure="../Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
         <properties:properties>
-          <properties:property name="value" type="string">00</properties:property>
+          <properties:property name="value" type="string">D5</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>

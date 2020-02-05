@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190927-0347_118?>
-<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Oct 31, 2019 6:01:19 AM-->
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Jan 3, 2020 10:11:15 AM-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -12,8 +18,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00002: Jan 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -32,8 +44,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00003: Jan 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00003: Jan 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00004: Check for RUN_MM"/>
@@ -42,8 +60,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00004: Feb 10 No LY No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00004: Check for RUN_MM"/>
@@ -52,8 +76,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00005: Feb 27 No LY No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = Y</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00004: Check for RUN_MM"/>
@@ -62,8 +92,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00007: Feb 28 LY No EOM" name="00004: Check for RUN_MM"/>
@@ -82,8 +118,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00008: Feb 29 LY EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00008: Feb 29 LY EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -92,8 +134,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00009: Mar 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00010: Mar 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -112,8 +160,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00011: Mar 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00011: Mar 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -122,8 +176,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00012: Apr 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00013: Apr 29 No EOM" name="00004: Check for RUN_MM"/>
@@ -142,8 +202,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00014: Apr 30 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00014: Apr 30 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -152,8 +218,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00015: May 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00016: May 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -172,8 +244,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00017: May 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00017: May 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -182,8 +260,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00018: Jun 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00019: Jun 29 No EOM" name="00004: Check for RUN_MM"/>
@@ -202,8 +286,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00020: Jun 30 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00020: Jun 30 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -212,8 +302,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00021: Jul 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00022: Jul 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -232,8 +328,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00023: Jul 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00023: Jul 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -242,8 +344,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00024: Aug 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00025: Aug 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -262,8 +370,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00026: Aug 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00026: Aug 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -272,8 +386,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00027: Sep 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00028: Sep 29 No EOM" name="00004: Check for RUN_MM"/>
@@ -292,8 +412,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00029: Sep 30 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00029: Sep 30 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -302,8 +428,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00030: Oct 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00031: Oct 30 No EOM" name="00004: Check for RUN_MM"/>
@@ -322,8 +454,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00032: Oct 31 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00032: Oct 31 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -332,8 +470,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00033: Nov 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00034: Nov 29 No EOM" name="00004: Check for RUN_MM"/>
@@ -352,8 +496,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00035: Nov 30 EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00035: Nov 30 EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00004: Check for RUN_MM"/>
@@ -362,8 +512,14 @@
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00007: Check for HIRE_MM"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00036: Dec 10 No EOM" name="00008: Check for HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" tests="8">
-    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00001: Check for EOM_SW"/>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00001: Check for EOM_SW">
+      <failure>Check for EOM_SW failed
+
+Actual Value:    x'00'
+
+Expected Value:  = N</failure>
+    </testcase>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00003: Check for RUN_YY"/>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00037: Dec 30 No EOM" name="00004: Check for RUN_MM"/>
