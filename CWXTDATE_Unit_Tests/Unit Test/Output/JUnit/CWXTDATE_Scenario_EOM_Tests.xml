@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <?totaltestVersion 19.6.1.v20190927-0347_118?>
 <!--Topaz for Total Test 19.6.1.v20190927-0347_118 Jan 3, 2020 10:11:15 AM-->
+=======
+<?totaltestVersion 20.1.1.v20191212-1740_83?>
+<!--Topaz for Total Test 20.1.1.v20191212-1740_83 Jan 6, 2020 4:02:44 AM-->
+>>>>>>> branch 'full_coverage' of https://github.com/ralphnuessecpwr/FTSDEMO_RXN3_Unit_Tests
 <testsuites>
   <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" tests="8">
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00001: Jan 10 No EOM" name="00001: Check for EOM_SW">
@@ -80,7 +85,11 @@ Expected Value:  = N</failure>
     <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario_EOM_Tests.00006: Feb 28 No LY EOM" name="00001: Check for EOM_SW">
       <failure>Check for EOM_SW failed
 
+<<<<<<< HEAD
 Actual Value:    x'00'
+=======
+Actual Value:    N
+>>>>>>> branch 'full_coverage' of https://github.com/ralphnuessecpwr/FTSDEMO_RXN3_Unit_Tests
 
 Expected Value:  = Y</failure>
     </testcase>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 20.1.1.v20191212-1740_83?>
+<<<<<<< HEAD
 <!--Topaz for Total Test 20.1.1.v20191212-1740_83 Jan 7, 2020 2:39:14 PM-->
+=======
+<!--Topaz for Total Test 20.1.1.v20191212-1740_83 Jan 6, 2020 4:02:00 AM-->
+>>>>>>> branch 'full_coverage' of https://github.com/ralphnuessecpwr/FTSDEMO_RXN3_Unit_Tests
 <testExecutions version="1">
   <file path="C:\Users\cwde-rnuesse.EMEA\git\FTSDEMO_RXN3_Unit_Tests\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
     <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00001: Check for EOM_SW"/>
