@@ -1,0 +1,19 @@
+def pipelineConfigFileName  = 'pipelineConfig.json'
+def systemConfigFileName    = 'systemConfigAnz.json'
+def jclFileName             = 'runner.jcl'
+def newRunnerJcl            = 'runnerJenkins.jcl'
+
+node
+{
+    stage("Git")
+    {
+        checkout scm
+    }
+
+    stage("Initialize")
+    {
+        def pipelineConfig = readYaml(pipelineConfigFileName)
+
+        println pipelineConfig.toString()
+    }
+}
