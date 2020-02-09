@@ -12,7 +12,7 @@ node
 
     stage("Initialize")
     {
-        def pipelineConfig = readYaml(pipelineConfigFileName)
+        def pipelineConfig = readYaml(file: pipelineConfigFileName)
 
         println pipelineConfig.toString()
     }
