@@ -1,0 +1,13 @@
+imsSystems: 
+- IMB3: 
+  hlqs:  
+    - GT1I
+    - GT2I
+  jobPrefix: I
+  lpar: ANZI
+- IMS2: 
+  hlqs: 
+    - GR1C
+    - GR2C
+  jobPrefix: C
+  lpar: ANZC

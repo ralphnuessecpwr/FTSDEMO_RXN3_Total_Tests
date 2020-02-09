@@ -1,0 +1,8 @@
+imsSystem:        IMS2
+mainframePds:     SALESSUP.RXN3.DEV1.COB
+tttFolder:        tests
+hciConnection:    8e0838c8-4445-42c5-b6db-e352d4b2c64a
+hostCredentials:  dde8dbfc-7818-436d-8b4b-0101c9734285
+gitProject:       ralphnuessecpwr                     
+gitCredentials:   87763671-db9a-47e1-80e7-33c1aba803b1
+ccRepo:           HDDRXM0.DEMO.COCO.REPOS
