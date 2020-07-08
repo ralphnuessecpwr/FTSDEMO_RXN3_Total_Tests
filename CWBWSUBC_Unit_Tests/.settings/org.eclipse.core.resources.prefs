@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-encoding//Unit\ Test/Structures/CWBWSUBC_COMM-TOTAL.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWBWSUBC_EMP-TYPE.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWBWSUBC_RETURN-CODE.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWBWSUBC_SALES-AMOUNT.listructure=UTF-8
+encoding//UT/Structures/CWBWSUBC_COMM-TOTAL.listructure=UTF-8
+encoding//UT/Structures/CWBWSUBC_EMP-TYPE.listructure=UTF-8
+encoding//UT/Structures/CWBWSUBC_RETURN-CODE.listructure=UTF-8
+encoding//UT/Structures/CWBWSUBC_SALES-AMOUNT.listructure=UTF-8
 encoding/<project>=UTF-8
