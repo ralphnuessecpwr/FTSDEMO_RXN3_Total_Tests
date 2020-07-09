@@ -3,8 +3,26 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2020-05-22 08:38.37��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2020-07-08 11:15.36��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
- CEE3501S The module CWXTCOB  was not found.
-          From compile unit TTTRUNNR at entry point TTTRUNNR at compile unit offset +00003ACC at entry offset +00003ACC
-           at address 37803ACC.
+ STTR013I Processing test suite CWXTSUBC_Sales_Scenario
+ STTR014I Processing test scenario CWXTSUBC_Sales_Scenario
+ STTR028I Processing test case CWXTSUBCCase1
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase2
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase3
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase4
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase5
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase6
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase7
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase8
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR028I Processing test case CWXTSUBCCase9
+ STTR006I Executing target CWXTSUBC����������������������������������������������������
+ STTR008I All targets successfully executed
