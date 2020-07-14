@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 13.03.2019 12:30:47-->
-<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure">
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 14, 2020 1:31:00 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWXTSUBC_COMM-TOTAL.listructure">
   <listructure:struct id="COMM_TOTAL" name="COMM_TOTAL">
     <properties:properties>
       <properties:property name="displayLength" type="number">4</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">4</properties:property>
     </properties:properties>
-    <listructure:number id="COMM_TOTAL" length="7" name="COMM_TOTAL">
+    <listructure:number id="COMM_TOTAL.COMM_TOTAL" length="7" name="COMM_TOTAL">
       <properties:properties>
         <properties:property name="picture" type="string">9(5)V99</properties:property>
         <properties:property name="usage" type="string">computational-3</properties:property>
