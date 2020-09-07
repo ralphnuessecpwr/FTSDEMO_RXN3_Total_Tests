@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_01.stub" nextCalltoken="10002" stubtype="CICS" target="" token="10000">
   <stub:description>Created: 21.05.2019 10:31:01</stub:description>
   <stub:stubdata callToken="10001" id="0" name="EXEC CICS SEND">
@@ -25,6 +25,7 @@
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.FILLER0" id="input0.arg2.SSMAPC1O.FILLER0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CDTO" id="input0.arg2.SSMAPC1O.ENT1CDTO"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
@@ -79,6 +80,9 @@
     <stub:inputDataCheckconditions>
       <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.FILLER0">
         <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input0.arg2.SSMAPC1O.ENT1CDTO">
+        <checkconditions:expectation assert="noassert"/>
       </checkconditions:simpleCheckcondition>
     </stub:inputDataCheckconditions>
     <stub:statement type="EXEC CICS SEND">

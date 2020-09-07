@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_02.stub" nextCalltoken="50003" stubtype="CICS" target="" token="50000">
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_BMS_SEND_RECEIVE_02.stub" nextCalltoken="50003" stubtype="CICS" target="" token="50000">
   <stub:description>Created: 21.05.2019 10:31:28</stub:description>
   <stub:stubdata callToken="50001" id="0" name="EXEC CICS RECEIVE">
     <stub:interface>../Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface#Unit%20Test/Interfaces/LGTESTC1_BMS_SEND_RECEIVE1.interface</stub:interface>
@@ -111,6 +111,7 @@
           <properties:property name="value" type="string">3AD9DD4800000000001CC9D0000000F2F0F1F960F0F560F2F1000100F1000AC1F0F0F0F0F0F0F0F0F0F100000000000000000000000000000000000000C195849985A640404040000000D7819584A8404040404040404040404040404040000000F1F9F5F060F0F760F1F1000000F1F2F3F4F5F6F7F8F94040404040404040404040000000899500000040404040404040404040404040404040404040404040404040404040404000000040404040404040404040404040404040404040400000004040000000A4A281000000D7C9F1F0F1D6D6400000008195A84040000000F0F1F9F6F240F8F1F1F2000000F0F7F7F9F940F1F2F3F4000000C14BD7819584A87C828585828896A4A2854B8396944040404000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
         </properties:properties>
       </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_SSMAPC1O.listructure#SSMAPC1O.ENT1CDTO" id="input1.arg2.SSMAPC1O.ENT1CDTO"/>
     </stub:input>
     <stub:input listructure="../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure">
       <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
@@ -161,6 +162,12 @@
         </properties:properties>
       </stub:data>
     </stub:output>
+    <stub:checkconditions/>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.SSMAPC1O.ENT1CDTO">
+        <checkconditions:expectation assert="noassert"/>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
     <stub:statement type="EXEC CICS SEND">
       <stub:text>      *EXEC CICS SEND MAP ('SSMAPC1')
       *          FROM(SSMAPC1O)

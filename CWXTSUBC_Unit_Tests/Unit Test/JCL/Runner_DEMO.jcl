@@ -1,4 +1,5 @@
 ${TOTALTEST_JOBCARD}
+/*JOBPARM S=CWCC
 //*** SPECIFY JOBCARD IN TOTALTEST PREFERENCES TO SUBSTITUTE
 //***
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
@@ -23,16 +24,10 @@ ${TOTALTEST_JOBCARD}
 //* loadlib containing the COBOL runtime(CEE.SCEERUN), otherwise 
 //* it can be removed.
 //*
-//STEPLIB DD DISP=SHR,DSN=CPWR.MLCXnnn.SLCXLOAD
-//*  where MLCXnnn is MLCX170 OR HIGHER
-//        DD DISP=SHR,DSN=<ADD LOADLIB CONTAINING COBOL TEST PROGRAM>
-//*       DD DISP=SHR,DSN=<COBOL RUNTIME LOADLIB>
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
+//         DD   DSN=CEE.SCEERUN,DISP=SHR
+//         DD   DISP=SHR,DSN=HDDRXM0.DEMO.LOAD.PDSE
 //*
-//* The following lines will initialize storage to zeroes to avoid 
-//* uninitialized storage assertion miscompares.
-//CEEOPTS  DD  *
-STORAGE(00,00,00)
-/*
 //TRPARM DD *
 *
 *        Optionally set your custom exit program here:
