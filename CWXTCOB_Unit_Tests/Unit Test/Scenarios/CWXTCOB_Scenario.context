@@ -2,10 +2,13 @@
 <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.RXN3.DEV1.LOAD</Value>
+      <Value>SALESSUP.RXN3.DEV2.LOAD</Value>
+      <Value>SALESSUP.RXN3.QA2.LOAD</Value>
+      <Value>SALESSUP.RXN3.STG.LOAD</Value>
+      <Value>SALESSUP.RXN3.PRD.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.context">
     <Test>
       <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
     </Test>
