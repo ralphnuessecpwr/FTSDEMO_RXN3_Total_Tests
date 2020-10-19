@@ -1,0 +1,45 @@
+16:58:06.626 INFO      TOPAZ            ***************************************
+16:58:06.626 INFO      TOPAZ            ** Execution from Topaz with options **
+16:58:06.626 INFO      TOPAZ            ***************************************
+16:58:06.627 INFO      TOPAZ            Using repository: false
+16:58:06.627 INFO      TOPAZ            ***************************************
+16:58:06.627 INFO      Engine           Test Scenario execution started
+16:58:06.627 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+16:58:06.627 INFO      Engine           Setting variables from context and context data extensions
+16:58:06.627 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:58:06.627 INFO      Engine             id: environmentType    value: BATCH
+16:58:06.627 INFO      Engine             id: userId             value: HDDRXM0
+16:58:06.627 INFO      Engine             id: accountingInfo     value: 
+16:58:06.627 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.RXN3.DEV1.LOAD
+16:58:06.628 INFO      Unittest         Interpreting Unittest of module: CWXTDATE testscenario path: CWXTDATE_Scenario.testscenario
+16:58:06.630 INFO      Unittest         Using local JCL skeleton to submit JCL
+16:58:15.534 WARNING   Unittest         Operation canceled by user.
+16:58:16.408 ERROR     Engine           Operation canceled by user.
+16:58:16.408 ERROR     Engine           An error occurred. Now stopping the execution.
+16:58:16.408 INFO      Engine           Test Scenario execution ended
+      cwcc             Sending Job execution request to Host 
+16:58:08.492 INFO      cwcc             Job execution completed with status:
+  Job status     : JCLERROR
+  Job status msg : Job HDDRXM0J(J0939242) ended with JCL error, check JES output.
+  Job name       : HDDRXM0J
+  Job id         : J0939242
+  Return code    : JCL ERROR
+  Abend code     : 
+  Abend reason   : 
+16:58:15.249 ERROR     Engine           Unable to execute the job definition at the host. Job stopped with JCL error
+16:58:15.250 ERROR     Engine           An error occurred. Now stopping the execution.
+16:58:15.251 INFO      Engine           Test Scenario execution ended

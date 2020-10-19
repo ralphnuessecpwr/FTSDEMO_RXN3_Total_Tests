@@ -1,0 +1,41 @@
+16:57:12.594 INFO      TOPAZ            ***************************************
+16:57:12.594 INFO      TOPAZ            ** Execution from Topaz with options **
+16:57:12.594 INFO      TOPAZ            ***************************************
+16:57:12.594 INFO      TOPAZ            Using repository: false
+16:57:12.594 INFO      TOPAZ            ***************************************
+16:57:12.594 INFO      Engine           Test Scenario execution started
+16:57:12.594 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+16:57:12.594 INFO      Engine           Setting variables from context and context data extensions
+16:57:12.594 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:57:12.595 INFO      Engine             id: environmentType    value: BATCH
+16:57:12.595 INFO      Engine             id: userId             value: HDDRXM0
+16:57:12.595 INFO      Engine             id: accountingInfo     value: 
+16:57:12.595 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.RXN3.DEV1.LOAD
+16:57:12.595 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+16:57:12.598 INFO      Unittest         Using local JCL skeleton to submit JCL
+16:57:30.688 INFO      cwcc             Sending Job execution request to Host 
+16:57:36.030 INFO      cwcc             Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job HDDRXM0T(J0939241) ended with ABEND code: S806
+  Job name       : HDDRXM0T
+  Job id         : J0939241
+  Return code    : 
+  Abend code     : S806
+  Abend reason   : U0000
+16:57:36.909 ERROR     Engine           Unable to execute the job definition at the host. Job abended
+16:57:36.909 ERROR     Engine           An error occurred. Now stopping the execution.
+16:57:36.909 INFO      Engine           Test Scenario execution ended

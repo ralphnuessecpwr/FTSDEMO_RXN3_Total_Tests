@@ -1,0 +1,32 @@
+16:54:41.789 INFO      TOPAZ            ***************************************
+16:54:41.789 INFO      TOPAZ            ** Execution from Topaz with options **
+16:54:41.789 INFO      TOPAZ            ***************************************
+16:54:41.789 INFO      TOPAZ            Using repository: false
+16:54:41.789 INFO      TOPAZ            ***************************************
+16:54:41.792 INFO      Engine           Test Scenario execution started
+16:54:41.793 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+16:54:41.794 INFO      Engine           Setting variables from context and context data extensions
+16:54:41.794 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:54:41.797 INFO      Engine             id: environmentType    value: BATCH
+16:54:41.798 INFO      Engine             id: userId             value: HDDRXM0
+16:54:41.798 INFO      Engine             id: accountingInfo     value: 
+16:54:41.798 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.RXN3.DEV1.LOAD
+16:54:41.799 INFO      Unittest         Interpreting Unittest of module: CWBWCOBX testscenario path: CWBWCOBX_Scenario.testscenario
+16:54:42.069 INFO      Unittest         Using local JCL skeleton to submit JCL
+16:55:18.109 ERROR     Engine           Unable to upload binary files.
+16:55:18.109 ERROR     Engine           An error occurred. Now stopping the execution.
+16:55:18.110 INFO      Engine           Test Scenario execution ended

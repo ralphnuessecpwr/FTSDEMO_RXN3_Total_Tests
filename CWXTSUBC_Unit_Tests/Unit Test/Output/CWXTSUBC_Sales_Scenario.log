@@ -1,0 +1,31 @@
+16:59:02.817 INFO      TOPAZ            ***************************************
+16:59:02.817 INFO      TOPAZ            ** Execution from Topaz with options **
+16:59:02.817 INFO      TOPAZ            ***************************************
+16:59:02.817 INFO      TOPAZ            Using repository: false
+16:59:02.817 INFO      TOPAZ            ***************************************
+16:59:02.817 INFO      Engine           Test Scenario execution started
+16:59:02.817 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+16:59:02.817 INFO      Engine           Setting variables from context and context data extensions
+16:59:02.817 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:59:02.817 INFO      Engine             id: environmentType    value: BATCH
+16:59:02.817 INFO      Engine             id: userId             value: HDDRXM0
+16:59:02.818 INFO      Engine             id: accountingInfo     value: 
+16:59:02.818 INFO      Engine             id: unittest.loadlibraries  value: 
+16:59:02.818 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Sales_Scenario.testscenario
+16:59:02.818 ERROR     Engine           No loadlibraries have been defined for unit test elements in the execution context, so JCL cannot be generated
+16:59:02.818 ERROR     Engine           An error occurred. Now stopping the execution.
+16:59:02.818 INFO      Engine           Test Scenario execution ended
