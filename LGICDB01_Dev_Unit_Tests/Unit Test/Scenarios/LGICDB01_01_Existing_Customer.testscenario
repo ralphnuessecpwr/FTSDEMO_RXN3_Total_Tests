@@ -30,9 +30,9 @@ Search for exeisting customer</testscenario:description>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
       <testcase:stubs>
-        <testcase:stub>../Stubs/LGICDB01_Select_1_SQL_01.stub#Unit%20Test/Stubs/LGICDB01_Select_1_SQL_01.stub</testcase:stub>
-        <testcase:stub>../Stubs/LGICDB01_Cust_Cursor_SQL_01.stub#Unit%20Test/Stubs/LGICDB01_Cust_Cursor_SQL_01.stub</testcase:stub>
-        <testcase:stub>../Stubs/LGICDB01_EXEC_CICS_RETURN1_01.stub#Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN1_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGICDB01_Cust_Cursor_SQL_Existing.stub#Unit%20Test/Stubs/LGICDB01_Cust_Cursor_SQL_Existing.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGICDB01_EXEC_CICS_RETURN1_Existing.stub#Unit%20Test/Stubs/LGICDB01_EXEC_CICS_RETURN1_Existing.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGICDB01_Select_1_SQL_Existing.stub#Unit%20Test/Stubs/LGICDB01_Select_1_SQL_Existing.stub</testcase:stub>
       </testcase:stubs>
     </testscenario:testcase>
   </testscenario:testcases>

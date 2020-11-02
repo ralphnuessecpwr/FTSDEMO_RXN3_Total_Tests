@@ -1,18 +1,34 @@
 <Connections>
   <Connection>
-    <id>10.10.0.200:16196</id>
-    <ipaddress>10.10.0.200</ipaddress>
+    <id>cwcc.compuware.com:16196</id>
+    <ipaddress>cwcc.compuware.com</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://10.10.0.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseUri>jdbc:db2://cwcc.compuware.com:546/${database}</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>cw01</description>
-    <label>cw01</label>
+    <databaseName>DBCCWCCC</databaseName>
+    <description>cwcc</description>
+    <label>cwcc</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
       <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>cwc2.nasa.cpwr.corp:16196</id>
+    <ipaddress>cwc2.nasa.cpwr.corp</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>DSCCCWCC</databaseName>
+    <description>cwc2</description>
+    <label>cwc2</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17Q.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -28,7 +44,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17Q.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -44,7 +60,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
 </Connections>

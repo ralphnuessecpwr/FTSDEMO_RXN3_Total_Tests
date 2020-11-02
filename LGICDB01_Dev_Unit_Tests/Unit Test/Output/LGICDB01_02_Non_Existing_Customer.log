@@ -1,0 +1,41 @@
+10:51:23.293 INFO      TOPAZ            ***************************************
+10:51:23.294 INFO      TOPAZ            ** Execution from Topaz with options **
+10:51:23.294 INFO      TOPAZ            ***************************************
+10:51:23.294 INFO      TOPAZ            Using repository: true
+10:51:23.294 INFO      TOPAZ            Repository URL: http://localhost:48226/totaltestapi/
+10:51:23.294 INFO      TOPAZ            ***************************************
+10:51:23.294 INFO      Engine           Test Scenario execution started
+10:51:23.294 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+10:51:23.295 INFO      Engine           Setting variables from context and context data extensions
+10:51:23.295 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+10:51:23.295 INFO      Engine             id: environmentType    value: BATCH
+10:51:23.295 INFO      Engine             id: userId             value: HDDRXM0
+10:51:23.295 INFO      Engine             id: accountingInfo     value: 
+10:51:23.295 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.RXN3.DEV1.CICSLOAD
+10:51:23.295 INFO      Unittest         Interpreting Unittest of module: LGICDB01 testscenario path: LGICDB01_02_Non_Existing_Customer.testscenario
+10:51:23.302 INFO      Unittest         Using local JCL skeleton to submit JCL
+10:51:35.030 INFO      CWCC VT          Sending Job execution request to Host 
+10:51:40.343 INFO      CWCC VT          Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0T(J0945013) ended with return code: 0000
+  Job name       : HDDRXM0T
+  Job id         : J0945013
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:51:42.460 INFO      Unittest         Execution completed
+10:51:42.460 INFO      Engine           Test Scenario execution ended

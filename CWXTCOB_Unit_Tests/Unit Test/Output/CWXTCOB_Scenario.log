@@ -1,16 +1,17 @@
-17:14:22.328 INFO      TOPAZ            ***************************************
-17:14:22.328 INFO      TOPAZ            ** Execution from Topaz with options **
-17:14:22.328 INFO      TOPAZ            ***************************************
-17:14:22.328 INFO      TOPAZ            Using repository: false
-17:14:22.328 INFO      TOPAZ            ***************************************
-17:14:22.329 INFO      Engine           Test Scenario execution started
-17:14:22.329 INFO      Engine           Using context settings:
+16:47:13.681 INFO      TOPAZ            ***************************************
+16:47:13.682 INFO      TOPAZ            ** Execution from Topaz with options **
+16:47:13.682 INFO      TOPAZ            ***************************************
+16:47:13.682 INFO      TOPAZ            Using repository: true
+16:47:13.682 INFO      TOPAZ            Repository URL: http://localhost:48226/totaltestapi/
+16:47:13.682 INFO      TOPAZ            ***************************************
+16:47:13.685 INFO      Engine           Test Scenario execution started
+16:47:13.686 INFO      Engine           Using context settings:
   Engine Version                : 20.4
-  Environment id                : 192.168.96.130:16196
+  Environment id                : 5cee98c2d3142c1f90a4976d
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.compuware.com
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -19,22 +20,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-17:14:22.329 INFO      Engine           Setting variables from context and context data extensions
-17:14:22.329 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-17:14:22.329 INFO      Engine             id: environmentType    value: BATCH
-17:14:22.329 INFO      Engine             id: userId             value: HDDRXM0
-17:14:22.330 INFO      Engine             id: accountingInfo     value: 
-17:14:22.333 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.RXN3.DEV2.LOAD, StringDataItem{value=SALESSUP.RXN3.DEV2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.QA2.LOAD, StringDataItem{value=SALESSUP.RXN3.QA2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.STG.LOAD, StringDataItem{value=SALESSUP.RXN3.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.PRD.LOAD, StringDataItem{value=SALESSUP.RXN3.PRD.LOAD}}}
-17:14:22.333 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-17:14:22.336 INFO      Unittest         Using local JCL skeleton to submit JCL
-17:14:33.301 INFO      cwcc             Sending Job execution request to Host 
-17:14:38.616 INFO      cwcc             Job execution completed with status:
+16:47:13.686 INFO      Engine           Setting variables from context and context data extensions
+16:47:13.687 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+16:47:13.690 INFO      Engine             id: environmentType    value: BATCH
+16:47:13.691 INFO      Engine             id: userId             value: HDDRXM0
+16:47:13.691 INFO      Engine             id: accountingInfo     value: 
+16:47:13.693 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.RXN3.DEV2.LOAD, StringDataItem{value=SALESSUP.RXN3.DEV2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.QA2.LOAD, StringDataItem{value=SALESSUP.RXN3.QA2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.STG.LOAD, StringDataItem{value=SALESSUP.RXN3.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.PRD.LOAD, StringDataItem{value=SALESSUP.RXN3.PRD.LOAD}}}
+16:47:13.695 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+16:47:13.938 INFO      Unittest         Using local JCL skeleton to submit JCL
+16:47:29.323 INFO      CWCC Batch NVT   Sending Job execution request to Host 
+16:47:34.669 INFO      CWCC Batch NVT   Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HDDRXM0T(J0939256) ended with return code: 0000
+  Job status msg : Job HDDRXM0T(J0941745) ended with return code: 0000
   Job name       : HDDRXM0T
-  Job id         : J0939256
+  Job id         : J0941745
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-17:14:40.451 INFO      Unittest         Execution completed
-17:14:40.452 INFO      Engine           Test Scenario execution ended
+16:47:37.192 INFO      Unittest         Execution completed
+16:47:37.192 INFO      Engine           Test Scenario execution ended
