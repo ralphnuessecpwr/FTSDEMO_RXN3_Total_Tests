@@ -1,11 +1,11 @@
-16:58:51.126 INFO      TOPAZ            ***************************************
-16:58:51.127 INFO      TOPAZ            ** Execution from Topaz with options **
-16:58:51.127 INFO      TOPAZ            ***************************************
-16:58:51.127 INFO      TOPAZ            Using repository: false
-16:58:51.127 INFO      TOPAZ            ***************************************
-16:58:51.127 INFO      Engine           Test Scenario execution started
-16:58:51.128 INFO      Engine           Using context settings:
-  Engine Version                : 20.4
+08:19:30.746 INFO      TOPAZ            ***************************************
+08:19:30.746 INFO      TOPAZ            ** Execution from Topaz with options **
+08:19:30.747 INFO      TOPAZ            ***************************************
+08:19:30.747 INFO      TOPAZ            Using repository: false
+08:19:30.747 INFO      TOPAZ            ***************************************
+08:19:30.747 INFO      Engine           Test Scenario execution started
+08:19:30.747 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
   Environment id                : 192.168.96.130:16196
   Environment type              : Batch
   Operating system              : ZOS
@@ -19,23 +19,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-16:58:51.128 INFO      Engine           Setting variables from context and context data extensions
-16:58:51.128 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-16:58:51.128 INFO      Engine             id: environmentType    value: BATCH
-16:58:51.128 INFO      Engine             id: userId             value: HDDRXM0
-16:58:51.128 INFO      Engine             id: accountingInfo     value: 
-16:58:51.128 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.RXN3.DEV1.LOAD
-16:58:51.128 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Mgmt_Scenario.testscenario
-16:58:51.131 INFO      Unittest         Using local JCL skeleton to submit JCL
-16:58:56.139 INFO      cwcc             Sending Job execution request to Host 
-16:59:01.449 INFO      cwcc             Job execution completed with status:
-  Job status     : ABEND
-  Job status msg : Job HDDRXM0T(J0939243) ended with ABEND code: S806
+08:19:30.748 INFO      Engine           Setting variables from context and context data extensions
+08:19:30.748 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+08:19:30.748 INFO      Engine             id: environmentType    value: BATCH
+08:19:30.748 INFO      Engine             id: userId             value: HDDRXM0
+08:19:30.748 INFO      Engine             id: accountingInfo     value: 
+08:19:30.748 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Mgmt_Scenario.testscenario
+08:19:30.754 INFO      Unittest         Using JCL skeleton to submit JCL
+08:19:39.121 INFO      CWCC             Sending Job execution request to Host 
+08:19:44.444 INFO      CWCC             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0T(J0984006) ended with return code: 0000
   Job name       : HDDRXM0T
-  Job id         : J0939243
-  Return code    : 
-  Abend code     : S806
-  Abend reason   : U0000
-16:59:02.313 ERROR     Engine           Unable to execute the job definition at the host. Job abended
-16:59:02.313 ERROR     Engine           An error occurred. Now stopping the execution.
-16:59:02.313 INFO      Engine           Test Scenario execution ended
+  Job id         : J0984006
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+08:19:47.140 INFO      Unittest         Execution completed
+08:19:47.141 INFO      Engine           Test Scenario execution ended

@@ -1,0 +1,39 @@
+08:21:18.686 INFO      TOPAZ            ***************************************
+08:21:18.686 INFO      TOPAZ            ** Execution from Topaz with options **
+08:21:18.686 INFO      TOPAZ            ***************************************
+08:21:18.686 INFO      TOPAZ            Using repository: false
+08:21:18.687 INFO      TOPAZ            ***************************************
+08:21:18.687 INFO      Engine           Test Scenario execution started
+08:21:18.687 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+08:21:18.687 INFO      Engine           Setting variables from context and context data extensions
+08:21:18.687 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+08:21:18.687 INFO      Engine             id: environmentType    value: BATCH
+08:21:18.687 INFO      Engine             id: userId             value: HDDRXM0
+08:21:18.687 INFO      Engine             id: accountingInfo     value: 
+08:21:18.688 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Sales_Scenario.testscenario
+08:21:18.695 INFO      Unittest         Using JCL skeleton to submit JCL
+08:21:27.116 INFO      CWCC             Sending Job execution request to Host 
+08:21:32.440 INFO      CWCC             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0T(J0984009) ended with return code: 0000
+  Job name       : HDDRXM0T
+  Job id         : J0984009
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+08:21:35.129 INFO      Unittest         Execution completed
+08:21:35.129 INFO      Engine           Test Scenario execution ended
