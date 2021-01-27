@@ -1,17 +1,17 @@
-16:47:13.681 INFO      TOPAZ            ***************************************
-16:47:13.682 INFO      TOPAZ            ** Execution from Topaz with options **
-16:47:13.682 INFO      TOPAZ            ***************************************
-16:47:13.682 INFO      TOPAZ            Using repository: true
-16:47:13.682 INFO      TOPAZ            Repository URL: http://localhost:48226/totaltestapi/
-16:47:13.682 INFO      TOPAZ            ***************************************
-16:47:13.685 INFO      Engine           Test Scenario execution started
-16:47:13.686 INFO      Engine           Using context settings:
-  Engine Version                : 20.4
-  Environment id                : 5cee98c2d3142c1f90a4976d
+09:47:38.700 INFO      TOPAZ            ***************************************
+09:47:38.700 INFO      TOPAZ            ** Execution from Topaz with options **
+09:47:38.700 INFO      TOPAZ            ***************************************
+09:47:38.700 INFO      TOPAZ            Using repository: true
+09:47:38.700 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+09:47:38.700 INFO      TOPAZ            ***************************************
+09:47:38.701 INFO      Engine           Test Scenario execution started
+09:47:38.701 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwcc.compuware.com
+  Server address                : cwcc.nasa.cpwr.corp
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -20,22 +20,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-16:47:13.686 INFO      Engine           Setting variables from context and context data extensions
-16:47:13.687 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
-16:47:13.690 INFO      Engine             id: environmentType    value: BATCH
-16:47:13.691 INFO      Engine             id: userId             value: HDDRXM0
-16:47:13.691 INFO      Engine             id: accountingInfo     value: 
-16:47:13.693 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.RXN3.DEV2.LOAD, StringDataItem{value=SALESSUP.RXN3.DEV2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.QA2.LOAD, StringDataItem{value=SALESSUP.RXN3.QA2.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.STG.LOAD, StringDataItem{value=SALESSUP.RXN3.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.RXN3.PRD.LOAD, StringDataItem{value=SALESSUP.RXN3.PRD.LOAD}}}
-16:47:13.695 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-16:47:13.938 INFO      Unittest         Using local JCL skeleton to submit JCL
-16:47:29.323 INFO      CWCC Batch NVT   Sending Job execution request to Host 
-16:47:34.669 INFO      CWCC Batch NVT   Job execution completed with status:
+09:47:38.701 INFO      Engine           Setting variables from context and context data extensions
+09:47:38.701 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+09:47:38.701 INFO      Engine             id: environmentType    value: BATCH
+09:47:38.701 INFO      Engine             id: userId             value: HDDRXM0
+09:47:38.701 INFO      Engine             id: accountingInfo     value: 
+09:47:38.702 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+09:47:38.735 INFO      Unittest         Using JCL skeleton to submit JCL
+09:48:40.102 INFO      CWCC Batch       Sending Job execution request to Host 
+09:48:45.917 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HDDRXM0T(J0941745) ended with return code: 0000
+  Job status msg : Job HDDRXM0T(J0992299) ended with return code: 0000
   Job name       : HDDRXM0T
-  Job id         : J0941745
+  Job id         : J0992299
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-16:47:37.192 INFO      Unittest         Execution completed
-16:47:37.192 INFO      Engine           Test Scenario execution ended
+09:48:55.837 INFO      Unittest         Execution completed
+09:48:55.838 INFO      Engine           Test Scenario execution ended

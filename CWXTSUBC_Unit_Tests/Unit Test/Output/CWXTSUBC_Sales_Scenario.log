@@ -1,16 +1,17 @@
-08:20:50.253 INFO      TOPAZ            ***************************************
-08:20:50.254 INFO      TOPAZ            ** Execution from Topaz with options **
-08:20:50.254 INFO      TOPAZ            ***************************************
-08:20:50.254 INFO      TOPAZ            Using repository: false
-08:20:50.254 INFO      TOPAZ            ***************************************
-08:20:50.255 INFO      Engine           Test Scenario execution started
-08:20:50.255 INFO      Engine           Using context settings:
+09:43:39.977 INFO      TOPAZ            ***************************************
+09:43:39.977 INFO      TOPAZ            ** Execution from Topaz with options **
+09:43:39.977 INFO      TOPAZ            ***************************************
+09:43:39.977 INFO      TOPAZ            Using repository: true
+09:43:39.977 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+09:43:39.978 INFO      TOPAZ            ***************************************
+09:43:39.978 INFO      Engine           Test Scenario execution started
+09:43:39.978 INFO      Engine           Using context settings:
   Engine Version                : 20.5
-  Environment id                : 192.168.96.130:16196
+  Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.nasa.cpwr.corp
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -19,21 +20,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-08:20:50.255 INFO      Engine           Setting variables from context and context data extensions
-08:20:50.255 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-08:20:50.255 INFO      Engine             id: environmentType    value: BATCH
-08:20:50.255 INFO      Engine             id: userId             value: HDDRXM0
-08:20:50.255 INFO      Engine             id: accountingInfo     value: 
-08:20:50.256 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Sales_Scenario.testscenario
-08:20:50.260 INFO      Unittest         Using JCL skeleton to submit JCL
-08:20:58.662 INFO      CWCC             Sending Job execution request to Host 
-08:21:04.366 INFO      CWCC             Job execution completed with status:
+09:43:39.978 INFO      Engine           Setting variables from context and context data extensions
+09:43:39.978 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+09:43:39.978 INFO      Engine             id: environmentType    value: BATCH
+09:43:39.978 INFO      Engine             id: userId             value: HDDRXM0
+09:43:39.978 INFO      Engine             id: accountingInfo     value: 
+09:43:39.978 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Sales_Scenario.testscenario
+09:43:39.984 INFO      Unittest         Using JCL skeleton to submit JCL
+09:44:25.042 INFO      CWCC Batch       Sending Job execution request to Host 
+09:44:31.766 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HDDRXM0T(J0984008) ended with return code: 0000
+  Job status msg : Job HDDRXM0T(J0992297) ended with return code: 0000
   Job name       : HDDRXM0T
-  Job id         : J0984008
+  Job id         : J0992297
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-08:21:07.056 INFO      Unittest         Execution completed
-08:21:07.058 INFO      Engine           Test Scenario execution ended
+09:44:42.957 INFO      Unittest         Execution completed
+09:44:42.958 INFO      Engine           Test Scenario execution ended
