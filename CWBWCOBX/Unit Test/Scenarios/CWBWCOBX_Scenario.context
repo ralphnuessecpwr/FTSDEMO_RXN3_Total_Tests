@@ -5,7 +5,7 @@
       <Value>SALESSUP.RXN3.DEV1.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwbwcobx" caseInsensitiveCompare="false" path="CWBWCOBX_Scenario.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwbwcobx" caseInsensitiveCompare="false" path="CWBWCOBX_Scenario.context">
     <Test>
       <Unittest testscenariopath="CWBWCOBX_Scenario.testscenario" moduleName="CWBWCOBX" />
     </Test>
