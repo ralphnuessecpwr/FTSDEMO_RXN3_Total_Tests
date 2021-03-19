@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_Cust_Cursor_SQL_Bad_SQL.stub" nextCalltoken="10003" stubtype="SQL CURSOR" target="Open" token="10000">
+  <stub:description>Created: Nov 2, 2020 10:00:53 AM</stub:description>
+  <stub:stubdata id="0" name="Open">
+    <stub:interface>../Interfaces/LGICDB01_Cust_Cursor_WS_NAME_MIN_VALUE.interface#Unit%20Test/Interfaces/LGICDB01_Cust_Cursor_WS_NAME_MIN_VALUE.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure#WS_NAME_MIN_VALUE" id="arg0.WS_NAME_MIN_VALUE">
+        <properties:properties>
+          <properties:property name="value" type="string">40</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Open_WS-NAME-MIN-VALUE.listructure#WS_NAME_MIN_VALUE" id="arg1.WS_NAME_MIN_VALUE">
+        <properties:properties>
+          <properties:property name="value" type="string">40</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_Cust_Cursor_DB2_EMAIL_ADDRESS.interface#Unit%20Test/Interfaces/Fetch_Cust_Cursor_DB2_EMAIL_ADDRESS.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure#DB2_FIRSTNAME" id="arg0.DB2_FIRSTNAME">
+            <properties:properties>
+              <properties:property name="value" type="string">C2998981954040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure#DB2_LASTNAME" id="arg1.DB2_LASTNAME">
+            <properties:properties>
+              <properties:property name="value" type="string">C38195A340404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure#DB2_DATEOFBIRTH" id="arg2.DB2_DATEOFBIRTH">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F9F9F960F0F660F1F5</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure#DB2_HOUSENAME" id="arg3.DB2_HOUSENAME">
+            <properties:properties>
+              <properties:property name="value" type="string">4040404040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure#DB2_HOUSENUMBER" id="arg4.DB2_HOUSENUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">F5F84040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure#DB2_POSTCODE" id="arg5.DB2_POSTCODE">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F8F9F4F4404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure#DB2_PHONE_MOBILE" id="arg6.DB2_PHONE_MOBILE">
+            <properties:properties>
+              <properties:property name="value" type="string">4040404040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure#DB2_PHONE_HOME" id="arg7.DB2_PHONE_HOME">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F1F5F2F5F7F7F2F3F540404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure#DB2_EMAIL_ADDRESS" id="arg8.DB2_EMAIL_ADDRESS">
+            <properties:properties>
+              <properties:property name="value" type="string">82838195A37CA68889A3854B8289A940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****        EXEC SQL
+      *****        Fetch Cust_Cursor
+      *****        INTO
+      *****            :DB2-FIRSTNAME,
+      *****            :DB2-LASTNAME,
+      *****            :DB2-DATEOFBIRTH,
+      *****            :DB2-HOUSENAME,
+      *****            :DB2-HOUSENUMBER,
+      *****            :DB2-POSTCODE,
+      *****            :DB2-PHONE-MOBILE,
+      *****            :DB2-PHONE-HOME,
+      *****            :DB2-EMAIL-ADDRESS
+      *****        END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E4C474943444230311AFBFAAC17E90B60000139C6B6900000000039C74CC004B80004000003A10000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000019C0009000901C4000A39C6B73839C74168000040404040404040404040404040404040404040404040404040404040404001C4001439C6B74239C74168000040404040404040404040404040404040404040404040404040404040404001C4000A39C6B75639C74168000040404040404040404040404040404040404040404040404040404040404001C4001439C6B76039C74168000040404040404040404040404040404040404040404040404040404040404001C4000439C6B77439C74168000040404040404040404040404040404040404040404040404040404040404001C4000839C6B77839C74168000040404040404040404040404040404040404040404040404040404040404001C4001439C6B78039C74168000040404040404040404040404040404040404040404040404040404040404001C4001439C6B79439C74168000040404040404040404040404040404040404040404040404040404040404001C4006439C6B7A839C741680000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="10002">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFD66000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****EXEC SQL
+      *****  OPEN Cust_Cursor
+      *****END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>0040400000324C474943444230311AFBFAAC17E90B60000139C6B69039C748180000000004B80003000003540000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000680002000201C4000139C6B59039C74168000040404040404040404040404040404040404040404040404040404040404001C4000139C6B59039C741680000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="10001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040E24040C9F14040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+  <stub:query>
+    <stub:text>           EXEC SQL
+             DECLARE Cust_Cursor Insensitive Scroll Cursor For
+             SELECT    FIRSTNAME,
+                       LASTNAME,
+                       DATEOFBIRTH,
+                       HOUSENAME,
+                       HOUSENUMBER,
+                       POSTCODE,
+                       PHONEMOBILE,
+                       PHONEHOME,
+                       EMAILADDRESS
+             FROM      CUSTOMER
+             WHERE     LASTNAME  > :WS-NAME-MIN-VALUE   AND
+                       FIRSTNAME > :WS-NAME-MIN-VALUE   AND
+                       CUSTOMERNUMBER &lt; 10
+             ORDER BY  LASTNAME, HOUSENAME, EMAILADDRESS
+           END-EXEC.
+</stub:text>
+  </stub:query>
+</stub:stub>

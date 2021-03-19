@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_RETURN_Bad_SQL.stub" nextCalltoken="50002" stubtype="CICS" target="" token="50000">
+  <stub:description>Created: Nov 2, 2020 10:01:25 AM</stub:description>
+  <stub:stubdata callToken="50001" id="0" name="EXEC CICS RETURN">
+    <stub:interface>../Interfaces/LGICDB01_RETURN.interface#Unit%20Test/Interfaces/LGICDB01_RETURN.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGICDB01_RETURN.interface#Unit%20Test/Interfaces/LGICDB01_RETURN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e0800000700001000f0f1f8f7f6404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e0800000700001000f0f1f8f7f6404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS RETURN">
+      <stub:text>      *EXEC CICS RETURN END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGICDB01_RETURN/LGICDB01_RETURN_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0040117F0120307FE2E2C3F10061717CC3F5F1F20000020B09C47D0E080000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

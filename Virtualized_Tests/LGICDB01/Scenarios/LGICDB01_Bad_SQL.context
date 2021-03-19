@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.RXN3.DEV1.CICSLOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicdb01" caseInsensitiveCompare="false" path="LGICDB01_Bad_SQL.testscenario">
+    <Test>
+      <Unittest testscenariopath="LGICDB01_Bad_SQL.testscenario" moduleName="LGICDB01" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
