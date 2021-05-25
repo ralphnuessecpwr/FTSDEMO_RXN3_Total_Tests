@@ -508,6 +508,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -649,6 +652,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -696,6 +702,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -743,6 +752,171 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTSUBC_RETURN-CODE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSUBC</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" entrypoint="CWXTSUBC#C" id="MainframeTests/Unit%20Tests/CWXTSUBC/Unit%20Test/Scenarios/CWXTSUBC_Sales_Scenario.testscenario%23SalesAmount_Range_6_LowerBound" target="CWXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.RXN3.DEV3.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602657416000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSUBC.interface#MainframeTests/Unit%20Tests/CWXTSUBC/Interfaces/CWXTSUBC.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+          <properties:properties>
+            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">E2</properties:property>
+            <properties:property name="address" type="string">37CF39C8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+          <properties:properties>
+            <properties:property name="value" type="string">F1F0F0F0F0F1F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F1F0F0F0F0F1F0F0</properties:property>
+            <properties:property name="address" type="string">37CF39C9</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F</properties:property>
+            <properties:property name="expectedValue" type="string">1500015F</properties:property>
+            <properties:property name="address" type="string">37CF39D1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTSUBC_RETURN-CODE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSUBC</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" entrypoint="CWXTSUBC#C" id="MainframeTests/Unit%20Tests/CWXTSUBC/Unit%20Test/Scenarios/CWXTSUBC_Sales_Scenario.testscenario%23SalesAmount_Range_6_Center" target="CWXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.RXN3.DEV3.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602657416000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSUBC.interface#MainframeTests/Unit%20Tests/CWXTSUBC/Interfaces/CWXTSUBC.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+          <properties:properties>
+            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">E2</properties:property>
+            <properties:property name="address" type="string">37CF39C8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F5F0F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F2F5F0F0F0F0F0F0</properties:property>
+            <properties:property name="address" type="string">37CF39C9</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F</properties:property>
+            <properties:property name="expectedValue" type="string">3750000F</properties:property>
+            <properties:property name="address" type="string">37CF39D1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTSUBC_RETURN-CODE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSUBC</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" entrypoint="CWXTSUBC#C" id="MainframeTests/Unit%20Tests/CWXTSUBC/Unit%20Test/Scenarios/CWXTSUBC_Sales_Scenario.testscenario%23SalesAmount_Range_6_UpperBound" target="CWXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.RXN3.DEV3.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602657416000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSUBC.interface#MainframeTests/Unit%20Tests/CWXTSUBC/Interfaces/CWXTSUBC.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+          <properties:properties>
+            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">E2</properties:property>
+            <properties:property name="address" type="string">37CF39C8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+          <properties:properties>
+            <properties:property name="value" type="string">F5F0F0F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F5F0F0F0F0F0F0F0</properties:property>
+            <properties:property name="address" type="string">37CF39C9</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F</properties:property>
+            <properties:property name="expectedValue" type="string">7500000F</properties:property>
+            <properties:property name="address" type="string">37CF39D1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
