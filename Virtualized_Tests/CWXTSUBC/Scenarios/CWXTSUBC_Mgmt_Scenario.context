@@ -11,7 +11,7 @@
       <Value>SALESSUP.${ispw_app}.${ispw_level}.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtsubc" caseInsensitiveCompare="false" path="CWXTSUBC_Mgmt_Scenario.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTSUBC" caseInsensitiveCompare="false" path="CWXTSUBC_Mgmt_Scenario.context">
     <Test>
       <Unittest testscenariopath="CWXTSUBC_Mgmt_Scenario.testscenario" moduleName="CWXTSUBC" />
     </Test>

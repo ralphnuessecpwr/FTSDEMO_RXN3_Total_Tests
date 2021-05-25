@@ -644,7 +644,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">1800004F</properties:property>
+            <properties:property name="expectedValue" type="string">1600004F</properties:property>
             <properties:property name="address" type="string">37CF39D1</properties:property>
           </properties:properties>
         </testcase:data>
@@ -691,7 +691,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">2025000F</properties:property>
+            <properties:property name="expectedValue" type="string">1800000F</properties:property>
             <properties:property name="address" type="string">37CF39D1</properties:property>
           </properties:properties>
         </testcase:data>
@@ -738,7 +738,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">2250000F</properties:property>
+            <properties:property name="expectedValue" type="string">2000000F</properties:property>
             <properties:property name="address" type="string">37CF39D1</properties:property>
           </properties:properties>
         </testcase:data>
