@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
+      <Value>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</Value>
       <Value>SALESSUP.RXN3.DEV1.CICSLOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicdb01" caseInsensitiveCompare="false" path="LGICDB01_Bad_SQL.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="LGICDB01" caseInsensitiveCompare="false" path="LGICDB01_Bad_SQL.testscenario">
     <Test>
       <Unittest testscenariopath="LGICDB01_Bad_SQL.testscenario" moduleName="LGICDB01" />
     </Test>

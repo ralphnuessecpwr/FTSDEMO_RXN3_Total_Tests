@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <Unittest testscenariopath="LGICDB01_01_Existing_Customer.testscenario" moduleName="LGICDB01" />
+    <Unittest testscenariopath="LGICDB01_02_Non_Existing_Customer.testscenario" moduleName="LGICDB01" />
+    <Unittest testscenariopath="LGICDB01_03_SQL_-913.testscenario" moduleName="LGICDB01" />
+    <Unittest testscenariopath="LGICDB01_Bad_SQL.testscenario" moduleName="LGICDB01" />
+  </Test>
+</XaUnit>

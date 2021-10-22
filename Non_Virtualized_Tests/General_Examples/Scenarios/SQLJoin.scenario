@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <SQLSelect id="sqlJoin" maxRows="20">
+      <Statement>SELECT &#xD;
+	B.COMPANY_NAME,&#xD;
+	B.CITY,&#xD;
+	A.ORDER_NUMBER,  &#xD;
+	A.ORD_TYPE,  &#xD;
+	A.ORD_STAT&#xD;
+ FROM &#xD;
+ 	HDDRXM0.ORDER_TABLE A,&#xD;
+	HDDRXM0.CUSTOMER_TABLE B&#xD;
+ WHERE&#xD;
+ 	A.CUST_NUM = B.CUSTOMER_NUMBER</Statement>
+      <Output name="B.COMPANY_NAME" />
+      <Output name="B.CITY" />
+      <Output name="A.ORDER_NUMBER" />
+      <Output name="A.ORD_TYPE" />
+      <Output name="A.ORD_STAT" />
+    </SQLSelect>
+    <IterateData id="iterate" referencedId="sqlJoin" dataPath="">
+      <Log>
+        <data:String>CITY:</data:String>
+        <data:Replaceable>
+          <Expression>
+            <Statement><![CDATA[iterate.Row['B.CITY']]]></Statement>
+          </Expression>
+        </data:Replaceable>
+      </Log>
+    </IterateData>
+  </Test>
+</XaUnit>
