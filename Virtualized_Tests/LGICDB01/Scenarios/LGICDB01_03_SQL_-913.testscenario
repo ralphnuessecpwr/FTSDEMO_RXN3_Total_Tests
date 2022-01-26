@@ -102,6 +102,10 @@ Search for non exeisting customer</testscenario:description>
       <testcase:output listructure="../Structures/LGICDB01_DFHCOMMAREA.listructure#Unit%20Test/Structures/LGICDB01_DFHCOMMAREA.listructure"/>
       <testcase:output listructure="../Structures/LGICDB01_dfheiblk.listructure#Unit%20Test/Structures/LGICDB01_dfheiblk.listructure"/>
       <testcase:output listructure="../Structures/LGICDB01_DFHCOMMAREA.listructure#Unit%20Test/Structures/LGICDB01_DFHCOMMAREA.listructure"/>
+      <testcase:output listructure="../Structures/LGICDB01_dfheiblk.listructure#Unit%20Test/Structures/LGICDB01_dfheiblk.listructure"/>
+      <testcase:output listructure="../Structures/LGICDB01_DFHCOMMAREA.listructure#Unit%20Test/Structures/LGICDB01_DFHCOMMAREA.listructure"/>
+      <testcase:output listructure="../Structures/LGICDB01_dfheiblk.listructure#Unit%20Test/Structures/LGICDB01_dfheiblk.listructure"/>
+      <testcase:output listructure="../Structures/LGICDB01_DFHCOMMAREA.listructure#Unit%20Test/Structures/LGICDB01_DFHCOMMAREA.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
         <checkconditions:simpleCheckcondition>
