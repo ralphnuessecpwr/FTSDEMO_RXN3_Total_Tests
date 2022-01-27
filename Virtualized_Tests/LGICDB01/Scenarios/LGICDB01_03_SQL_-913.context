@@ -6,7 +6,7 @@
       <Value>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="LGICDB01" caseInsensitiveCompare="false" path="LGICDB01_03_SQL_-913.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="LGICDB01" caseInsensitiveCompare="false" path="LGICDB01_03_SQL_-913.testscenario">
     <Test>
       <Unittest testscenariopath="LGICDB01_03_SQL_-913.testscenario" moduleName="LGICDB01" />
     </Test>
