@@ -14,15 +14,19 @@
 //RPTFILE DD SYSOUT=*]]></Content>
       </Setup>
     </Component>
-    <Variable id="id" description="id">value</Variable>
+    <Variable id="id" description="id" />
     <Log>test log write</Log>
-    <Scope name="Scope" disabled="true">
+    <Scope name="Scope" disabled="false">
       <SQLSelect id="id1" description="select from emp" maxRows="20">
-        <Statement>SELECT FIRSTNAME,  LASTNAME&#xD;
- FROM HDDRXM0.XAEMPLOYEE</Statement>
-        <Output name="FIRSTNAME" />
-        <Output name="LASTNAME" />
+        <Statement>SELECT FIRST_LAST_NAME,  RATE&#xD;
+ FROM HDDRXM0.KT_DEMOTAB2</Statement>
+        <Output name="FIRST_LAST_NAME" />
+        <Output name="RATE" />
       </SQLSelect>
+      <Verify name="Verify" haltExecution="false">
+        <Expected>25.00</Expected>
+        <Actual expression="id1.Row[0].RATE" />
+      </Verify>
     </Scope>
   </Test>
   <MetaData>
