@@ -5,7 +5,7 @@
       <Data>
         <parminfo>
           <parm-lth expected="5">5</parm-lth>
-          <parm-data expected="00001">00001</parm-data>
+          <parm-data expected="00002">00001</parm-data>
         </parminfo>
       </Data>
       <Setup>
