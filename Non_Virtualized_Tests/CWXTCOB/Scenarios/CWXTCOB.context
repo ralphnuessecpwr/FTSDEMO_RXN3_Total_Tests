@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HAUNXG0.CODE.COVERAGE" ccsystem="CWC2TEST" cctestid="TESTCWC2" ccreset="false" ccshow="false" database="DBCCCWCC">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="CWC2-ISPW-GIT" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
   <ExtensionData />
-  <ExtensionData componentName="cwxtcob" componentId="62221011180742007e91f09c">
-    <Parameter key="sourcelibrary">
-      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD</Value>
-    </Parameter>
+  <ExtensionData componentName="cwxtcob" componentId="602c3c2c1807420043bfbc2e">
     <Parameter key="loadlibraries">
       <Value>SALESSUP.RXN3.DEV1.LOAD</Value>
       <Value>SALESSUP.RXN3.QA1.LOAD</Value>
