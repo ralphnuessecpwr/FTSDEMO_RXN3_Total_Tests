@@ -16,12 +16,14 @@
     </Component>
     <Variable id="id" description="id">value</Variable>
     <Log>test log write</Log>
-    <SQLSelect id="id1" description="select from emp" maxRows="20">
-      <Statement>SELECT FIRSTNAME,  LASTNAME&#xD;
+    <Scope name="Scope" disabled="true">
+      <SQLSelect id="id1" description="select from emp" maxRows="20">
+        <Statement>SELECT FIRSTNAME,  LASTNAME&#xD;
  FROM HDDRXM0.XAEMPLOYEE</Statement>
-      <Output name="FIRSTNAME" />
-      <Output name="LASTNAME" />
-    </SQLSelect>
+        <Output name="FIRSTNAME" />
+        <Output name="LASTNAME" />
+      </SQLSelect>
+    </Scope>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">
