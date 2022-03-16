@@ -9,8 +9,9 @@
         </PARMINFO>
       </Data>
       <Setup>
-        <Content><![CDATA[//RPTFILE DD DISP=SHR,DSN=HAUNXG0.APAC.TRAIN.CWXTRPT
-//EMPFILE DD DISP=SHR,DSN=HAUNXG0.APAC.TRAIN.CWXTDATA]]></Content>
+        <Content><![CDATA[//EMPFILE DD DISP=SHR,
+//  DSN=SALESSUP.GITE.TEST.CWXTDATA
+//RPTFILE DD SYSOUT=*]]></Content>
       </Setup>
     </Component>
     <Variable id="id" description="id">value</Variable>
