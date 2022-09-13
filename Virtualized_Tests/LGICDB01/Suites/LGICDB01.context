@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="MUTUAL" cctestid="LGICDB01" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.RXN3.DEV1.CICSLOAD</Value>
+      <Value>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="LGICDB01.suite">
+    <Test>
+      <Unittest testscenariopath="../Scenarios/LGICDB01_01_Existing_Customer.testscenario" moduleName="" />
+      <Unittest testscenariopath="../Scenarios/LGICDB01_02_Non_Existing_Customer.testscenario" moduleName="" />
+      <Unittest testscenariopath="../Scenarios/LGICDB01_03_SQL_-913.testscenario" moduleName="" />
+      <Unittest testscenariopath="../Scenarios/LGICDB01_Bad_SQL.testscenario" moduleName="" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

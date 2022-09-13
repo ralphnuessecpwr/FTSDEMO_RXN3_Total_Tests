@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="cwxtcob" componentId="5ba0fe7a787be73b59238fc0">
+    <Parameter key="loadlibraries">
+      <Value>SALESSUP.RXN3.DEV1.LOAD</Value>
+      <Value>SALESSUP.RXN3.QA1.LOAD</Value>
+      <Value>SALESSUP.RXN3.STG.LOAD</Value>
+      <Value>SALESSUP.RXN3.PRD.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="CWXTCOB_Standard.scenario" />
+</ExecutionContext>

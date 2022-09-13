@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="LGICDB01" haltAtFailure="false">
+  <Description>Converted unit test suite file : LGICDB01</Description>
+  <XaUnits>
+    <Path>../Scenarios/LGICDB01_01_Existing_Customer.testscenario</Path>
+    <Path>../Scenarios/LGICDB01_02_Non_Existing_Customer.testscenario</Path>
+    <Path>../Scenarios/LGICDB01_03_SQL_-913.testscenario</Path>
+    <Path>../Scenarios/LGICDB01_Bad_SQL.testscenario</Path>
+  </XaUnits>
+</XaSuite>

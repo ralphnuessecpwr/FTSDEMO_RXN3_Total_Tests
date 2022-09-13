@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.RXN3.DEV3.CICSLOAD</Value>
+      <Value>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="LGICUS01" caseInsensitiveCompare="false" path="LGICUS01_Non_Existing_Customer.testscenario">
+    <Test>
+      <Unittest testscenariopath="LGICUS01_Non_Existing_Customer.testscenario" moduleName="LGICUS01" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

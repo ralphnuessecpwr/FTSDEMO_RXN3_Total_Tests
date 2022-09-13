@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="LGICUS01" haltAtFailure="false">
+  <Description />
+  <XaUnits>
+    <Path>../Scenarios/LGICUS01_Existing_Customer.testscenario</Path>
+    <Path>../Scenarios/LGICUS01_Non_Existing_Customer.testscenario</Path>
+  </XaUnits>
+</XaSuite>

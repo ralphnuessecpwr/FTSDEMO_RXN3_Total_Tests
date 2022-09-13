@@ -1,0 +1,10 @@
+<SerializedData xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <SurName>Hans</SurName>
+    <Name>Hansson</Name>
+  </record>
+  <record>
+    <SurName>Peter</SurName>
+    <Name>Petersson</Name>
+  </record>
+</SerializedData>
