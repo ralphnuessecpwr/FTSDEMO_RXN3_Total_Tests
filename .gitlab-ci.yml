@@ -1,0 +1,13 @@
+stages:
+    - mf-sources
+
+synch:
+    stage: mf-sources
+    script: |
+        echo "Getting Sources from Mainframe for"
+        echo "Stream $ispwStream"
+        echo "Application $ispwApplication"
+        echo "Assignment $ispwAssignment"
+        echo "Set $ispwSet"
+        echo "Level $ispwLevel"
+        echo "Ownder $ispwOwner"
