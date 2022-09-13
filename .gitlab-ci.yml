@@ -1,7 +1,7 @@
 stages:
     - mf-sources
 
-synch:
+mf-sources:
     stage: mf-sources
     script: |
         echo "Getting Sources from Mainframe for"
@@ -9,5 +9,5 @@ synch:
         echo "Application $ispwApplication"
         echo "Assignment $ispwAssignment"
         echo "Set $ispwSet"
-        echo "Level $ispwLevel"
+        echo "Level $ispwSrcLevel"
         echo "Ownder $ispwOwner"
