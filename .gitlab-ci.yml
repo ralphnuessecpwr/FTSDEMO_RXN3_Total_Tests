@@ -5,7 +5,9 @@ variables:
     hostCodePage:           1047
     topazCliWorkspace:      .\TopazCliWkspc
     ispwConfig:             ispw
+    ccRepo:                 HDDRXM0.DEMO.COCO.REPOS
     ccSystem:               AZURE_$ispwSet
+    ccTestid:               BUILD
     sonarProjectName:       RNU_$ispwApplication_GitLab
     sonarSources:           .\$ispwApplication\MF_Source
     tttEnvironment:         5b508b8a787be73b59238d38
