@@ -28,6 +28,11 @@ mf-sources:
         echo "Application $ispwApplication"
         echo "Assignment $ispwAssignment"
         echo "Set $ispwSet"
-        echo "Level $ispwSrcLevel"
+        echo "Source Level $ispwSrcLevel"
+        echo "Target Level $ispwTargetLevel"
         echo "Ownder $ispwOwner"
         cmd.exe /c $cliPath'\SCMDownloaderCLI.bat -host '$hostUri' -port '$hostPort' -id '$hostUser' -pass '$hostPassword' -protocol None -code '$hostCodePage' -timeout 0 -targetFolder .\ -data '$topazCliWorkspace' -ispwServerConfig '$ispwConfig' -scm ispwc -ispwContainerName '$ispwSet' -ispwContainerType 2 -ispwServerLevel '$ispwTargetLevel' -ispwDownloadAll true'
+    artifacts:
+        paths: 
+            - ./
+        when: always
