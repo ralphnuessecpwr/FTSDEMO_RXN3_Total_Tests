@@ -1,8 +1,27 @@
+variables:
+    hostUri:            cwcc.compuware.com
+    hostPort:           16196
+    hostCodePage:       1047
+    topazCliWorkspace:  .\TopazCliWkspc
+    ispwConfig:         ispw
+
 stages:
     - mf-sources
 
 mf-sources:
     stage: mf-sources
+    variables:
+        ispwTargetLevel: QA1
+    rules:
+        - if: $ispwSrcLevel == 'DEV2'
+          variables:
+            ispwTargetLevel: QA2
+        - if: $ispwSrcLevel == 'DEV3'
+          variables:
+            ispwTargetLevel: QA3
+        - if: $ispwSrcLevel == 'FIX'
+          variables:
+            ispwTargetLevel: EMR
     script: |
         echo "Getting Sources from Mainframe for"
         echo "Stream $ispwStream"
@@ -11,3 +30,4 @@ mf-sources:
         echo "Set $ispwSet"
         echo "Level $ispwSrcLevel"
         echo "Ownder $ispwOwner"
+        cmd.exe /c $cliPath'\SCMDownloaderCLI.bat -host '$hostUri' -port '$hostPort' -id '$hostUser' -pass '$hostPassword' -protocol None -code '$hostCodePage' -timeout 0 -targetFolder .\ -data '$topazCliWorkspace' -ispwServerConfig '$ispwConfig' -scm ispwc -ispwContainerName '$ispwSet' -ispwContainerType 2 -ispwServerLevel '$ispwTargetLevel' -ispwDownloadAll true'
