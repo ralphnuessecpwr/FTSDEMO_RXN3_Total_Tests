@@ -104,7 +104,7 @@ sonar:
 quality-gate:
     stage: sonar
     needs: [sonar]
-    scripts: |
+    script: |
         $uri = $sonarUri'/api/qualitygates/project_status?projectKey='$sonarProject
 
         $headers = @{}
