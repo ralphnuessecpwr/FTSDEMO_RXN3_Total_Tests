@@ -8,18 +8,22 @@ variables:
     ccRepo:                 HDDRXM0.DEMO.COCO.REPOS
     ccSystem:               AZURE_$ispwSet
     ccTestid:               BUILD
-    ccSourcesFolder:        MF_Source
+    mfSourcesFolder:        MF_Source
     sonarProjectName:       RNU_$ispwApplication_GitLab
     sonarSources:           .\$ispwApplication\MF_Source
     tttEnvironment:         5b508b8a787be73b59238d38
     testFolderVt:           ./Virtualized_Tests
     testResultFolderVt:     ./TTTSonar/Virtualized_Tests.cli.suite.sonar.xml
-    codeCoverageReportFile: Coverage/CodeCoverage.xml
+    junitFile:              ./TTTUnit/Virtualized_Tests.cli.suite.junit.xml
+    codeCoverageReportFile: ./Coverage/CodeCoverage.xml
+    sonarUri:               http://dtw-sonarqube-cwcc.nasa.cpwr.corp:9000
+    sonarProject:           RNU_FTSDEMO_GitLab
 
 stages:
     - mf-sources
     - tests
     - coco
+    - sonar
 
 mf-sources:
     stage: mf-sources
@@ -74,26 +78,25 @@ tests:
         paths: 
             - ./
         when: always
+        reports:
+            junit: $junitFile
 
 coco:
     stage: coco
     needs: [tests]
-    variables:
-        contextVars: '"ispw_app=$ispwApplication,ispw_level=$ispwTargetLevel"'
-        ispwTargetLevel: QA1
-    rules:
-        - if: $ispwSrcLevel == 'DEV2'
-          variables:
-            ispwTargetLevel: QA2
-        - if: $ispwSrcLevel == 'DEV3'
-          variables:
-            ispwTargetLevel: QA3
-        - if: $ispwSrcLevel == 'FIX'
-          variables:
-            ispwTargetLevel: EMR
     script: |
-        cmd.exe /c $cliPath'\CodeCoverageCLI.bat -host '$hostUri' -port '$hostPort' -id '$hostUser' -pass '$hostPassword' -code '$hostCodePage' -targetFolder ./ -data '$topazCliWorkspace' -cc.repos '$ccRepo' -cc.test '$ccTestid' -cc.system '$ccSystem' -cc.sources '$ispwApplication'/'$ccSourcesFolder' -timeout 0
+        cmd.exe /c $cliPath'\CodeCoverageCLI.bat -host '$hostUri' -port '$hostPort' -id '$hostUser' -pass '$hostPassword' -code '$hostCodePage' -targetFolder ./ -data '$topazCliWorkspace' -cc.repos '$ccRepo' -cc.test '$ccTestid' -cc.system '$ccSystem' -cc.sources '$ispwApplication'/'$mfSourcesFolder' -timeout 0'
     artifacts:
         paths: 
             - ./
         when: always
+
+sonar:
+    stage: sonar
+    needs: [mf-sources, tests, coco]
+    script: |
+        cmd.exe /c 'C:\Jenkins\tools\hudson.plugins.sonar.SonarRunnerInstallation\scanner/bin/sonar-scanner -Dsonar.host.url='$sonarUri' -Dsonar.ws.timeout=300 -Dsonar.projectKey='$sonarProject' -Dsonar.projectName='$sonarProject' -Dsonar.projectVersion=1.0 -Dsonar.sources=./'$ispwApplication'/'$mfSourcesFolder' -Dsonar.cobol.copy.directories=./'$ispwApplication'/'$mfSourcesFolder' -Dsonar.cobol.copy.suffixes=cpy -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub,results,scenario,context -Dsonar.tests='$testFolderVt' -Dsonar.testExecutionReportPaths='$testResultFolderVt' -Dsonar.coverageReportPaths='$codeCoverageReportFile
+    artifacts:
+        paths: 
+            - ./
+        when: always        
