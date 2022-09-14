@@ -49,6 +49,8 @@ mf-sources:
 
 tests:
     stage: tests
+    variables:
+        contextVars: '"ispw_app=$ispwApplication,ispw_level=$ispwTargetLevel"'
     script: |
         echo "Target Lev $ispwTargetLevel"
-        cmd.exe /c $cliPath'\TotalTestFTCLI.bat -data '$cliWorkpace' -e '$tttEnvironment' -u '$hostUser -p '$hostPassword' -s '$cesUri'/totaltestapi/ -cesu '$hostUser' -cesp '$hostPassword' -f '$testFolderVt' -pnf changedPrograms.json -ccrepo '$ccRepo' -ccsys '$ccSystem' -cctid '$ccTestid' -ccclear true -ctxvars '$contextVars' -R -G -v 6 -l jenkins -loglevel INFO'
+        cmd.exe /c $cliPath'\TotalTestFTCLI.bat -data '$cliWorkpace' -e '$tttEnvironment' -u '$hostUser' -p '$hostPassword' -s '$cesUri'/totaltestapi/ -cesu '$hostUser' -cesp '$hostPassword' -f '$testFolderVt' -pnf changedPrograms.json -ccrepo '$ccRepo' -ccsys '$ccSystem' -cctid '$ccTestid' -ccclear true -ctxvars '$contextVars' -R -G -v 6 -l jenkins -loglevel INFO'
