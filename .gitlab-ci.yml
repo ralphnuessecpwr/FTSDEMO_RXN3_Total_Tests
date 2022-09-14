@@ -123,9 +123,9 @@ quality-gate:
         Write-Host "Status is "$status"."
         
         if($status -ne "OK"){
-            $LASTEXITCODE = 1
+            $CI_JOB_STATUS = 'failed'
         }
         else
         {
-            $LASTEXITCODE = 0
+            $CI_JOB_STATUS = 'success'
         }    
