@@ -65,6 +65,7 @@ tests:
             ispwTargetLevel: EMR
     script: |
         echo "Target Lev $ispwTargetLevel"
+        echo "Context $contextVars"
         cmd.exe /c $cliPath'\TotalTestFTCLI.bat -data '$topazCliWorkspace' -host '$hostUri' -port '$hostPort' -u '$hostUser' -p '$hostPassword' -s '$cesUri'/totaltestapi/ -cesu '$hostUser' -cesp '$hostPassword' -f '$testFolderVt' -pnf changedPrograms.json -ccrepo '$ccRepo' -ccsys '$ccSystem' -cctid '$ccTestid' -ccclear true -ctxvars '$contextVars' -R -G -v 6 -l jenkins -loglevel INFO'
     artifacts:
         paths: 
