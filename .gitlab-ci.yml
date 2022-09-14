@@ -24,6 +24,7 @@ stages:
     - tests
     - coco
     - sonar
+    - conclusion
 
 mf-sources:
     stage: mf-sources
@@ -129,3 +130,36 @@ quality-gate:
         {
             exit 0
         }    
+
+regress:
+    stage: conclusion
+    needs: [quality-gate]
+    when: on_failure
+    variables:
+        ispwTargetLevel: QA1
+    rules:
+        - if: $ispwSrcLevel == 'DEV2'
+          variables:
+            ispwTargetLevel: QA2
+        - if: $ispwSrcLevel == 'DEV3'
+          variables:
+            ispwTargetLevel: QA3
+        - if: $ispwSrcLevel == 'FIX'
+          variables:
+            ispwTargetLevel: EMR
+    script: |
+        $uri = $cesUri + "/ispw/" + $ispwConfig + "/assignments/" + $ispwAssignment + "/tasks/regress?level=" + $ispwTargetLevel
+
+        $hash = @{}
+        $hash.add("runtimeConfiguration", $ispwConfig)
+
+        $body = ConvertTo-Json($hash)
+
+        $headers = @{}
+        $headers.Add("Authorization", $cesToken)
+        $headers.Add("Content-Type", "application/json")
+        
+        $response = Invoke-RestMethod -Uri $uri -method POST -headers $headers -body $body
+        
+        Write-Host Regressed Tasks in Assignment $ispwAssignment.
+        Write-Host $response
