@@ -4,24 +4,24 @@ variables:
     hostCodePage:       1047
     topazCliWorkspace:  .\TopazCliWkspc
     ispwConfig:         ispw
+    variables:
+        ispwTargetLevel: QA1
+    rules:
+        - if: $ispwSrcLevel == 'DEV2'
+          variables:
+            ispwTargetLevel: QA2
+        - if: $ispwSrcLevel == 'DEV3'
+          variables:
+            ispwTargetLevel: QA3
+        - if: $ispwSrcLevel == 'FIX'
+          variables:
+            ispwTargetLevel: EMR
 
 stages:
     - mf-sources
 
 mf-sources:
     stage: mf-sources
-    variables:
-        ispwTargetLevel: DEV1
-    rules:
-        - if: $ispwSrcLevel == 'DEV2'
-          variables:
-            ispwTargetLevel: DEV2
-        - if: $ispwSrcLevel == 'DEV3'
-          variables:
-            ispwTargetLevel: DEV3
-        - if: $ispwSrcLevel == 'FIX'
-          variables:
-            ispwTargetLevel: FIX
     script: |
         echo "Getting Sources from Mainframe for"
         echo "Stream $ispwStream"
