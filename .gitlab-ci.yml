@@ -1,9 +1,24 @@
 variables:
-    hostUri:            cwcc.compuware.com
-    hostPort:           16196
-    hostCodePage:       1047
-    topazCliWorkspace:  .\TopazCliWkspc
-    ispwConfig:         ispw
+    cesUri:                 http://cwcc.compuware.com:2020
+    hostUri:                cwcc.compuware.com
+    hostPort:               16196
+    hostCodePage:           1047
+    topazCliWorkspace:      .\TopazCliWkspc
+    ispwConfig:             ispw
+    ccSystem:               AZURE_$ispwSet
+    sonarProjectName:       RNU_$ispwApplication_GitLab
+    sonarSources:           .\$ispwApplication\MF_Source
+    tttEnvironment:         5b508b8a787be73b59238d38
+    testFolderVt:           tests/Virtualized_Tests
+    testResultFolderVt:     ./TTTSonar/Virtualized_Tests.cli.suite.sonar.xml
+    codeCoverageReportFile: Coverage/CodeCoverage.xml
+
+stages:
+    - mf-sources
+    - tests
+
+mf-sources:
+    stage: mf-sources
     variables:
         ispwTargetLevel: QA1
     rules:
@@ -16,12 +31,6 @@ variables:
         - if: $ispwSrcLevel == 'FIX'
           variables:
             ispwTargetLevel: EMR
-
-stages:
-    - mf-sources
-
-mf-sources:
-    stage: mf-sources
     script: |
         echo "Getting Sources from Mainframe for"
         echo "Stream $ispwStream"
@@ -36,3 +45,8 @@ mf-sources:
         paths: 
             - ./
         when: always
+
+tests:
+    stage: tests
+    script: |
+        cmd.exe /c $cliPath'\TotalTestFTCLI.bat -e '$tttEnvironment' -u '$hostUser -p '$hostPassword' -s '$cesUri'/totaltestapi/ -cesu '$hostUser' -cesp '$hostPassword' -f '$testFolderVt' -pnf changedPrograms.json -ccrepo '$ccRepo' -ccsys '$ccSystem' -cctid '$ccTestid' -ccclear true -ctxvars '$contextVars' -R -G -v 6 -l jenkins -loglevel INFO -data '$cliWorkpace
