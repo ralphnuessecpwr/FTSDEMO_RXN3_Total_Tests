@@ -105,10 +105,10 @@ quality-gate:
     stage: sonar
     needs: [sonar]
     script: |
-        $uri = $sonarUri'/api/qualitygates/project_status?projectKey='$sonarProject
+        $uri = $sonarUri/api/qualitygates/project_status?projectKey=$sonarProject
 
         $headers = @{}
-        $headers.Add("Authorization", '"$sonarAuthorization"')
+        $headers.Add("Authorization", '"'$sonarAuthorization'"')
         $headers.Add("Content-Type", "application/json")
 
         Write-Host "Checking Sonar Quality Gate Status for Project "$sonarProject"."
