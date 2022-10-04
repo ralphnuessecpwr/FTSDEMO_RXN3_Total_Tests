@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="4860ef0d-7bed-463e-b99c-70ed11c1296d" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
-  <ExtensionData />
-  <XaUnit path="TestScenario1.scenario" />
-</ExecutionContext>
