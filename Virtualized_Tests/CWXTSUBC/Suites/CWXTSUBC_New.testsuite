@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 2, 2022 1:08:30 PM-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Virtualized_Tests/CWXTSUBC/Suites/CWXTSUBC_New.testsuite">
+  <testsuite:testscenario>../Scenarios/CWXTSUBC_Mgmt_Scenario_New.testscenario#Virtualized_Tests/CWXTSUBC/Scenarios/CWXTSUBC_Mgmt_Scenario_New.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWXTSUBC_Sales_Scenario_New.testscenario#Virtualized_Tests/CWXTSUBC/Scenarios/CWXTSUBC_Sales_Scenario_New.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

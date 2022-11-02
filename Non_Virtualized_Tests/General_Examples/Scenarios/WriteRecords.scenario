@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <Variable id="empRecords" filePath="../Data/EMP_Records.xlsx" />
+    <IterateData id="iterateExcel" referencedId="empRecords" dataPath="">
+      <WriteRemoteFile fileName="HDDRXM0.DEMO.CWXTDATA.AFLAC" id="writeRecords" label="Write Records" mDataDefinitionName="emp_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC002" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old">
+        <Records>
+          <Record>
+            <employee-work-area>
+              <wa-emp-num>=empRecords.record.wa-emp-num</wa-emp-num>
+              <wa-emp-type>=empRecords.record.wa-emp-type</wa-emp-type>
+              <wa-emp-region>=empRecords.record.wa-emp-region</wa-emp-region>
+              <wa-emp-name>=empRecords.record.wa-emp-name</wa-emp-name>
+              <wa-emp-address>
+                <wa-emp-street>=empRecords.record.wa-emp-street</wa-emp-street>
+                <wa-emp-city>=empRecords.record.wa-emp-city</wa-emp-city>
+                <wa-emp-state>=empRecords.record.wa-emp-state</wa-emp-state>
+                <wa-emp-zip>=empRecords.record.wa-emp-zip</wa-emp-zip>
+              </wa-emp-address>
+              <wa-hourly-employee-data>
+                <wa-emp-hours>=empRecords.record.wa-emp-hours</wa-emp-hours>
+                <wa-emp-rate>=empRecords.record.wa-emp-rate</wa-emp-rate>
+                <filler1>=empRecords.record.filler1[0]</filler1>
+              </wa-hourly-employee-data>
+              <wa-emp-hire-date>
+                <wa-emp-hire-yy>=empRecords.record.wa-emp-hire-yy</wa-emp-hire-yy>
+                <wa-emp-hire-mm>=empRecords.record.wa-emp-hire-mm</wa-emp-hire-mm>
+                <wa-emp-hire-dd>=empRecords.record.wa-emp-hire-dd</wa-emp-hire-dd>
+              </wa-emp-hire-date>
+              <filler1>=empRecords.record.filler1[1]</filler1>
+            </employee-work-area>
+          </Record>
+        </Records>
+      </WriteRemoteFile>
+    </IterateData>
+  </Test>
+  <MetaData>
+    <MDataDefinition name="emp_hourly">
+      <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
+        <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" signsep="false" signpos="" />
+        <wa-emp-type type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
+        <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" signsep="false" signpos="" />
+        <wa-emp-name type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
+        <wa-emp-address native="05 WA-EMP-ADDRESS.">
+          <wa-emp-street type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
+          <wa-emp-city type="Character" length="8" bytes="8" native="10 WA-EMP-CITY PIC X(8)." />
+          <wa-emp-state type="Character" length="2" bytes="2" native="10 WA-EMP-STATE PIC XX." />
+          <wa-emp-zip type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
+        </wa-emp-address>
+        <wa-hourly-employee-data native="05 WA-HOURLY-EMPLOYEE-DATA.">
+          <wa-emp-hours type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+          <wa-emp-rate type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" signsep="false" signpos="" />
+          <filler1 type="Character" length="8" bytes="8" native="10 FILLER PIC X(8)." />
+        </wa-hourly-employee-data>
+        <wa-emp-hire-date native="05 WA-EMP-HIRE-DATE.">
+          <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+          <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+          <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+        </wa-emp-hire-date>
+        <filler1 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
+      </employee-work-area>
+    </MDataDefinition>
+  </MetaData>
+</XaUnit>

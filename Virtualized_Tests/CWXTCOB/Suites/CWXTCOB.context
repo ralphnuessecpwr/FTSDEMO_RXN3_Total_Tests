@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="NATWEST" cctestid="CWXTCOB" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
+  <ExtensionData>
+    <Parameter key="path">
+      <Value>3</Value>
+    </Parameter>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.RXN3.PRD.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB.testsuite" caseInsensitiveCompare="false" path="CWXTCOB.testsuite">
+    <Test>
+      <Unittest testscenariopath="CWXTCOB.testsuite" moduleName="CWXTCOB.testsuite" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

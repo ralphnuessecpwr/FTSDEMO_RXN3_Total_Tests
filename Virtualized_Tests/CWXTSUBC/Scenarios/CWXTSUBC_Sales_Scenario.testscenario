@@ -286,6 +286,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -333,6 +336,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -427,6 +433,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -571,6 +580,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -668,6 +680,9 @@
       <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -715,6 +730,9 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_SALES-AMOUNT.listructure"/>
       <testcase:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#MainframeTests/Unit%20Tests/CWXTSUBC/Structures/CWXTSUBC_COMM-TOTAL.listructure"/>
