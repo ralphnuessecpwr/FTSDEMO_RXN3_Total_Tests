@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:14:09 AM-->
+<testsuites>
+  <testsuite name="CWXTCOB_Negative_Bad_Parm_Char" errors="0" tests="1" failures="0">
+    <testcase classname="CWXTCOB_Negative_Bad_Parm_Char" name="Unit Test: Test Case: CWXTCOBCase1 for program: CWXTCOB" />
+  </testsuite>
+</testsuites>

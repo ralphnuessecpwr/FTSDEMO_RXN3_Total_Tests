@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:14:21 AM-->
+<testExecutions version="1">
+  <file path="C:\Users\rnuesse\git\FTSDEMO_RXN3_Total_Tests\Virtualized_Tests\CWXTCOB\Scenarios\CWXTCOB_Negative_Bad_Parm_Length.context">
+    <testCase name="Unit Test: Test Case: CWXTCOBCase1 for program: CWXTCOB" duration="0" />
+  </file>
+</testExecutions>

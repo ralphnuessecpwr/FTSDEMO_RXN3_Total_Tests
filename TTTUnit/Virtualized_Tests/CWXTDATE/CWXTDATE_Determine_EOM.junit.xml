@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:15:43 AM-->
+<testsuites>
+  <testsuite name="CWXTDATE_Determine_EOM" errors="0" tests="1" failures="1">
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jan01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jan10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jan31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Feb01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Feb10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Feb28_Non_Leap for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Feb28_Leap for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Feb29_Leap for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Mar01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Mar10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Mar31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Apr01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Apr10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Apr30 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: May01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: May10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: May31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jun01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jun10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jun30 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jul01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jul10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Jul31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Aug01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Aug10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Aug31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Sep01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Sep10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Sep30 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Oct01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Oct10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Oct31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Nov01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Nov10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Nov30 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Dec01 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Dec10 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+    <testcase classname="CWXTDATE_Determine_EOM" name="Unit Test: Test Case: Dec31 for program: CWXTCOB">
+      <error>Error      Linkage field: Message: Error encountered parsing field EOM_SW
+Error      Linkage field: Message: Error encountered parsing field YRS_OF_SERVICE
+Error      Linkage field: Message: Error encountered parsing field RUN_YY
+Error      Linkage field: Message: Error encountered parsing field RUN_MM
+Error      Linkage field: Message: Error encountered parsing field RUN_DD
+Error      Linkage field: Message: Error encountered parsing field HIRE_YY
+Error      Linkage field: Message: Error encountered parsing field HIRE_MM
+Error      Linkage field: Message: Error encountered parsing field HIRE_DD</error>
+    </testcase>
+  </testsuite>
+</testsuites>

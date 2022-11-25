@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="NatWestDemo" haltAtFailure="false">
+  <Description />
+  <XaUnits>
+    <Path>../CWBWCOBX/Scenarios/CWBWCOBX_Scenario.testscenario</Path>
+    <Path>../CWBWSUBC/Scenarios/CWBWSUBC_Scenario.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Employee.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Parm_Char.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Parm_Length.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Region.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Negative_EOM_Bad_Sales.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Positive_End_Of_Month.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Positive_Mid_Month.testscenario</Path>
+    <Path>../CWXTCOB/Scenarios/CWXTCOB_Positive_Zero_Length_Parm.testscenario</Path>
+    <Path>../CWXTDATE/Scenarios/CWXTDATE_Calc_YOS.testscenario</Path>
+    <Path>../CWXTDATE/Scenarios/CWXTDATE_Determine_EOM.testscenario</Path>
+    <Path>../CWXTSUBC/Scenarios/CWXTSUBC_Mgmt_Scenario.testscenario</Path>
+    <Path>../CWXTSUBC/Scenarios/CWXTSUBC_Mgmt_Scenario_New.testscenario</Path>
+    <Path>../CWXTSUBC/Scenarios/CWXTSUBC_Sales_Scenario.testscenario</Path>
+    <Path>../CWXTSUBC/Scenarios/CWXTSUBC_Sales_Scenario_New.testscenario</Path>
+  </XaUnits>
+</XaSuite>

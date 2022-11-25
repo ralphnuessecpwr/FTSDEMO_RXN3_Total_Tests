@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:13:57 AM-->
+<testsuites>
+  <testsuite name="CWXTCOB_Negative_Bad_Employee" errors="0" tests="1" failures="1">
+    <testcase classname="CWXTCOB_Negative_Bad_Employee" name="Unit Test: Test Case: CWXTCOBCase1 for program: CWXTCOB">
+      <failure>Failure    Stub: CWXTCOB_CWXTDATE_Negative_Bad_Employee Record: 00001 Message: Check for END_OF_MONTH_SW failed. Actual: X'D5' Expected: X'00'</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
