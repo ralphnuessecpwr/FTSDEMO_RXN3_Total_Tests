@@ -8,7 +8,6 @@
       <Value>RXN3</Value>
     </Parameter>
     <Parameter key="unittest.loadlibraries">
-      <Value>HDDRXM0.DEMO.CWCC.LOAD.PDSE</Value>
       <Value>SALESSUP.${ispw_app}.${ispw_level}.LOAD</Value>
     </Parameter>
   </ExtensionData>
