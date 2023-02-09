@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>HDDRXM0.DEMO.LOAD.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="Test.suite">
+    <Test>
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Employee.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Parm_Char.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Parm_Length.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Negative_Bad_Region.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Negative_EOM_Bad_Sales.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Positive_End_Of_Month.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Positive_Mid_Month.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTCOB/Scenarios/CWXTCOB_Positive_Zero_Length_Parm.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTDATE/Scenarios/CWXTDATE_Calc_YOS.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTDATE/Scenarios/CWXTDATE_Determine_EOM.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTSUBC/Scenarios/CWXTSUBC_Mgmt_Scenario.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTSUBC/Scenarios/CWXTSUBC_Mgmt_Scenario_New.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTSUBC/Scenarios/CWXTSUBC_Sales_Scenario.testscenario" moduleName="" />
+      <Unittest testscenariopath="../CWXTSUBC/Scenarios/CWXTSUBC_Sales_Scenario_New.testscenario" moduleName="" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

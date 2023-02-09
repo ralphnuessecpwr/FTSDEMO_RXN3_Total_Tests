@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:15:35 AM-->
+<testExecutions version="1">
+  <file path="C:\Users\rnuesse\git\FTSDEMO_RXN3_Total_Tests\Virtualized_Tests\CWXTDATE\Scenarios\CWXTDATE_Calc_YOS.context">
+    <testCase name="Unit Test: Test Case: Before_2000_Equal_Month for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: Before_2000_Higher_Month for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: Before_2000_Lower_Month for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: After_2000_Equal_Month for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: After_2000_Higher_Month for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: After_2000_Lower_Month for program: CWXTCOB" duration="0" />
+  </file>
+</testExecutions>

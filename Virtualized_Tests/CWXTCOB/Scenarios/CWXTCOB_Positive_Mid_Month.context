@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a1936cf655a12a4d4df4f" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="CWXTCOB" cctestid="TEST2" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="false">
   <ExtensionData>
     <Parameter key="ispw_level">
       <Value>DEV1</Value>
@@ -8,10 +8,10 @@
       <Value>RXN3</Value>
     </Parameter>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.${ispw_app}.${ispw_level}.LOAD</Value>
+      <Value>HDDRXM0.DEMO.LOAD.PDSE</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Positive_Mid_Month.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Positive_Mid_Month.context">
     <Test>
       <Unittest testscenariopath="CWXTCOB_Positive_Mid_Month.testscenario" moduleName="CWXTCOB" />
     </Test>

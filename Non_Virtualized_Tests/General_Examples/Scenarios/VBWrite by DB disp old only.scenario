@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <WriteRemoteFile fileName="PMIDDB0.TEST.Z253800.VB.multirec.n2" id="Id1" label="Write1" mDataDefinitionName="BMFTRL" recordLength="1020" recordFormat="" blockSize="1024" volumnName="" unitName="SYSDA" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="New">
+      <Records>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type>AB</ws-i-record-type>
+            <ws-i-bmf-file-cnt>1</ws-i-bmf-file-cnt>
+            <ws-i-bmf-cnf-cnt>2</ws-i-bmf-cnf-cnt>
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler />
+          </bmf-trail>
+        </Record>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type>CD</ws-i-record-type>
+            <ws-i-bmf-file-cnt>1</ws-i-bmf-file-cnt>
+            <ws-i-bmf-cnf-cnt>2</ws-i-bmf-cnf-cnt>
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler>Hap py da    ys</ws-i-bmf-filler>
+          </bmf-trail>
+        </Record>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type />
+            <ws-i-bmf-file-cnt />
+            <ws-i-bmf-cnf-cnt />
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler>Endrec3</ws-i-bmf-filler>
+          </bmf-trail>
+        </Record>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type>r4</ws-i-record-type>
+            <ws-i-bmf-file-cnt />
+            <ws-i-bmf-cnf-cnt />
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler />
+          </bmf-trail>
+        </Record>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type>C</ws-i-record-type>
+            <ws-i-bmf-file-cnt>1</ws-i-bmf-file-cnt>
+            <ws-i-bmf-cnf-cnt />
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler />
+          </bmf-trail>
+        </Record>
+        <Record>
+          <bmf-trail>
+            <ws-i-record-type>AB</ws-i-record-type>
+            <ws-i-bmf-file-cnt>1</ws-i-bmf-file-cnt>
+            <ws-i-bmf-cnf-cnt>2</ws-i-bmf-cnf-cnt>
+            <ws-i-bmf-rej-cnt />
+            <ws-i-bmf-additional-cnt />
+            <ws-i-bmf-ccds-cnt />
+            <ws-i-bmf-filler />
+          </bmf-trail>
+        </Record>
+      </Records>
+    </WriteRemoteFile>
+  </Test>
+  <MetaData>
+    <MDataDefinition name="BMFTRL">
+      <bmf-trail native="01 BMF-TRAIL.">
+        <ws-i-record-type type="Character" length="2" bytes="2" native="05 WS-I-RECORD-TYPE PIC X(02)." />
+        <ws-i-bmf-file-cnt type="NumericDisplay" length="9" bytes="9" native="05 WS-I-BMF-FILE-CNT PIC 9(9)." signed="false" decimals="0" signsep="false" signpos="" />
+        <ws-i-bmf-cnf-cnt type="NumericDisplay" length="9" bytes="9" native="05 WS-I-BMF-CNF-CNT PIC 9(9)." signed="false" decimals="0" signsep="false" signpos="" />
+        <ws-i-bmf-rej-cnt type="NumericDisplay" length="9" bytes="9" native="05 WS-I-BMF-REJ-CNT PIC 9(9)." signed="false" decimals="0" signsep="false" signpos="" />
+        <ws-i-bmf-additional-cnt type="NumericDisplay" length="9" bytes="9" native="05 WS-I-BMF-ADDITIONAL-CNT PIC 9(9)." signed="false" decimals="0" signsep="false" signpos="" />
+        <ws-i-bmf-ccds-cnt type="NumericDisplay" length="9" bytes="9" native="05 WS-I-BMF-CCDS-CNT PIC 9(9)." signed="false" decimals="0" signsep="false" signpos="" />
+        <ws-i-bmf-filler type="Character" length="73" bytes="73" native="05 WS-I-BMF-FILLER PIC X(73)." />
+      </bmf-trail>
+    </MDataDefinition>
+    <MDataDefinition name="BRFFUNDS">
+      <ofnd-funds-file-data native="05 OFND-FUNDS-FILE-DATA.">
+        <ofnd-alpha-fund-id type="Character" length="8" bytes="8" native="10 OFND-ALPHA-FUND-ID PIC X(08)." />
+        <ofnd-sys-fund-id type="Character" length="8" bytes="8" native="10 OFND-SYS-FUND-ID PIC X(08)." />
+        <ofnd-system-cd type="Character" length="10" bytes="10" native="10 OFND-SYSTEM-CD PIC X(10)." />
+        <ofnd-fund-type type="Character" length="10" bytes="10" native="10 OFND-FUND-TYPE PIC X(10)." />
+        <ofnd-fund-name type="Character" length="40" bytes="40" native="10 OFND-FUND-NAME PIC X(40)." />
+        <ofnd-carrier-cd type="Character" length="3" bytes="3" native="10 OFND-CARRIER-CD PIC X(03)." />
+        <ofnd-fund-status-cd type="Character" length="1" bytes="1" native="10 OFND-FUND-STATUS-CD PIC X(01)." />
+        <ofnd-filler type="Character" length="20" bytes="20" native="10 OFND-FILLER PIC X(20)." />
+      </ofnd-funds-file-data>
+    </MDataDefinition>
+  </MetaData>
+</XaUnit>

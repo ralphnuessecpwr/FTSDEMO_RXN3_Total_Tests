@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 Nov 16, 2022 11:16:10 AM-->
+<testExecutions version="1">
+  <file path="C:\Users\rnuesse\git\FTSDEMO_RXN3_Total_Tests\Virtualized_Tests\CWXTSUBC\Scenarios\CWXTSUBC_Sales_Scenario.context">
+    <testCase name="Unit Test: Test Case: SalesAmount_0 for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_1_LowerBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_1_Center for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_1_UpperBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_2_LowerBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_2_Center for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_2_UpperBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_3_LowerBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_3_Center for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_3_UpperBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_4_LowerBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_4_Center for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_4_UpperBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_5_LowerBound for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_5_Center for program: CWXTCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: SalesAmount_Range_5_UpperBound for program: CWXTCOB" duration="0" />
+  </file>
+</testExecutions>

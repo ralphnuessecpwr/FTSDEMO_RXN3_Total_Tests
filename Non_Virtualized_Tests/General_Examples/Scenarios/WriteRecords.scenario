@@ -2,37 +2,60 @@
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
   <Test>
     <Variable id="empRecords" filePath="../Data/EMP_Records.xlsx" />
-    <IterateData id="iterateExcel" referencedId="empRecords" dataPath="">
-      <WriteRemoteFile fileName="HDDRXM0.DEMO.CWXTDATA.AFLAC" id="writeRecords" label="Write Records" mDataDefinitionName="emp_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC002" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old">
-        <Records>
-          <Record>
-            <employee-work-area>
-              <wa-emp-num>=empRecords.record.wa-emp-num</wa-emp-num>
-              <wa-emp-type>=empRecords.record.wa-emp-type</wa-emp-type>
-              <wa-emp-region>=empRecords.record.wa-emp-region</wa-emp-region>
-              <wa-emp-name>=empRecords.record.wa-emp-name</wa-emp-name>
-              <wa-emp-address>
-                <wa-emp-street>=empRecords.record.wa-emp-street</wa-emp-street>
-                <wa-emp-city>=empRecords.record.wa-emp-city</wa-emp-city>
-                <wa-emp-state>=empRecords.record.wa-emp-state</wa-emp-state>
-                <wa-emp-zip>=empRecords.record.wa-emp-zip</wa-emp-zip>
-              </wa-emp-address>
-              <wa-hourly-employee-data>
-                <wa-emp-hours>=empRecords.record.wa-emp-hours</wa-emp-hours>
-                <wa-emp-rate>=empRecords.record.wa-emp-rate</wa-emp-rate>
-                <filler1>=empRecords.record.filler1[0]</filler1>
-              </wa-hourly-employee-data>
-              <wa-emp-hire-date>
-                <wa-emp-hire-yy>=empRecords.record.wa-emp-hire-yy</wa-emp-hire-yy>
-                <wa-emp-hire-mm>=empRecords.record.wa-emp-hire-mm</wa-emp-hire-mm>
-                <wa-emp-hire-dd>=empRecords.record.wa-emp-hire-dd</wa-emp-hire-dd>
-              </wa-emp-hire-date>
-              <filler1>=empRecords.record.filler1[1]</filler1>
-            </employee-work-area>
-          </Record>
-        </Records>
-      </WriteRemoteFile>
-    </IterateData>
+    <WriteRemoteFile fileName="HDDRXM0.DEMO.CWXTDATA.AFLAC" id="writeRecords" label="Write Records" mDataDefinitionName="emp_hourly" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC002" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="NONE" memberName="" disposition="Old">
+      <Records>
+        <Record>
+          <employee-work-area>
+            <wa-emp-num>=empRecords.record[0].wa-emp-num</wa-emp-num>
+            <wa-emp-type>=empRecords.record[0].wa-emp-type</wa-emp-type>
+            <wa-emp-region>=empRecords.record[0].wa-emp-region</wa-emp-region>
+            <wa-emp-name>=empRecords.record[0].wa-emp-name</wa-emp-name>
+            <wa-emp-address>
+              <wa-emp-street>=empRecords.record[0].wa-emp-street</wa-emp-street>
+              <wa-emp-city>=empRecords.record[0].wa-emp-city</wa-emp-city>
+              <wa-emp-state>=empRecords.record[0].wa-emp-state</wa-emp-state>
+              <wa-emp-zip>=empRecords.record[0].wa-emp-zip</wa-emp-zip>
+            </wa-emp-address>
+            <wa-hourly-employee-data>
+              <wa-emp-hours>=empRecords.record[0].wa-emp-hours</wa-emp-hours>
+              <wa-emp-rate>=empRecords.record[0].wa-emp-rate</wa-emp-rate>
+              <filler1>=empRecords.record[0].filler1[0]</filler1>
+            </wa-hourly-employee-data>
+            <wa-emp-hire-date>
+              <wa-emp-hire-yy>=empRecords.record[0].wa-emp-hire-yy</wa-emp-hire-yy>
+              <wa-emp-hire-mm>=empRecords.record[0].wa-emp-hire-mm</wa-emp-hire-mm>
+              <wa-emp-hire-dd>=empRecords.record[0].wa-emp-hire-dd</wa-emp-hire-dd>
+            </wa-emp-hire-date>
+            <filler1>=empRecords.record[0].filler1[1]</filler1>
+          </employee-work-area>
+        </Record>
+        <Record>
+          <employee-work-area>
+            <wa-emp-num>=empRecords.record[1].wa-emp-num</wa-emp-num>
+            <wa-emp-type>=empRecords.record[1].wa-emp-type</wa-emp-type>
+            <wa-emp-region>=empRecords.record[1].wa-emp-region</wa-emp-region>
+            <wa-emp-name>=empRecords.record[1].wa-emp-name</wa-emp-name>
+            <wa-emp-address>
+              <wa-emp-street>=empRecords.record[1].wa-emp-street</wa-emp-street>
+              <wa-emp-city>=empRecords.record[1].wa-emp-city</wa-emp-city>
+              <wa-emp-state>=empRecords.record[1].wa-emp-state</wa-emp-state>
+              <wa-emp-zip>=empRecords.record[1].wa-emp-zip</wa-emp-zip>
+            </wa-emp-address>
+            <wa-hourly-employee-data>
+              <wa-emp-hours>=empRecords.record[1].wa-emp-hours</wa-emp-hours>
+              <wa-emp-rate>=empRecords.record[1].wa-emp-rate</wa-emp-rate>
+              <filler1>=empRecords.record[1].filler1[0]</filler1>
+            </wa-hourly-employee-data>
+            <wa-emp-hire-date>
+              <wa-emp-hire-yy>=empRecords.record[1].wa-emp-hire-yy</wa-emp-hire-yy>
+              <wa-emp-hire-mm>=empRecords.record[1].wa-emp-hire-mm</wa-emp-hire-mm>
+              <wa-emp-hire-dd>=empRecords.record[1].wa-emp-hire-dd</wa-emp-hire-dd>
+            </wa-emp-hire-date>
+            <filler1>=empRecords.record[1].filler1[1]</filler1>
+          </employee-work-area>
+        </Record>
+      </Records>
+    </WriteRemoteFile>
   </Test>
   <MetaData>
     <MDataDefinition name="emp_hourly">
