@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="cwcc.bmc.com:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="CWXTSUBC" cctestid="OLD_MGMT" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
   <ExtensionData>
     <Parameter key="ispw_level">
