@@ -8,7 +8,7 @@
       <Value>RXN3</Value>
     </Parameter>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.RXN3.DEV2.LOAD</Value>
+      <Value>SALESSUP.${ISPW_APP}.${ISPW_LEVEL}.LOAD</Value>
     </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTSUBC" caseInsensitiveCompare="false" path="CWXTSUBC_Mgmt_Scenario.context">
