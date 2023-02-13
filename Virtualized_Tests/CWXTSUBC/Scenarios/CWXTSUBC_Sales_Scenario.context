@@ -1,13 +1,13 @@
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="198.147.191.81:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="CWXTSUBC" cctestid="TEST" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="CWXTSUBC" cctestid="TEST" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
   <ExtensionData>
     <Parameter key="ispw_level">
-      <Value>DEV3</Value>
+      <Value>DEV2</Value>
     </Parameter>
     <Parameter key="ispw_app">
       <Value>RXN3</Value>
     </Parameter>
     <Parameter key="unittest.loadlibraries">
-      <Value>HDDRXM0.DEMO.CWCC.LOAD.PDSE</Value>
       <Value>SALESSUP.${ispw_app}.${ispw_level}.LOAD</Value>
     </Parameter>
   </ExtensionData>
