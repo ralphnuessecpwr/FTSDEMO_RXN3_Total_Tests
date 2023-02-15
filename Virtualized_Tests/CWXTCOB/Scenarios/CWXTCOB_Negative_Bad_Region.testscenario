@@ -20,6 +20,7 @@
         </testcase:data>
       </testcase:input>
       <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_PARMINFO.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
         <checkconditions:simpleCheckcondition>
@@ -27,7 +28,6 @@
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs>
-        <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_Mid_Month.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_CWXTDATE_Mid_Month.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_CWXTSUBC_Mid_Month.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_CWXTSUBC_Mid_Month.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_DATETIME_Mid_Month.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_DATETIME_01.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_Negative_Bad_Region.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_EMPFILE_FILE_Negative_Bad_Region.stub</testcase:stub>

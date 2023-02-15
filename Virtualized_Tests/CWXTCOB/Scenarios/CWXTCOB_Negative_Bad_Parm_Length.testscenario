@@ -29,8 +29,8 @@
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs>
-        <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_Positive.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_EMPFILE_FILE_Positive.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_RPTFILE_FILE_Negative_Bad_Parm.stub#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Stubs/CWXTCOB_RPTFILE_FILE_Negative_Bad_Parm.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_Positive.stub#Virtualized_Tests/CWXTCOB/Stubs/CWXTCOB_EMPFILE_FILE_Positive.stub</testcase:stub>
       </testcase:stubs>
       <testcase:returncode listructure="../Structures/CWXTCOB_RETURN-CODE.listructure#InsuranceCore/Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_RETURN-CODE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
