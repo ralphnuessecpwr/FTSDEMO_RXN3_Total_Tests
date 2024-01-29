@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <RestService id="Rest1" label="Demo1" endpointUri="http://cwcc.bmc.com:2020/ispw/ispw/assignments/GITE000019" httpType="GET" statusCodeVerify="value&gt;=200 &amp;&amp; value&lt;400">
+      <HttpHeaders>
+        <Header key="authorization" value="665fc9fb-39de-428a-8a67-a3619752873d" />
+      </HttpHeaders>
+      <ResponseVerify><![CDATA[{"stream":"GITDEMO1","application":"GITE","subAppl":"GITE","defaultPath":"UT1","description":"Push to development","owner":"HDDRXM0","refNumber":" ","releaseId":" ","userTag":" ","assignmentId":"GITE000019"}]]></ResponseVerify>
+    </RestService>
+    <RestService id="Rest2" label="Demo2" endpointUri="http://cwcc.bmc.com:2020/ispw/ispw/assignments/GITE000020" httpType="GET" statusCodeVerify="value == 409">
+      <HttpHeaders>
+        <Header key="authorization" value="665fc9fb-39de-428a-8a67-a3619752873d" />
+      </HttpHeaders>
+      <ResponseVerify><![CDATA[{"message":"Assignment with id GITE000020 not found."}]]></ResponseVerify>
+    </RestService>
+    <RestService id="Rest3" label="Demo3" endpointUri="http://cwcc.bmc.com:2020/ispw/ispw/assignments/GITE000021" httpType="GET" statusCodeVerify="value==409">
+      <HttpHeaders>
+        <Header key="authorization" value="665fc9fb-39de-428a-8a67-a3619752873d" />
+      </HttpHeaders>
+      <ResponseVerify><![CDATA[{"message":"Assignment with id GITE000021 not found."}]]></ResponseVerify>
+    </RestService>
+    <RestService id="Rest4" label="Demo4" endpointUri="http://cwcc.bmc.com:2020/ispw/ispw/assignments/GITE000021" httpType="GET" statusCodeVerify="value&gt;=200 &amp;&amp; value&lt;400">
+      <HttpHeaders>
+        <Header key="authorization" value="665fc9fb-39de-428a-8a67-a3619752873d" />
+      </HttpHeaders>
+      <ResponseVerify><![CDATA[{"stream":"GITDEMO1","application":"GITE","defaultPath":"UT2","description":"Push to feature/FT2/demo_feature","owner":"HDDRXM0","refNumber":" ","releaseId":" ","userTag":" ","assignmentId":"GITE000021"}]]></ResponseVerify>
+    </RestService>
+    <Verify name="Verify" haltExecution="false">
+      <Expected>GITDEMO1</Expected>
+      <Actual expression="var responseBody = JSON.parse(Rest2.response.body)&#xD;&#xA;responseBody.stream" />
+    </Verify>
+  </Test>
+</XaUnit>
