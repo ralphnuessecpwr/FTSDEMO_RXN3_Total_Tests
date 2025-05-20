@@ -5,13 +5,5 @@
       <Value>1</Value>
     </Parameter>
   </ExtensionData>
-  <ExtensionData componentName="cwxtcob" componentId="62221011180742007e91f09c">
-    <Parameter key="loadlibraries">
-      <Value>SALESSUP.RXN3.DEV${path}.LOAD</Value>
-      <Value>SALESSUP.RXN3.QA${path}.LOAD</Value>
-      <Value>SALESSUP.RXN3.STG.LOAD</Value>
-      <Value>SALESSUP.RXN3.PRD.LOAD</Value>
-    </Parameter>
-  </ExtensionData>
-  <XaUnit path="CWXTCOB_EOM.scenario" />
+  <XaUnit path="CWXTCOB_Standard_New.scenario" />
 </ExecutionContext>

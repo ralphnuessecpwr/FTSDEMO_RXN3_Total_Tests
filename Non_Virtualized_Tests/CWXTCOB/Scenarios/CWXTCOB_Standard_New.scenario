@@ -12,23 +12,16 @@ Execute program on a "normal" day&#xD;
 Not working yet:&#xD;
 Store expected RPFILE data locally and restore to mainframe</Description>
   <Test>
-    <Scope name="Config" disabled="false">
-      <Variable id="userid">HDDRXM0</Variable>
-      <Variable id="ispw_app">RXN3</Variable>
-      <Variable id="ispw_level">QA1</Variable>
-    </Scope>
-    <Scope name="Initialize" disabled="false">
-      <Scope name="Variable Set Up" disabled="false">
-        <Variable id="datasetQualifier">SALESSUP.${ispw_app}.TEST</Variable>
-        <Variable id="empMasterDatasetName">SALESSUP.GITDEMO1.TEST.MSTR.CWXTDATA</Variable>
-        <Variable id="empInDatasetName">${datasetQualifier}.CWXTDATA</Variable>
-        <Variable id="outDatasetNameActual">${datasetQualifier}.CWXTRPT.EOM</Variable>
-        <Variable id="outDatasetNameExpected">${datasetQualifier}.CWXTRPT.EOM.EXPECT</Variable>
-      </Scope>
-    </Scope>
-    <Scope name="Test Set Up" disabled="false">
-      <Job name="Prepare Input Dataset" haltExecution="false" jobLocation="JOBDEFINITION">
-        <Content><![CDATA[//${userid}F JOB (''),'${ispw_app} FA COPY',NOTIFY=&SYSUID,CLASS=A,
+    <Variable id="userid">HDDRXM0</Variable>
+    <Variable id="ispw_app">GITE</Variable>
+    <Variable id="ispw_level">FT1</Variable>
+    <Variable id="datasetQualifier">SALESSUP.${ispw_app}.TEST</Variable>
+    <Variable id="empMasterDatasetName">HDDRXM0.DEMO.CWXTDATA.BAD</Variable>
+    <Variable id="empInDatasetName">${datasetQualifier}.CWXTDATA</Variable>
+    <Variable id="outDatasetNameActual">${datasetQualifier}.CWXTRPT</Variable>
+    <Variable id="outDatasetNameExpected">${datasetQualifier}.CWXTRPT.EXPECT</Variable>
+    <Job name="Prepare Input Dataset" haltExecution="false" jobLocation="JOBDEFINITION">
+      <Content><![CDATA[//${userid}F JOB (''),'${ispw_app} FA COPY',NOTIFY=&SYSUID,CLASS=A,
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
@@ -44,9 +37,9 @@ Store expected RPFILE data locally and restore to mainframe</Description>
 $$DD01 COPY PADCHAR=X'00'                                    
 /*                                                           
 //]]></Content>
-      </Job>
-      <Job name="Set Date" haltExecution="false" jobLocation="JOBDEFINITION">
-        <Content><![CDATA[//${userid}G JOB (''),'${ispw_app} XG SET',NOTIFY=&SYSUID,CLASS=A,
+    </Job>
+    <Job name="Set Date" haltExecution="false" jobLocation="JOBDEFINITION">
+      <Content><![CDATA[//${userid}G JOB (''),'${ispw_app} XG SET',NOTIFY=&SYSUID,CLASS=A,
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //XGSETREQ EXEC PGM=XGSETREQ,REGION=08M
@@ -60,65 +53,64 @@ $$DD01 COPY PADCHAR=X'00'
 //XGOUTJOF DD  SYSOUT=*                                      
 //XGOUTDDF DD  SYSOUT=*                                      
 //XGOUTCPD DD  SYSOUT=*                                      
-//XGOUTCPO DD  SYSOUT=*
+//XGOUTCPO DD  SYSOUT=* 
 //XGOUTEXE DD  SYSOUT=* 
 //XGINPREQ DD *
  SSID=MXG1
  TYPE=BATCH
  FORMAT=DATETIME
- H ${userid}E XATEST   *        *        N 2020/03/31
+ H ${userid}E XATEST   *        *        N 2019/12/09
 //*]]></Content>
-      </Job>
-    </Scope>
-    <Scope name="Execute Test" disabled="false">
-      <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
-        <Data>
-          <parminfo>
-            <parm-lth>5</parm-lth>
-            <parm-data>00001</parm-data>
-          </parminfo>
-        </Data>
-        <Setup>
-          <Content><![CDATA[//EMPFILE DD DISP=SHR,
+    </Job>
+    <Job name="Run Test" haltExecution="true" jobLocation="JOBDEFINITION" returnCodeVerify="value &lt; 8" systemAbendCodeVerify="value == ''">
+      <Content><![CDATA[//${userid}X JOB ('EUDD,INTL'),'DEMO',NOTIFY=&SYSUID,
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
+/*JOBPARM S=*
+//*
+//*   EXECUTE CWXTCOB IN BATCH
+//STEP1  EXEC PGM=CWXTCOB,PARM=00001
+//STEPLIB DD DISP=SHR,DSN=SALESSUP.RXN3.DEV${path}.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.QA${path}.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.STG.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.PRD.LOAD
+//*EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.AUTUMN.CWXTDATA.START
+//EMPFILE DD DISP=SHR,
 //  DSN=${empInDatasetName}
 //RPTFILE DD DISP=SHR,
-//  DSN=${outDatasetNameActual}]]></Content>
-        </Setup>
-      </Component>
-    </Scope>
-    <Scope name="Verify" disabled="false">
-      <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet" />
-      <IterateData id="loopThroughOutput" referencedId="readOutDatasetActual" dataPath="">
-        <Variable id="expectTotal">
-          <data:Replaceable>
-            <Expression>
-              <Statement><![CDATA[var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
+//  DSN=${outDatasetNameActual}
+//SYSUDUMP DD  SYSOUT=*
+//SYSOUT   DD  SYSOUT=*]]></Content>
+    </Job>
+    <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet" />
+    <IterateData id="loopThroughOutput" referencedId="readOutDatasetActual" dataPath="">
+      <Variable id="expectTotal">
+        <data:Replaceable>
+          <Expression>
+            <Statement><![CDATA[var tmpWages = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-wages'])
 var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
 tmpTotal.toFixed(2)]]></Statement>
-            </Expression>
-          </data:Replaceable>
-        </Variable>
-        <Variable id="actualTotal">
-          <data:Replaceable>
-            <Expression>
-              <Statement><![CDATA[var tmpOutput = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-total'])
+          </Expression>
+        </data:Replaceable>
+      </Variable>
+      <Variable id="actualTotal">
+        <data:Replaceable>
+          <Expression>
+            <Statement><![CDATA[var tmpOutput = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-total'])
 
 tmpOutput.toFixed(2)]]></Statement>
-            </Expression>
-          </data:Replaceable>
-        </Variable>
-        <Verify name="Total" haltExecution="false">
-          <Expected expression="expectTotal" />
-          <Actual expression="actualTotal" />
-        </Verify>
-      </IterateData>
-    </Scope>
-    <Scope name="Compare" disabled="false">
-      <FileAIDCompare label="Compare" checkChanged="true" checkInserted="true" checkDeleted="true">
-        <JCL><![CDATA[//${userid}F JOB (''),'${ispw_app} FA COMP',NOTIFY=&SYSUID,CLASS=A,
+          </Expression>
+        </data:Replaceable>
+      </Variable>
+      <Verify name="Total" haltExecution="false">
+        <Expected expression="expectTotal" />
+        <Actual expression="actualTotal" />
+      </Verify>
+    </IterateData>
+    <FileAIDCompare label="Compare" checkChanged="true" checkInserted="true" checkDeleted="true">
+      <JCL><![CDATA[//${userid}F JOB (''),'${ispw_app} FA COMP',NOTIFY=&SYSUID,CLASS=A,
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
@@ -139,11 +131,9 @@ tmpOutput.toFixed(2)]]></Statement>
 //SYSIN    DD  *
 $$DD01 COMPARE
 /*]]></JCL>
-      </FileAIDCompare>
-    </Scope>
-    <Scope name="Test Tear Down" disabled="false">
-      <Job name="Remove Date" haltExecution="false" jobLocation="JOBDEFINITION">
-        <Content><![CDATA[//${userid}G JOB (''),'${ispw_app} XG DEL',NOTIFY=&SYSUID,CLASS=A,        
+    </FileAIDCompare>
+    <Job name="Remove Date" haltExecution="false" jobLocation="JOBDEFINITION">
+      <Content><![CDATA[//${userid}G JOB (''),'${ispw_app} XG DEL',NOTIFY=&SYSUID,CLASS=A,        
 // REGION=0M,MSGCLASS=X                                                        
 /*JOBPARM S=*                                                                  
 //XGSETREQ EXEC PGM=XGSETREQ,REGION=08M                                         
@@ -163,10 +153,9 @@ $$DD01 COMPARE
  SSID=MXG1                                                                     
  TYPE=BATCH                                                                    
  FORMAT=DATETIME                                                               
- D HDDRXM0E XATEST   *        *        N 2020/03/31                            
+ D HDDRXM0E XATEST   *        *        N 2019/12/09                            
 //*]]></Content>
-      </Job>
-    </Scope>
+    </Job>
   </Test>
   <MetaData>
     <MDataDefinition name="empfile_hourly">
@@ -290,13 +279,5 @@ $$DD01 COMPARE
         <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" signsep="false" signpos="" />
       </employee-hdr1>
     </MDataDefinition>
-    <Component name="CWXTCOB" type="COBOL">
-      <INOUT>
-        <parminfo>
-          <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" signsep="false" signpos="" />
-          <parm-data type="Character" length="5" bytes="5" />
-        </parminfo>
-      </INOUT>
-    </Component>
   </MetaData>
 </XaUnit>

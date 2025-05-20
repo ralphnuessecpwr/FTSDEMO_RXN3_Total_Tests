@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTSUBC" caseInsensitiveCompare="false">
+  <Test>
+    <Component label="CWXTSUBC - HDDRXM0" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
+      <Data>
+        <emp-type>M</emp-type>
+        <sales-amount>100000</sales-amount>
+        <comm-total expected="2000" />
+      </Data>
+    </Component>
+  </Test>
+  <MetaData>
+    <Component name="CWXTSUBC" type="COBOL">
+      <INOUT>
+        <emp-type type="Character" length="1" bytes="1" inOutType="INPUT" />
+        <sales-amount type="NumericDisplay" length="8" bytes="8" inOutType="INPUT" signed="false" decimals="2" signsep="false" signpos="" />
+        <comm-total type="NumericPacked" length="7" bytes="4" inOutType="OUTPUT" signed="false" decimals="2" signsep="false" signpos="" />
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>
