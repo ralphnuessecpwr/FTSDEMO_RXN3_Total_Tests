@@ -3,9 +3,9 @@
   <Test>
     <Component label="CWXTSUBC - HDDRXM0" moduleName="CWXTSUBC" programExitVerify="value &lt; 8" rollback="false">
       <Data>
-        <emp-type>M</emp-type>
-        <sales-amount>100000</sales-amount>
-        <comm-total expected="2000" />
+        <emp-type>S</emp-type>
+        <sales-amount>50000</sales-amount>
+        <comm-total expected="3000" />
       </Data>
     </Component>
   </Test>

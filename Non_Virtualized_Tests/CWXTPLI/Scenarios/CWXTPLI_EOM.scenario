@@ -30,8 +30,8 @@ Store expected RPFILE data locally and restore to mainframe</Description>
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
-//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJ.#CWCC.CXVJLOAD
-//         DD DISP=SHR,DSN=SYS2.CW.&CWGAVJ..SXVJLOAD           
+//STEPLIB  DD DISP=SHR,DSN=CSGI.CW.VJGA.CXVJLOAD
+//         DD DISP=SHR,DSN=CSGI.CW.VJGA.SXVJLOAD           
 //SYSPRINT DD  SYSOUT=*                                      
 //SYSLIST  DD  SYSOUT=*                                      
 //DD01     DD  DSN=${empMasterDatasetName},   
@@ -48,7 +48,7 @@ $$DD01 COPY PADCHAR=X'00'
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //XGSETREQ EXEC PGM=XGSETREQ,REGION=08M
-//STEPLIB  DD   DSN=SYS2.CW.&CWGAXG..SLXGLOAD,DISP=SHR
+//STEPLIB  DD   DSN=CSGI.CW.XGGA.SLXGLOAD,DISP=SHR
 //SYSPRINT DD  SYSOUT=*                                      
 //XGOUTBDT DD  SYSOUT=*                                      
 //XGOUTBOF DD  SYSOUT=*                                      
@@ -117,8 +117,8 @@ tmpOutput.toFixed(2)]]></Statement>
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
-//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
-//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
+//STEPLIB  DD DISP=SHR,DSN=CSGI.CW.VJGA.CXVJLOAD
+//         DD DISP=SHR,DSN=CSGI.CW.VJGA.SXVJLOAD           
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
 //DD01     DD  DSN=${outDatasetNameExpected},
@@ -142,7 +142,7 @@ $$DD01 COMPARE
 // REGION=0M,MSGCLASS=X                                                        
 /*JOBPARM S=*                                                                  
 //XGSETREQ EXEC PGM=XGSETREQ,REGION=08M                                         
-//STEPLIB  DD   DSN=SYS2.CW.&CWGAXG..SLXGLOAD,DISP=SHR                          
+//STEPLIB  DD   DSN=CSGI.CW.XGGA.SLXGLOAD,DISP=SHR                          
 //SYSPRINT DD  SYSOUT=*                                                         
 //XGOUTBDT DD  SYSOUT=*                                                        
 //XGOUTBOF DD  SYSOUT=*                                                        

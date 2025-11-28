@@ -5,7 +5,7 @@
       <HttpHeaders>
         <Header key="authorization" value="665fc9fb-39de-428a-8a67-a3619752873d" />
       </HttpHeaders>
-      <ResponseVerify><![CDATA[{"stream":"GITDEMO1","application":"GITE","subAppl":"GITE","defaultPath":"UT1","description":"Push to development","owner":"HDDRXM0","refNumber":" ","releaseId":" ","userTag":" ","assignmentId":"GITE000019"}]]></ResponseVerify>
+      <ResponseVerify><![CDATA[{"stream":"GITDEMO1","application":"GITE","subAppl":"GITE","defaultPath":"UT1","description":"Push to development","owner":"HDDRXM0","refNumber":" ","release":" ","userTag":" ","assignmentId":"GITE000019"}]]></ResponseVerify>
     </RestService>
     <RestService id="Rest2" label="Demo2" endpointUri="http://cwcc.bmc.com:2020/ispw/ispw/assignments/GITE000020" httpType="GET" statusCodeVerify="value == 409">
       <HttpHeaders>
@@ -25,7 +25,15 @@
       </HttpHeaders>
       <ResponseVerify><![CDATA[{"stream":"GITDEMO1","application":"GITE","defaultPath":"UT2","description":"Push to feature/FT2/demo_feature","owner":"HDDRXM0","refNumber":" ","releaseId":" ","userTag":" ","assignmentId":"GITE000021"}]]></ResponseVerify>
     </RestService>
-    <Verify name="Verify" haltExecution="false">
+    <Verify name="Verify Demo 1 - pass" haltExecution="false">
+      <Expected>GITDEMO1</Expected>
+      <Actual expression="var responseBody = JSON.parse(Rest1.response.body)&#xD;&#xA;responseBody.stream" />
+    </Verify>
+    <Verify name="Verify Demo 1 - fail" haltExecution="false">
+      <Expected>GITDEMO2</Expected>
+      <Actual expression="var responseBody = JSON.parse(Rest1.response.body)&#xD;&#xA;responseBody.stream" />
+    </Verify>
+    <Verify name="Verify Demo 2 - fail" haltExecution="false">
       <Expected>GITDEMO1</Expected>
       <Actual expression="var responseBody = JSON.parse(Rest2.response.body)&#xD;&#xA;responseBody.stream" />
     </Verify>
