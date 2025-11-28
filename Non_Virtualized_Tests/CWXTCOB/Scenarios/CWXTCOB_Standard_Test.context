@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
-  <ExtensionData />
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5c519facfba8720a90ccc645" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" environmentId="cwc2.bmc.com:16196">
+  <ExtensionData>
+    <Parameter key="level">
+      <Value>DEV1</Value>
+    </Parameter>
+  </ExtensionData>
   <XaUnit path="CWXTCOB_Standard_Test.scenario" />
 </ExecutionContext>

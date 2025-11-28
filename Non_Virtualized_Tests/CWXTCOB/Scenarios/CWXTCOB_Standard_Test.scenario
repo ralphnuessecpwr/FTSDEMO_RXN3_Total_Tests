@@ -17,8 +17,8 @@ Store expected RPFILE data locally and restore to mainframe</Description>
 // REGION=0M,MSGCLASS=X
 /*JOBPARM S=*
 //FASTEP   EXEC PGM=FILEAID,REGION=08M
-//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJ.#CWCC.CXVJLOAD
-//         DD DISP=SHR,DSN=SYS2.CW.&CWGAVJ..SXVJLOAD           
+//STEPLIB  DD DISP=SHR,DSN=CSGI.CW.VJGA.CXVJLOAD
+//         DD DISP=SHR,DSN=CSGI.CW.VJGA.SXVJLOAD           
 //SYSPRINT DD  SYSOUT=*                                      
 //SYSLIST  DD  SYSOUT=*                                      
 //DD01     DD  DSN=SALESSUP.EDU.TTT.CWXTDATA.MASTER,   

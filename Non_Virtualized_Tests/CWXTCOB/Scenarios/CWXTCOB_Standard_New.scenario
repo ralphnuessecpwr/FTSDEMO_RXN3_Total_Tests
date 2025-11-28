@@ -16,7 +16,7 @@ Store expected RPFILE data locally and restore to mainframe</Description>
     <Variable id="ispw_app">GITE</Variable>
     <Variable id="ispw_level">FT1</Variable>
     <Variable id="datasetQualifier">SALESSUP.${ispw_app}.TEST</Variable>
-    <Variable id="empMasterDatasetName">HDDRXM0.DEMO.CWXTDATA.BAD</Variable>
+    <Variable id="empMasterDatasetName">HDDRXM0.DEMO.CWXTDATA</Variable>
     <Variable id="empInDatasetName">${datasetQualifier}.CWXTDATA</Variable>
     <Variable id="outDatasetNameActual">${datasetQualifier}.CWXTRPT</Variable>
     <Variable id="outDatasetNameExpected">${datasetQualifier}.CWXTRPT.EXPECT</Variable>
